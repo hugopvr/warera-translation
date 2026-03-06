@@ -4953,7 +4953,7 @@ msgstr "Werber wurde festgelegt"
 
 #: src/pages/user/[userId]/referrals.tsx:146
 msgid "Referrer username"
-msgstr "Benutzername des Werbers (z.B LUGE wenn du keinen hast)"
+msgstr "Benutzername des Werbers"
 
 #: src/pages/user/[userId]/index.tsx:120
 msgid "Refresh every hour"
