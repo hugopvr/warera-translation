@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:411
+#: src/components/_user/user/UserHeader.tsx:412
 msgid " - Reason: {0}"
 msgstr " - Motiv: {0}"
 
@@ -56,7 +56,7 @@ msgid "{0} days cooldown"
 msgstr ""
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:169
+#: src/pages/user/[userId]/skills.tsx:174
 msgid "{0} Free"
 msgstr "{0} Gratis"
 
@@ -437,15 +437,15 @@ msgstr "<0/> a câștigat runda <1>#{0}</1> în <2/>"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> a câștigat runda <1>#{0}</1> în <2/>!"
 
-#: src/components/_user/user/UserHeader.tsx:278
+#: src/components/_user/user/UserHeader.tsx:279
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Bufful</1> se termină <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:287
+#: src/components/_user/user/UserHeader.tsx:288
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Debufful</1> se termină <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:350
+#: src/components/_user/user/UserHeader.tsx:351
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>Ultima conexiune <1><2/></1>"
 
@@ -1108,7 +1108,7 @@ msgid "Access war"
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:71
-#: src/components/_user/user/UserHeader.tsx:164
+#: src/components/_user/user/UserHeader.tsx:165
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:336
 #: src/pages/user/[userId]/account.tsx:25
@@ -1142,7 +1142,6 @@ msgstr "Cetățeni activi"
 msgid "Active construction"
 msgstr "Construcție activă"
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:37
 #: src/pages/country/[countryId]/contracts.tsx:27
 msgid "Active Contracts"
 msgstr ""
@@ -1302,7 +1301,7 @@ msgstr ""
 msgid "Ammo"
 msgstr "Muniție"
 
-#: src/components/_user/user/SkillValue.tsx:137
+#: src/components/_user/user/SkillValue.tsx:136
 msgid "Ammo:"
 msgstr ""
 
@@ -1389,7 +1388,7 @@ msgstr ""
 msgid "Arcane Boots"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:153
+#: src/components/_military/mu/MuMemberList.tsx:154
 msgid "Are you sure you want to demote this commander?"
 msgstr ""
 
@@ -1397,7 +1396,7 @@ msgstr ""
 msgid "Are you sure you want to fire this worker?"
 msgstr "Ești sigur că vrei să concediezi acest muncitor?"
 
-#: src/components/_military/mu/MuMemberList.tsx:139
+#: src/components/_military/mu/MuMemberList.tsx:140
 msgid "Are you sure you want to kick this member?"
 msgstr ""
 
@@ -1409,7 +1408,7 @@ msgstr "Ești sigur că vrei să demisionezi din parlament?"
 msgid "Are you sure you want to leave the government?"
 msgstr "Ești sigur că vrei să demisionezi din guvern?"
 
-#: src/components/_military/mu/MuMemberList.tsx:146
+#: src/components/_military/mu/MuMemberList.tsx:147
 msgid "Are you sure you want to promote this member to commander?"
 msgstr ""
 
@@ -1430,11 +1429,11 @@ msgstr "Sigur vrei să schimbi misiunea?"
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Ești sigur că vrei să revoci \"{0}\"? Această acțiune nu poate fi anulată."
 
-#: src/components/_other/tour/TutorialStep.tsx:175
+#: src/components/_other/tour/TutorialStep.tsx:182
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Ești sigur că vrei să sari peste acest tutorial?"
 
-#: src/components/_military/mu/MuMemberList.tsx:161
+#: src/components/_military/mu/MuMemberList.tsx:162
 msgid "Are you sure you want to transfer ownership to this member? This action cannot be undone."
 msgstr ""
 
@@ -1459,7 +1458,7 @@ msgstr "Sponsorizări articol"
 msgid "Article tipped"
 msgstr "Articol sponsorizat"
 
-#: src/components/_user/user/UserHeader.tsx:204
+#: src/components/_user/user/UserHeader.tsx:205
 #: src/pages/user/[userId]/index.tsx:208
 msgid "Articles"
 msgstr "Articole"
@@ -1484,7 +1483,7 @@ msgstr "Măcar ai încercat"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "La sfârșitul timpului, partea cu cele mai multe daune cauzate va câștiga <0>{actualTickPoints}</0>."
 
-#: src/components/_military/hit/HitButton.tsx:388
+#: src/components/_military/hit/HitButton.tsx:383
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"
@@ -1557,7 +1556,7 @@ msgstr "Echilibrat - Fără modificatori"
 msgid "Bankruptcy"
 msgstr "Faliment"
 
-#: src/components/_user/user/UserHeader.tsx:399
+#: src/components/_user/user/UserHeader.tsx:400
 msgid "Banned"
 msgstr "Banat"
 
@@ -1577,8 +1576,8 @@ msgstr "Copertă dăruită"
 msgid "Banners"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:182
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/user/UserHeader.tsx:183
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Bans"
 msgstr "Ban-uri"
 
@@ -1623,7 +1622,7 @@ msgstr ""
 msgid "Battle opened"
 msgstr "Bătălie deschisă"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:86
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:99
 msgid "Battle Orders"
 msgstr ""
 
@@ -1631,7 +1630,7 @@ msgstr ""
 msgid "Battle Ranking Reward"
 msgstr "Recompensă clasament bătălie"
 
-#: src/components/_layout/LayoutMenu.tsx:155
+#: src/components/_layout/LayoutMenu.tsx:154
 #: src/components/_military/battle/BattlesHeader.tsx:20
 #: src/components/_military/war/WarHeader.tsx:83
 #: src/pages/region/[regionId]/index.tsx:132
@@ -1731,7 +1730,7 @@ msgstr "Buff încheiat"
 msgid "Buff started"
 msgstr "Buff început"
 
-#: src/components/_user/user/SkillValue.tsx:169
+#: src/components/_user/user/SkillValue.tsx:168
 msgid "Buffs:"
 msgstr ""
 
@@ -1941,7 +1940,7 @@ msgstr "Alege-ți țara"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Alege o parte și apasă pentru a produce <0>Daune</0>! Continua să lupți pentru a ajuta echipa ta să câștige."
 
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Citizen since <0><1/></0>"
 msgstr "Cetățean de <0><1/></0>"
 
@@ -2059,7 +2058,7 @@ msgstr "Colonel"
 msgid "Color scheme"
 msgstr "Culoare"
 
-#: src/components/_military/mu/MuMemberList.tsx:325
+#: src/components/_military/mu/MuMemberList.tsx:327
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:155
 msgid "Commander"
 msgstr "Comandant"
@@ -2077,9 +2076,9 @@ msgstr "Comodor"
 msgid "Community"
 msgstr ""
 
-#: src/components/_layout/LayoutMenu.tsx:185
+#: src/components/_layout/LayoutMenu.tsx:184
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:196
+#: src/components/_user/user/UserHeader.tsx:197
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2292,12 +2291,13 @@ msgid "Contract rolled back"
 msgstr ""
 
 #: src/components/_military/battle/BattlesHeader.tsx:36
+#: src/components/_military/battle/BattleSideContractsModal.tsx:36
 #: src/components/_political/country/CountryHeader.tsx:127
 #: src/pages/battle/[battleId]/contracts.tsx:45
 msgid "Contracts"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:29
+#: src/components/_military/battle/BattleSideContractsModal.tsx:28
 msgid "Contracts & Proposals"
 msgstr ""
 
@@ -2309,6 +2309,10 @@ msgstr "Pește Prăjit"
 #: src/components/_political/partyMotion/PartyMotion.tsx:106
 msgid "Cool down"
 msgstr "Timp pauză"
+
+#: src/components/_user/badgeCollection/Badge.tsx:70
+msgid "Cooldown: {cooldownDays} days"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:90
 msgid "Copied to clipboard"
@@ -2366,7 +2370,7 @@ msgstr ""
 msgid "Country development income bonus"
 msgstr "Venit bonus din dezvoltare pe țară"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:27
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:40
 msgid "Country Orders"
 msgstr ""
 
@@ -2512,11 +2516,11 @@ msgstr "Clasament Daune"
 msgid "Damages"
 msgstr "Daune"
 
-#: src/components/_military/mu/MuMemberList.tsx:343
+#: src/components/_military/mu/MuMemberList.tsx:345
 msgid "Damages for Mu"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:342
+#: src/components/_military/hit/HitButton.tsx:337
 msgid "Damages you did for this side in this round"
 msgstr "Daune cauzade de tine, de această parte, în această rundă"
 
@@ -2604,7 +2608,7 @@ msgstr "Face ceva daune"
 msgid "Debuff ended"
 msgstr "Debuff încheiat"
 
-#: src/components/_user/user/SkillValue.tsx:201
+#: src/components/_user/user/SkillValue.tsx:200
 msgid "Debuffs:"
 msgstr ""
 
@@ -2633,7 +2637,7 @@ msgstr ""
 msgid "Decrease unrest"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:391
+#: src/components/_military/hit/HitButton.tsx:386
 msgid "Defend"
 msgstr "Apără"
 
@@ -2670,11 +2674,11 @@ msgstr ""
 msgid "Delete your account"
 msgstr "Ștergere cont"
 
-#: src/components/_military/mu/MuMemberList.tsx:152
+#: src/components/_military/mu/MuMemberList.tsx:153
 msgid "Demote Commander"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:438
+#: src/components/_military/mu/MuMemberList.tsx:440
 msgid "Demote from Commander"
 msgstr ""
 
@@ -2920,7 +2924,7 @@ msgstr ""
 msgid "Effective reward"
 msgstr ""
 
-#: src/components/_user/user/SkillValue.tsx:231
+#: src/components/_user/user/SkillValue.tsx:230
 msgid "Effective:"
 msgstr ""
 
@@ -3024,7 +3028,7 @@ msgstr "Antreprenoriat"
 msgid "Equipment"
 msgstr "Echipament"
 
-#: src/components/_user/user/SkillValue.tsx:74
+#: src/components/_user/user/SkillValue.tsx:73
 msgid "Equipment:"
 msgstr ""
 
@@ -3259,7 +3263,8 @@ msgstr "Găsește alt loc de muncă"
 msgid "Fire"
 msgstr "Concediază"
 
-#: src/components/_political/government/Government.tsx:162
+#: src/components/_political/government/Government.tsx:199
+#: src/components/_political/government/Government.tsx:208
 msgid "Fire government member"
 msgstr "Demite un membru al guvernului"
 
@@ -3328,7 +3333,7 @@ msgstr "din clasamentul rundei"
 msgid "Fun fact: The house always wins"
 msgstr "Știai că: Casa întotdeauna câștigă"
 
-#: src/components/_user/user/Level.tsx:88
+#: src/components/_user/user/Level.tsx:91
 msgid "Gain <0>Xp</0> by finishing your missions!"
 msgstr "Câștigă <0>XP</0> completând misiunile!"
 
@@ -3389,7 +3394,7 @@ msgstr ""
 msgid "gifted"
 msgstr "a oferit"
 
-#: src/components/_military/mu/MuMemberList.tsx:444
+#: src/components/_military/mu/MuMemberList.tsx:446
 msgid "Give Ownership"
 msgstr ""
 
@@ -3446,6 +3451,10 @@ msgstr "Aur"
 #: src/components/_political/country/CountryHeader.tsx:89
 msgid "Government"
 msgstr "Guvern"
+
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
+msgid "Government Member"
+msgstr ""
 
 #: src/pages/battles/contracts.tsx:32
 msgid "Government Proposals"
@@ -3509,7 +3518,7 @@ msgstr "Cască"
 msgid "Help <0>{count}</0> MU members"
 msgstr "Ajută <0>{count}</0> membri ai UM"
 
-#: src/components/_military/mu/MuMemberList.tsx:373
+#: src/components/_military/mu/MuMemberList.tsx:375
 msgid "Help for Mu"
 msgstr ""
 
@@ -3539,7 +3548,7 @@ msgstr "Lovește de <0>{count}</0> ori în lupte"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:58
-#: src/components/_user/user/UserHeader.tsx:150
+#: src/components/_user/user/UserHeader.tsx:151
 msgid "Home"
 msgstr "Acasă"
 
@@ -3567,6 +3576,10 @@ msgstr "Am auzit că planul Susținător îți crește șansele :3"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:81
 msgid "I'm proud of you"
 msgstr "Sunt mândru de tine"
+
+#: src/components/_political/government/NominateForm.tsx:58
+msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:51
 msgid "Imagine if you stop right before the Mythic"
@@ -3664,9 +3677,9 @@ msgstr ""
 msgid "Initiate"
 msgstr "Inițiat"
 
-#: src/components/_layout/LayoutMenu.tsx:126
+#: src/components/_layout/LayoutMenu.tsx:125
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:156
+#: src/components/_user/user/UserHeader.tsx:157
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
@@ -3776,11 +3789,11 @@ msgstr "Continuă să lupți!"
 msgid "Keep in current company"
 msgstr "Păstrează în compania actuală"
 
-#: src/components/_military/mu/MuMemberList.tsx:426
+#: src/components/_military/mu/MuMemberList.tsx:428
 msgid "Kick"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:138
+#: src/components/_military/mu/MuMemberList.tsx:139
 msgid "Kick Member"
 msgstr ""
 
@@ -3800,6 +3813,10 @@ msgstr "Dă <0>{count}</0> lovituri critice"
 #: src/components/_user/auth/WelcomeModal.tsx:132
 msgid "Language"
 msgstr "Limbă"
+
+#: src/components/_user/badgeCollection/Badge.tsx:63
+msgid "Last earned: <0/>"
+msgstr ""
 
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
@@ -3953,7 +3970,7 @@ msgstr "Calcar"
 msgid "Limit of food consumption"
 msgstr "Limită pentru consum alimentar"
 
-#: src/components/_user/user/SkillValue.tsx:89
+#: src/components/_user/user/SkillValue.tsx:88
 msgid "Limited:"
 msgstr ""
 
@@ -4077,7 +4094,7 @@ msgid "Map options"
 msgstr "Opțiuni hartă"
 
 #: src/components/_economy/market/MarketHeader.tsx:43
-#: src/components/_layout/LayoutMenu.tsx:166
+#: src/components/_layout/LayoutMenu.tsx:165
 msgid "Market"
 msgstr "Piață"
 
@@ -4165,15 +4182,15 @@ msgstr "Cunoaște alți jucători în chat. Nu fi rușinos, prezintă-te!"
 msgid "Member Applications"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:115
+#: src/components/_military/mu/MuMemberList.tsx:116
 msgid "Member demoted from commander"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:107
+#: src/components/_military/mu/MuMemberList.tsx:108
 msgid "Member kicked successfully"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:111
+#: src/components/_military/mu/MuMemberList.tsx:112
 msgid "Member promoted to commander"
 msgstr ""
 
@@ -4228,7 +4245,7 @@ msgstr "Rang Militar"
 msgid "Military Rank Up!"
 msgstr "Avansare în rang militar!"
 
-#: src/components/_user/user/SkillValue.tsx:185
+#: src/components/_user/user/SkillValue.tsx:184
 msgid "Military rank:"
 msgstr ""
 
@@ -4260,15 +4277,15 @@ msgstr ""
 msgid "Minimum reputation to accept"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:68
+#: src/components/_political/government/Government.tsx:70
 msgid "Minister of Defense"
 msgstr "Ministrul Apărării"
 
-#: src/components/_political/government/Government.tsx:76
+#: src/components/_political/government/Government.tsx:78
 msgid "Minister of Economy"
 msgstr "Ministrul Finanțelor"
 
-#: src/components/_political/government/Government.tsx:84
+#: src/components/_political/government/Government.tsx:86
 msgid "Minister of Foreign Affairs"
 msgstr "Ministrul Externelor"
 
@@ -4314,7 +4331,7 @@ msgstr "Bani câștigați"
 msgid "Money Won"
 msgstr "Bani câștigați"
 
-#: src/components/_military/mu/MuMemberList.tsx:190
+#: src/components/_military/mu/MuMemberList.tsx:191
 msgid "Monthly"
 msgstr ""
 
@@ -4322,8 +4339,8 @@ msgstr ""
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:353
-#: src/components/_military/mu/MuMemberList.tsx:388
+#: src/components/_military/mu/MuMemberList.tsx:355
+#: src/components/_military/mu/MuMemberList.tsx:390
 msgid "Monthly:"
 msgstr ""
 
@@ -4373,7 +4390,7 @@ msgstr "Mută în cap de listă"
 msgid "Moved to a new company"
 msgstr "Transferat la o nouă companie"
 
-#: src/components/_layout/LayoutMenu.tsx:138
+#: src/components/_layout/LayoutMenu.tsx:137
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
 msgstr "UM"
@@ -4402,7 +4419,7 @@ msgstr ""
 msgid "MU Monthly Levels"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:46
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:59
 msgid "MU Orders"
 msgstr ""
 
@@ -4679,15 +4696,11 @@ msgstr "Nicio donație încă"
 msgid "No ground ranking yet."
 msgstr "Fără clasament teren."
 
-#: src/components/_user/user/UserEquippedSkins.tsx:192
-msgid "No items equipped"
-msgstr ""
-
 #: src/components/_political/law/LawList.tsx:72
 msgid "No laws yet"
 msgstr "Nicio lege"
 
-#: src/components/_military/mu/MuMemberList.tsx:179
+#: src/components/_military/mu/MuMemberList.tsx:180
 msgid "No members in this military unit."
 msgstr ""
 
@@ -4720,10 +4733,10 @@ msgid "No offers found"
 msgstr "Nu s-au găsit oferte"
 
 #: src/components/_political/government/Government.tsx:177
-msgid "No one nominated yet."
-msgstr "Niciun membru numit."
+msgid "No one nominated yet"
+msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:96
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:109
 msgid "No orders"
 msgstr ""
 
@@ -4731,7 +4744,7 @@ msgstr ""
 msgid "No parties found"
 msgstr "Nu s-au găsit partide"
 
-#: src/components/_political/government/Government.tsx:55
+#: src/components/_political/government/Government.tsx:57
 msgid "No president"
 msgstr "Niciun președinte"
 
@@ -4747,7 +4760,7 @@ msgstr "Fără recomandări"
 msgid "No referrer yet"
 msgstr "Fără recomandator"
 
-#: src/components/_user/user/UserEquippedSkins.tsx:113
+#: src/components/_user/user/UserEquippedSkins.tsx:139
 msgid "No skins equipped"
 msgstr ""
 
@@ -4771,12 +4784,12 @@ msgstr "Niciun război"
 msgid "No work offers"
 msgstr "Fără oferte de muncă"
 
-#: src/components/_political/government/Government.tsx:185
-#: src/components/_political/government/NominateForm.tsx:59
+#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Numește în funcție"
 
-#: src/components/_political/government/Government.tsx:196
+#: src/components/_political/government/Government.tsx:223
 msgid "Nominate a {title}"
 msgstr "Numește în funcție: {title}"
 
@@ -4849,7 +4862,7 @@ msgstr "Doar președinții pot înregistra țara lor"
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Doar Susținătorii își pot vedea raportul de venit și cheltuieli."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:516
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:528
 msgid "Open"
 msgstr "Deschide"
 
@@ -4858,7 +4871,7 @@ msgid "Open <0>{count}</0>"
 msgstr "Deschide <0>{count}</0>"
 
 #: src/components/_economy/inventory/case/OpenCaseModal.tsx:87
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:536
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:548
 msgid "Open case"
 msgstr "Deschide cutia"
 
@@ -4931,7 +4944,7 @@ msgstr "Altele"
 msgid "Outcome"
 msgstr "Efect"
 
-#: src/components/_user/user/SkillValue.tsx:153
+#: src/components/_user/user/SkillValue.tsx:152
 msgid "Overflow:"
 msgstr ""
 
@@ -4948,7 +4961,7 @@ msgstr ""
 msgid "Owned Military Units"
 msgstr "Unități Militare Deținute"
 
-#: src/components/_military/mu/MuMemberList.tsx:319
+#: src/components/_military/mu/MuMemberList.tsx:321
 msgid "Owner"
 msgstr ""
 
@@ -4956,7 +4969,7 @@ msgstr ""
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "Proprietatea <0/> a fost transferată de la <1/> la <2/>"
 
-#: src/components/_military/mu/MuMemberList.tsx:119
+#: src/components/_military/mu/MuMemberList.tsx:120
 msgid "Ownership transferred successfully"
 msgstr ""
 
@@ -5200,7 +5213,7 @@ msgstr "Cadou Plan Susținător trimis"
 msgid "Premium has started working"
 msgstr "Planul Susținător a început să funcționeze"
 
-#: src/components/_political/government/Government.tsx:51
+#: src/components/_political/government/Government.tsx:53
 msgid "President"
 msgstr "Președinte"
 
@@ -5312,8 +5325,8 @@ msgstr "Magazia este plină"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/components/_military/mu/MuMemberList.tsx:145
-#: src/components/_military/mu/MuMemberList.tsx:432
+#: src/components/_military/mu/MuMemberList.tsx:146
+#: src/components/_military/mu/MuMemberList.tsx:434
 msgid "Promote to Commander"
 msgstr ""
 
@@ -5321,7 +5334,7 @@ msgstr ""
 msgid "Promoted to Commander"
 msgstr "Promovat la comandant"
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:48
+#: src/components/_military/battle/BattleSideContractsModal.tsx:45
 #: src/pages/battle/[battleId]/contracts.tsx:34
 msgid "Proposals"
 msgstr ""
@@ -5465,7 +5478,7 @@ msgid "Reach Military Rank 5"
 msgstr "Atinge rangul militar 5"
 
 #. placeholder {0}: leveling.level + 1
-#: src/components/_user/user/Level.tsx:108
+#: src/components/_user/user/Level.tsx:111
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "Atingerea nivelului {0} îți va debloca <0>{nextLevelSkillPoints} Puncte Competență</0>."
 
@@ -5522,7 +5535,7 @@ msgstr "Reduce câtă viață pierzi în luptă"
 msgid "Referral link copied to clipboard"
 msgstr "Link recomandare copiat"
 
-#: src/components/_user/user/UserHeader.tsx:210
+#: src/components/_user/user/UserHeader.tsx:211
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:219
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -5694,8 +5707,20 @@ msgstr "Redenumește"
 msgid "Rename company"
 msgstr "Redenumește companie"
 
+#: src/components/_political/government/Government.tsx:192
+msgid "Replace"
+msgstr ""
+
+#: src/components/_political/government/Government.tsx:223
+msgid "Replace {title}"
+msgstr ""
+
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:80
 msgid "Replace all party ethics with a new configuration"
+msgstr ""
+
+#: src/components/_political/government/NominateForm.tsx:57
+msgid "Replacing a member"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:59
@@ -5735,7 +5760,7 @@ msgstr ""
 msgid "Reroll Mission"
 msgstr "Schimbă misiunea"
 
-#: src/pages/user/[userId]/skills.tsx:161
+#: src/pages/user/[userId]/skills.tsx:166
 msgid "Reset"
 msgstr "Reset"
 
@@ -5759,7 +5784,7 @@ msgstr "Resetează Nume"
 msgid "Reshuffle in"
 msgstr "Redistribuire în"
 
-#: src/components/_military/hit/HitButton.tsx:386
+#: src/components/_military/hit/HitButton.tsx:381
 msgid "Resist"
 msgstr "Rezistă"
 
@@ -5812,11 +5837,15 @@ msgstr ""
 msgid "Revolution started!"
 msgstr ""
 
+#: src/components/_user/badgeCollection/Badge.tsx:53
+msgid "Reward"
+msgstr ""
+
 #: src/utils/translations.tsx:24
 msgid "Rifle"
 msgstr "Pușcă"
 
-#: src/components/_political/government/Government.tsx:136
+#: src/components/_political/government/Government.tsx:140
 msgid "Rights"
 msgstr "Drepturi"
 
@@ -5896,7 +5925,7 @@ msgstr "Nu mai ai viață?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:69
 #: src/components/_user/auth/WelcomeModal.tsx:162
-#: src/pages/user/[userId]/skills.tsx:205
+#: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Salvează"
 
@@ -5932,7 +5961,7 @@ msgstr "Caută țară..."
 msgid "Search recipient username..."
 msgstr ""
 
-#: src/components/_political/government/NominateForm.tsx:47
+#: src/components/_political/government/NominateForm.tsx:53
 msgid "Search username to nominate..."
 msgstr ""
 
@@ -6132,7 +6161,7 @@ msgid "Set your username"
 msgstr "Setează-ți numele de utilizator"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:216
+#: src/components/_user/user/UserHeader.tsx:217
 msgid "Settings"
 msgstr "Setări"
 
@@ -6153,15 +6182,15 @@ msgstr "Mai multe"
 msgid "Show only articles with positive score (score >= -5)"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:198
+#: src/components/_military/mu/MuMemberList.tsx:199
 msgid "Showing monthly"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:197
+#: src/components/_military/mu/MuMemberList.tsx:198
 msgid "Showing total"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:199
+#: src/components/_military/mu/MuMemberList.tsx:200
 msgid "Showing weekly"
 msgstr ""
 
@@ -6169,12 +6198,12 @@ msgstr ""
 msgid "Skill issue?"
 msgstr "Se mai uită și la față"
 
-#: src/components/_user/user/SkillValue.tsx:46
+#: src/components/_user/user/SkillValue.tsx:45
 msgid "Skill upgrade:"
 msgstr ""
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:171
+#: src/components/_user/user/UserHeader.tsx:172
 #: src/pages/user/[userId]/index.tsx:157
 msgid "Skills"
 msgstr "Competențe"
@@ -6183,7 +6212,7 @@ msgstr "Competențe"
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Competențele te fac mai puternic. Hai să-ți îmbunătățim abilitățile!"
 
-#: src/pages/user/[userId]/skills.tsx:53
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "Competențe salvate!"
 
@@ -6216,7 +6245,7 @@ msgstr ""
 msgid "Skins in this pack"
 msgstr ""
 
-#: src/components/_other/tour/TutorialStep.tsx:174
+#: src/components/_other/tour/TutorialStep.tsx:181
 msgid "Skip Tutorial"
 msgstr "Sari peste tutorial"
 
@@ -6619,6 +6648,10 @@ msgstr ""
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr ""
 
+#: src/components/_political/government/Government.tsx:209
+msgid "This member won't be able to be nominated again for {cooldownDays} days."
+msgstr ""
+
 #: src/pages/region/[regionId]/index.tsx:177
 msgid "This region is not linked to it's owner's capital."
 msgstr "Această regiune nu este conectată la capitala proprietarului său."
@@ -6783,14 +6816,14 @@ msgstr "total"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:153
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/work/WorkChart.tsx:198
-#: src/components/_military/mu/MuMemberList.tsx:189
+#: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
 #: src/pages/market/index.tsx:202
 msgid "Total"
 msgstr "Total"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:474
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:486
 msgid "Total cases opened"
 msgstr ""
 
@@ -6806,9 +6839,13 @@ msgstr "Daune totale"
 msgid "Total Donated:"
 msgstr "Total donat:"
 
-#: src/components/_military/mu/MuMemberList.tsx:359
-#: src/components/_military/mu/MuMemberList.tsx:399
-#: src/components/_user/user/SkillValue.tsx:216
+#: src/components/_user/badgeCollection/Badge.tsx:57
+msgid "Total reward"
+msgstr ""
+
+#: src/components/_military/mu/MuMemberList.tsx:361
+#: src/components/_military/mu/MuMemberList.tsx:401
+#: src/components/_user/user/SkillValue.tsx:215
 msgid "Total:"
 msgstr ""
 
@@ -6830,7 +6867,7 @@ msgstr "Eliminat din turneu"
 msgid "Tournament Ended"
 msgstr "Turneul s-a încheiat"
 
-#: src/components/_user/user/SkillValue.tsx:117
+#: src/components/_user/user/SkillValue.tsx:116
 msgid "Tournament reward:"
 msgstr ""
 
@@ -6859,7 +6896,7 @@ msgstr "Tranzacționare"
 msgid "Trainee"
 msgstr "Stagiar"
 
-#: src/components/_user/user/UserHeader.tsx:190
+#: src/components/_user/user/UserHeader.tsx:191
 msgid "Transac."
 msgstr "Transac."
 
@@ -6873,7 +6910,7 @@ msgstr "Tranzacții"
 msgid "Transfer money"
 msgstr "Transferă bani"
 
-#: src/components/_military/mu/MuMemberList.tsx:160
+#: src/components/_military/mu/MuMemberList.tsx:161
 msgid "Transfer Ownership"
 msgstr ""
 
@@ -6939,7 +6976,7 @@ msgstr "Deblochează butonul Produce tot"
 msgid "Unlocked pack"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:407
+#: src/components/_user/user/UserHeader.tsx:408
 msgid "Unmuted <0/>"
 msgstr "Dezamuțit <0/>"
 
@@ -7009,7 +7046,7 @@ msgstr "Devino Susținător"
 msgid "Upgrade your skills <0>{count}</0> times"
 msgstr "Îmbunătățește-ți competențele de <0>{count}</0> ori"
 
-#: src/pages/user/[userId]/skills.tsx:143
+#: src/pages/user/[userId]/skills.tsx:148
 msgid "Upgrade your skills!"
 msgstr "Crește competențele!"
 
@@ -7108,7 +7145,7 @@ msgstr "Utilizator scos din grupul de familie"
 msgid "User unblocked"
 msgstr "Utilizator deblocat"
 
-#: src/components/_political/government/NominateForm.tsx:44
+#: src/components/_political/government/NominateForm.tsx:50
 #: src/components/_user/auth/WelcomeModal.tsx:143
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
@@ -7217,7 +7254,7 @@ msgstr "Se verifică CAPTCHA..."
 msgid "Vice Admiral"
 msgstr "Viceamiral"
 
-#: src/components/_political/government/Government.tsx:60
+#: src/components/_political/government/Government.tsx:62
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Vicepreședinte"
@@ -7316,7 +7353,7 @@ msgstr "Avere"
 msgid "Weapon"
 msgstr "Armă"
 
-#: src/components/_user/user/SkillValue.tsx:59
+#: src/components/_user/user/SkillValue.tsx:58
 msgid "Weapon:"
 msgstr ""
 
@@ -7324,7 +7361,7 @@ msgstr ""
 msgid "Weapons"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:191
+#: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:203
 msgid "Weekly"
 msgstr "Săptămânale"
@@ -7341,8 +7378,8 @@ msgstr "Daune săptămânale"
 msgid "Weekly Missions Reset"
 msgstr "Resetare Misiuni Săptămânale"
 
-#: src/components/_military/mu/MuMemberList.tsx:347
-#: src/components/_military/mu/MuMemberList.tsx:377
+#: src/components/_military/mu/MuMemberList.tsx:349
+#: src/components/_military/mu/MuMemberList.tsx:379
 msgid "Weekly:"
 msgstr ""
 
@@ -7396,7 +7433,7 @@ msgstr ""
 msgid "Won by"
 msgstr "Câștigat de"
 
-#: src/components/_economy/company/WorkButton.tsx:239
+#: src/components/_economy/company/WorkButton.tsx:238
 #: src/components/_user/mission/mission.frontConfig.tsx:76
 msgid "Work"
 msgstr "Muncește"
@@ -7529,7 +7566,7 @@ msgstr "Poți demonta obiecte din inventar selectând un obiect."
 msgid "You can optionally link a campaign article to your candidacy."
 msgstr "Puteți opțional să legați un articol de campanie de candidatura dumneavoastră."
 
-#: src/components/_user/user/Level.tsx:82
+#: src/components/_user/user/Level.tsx:85
 msgid "You can upgrade your skills!"
 msgstr "Îți poți crește competențele!"
 
@@ -7753,6 +7790,10 @@ msgstr ""
 msgid "You were here at the beginning of War Era"
 msgstr ""
 
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:233
+msgid "You were nominated as a government member of a country"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:67
 msgid "You were nominated as vice president of your country"
 msgstr ""
@@ -7814,7 +7855,7 @@ msgstr "Ești la apogeul norocului tău"
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Ai completat câteva misiuni! Să colectăm recompensele."
 
-#: src/components/_user/user/Level.tsx:122
+#: src/components/_user/user/Level.tsx:125
 msgid "You've reached max level!"
 msgstr "Ai ajuns la nivelul maxim!"
 
@@ -7884,7 +7925,7 @@ msgstr "Misiunile tale zilnice au fost resetate! Completează-le pentru a câșt
 msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 msgstr "Limita ta zilnică de XP a fost resetată, poți acum să câștigi XP și să primești recompensa zilnică!"
 
-#: src/components/_military/hit/HitButton.tsx:341
+#: src/components/_military/hit/HitButton.tsx:336
 msgid "Your damages"
 msgstr "Daunele tale"
 

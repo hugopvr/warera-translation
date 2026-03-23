@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:411
+#: src/components/_user/user/UserHeader.tsx:412
 msgid " - Reason: {0}"
 msgstr " - 原因: {0}"
 
@@ -58,7 +58,7 @@ msgid "{0} days cooldown"
 msgstr "{0} 日冷卻"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:169
+#: src/pages/user/[userId]/skills.tsx:174
 msgid "{0} Free"
 msgstr "{0} 免費"
 
@@ -439,15 +439,15 @@ msgstr "<0/> 在 <2/> 的回合 <1>#{0}</1> 中取得勝利"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> 在 <2/> 的回合 <1>#{0}</1> 中取得勝利！"
 
-#: src/components/_user/user/UserHeader.tsx:278
+#: src/components/_user/user/UserHeader.tsx:279
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>加成</1> 結束於 <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:287
+#: src/components/_user/user/UserHeader.tsx:288
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>減益</1> 結束於 <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:350
+#: src/components/_user/user/UserHeader.tsx:351
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>上次連線是在 <1><2/></1>"
 
@@ -1110,7 +1110,7 @@ msgid "Access war"
 msgstr "訪問戰爭"
 
 #: src/components/_political/country/CountryHeader.tsx:71
-#: src/components/_user/user/UserHeader.tsx:164
+#: src/components/_user/user/UserHeader.tsx:165
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:336
 #: src/pages/user/[userId]/account.tsx:25
@@ -1144,7 +1144,6 @@ msgstr "活躍公民"
 msgid "Active construction"
 msgstr "啟用建築"
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:37
 #: src/pages/country/[countryId]/contracts.tsx:27
 msgid "Active Contracts"
 msgstr ""
@@ -1304,7 +1303,7 @@ msgstr ""
 msgid "Ammo"
 msgstr "子彈"
 
-#: src/components/_user/user/SkillValue.tsx:137
+#: src/components/_user/user/SkillValue.tsx:136
 msgid "Ammo:"
 msgstr "子彈："
 
@@ -1391,7 +1390,7 @@ msgstr ""
 msgid "Arcane Boots"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:153
+#: src/components/_military/mu/MuMemberList.tsx:154
 msgid "Are you sure you want to demote this commander?"
 msgstr ""
 
@@ -1399,7 +1398,7 @@ msgstr ""
 msgid "Are you sure you want to fire this worker?"
 msgstr "你確定要開除這位員工嗎？"
 
-#: src/components/_military/mu/MuMemberList.tsx:139
+#: src/components/_military/mu/MuMemberList.tsx:140
 msgid "Are you sure you want to kick this member?"
 msgstr ""
 
@@ -1411,7 +1410,7 @@ msgstr "你確定要離開國會嗎？"
 msgid "Are you sure you want to leave the government?"
 msgstr "你確定要離開政府嗎？"
 
-#: src/components/_military/mu/MuMemberList.tsx:146
+#: src/components/_military/mu/MuMemberList.tsx:147
 msgid "Are you sure you want to promote this member to commander?"
 msgstr ""
 
@@ -1432,11 +1431,11 @@ msgstr "你確定要重骰這個任務嗎？你將會失去現在的進度。"
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "你確定要廢除 \"{0}\" 嗎？此行為不可回溯。"
 
-#: src/components/_other/tour/TutorialStep.tsx:175
+#: src/components/_other/tour/TutorialStep.tsx:182
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "你確定要跳過本次教學嗎？"
 
-#: src/components/_military/mu/MuMemberList.tsx:161
+#: src/components/_military/mu/MuMemberList.tsx:162
 msgid "Are you sure you want to transfer ownership to this member? This action cannot be undone."
 msgstr ""
 
@@ -1461,7 +1460,7 @@ msgstr "文章小費"
 msgid "Article tipped"
 msgstr "文章已給小費"
 
-#: src/components/_user/user/UserHeader.tsx:204
+#: src/components/_user/user/UserHeader.tsx:205
 #: src/pages/user/[userId]/index.tsx:208
 msgid "Articles"
 msgstr "文章"
@@ -1486,7 +1485,7 @@ msgstr "至少你試過了"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "在倒計時結束時， <0>{actualTickPoints}</0> 將會被發派到傷害較多的一邊。"
 
-#: src/components/_military/hit/HitButton.tsx:388
+#: src/components/_military/hit/HitButton.tsx:383
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"
@@ -1559,7 +1558,7 @@ msgstr "平衡 - 無調整"
 msgid "Bankruptcy"
 msgstr "破產"
 
-#: src/components/_user/user/UserHeader.tsx:399
+#: src/components/_user/user/UserHeader.tsx:400
 msgid "Banned"
 msgstr "已停權"
 
@@ -1579,8 +1578,8 @@ msgstr "已送出橫幅禮物"
 msgid "Banners"
 msgstr "橫幅"
 
-#: src/components/_user/user/UserHeader.tsx:182
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/user/UserHeader.tsx:183
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Bans"
 msgstr "用戶紀錄"
 
@@ -1625,7 +1624,7 @@ msgstr ""
 msgid "Battle opened"
 msgstr "戰鬥已開始"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:86
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:99
 msgid "Battle Orders"
 msgstr ""
 
@@ -1633,7 +1632,7 @@ msgstr ""
 msgid "Battle Ranking Reward"
 msgstr "戰鬥排名獎勵"
 
-#: src/components/_layout/LayoutMenu.tsx:155
+#: src/components/_layout/LayoutMenu.tsx:154
 #: src/components/_military/battle/BattlesHeader.tsx:20
 #: src/components/_military/war/WarHeader.tsx:83
 #: src/pages/region/[regionId]/index.tsx:132
@@ -1733,7 +1732,7 @@ msgstr "加成已結束"
 msgid "Buff started"
 msgstr "加成已開始"
 
-#: src/components/_user/user/SkillValue.tsx:169
+#: src/components/_user/user/SkillValue.tsx:168
 msgid "Buffs:"
 msgstr "加成："
 
@@ -1943,7 +1942,7 @@ msgstr "選擇你的國家"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "選邊後點擊來造成<0>傷害</0>！持續攻擊來為你的隊伍取得勝利。"
 
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Citizen since <0><1/></0>"
 msgstr "自 <0><1/></0> 以來是公民"
 
@@ -2061,7 +2060,7 @@ msgstr "上校"
 msgid "Color scheme"
 msgstr "顏色主題"
 
-#: src/components/_military/mu/MuMemberList.tsx:325
+#: src/components/_military/mu/MuMemberList.tsx:327
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:155
 msgid "Commander"
 msgstr "指揮官"
@@ -2079,9 +2078,9 @@ msgstr "準將"
 msgid "Community"
 msgstr ""
 
-#: src/components/_layout/LayoutMenu.tsx:185
+#: src/components/_layout/LayoutMenu.tsx:184
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:196
+#: src/components/_user/user/UserHeader.tsx:197
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2294,12 +2293,13 @@ msgid "Contract rolled back"
 msgstr ""
 
 #: src/components/_military/battle/BattlesHeader.tsx:36
+#: src/components/_military/battle/BattleSideContractsModal.tsx:36
 #: src/components/_political/country/CountryHeader.tsx:127
 #: src/pages/battle/[battleId]/contracts.tsx:45
 msgid "Contracts"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:29
+#: src/components/_military/battle/BattleSideContractsModal.tsx:28
 msgid "Contracts & Proposals"
 msgstr ""
 
@@ -2311,6 +2311,10 @@ msgstr "魚排"
 #: src/components/_political/partyMotion/PartyMotion.tsx:106
 msgid "Cool down"
 msgstr "冷卻"
+
+#: src/components/_user/badgeCollection/Badge.tsx:70
+msgid "Cooldown: {cooldownDays} days"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:90
 msgid "Copied to clipboard"
@@ -2368,7 +2372,7 @@ msgstr ""
 msgid "Country development income bonus"
 msgstr "國家發展度收入加成"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:27
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:40
 msgid "Country Orders"
 msgstr ""
 
@@ -2514,11 +2518,11 @@ msgstr "傷害排名"
 msgid "Damages"
 msgstr "傷害"
 
-#: src/components/_military/mu/MuMemberList.tsx:343
+#: src/components/_military/mu/MuMemberList.tsx:345
 msgid "Damages for Mu"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:342
+#: src/components/_military/hit/HitButton.tsx:337
 msgid "Damages you did for this side in this round"
 msgstr "你這回合為這邊輸出的傷害"
 
@@ -2606,7 +2610,7 @@ msgstr "造成一些傷害"
 msgid "Debuff ended"
 msgstr "減益已結束"
 
-#: src/components/_user/user/SkillValue.tsx:201
+#: src/components/_user/user/SkillValue.tsx:200
 msgid "Debuffs:"
 msgstr "減益："
 
@@ -2635,7 +2639,7 @@ msgstr "減少"
 msgid "Decrease unrest"
 msgstr "減少動盪值"
 
-#: src/components/_military/hit/HitButton.tsx:391
+#: src/components/_military/hit/HitButton.tsx:386
 msgid "Defend"
 msgstr "防禦"
 
@@ -2672,11 +2676,11 @@ msgstr ""
 msgid "Delete your account"
 msgstr "刪除你的帳號"
 
-#: src/components/_military/mu/MuMemberList.tsx:152
+#: src/components/_military/mu/MuMemberList.tsx:153
 msgid "Demote Commander"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:438
+#: src/components/_military/mu/MuMemberList.tsx:440
 msgid "Demote from Commander"
 msgstr ""
 
@@ -2922,7 +2926,7 @@ msgstr ""
 msgid "Effective reward"
 msgstr ""
 
-#: src/components/_user/user/SkillValue.tsx:231
+#: src/components/_user/user/SkillValue.tsx:230
 msgid "Effective:"
 msgstr "效果："
 
@@ -3026,7 +3030,7 @@ msgstr "創業能力"
 msgid "Equipment"
 msgstr "裝備"
 
-#: src/components/_user/user/SkillValue.tsx:74
+#: src/components/_user/user/SkillValue.tsx:73
 msgid "Equipment:"
 msgstr "裝備："
 
@@ -3261,7 +3265,8 @@ msgstr "找別的工作"
 msgid "Fire"
 msgstr "開除"
 
-#: src/components/_political/government/Government.tsx:162
+#: src/components/_political/government/Government.tsx:199
+#: src/components/_political/government/Government.tsx:208
 msgid "Fire government member"
 msgstr "開除政府成員"
 
@@ -3330,7 +3335,7 @@ msgstr "來自回合排名"
 msgid "Fun fact: The house always wins"
 msgstr "冷知識：莊家永遠是贏的"
 
-#: src/components/_user/user/Level.tsx:88
+#: src/components/_user/user/Level.tsx:91
 msgid "Gain <0>Xp</0> by finishing your missions!"
 msgstr "透過完成你的任務來獲得<0>Xp</0>！"
 
@@ -3391,7 +3396,7 @@ msgstr "贈送這個組合包給某人"
 msgid "gifted"
 msgstr "已贈送"
 
-#: src/components/_military/mu/MuMemberList.tsx:444
+#: src/components/_military/mu/MuMemberList.tsx:446
 msgid "Give Ownership"
 msgstr ""
 
@@ -3448,6 +3453,10 @@ msgstr "黃金"
 #: src/components/_political/country/CountryHeader.tsx:89
 msgid "Government"
 msgstr "政府"
+
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
+msgid "Government Member"
+msgstr ""
 
 #: src/pages/battles/contracts.tsx:32
 msgid "Government Proposals"
@@ -3511,7 +3520,7 @@ msgstr "頭盔"
 msgid "Help <0>{count}</0> MU members"
 msgstr "幫助 <0>{count}</0> 位軍團成員"
 
-#: src/components/_military/mu/MuMemberList.tsx:373
+#: src/components/_military/mu/MuMemberList.tsx:375
 msgid "Help for Mu"
 msgstr ""
 
@@ -3541,7 +3550,7 @@ msgstr "在戰鬥中攻擊 <0>{count}</0> 次"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:58
-#: src/components/_user/user/UserHeader.tsx:150
+#: src/components/_user/user/UserHeader.tsx:151
 msgid "Home"
 msgstr "主頁"
 
@@ -3569,6 +3578,10 @@ msgstr "我聽說買訂閱會增加你的機率 :3"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:81
 msgid "I'm proud of you"
 msgstr "我以你為榮"
+
+#: src/components/_political/government/NominateForm.tsx:58
+msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:51
 msgid "Imagine if you stop right before the Mythic"
@@ -3666,9 +3679,9 @@ msgstr "工業主義"
 msgid "Initiate"
 msgstr "新兵"
 
-#: src/components/_layout/LayoutMenu.tsx:126
+#: src/components/_layout/LayoutMenu.tsx:125
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:156
+#: src/components/_user/user/UserHeader.tsx:157
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
@@ -3778,11 +3791,11 @@ msgstr "繼續戰鬥！"
 msgid "Keep in current company"
 msgstr "維持在現在公司"
 
-#: src/components/_military/mu/MuMemberList.tsx:426
+#: src/components/_military/mu/MuMemberList.tsx:428
 msgid "Kick"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:138
+#: src/components/_military/mu/MuMemberList.tsx:139
 msgid "Kick Member"
 msgstr ""
 
@@ -3802,6 +3815,10 @@ msgstr "造成 <0>{count}</0> 次暴擊傷害"
 #: src/components/_user/auth/WelcomeModal.tsx:132
 msgid "Language"
 msgstr "語言"
+
+#: src/components/_user/badgeCollection/Badge.tsx:63
+msgid "Last earned: <0/>"
+msgstr ""
 
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
@@ -3955,7 +3972,7 @@ msgstr "石灰岩"
 msgid "Limit of food consumption"
 msgstr "食物使用上限"
 
-#: src/components/_user/user/SkillValue.tsx:89
+#: src/components/_user/user/SkillValue.tsx:88
 msgid "Limited:"
 msgstr ""
 
@@ -4079,7 +4096,7 @@ msgid "Map options"
 msgstr "地圖選項"
 
 #: src/components/_economy/market/MarketHeader.tsx:43
-#: src/components/_layout/LayoutMenu.tsx:166
+#: src/components/_layout/LayoutMenu.tsx:165
 msgid "Market"
 msgstr "市場"
 
@@ -4167,15 +4184,15 @@ msgstr "在聊天室中與其他玩家們相會，別害羞，介紹一下你自
 msgid "Member Applications"
 msgstr "成員申請"
 
-#: src/components/_military/mu/MuMemberList.tsx:115
+#: src/components/_military/mu/MuMemberList.tsx:116
 msgid "Member demoted from commander"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:107
+#: src/components/_military/mu/MuMemberList.tsx:108
 msgid "Member kicked successfully"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:111
+#: src/components/_military/mu/MuMemberList.tsx:112
 msgid "Member promoted to commander"
 msgstr ""
 
@@ -4230,7 +4247,7 @@ msgstr "軍階"
 msgid "Military Rank Up!"
 msgstr "軍階提升！"
 
-#: src/components/_user/user/SkillValue.tsx:185
+#: src/components/_user/user/SkillValue.tsx:184
 msgid "Military rank:"
 msgstr "軍階："
 
@@ -4262,15 +4279,15 @@ msgstr "最少活躍公民"
 msgid "Minimum reputation to accept"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:68
+#: src/components/_political/government/Government.tsx:70
 msgid "Minister of Defense"
 msgstr "國防部長"
 
-#: src/components/_political/government/Government.tsx:76
+#: src/components/_political/government/Government.tsx:78
 msgid "Minister of Economy"
 msgstr "經濟部長"
 
-#: src/components/_political/government/Government.tsx:84
+#: src/components/_political/government/Government.tsx:86
 msgid "Minister of Foreign Affairs"
 msgstr "外交部長"
 
@@ -4316,7 +4333,7 @@ msgstr "獲得的錢"
 msgid "Money Won"
 msgstr "獲得的錢"
 
-#: src/components/_military/mu/MuMemberList.tsx:190
+#: src/components/_military/mu/MuMemberList.tsx:191
 msgid "Monthly"
 msgstr ""
 
@@ -4324,8 +4341,8 @@ msgstr ""
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:353
-#: src/components/_military/mu/MuMemberList.tsx:388
+#: src/components/_military/mu/MuMemberList.tsx:355
+#: src/components/_military/mu/MuMemberList.tsx:390
 msgid "Monthly:"
 msgstr ""
 
@@ -4375,7 +4392,7 @@ msgstr "至頂"
 msgid "Moved to a new company"
 msgstr "移動至一個新公司"
 
-#: src/components/_layout/LayoutMenu.tsx:138
+#: src/components/_layout/LayoutMenu.tsx:137
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
 msgstr "軍團"
@@ -4404,7 +4421,7 @@ msgstr ""
 msgid "MU Monthly Levels"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:46
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:59
 msgid "MU Orders"
 msgstr ""
 
@@ -4681,15 +4698,11 @@ msgstr "尚無捐款"
 msgid "No ground ranking yet."
 msgstr "還沒有優勢點排名。"
 
-#: src/components/_user/user/UserEquippedSkins.tsx:192
-msgid "No items equipped"
-msgstr "無裝備物品"
-
 #: src/components/_political/law/LawList.tsx:72
 msgid "No laws yet"
 msgstr "還沒有法案"
 
-#: src/components/_military/mu/MuMemberList.tsx:179
+#: src/components/_military/mu/MuMemberList.tsx:180
 msgid "No members in this military unit."
 msgstr ""
 
@@ -4722,10 +4735,10 @@ msgid "No offers found"
 msgstr "沒有找到賣單"
 
 #: src/components/_political/government/Government.tsx:177
-msgid "No one nominated yet."
-msgstr "還沒有人被指派。"
+msgid "No one nominated yet"
+msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:96
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:109
 msgid "No orders"
 msgstr ""
 
@@ -4733,7 +4746,7 @@ msgstr ""
 msgid "No parties found"
 msgstr "找不到政黨"
 
-#: src/components/_political/government/Government.tsx:55
+#: src/components/_political/government/Government.tsx:57
 msgid "No president"
 msgstr "沒有總統"
 
@@ -4749,7 +4762,7 @@ msgstr "尚未有推薦人"
 msgid "No referrer yet"
 msgstr "尚未設置推薦人"
 
-#: src/components/_user/user/UserEquippedSkins.tsx:113
+#: src/components/_user/user/UserEquippedSkins.tsx:139
 msgid "No skins equipped"
 msgstr "沒有裝備造型"
 
@@ -4773,12 +4786,12 @@ msgstr "找不到戰爭"
 msgid "No work offers"
 msgstr "找不到職缺"
 
-#: src/components/_political/government/Government.tsx:185
-#: src/components/_political/government/NominateForm.tsx:59
+#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "指派"
 
-#: src/components/_political/government/Government.tsx:196
+#: src/components/_political/government/Government.tsx:223
 msgid "Nominate a {title}"
 msgstr "指派 {title}"
 
@@ -4851,7 +4864,7 @@ msgstr "只有總統可以為他的國家報名"
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "只有支持者可以查看自己的支出與收入明細。"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:516
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:528
 msgid "Open"
 msgstr "開啟"
 
@@ -4860,7 +4873,7 @@ msgid "Open <0>{count}</0>"
 msgstr "開啟 <0>{count}</0> 個"
 
 #: src/components/_economy/inventory/case/OpenCaseModal.tsx:87
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:536
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:548
 msgid "Open case"
 msgstr "開啟箱子"
 
@@ -4933,7 +4946,7 @@ msgstr "其它"
 msgid "Outcome"
 msgstr "結果"
 
-#: src/components/_user/user/SkillValue.tsx:153
+#: src/components/_user/user/SkillValue.tsx:152
 msgid "Overflow:"
 msgstr ""
 
@@ -4950,7 +4963,7 @@ msgstr "擁有的"
 msgid "Owned Military Units"
 msgstr "擁有的軍團"
 
-#: src/components/_military/mu/MuMemberList.tsx:319
+#: src/components/_military/mu/MuMemberList.tsx:321
 msgid "Owner"
 msgstr ""
 
@@ -4958,7 +4971,7 @@ msgstr ""
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "<0/> 的擁有權已從 <1/> 轉移至 <2/>"
 
-#: src/components/_military/mu/MuMemberList.tsx:119
+#: src/components/_military/mu/MuMemberList.tsx:120
 msgid "Ownership transferred successfully"
 msgstr ""
 
@@ -5202,7 +5215,7 @@ msgstr "已送出高級帳號禮物"
 msgid "Premium has started working"
 msgstr "高帳已經開始有用了"
 
-#: src/components/_political/government/Government.tsx:51
+#: src/components/_political/government/Government.tsx:53
 msgid "President"
 msgstr "總統"
 
@@ -5314,8 +5327,8 @@ msgstr "生產點數已滿"
 msgid "Profile"
 msgstr "個人檔案"
 
-#: src/components/_military/mu/MuMemberList.tsx:145
-#: src/components/_military/mu/MuMemberList.tsx:432
+#: src/components/_military/mu/MuMemberList.tsx:146
+#: src/components/_military/mu/MuMemberList.tsx:434
 msgid "Promote to Commander"
 msgstr ""
 
@@ -5323,7 +5336,7 @@ msgstr ""
 msgid "Promoted to Commander"
 msgstr "晉升為指揮官"
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:48
+#: src/components/_military/battle/BattleSideContractsModal.tsx:45
 #: src/pages/battle/[battleId]/contracts.tsx:34
 msgid "Proposals"
 msgstr ""
@@ -5467,7 +5480,7 @@ msgid "Reach Military Rank 5"
 msgstr "達到軍階 5"
 
 #. placeholder {0}: leveling.level + 1
-#: src/components/_user/user/Level.tsx:108
+#: src/components/_user/user/Level.tsx:111
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "達到等級 {0} 將會給你 <0>{nextLevelSkillPoints} 技能點</0>。"
 
@@ -5524,7 +5537,7 @@ msgstr "降低戰鬥中損失的生命值"
 msgid "Referral link copied to clipboard"
 msgstr "邀請連結已複製到剪貼簿"
 
-#: src/components/_user/user/UserHeader.tsx:210
+#: src/components/_user/user/UserHeader.tsx:211
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:219
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -5696,9 +5709,21 @@ msgstr "重新命名"
 msgid "Rename company"
 msgstr "重新命名公司"
 
+#: src/components/_political/government/Government.tsx:192
+msgid "Replace"
+msgstr ""
+
+#: src/components/_political/government/Government.tsx:223
+msgid "Replace {title}"
+msgstr ""
+
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:80
 msgid "Replace all party ethics with a new configuration"
 msgstr "以新的配置取代舊的政黨傳統"
+
+#: src/components/_political/government/NominateForm.tsx:57
+msgid "Replacing a member"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:59
 msgid "Report"
@@ -5737,7 +5762,7 @@ msgstr ""
 msgid "Reroll Mission"
 msgstr "重骰任務"
 
-#: src/pages/user/[userId]/skills.tsx:161
+#: src/pages/user/[userId]/skills.tsx:166
 msgid "Reset"
 msgstr "重置"
 
@@ -5761,7 +5786,7 @@ msgstr "重置用戶名稱"
 msgid "Reshuffle in"
 msgstr "重置於"
 
-#: src/components/_military/hit/HitButton.tsx:386
+#: src/components/_military/hit/HitButton.tsx:381
 msgid "Resist"
 msgstr "抵抗"
 
@@ -5814,11 +5839,15 @@ msgstr "叛亂已開始"
 msgid "Revolution started!"
 msgstr "叛亂已開始！"
 
+#: src/components/_user/badgeCollection/Badge.tsx:53
+msgid "Reward"
+msgstr ""
+
 #: src/utils/translations.tsx:24
 msgid "Rifle"
 msgstr "來福槍"
 
-#: src/components/_political/government/Government.tsx:136
+#: src/components/_political/government/Government.tsx:140
 msgid "Rights"
 msgstr "權利"
 
@@ -5898,7 +5927,7 @@ msgstr "生命值要用完了嗎？"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:69
 #: src/components/_user/auth/WelcomeModal.tsx:162
-#: src/pages/user/[userId]/skills.tsx:205
+#: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "儲存"
 
@@ -5934,7 +5963,7 @@ msgstr "搜尋國家..."
 msgid "Search recipient username..."
 msgstr "搜尋接收者用戶名稱..."
 
-#: src/components/_political/government/NominateForm.tsx:47
+#: src/components/_political/government/NominateForm.tsx:53
 msgid "Search username to nominate..."
 msgstr "搜尋用戶名稱以指派..."
 
@@ -6134,7 +6163,7 @@ msgid "Set your username"
 msgstr "設置你的用戶名稱"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:216
+#: src/components/_user/user/UserHeader.tsx:217
 msgid "Settings"
 msgstr "設定"
 
@@ -6155,15 +6184,15 @@ msgstr "顯示更多"
 msgid "Show only articles with positive score (score >= -5)"
 msgstr "只顯示正分數文章 (分數 >= -5)"
 
-#: src/components/_military/mu/MuMemberList.tsx:198
+#: src/components/_military/mu/MuMemberList.tsx:199
 msgid "Showing monthly"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:197
+#: src/components/_military/mu/MuMemberList.tsx:198
 msgid "Showing total"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:199
+#: src/components/_military/mu/MuMemberList.tsx:200
 msgid "Showing weekly"
 msgstr ""
 
@@ -6171,12 +6200,12 @@ msgstr ""
 msgid "Skill issue?"
 msgstr "技術問題？"
 
-#: src/components/_user/user/SkillValue.tsx:46
+#: src/components/_user/user/SkillValue.tsx:45
 msgid "Skill upgrade:"
 msgstr "技能升級："
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:171
+#: src/components/_user/user/UserHeader.tsx:172
 #: src/pages/user/[userId]/index.tsx:157
 msgid "Skills"
 msgstr "技能"
@@ -6185,7 +6214,7 @@ msgstr "技能"
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "技能可以讓你變得更強。讓我們加強你的能力吧！"
 
-#: src/pages/user/[userId]/skills.tsx:53
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "技能已儲存！"
 
@@ -6218,7 +6247,7 @@ msgstr "造型"
 msgid "Skins in this pack"
 msgstr "在這組合包中的造型"
 
-#: src/components/_other/tour/TutorialStep.tsx:174
+#: src/components/_other/tour/TutorialStep.tsx:181
 msgid "Skip Tutorial"
 msgstr "跳過教學"
 
@@ -6621,6 +6650,10 @@ msgstr "這個法案有額外的花費"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "這個法案需要國家中有至少 {minActiveCitizen} 位活躍公民 (等級 10+)"
 
+#: src/components/_political/government/Government.tsx:209
+msgid "This member won't be able to be nominated again for {cooldownDays} days."
+msgstr ""
+
 #: src/pages/region/[regionId]/index.tsx:177
 msgid "This region is not linked to it's owner's capital."
 msgstr "該地區未與其擁有者的首都連接。"
@@ -6785,14 +6818,14 @@ msgstr "總共"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:153
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/work/WorkChart.tsx:198
-#: src/components/_military/mu/MuMemberList.tsx:189
+#: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
 #: src/pages/market/index.tsx:202
 msgid "Total"
 msgstr "總計"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:474
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:486
 msgid "Total cases opened"
 msgstr ""
 
@@ -6808,9 +6841,13 @@ msgstr "總傷害"
 msgid "Total Donated:"
 msgstr "總捐款："
 
-#: src/components/_military/mu/MuMemberList.tsx:359
-#: src/components/_military/mu/MuMemberList.tsx:399
-#: src/components/_user/user/SkillValue.tsx:216
+#: src/components/_user/badgeCollection/Badge.tsx:57
+msgid "Total reward"
+msgstr ""
+
+#: src/components/_military/mu/MuMemberList.tsx:361
+#: src/components/_military/mu/MuMemberList.tsx:401
+#: src/components/_user/user/SkillValue.tsx:215
 msgid "Total:"
 msgstr "總和："
 
@@ -6832,7 +6869,7 @@ msgstr "錦標賽中遭淘汰"
 msgid "Tournament Ended"
 msgstr "錦標賽已結束"
 
-#: src/components/_user/user/SkillValue.tsx:117
+#: src/components/_user/user/SkillValue.tsx:116
 msgid "Tournament reward:"
 msgstr "錦標賽獎勵："
 
@@ -6861,7 +6898,7 @@ msgstr "交易"
 msgid "Trainee"
 msgstr "訓練兵"
 
-#: src/components/_user/user/UserHeader.tsx:190
+#: src/components/_user/user/UserHeader.tsx:191
 msgid "Transac."
 msgstr "交易紀錄"
 
@@ -6875,7 +6912,7 @@ msgstr "交易紀錄"
 msgid "Transfer money"
 msgstr "轉帳"
 
-#: src/components/_military/mu/MuMemberList.tsx:160
+#: src/components/_military/mu/MuMemberList.tsx:161
 msgid "Transfer Ownership"
 msgstr ""
 
@@ -6941,7 +6978,7 @@ msgstr "解鎖一鍵生產"
 msgid "Unlocked pack"
 msgstr "已解鎖組合包"
 
-#: src/components/_user/user/UserHeader.tsx:407
+#: src/components/_user/user/UserHeader.tsx:408
 msgid "Unmuted <0/>"
 msgstr "對 <0/> 解除禁言"
 
@@ -7011,7 +7048,7 @@ msgstr "升級為支持者"
 msgid "Upgrade your skills <0>{count}</0> times"
 msgstr "升級你的技能 <0>{count}</0> 次"
 
-#: src/pages/user/[userId]/skills.tsx:143
+#: src/pages/user/[userId]/skills.tsx:148
 msgid "Upgrade your skills!"
 msgstr "升級你的技能！"
 
@@ -7110,7 +7147,7 @@ msgstr "用戶已從家庭群組中被移除"
 msgid "User unblocked"
 msgstr "已解除用戶屏蔽"
 
-#: src/components/_political/government/NominateForm.tsx:44
+#: src/components/_political/government/NominateForm.tsx:50
 #: src/components/_user/auth/WelcomeModal.tsx:143
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
@@ -7219,7 +7256,7 @@ msgstr "正在驗證 CAPTCHA 中..."
 msgid "Vice Admiral"
 msgstr "中將"
 
-#: src/components/_political/government/Government.tsx:60
+#: src/components/_political/government/Government.tsx:62
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "副總統"
@@ -7318,7 +7355,7 @@ msgstr "資產"
 msgid "Weapon"
 msgstr "武器"
 
-#: src/components/_user/user/SkillValue.tsx:59
+#: src/components/_user/user/SkillValue.tsx:58
 msgid "Weapon:"
 msgstr "武器："
 
@@ -7326,7 +7363,7 @@ msgstr "武器："
 msgid "Weapons"
 msgstr ""
 
-#: src/components/_military/mu/MuMemberList.tsx:191
+#: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:203
 msgid "Weekly"
 msgstr "每週"
@@ -7343,8 +7380,8 @@ msgstr "每週傷害"
 msgid "Weekly Missions Reset"
 msgstr "每週任務重置"
 
-#: src/components/_military/mu/MuMemberList.tsx:347
-#: src/components/_military/mu/MuMemberList.tsx:377
+#: src/components/_military/mu/MuMemberList.tsx:349
+#: src/components/_military/mu/MuMemberList.tsx:379
 msgid "Weekly:"
 msgstr ""
 
@@ -7398,7 +7435,7 @@ msgstr ""
 msgid "Won by"
 msgstr "贏家"
 
-#: src/components/_economy/company/WorkButton.tsx:239
+#: src/components/_economy/company/WorkButton.tsx:238
 #: src/components/_user/mission/mission.frontConfig.tsx:76
 msgid "Work"
 msgstr "工作"
@@ -7531,7 +7568,7 @@ msgstr "你可以在倉庫中透過選取裝備來拆解裝備。"
 msgid "You can optionally link a campaign article to your candidacy."
 msgstr "你可以在參選時填上宣傳文章連結"
 
-#: src/components/_user/user/Level.tsx:82
+#: src/components/_user/user/Level.tsx:85
 msgid "You can upgrade your skills!"
 msgstr "你可以升級技能了！"
 
@@ -7755,6 +7792,10 @@ msgstr ""
 msgid "You were here at the beginning of War Era"
 msgstr ""
 
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:233
+msgid "You were nominated as a government member of a country"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:67
 msgid "You were nominated as vice president of your country"
 msgstr ""
@@ -7816,7 +7857,7 @@ msgstr "你太強了"
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "你已完成了任務，去領取經驗值獎勵吧！"
 
-#: src/components/_user/user/Level.tsx:122
+#: src/components/_user/user/Level.tsx:125
 msgid "You've reached max level!"
 msgstr "你已達到等級上限"
 
@@ -7886,7 +7927,7 @@ msgstr "你的每日任務已重置，完成它們以賺取獎勵！"
 msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 msgstr "你的每日經驗值上限已重置，你可以接著獲取經驗值來賺取每日獎勵了！"
 
-#: src/components/_military/hit/HitButton.tsx:341
+#: src/components/_military/hit/HitButton.tsx:336
 msgid "Your damages"
 msgstr "你的傷害"
 

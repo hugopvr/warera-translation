@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:411
+#: src/components/_user/user/UserHeader.tsx:412
 msgid " - Reason: {0}"
 msgstr " - Reason: {0}"
 
@@ -58,7 +58,7 @@ msgid "{0} days cooldown"
 msgstr "{0} days cooldown"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:169
+#: src/pages/user/[userId]/skills.tsx:174
 msgid "{0} Free"
 msgstr "{0} Free"
 
@@ -439,15 +439,15 @@ msgstr "<0/> won the round <1>#{0}</1> in <2/>"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> won the round <1>#{0}</1> in <2/>!"
 
-#: src/components/_user/user/UserHeader.tsx:278
+#: src/components/_user/user/UserHeader.tsx:279
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Buff</1> ends <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:287
+#: src/components/_user/user/UserHeader.tsx:288
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Debuff</1> ends <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:350
+#: src/components/_user/user/UserHeader.tsx:351
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>Last connection was <1><2/></1>"
 
@@ -1110,7 +1110,7 @@ msgid "Access war"
 msgstr "Access war"
 
 #: src/components/_political/country/CountryHeader.tsx:71
-#: src/components/_user/user/UserHeader.tsx:164
+#: src/components/_user/user/UserHeader.tsx:165
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:336
 #: src/pages/user/[userId]/account.tsx:25
@@ -1144,7 +1144,6 @@ msgstr "Active Citizens"
 msgid "Active construction"
 msgstr "Active construction"
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:37
 #: src/pages/country/[countryId]/contracts.tsx:27
 msgid "Active Contracts"
 msgstr "Active Contracts"
@@ -1304,7 +1303,7 @@ msgstr "Alpha Tester"
 msgid "Ammo"
 msgstr "Ammo"
 
-#: src/components/_user/user/SkillValue.tsx:137
+#: src/components/_user/user/SkillValue.tsx:136
 msgid "Ammo:"
 msgstr "Ammo:"
 
@@ -1391,7 +1390,7 @@ msgstr "Approved"
 msgid "Arcane Boots"
 msgstr "Arcane Boots"
 
-#: src/components/_military/mu/MuMemberList.tsx:153
+#: src/components/_military/mu/MuMemberList.tsx:154
 msgid "Are you sure you want to demote this commander?"
 msgstr "Are you sure you want to demote this commander?"
 
@@ -1399,7 +1398,7 @@ msgstr "Are you sure you want to demote this commander?"
 msgid "Are you sure you want to fire this worker?"
 msgstr "Are you sure you want to fire this worker?"
 
-#: src/components/_military/mu/MuMemberList.tsx:139
+#: src/components/_military/mu/MuMemberList.tsx:140
 msgid "Are you sure you want to kick this member?"
 msgstr "Are you sure you want to kick this member?"
 
@@ -1411,7 +1410,7 @@ msgstr "Are you sure you want to leave the congress?"
 msgid "Are you sure you want to leave the government?"
 msgstr "Are you sure you want to leave the government?"
 
-#: src/components/_military/mu/MuMemberList.tsx:146
+#: src/components/_military/mu/MuMemberList.tsx:147
 msgid "Are you sure you want to promote this member to commander?"
 msgstr "Are you sure you want to promote this member to commander?"
 
@@ -1432,11 +1431,11 @@ msgstr "Are you sure you want to reroll this mission? Your current progress will
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 
-#: src/components/_other/tour/TutorialStep.tsx:175
+#: src/components/_other/tour/TutorialStep.tsx:182
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Are you sure you want to skip this tutorial?"
 
-#: src/components/_military/mu/MuMemberList.tsx:161
+#: src/components/_military/mu/MuMemberList.tsx:162
 msgid "Are you sure you want to transfer ownership to this member? This action cannot be undone."
 msgstr "Are you sure you want to transfer ownership to this member? This action cannot be undone."
 
@@ -1461,7 +1460,7 @@ msgstr "Article Tip"
 msgid "Article tipped"
 msgstr "Article tipped"
 
-#: src/components/_user/user/UserHeader.tsx:204
+#: src/components/_user/user/UserHeader.tsx:205
 #: src/pages/user/[userId]/index.tsx:208
 msgid "Articles"
 msgstr "Articles"
@@ -1486,7 +1485,7 @@ msgstr "At least you tried"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 
-#: src/components/_military/hit/HitButton.tsx:388
+#: src/components/_military/hit/HitButton.tsx:383
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"
@@ -1559,7 +1558,7 @@ msgstr "Balanced - No modifiers"
 msgid "Bankruptcy"
 msgstr "Bankruptcy"
 
-#: src/components/_user/user/UserHeader.tsx:399
+#: src/components/_user/user/UserHeader.tsx:400
 msgid "Banned"
 msgstr "Banned"
 
@@ -1579,8 +1578,8 @@ msgstr "Banner gift sent"
 msgid "Banners"
 msgstr "Banners"
 
-#: src/components/_user/user/UserHeader.tsx:182
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/user/UserHeader.tsx:183
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Bans"
 msgstr "Bans"
 
@@ -1625,7 +1624,7 @@ msgstr "Battle Hero"
 msgid "Battle opened"
 msgstr "Battle opened"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:86
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:99
 msgid "Battle Orders"
 msgstr "Battle Orders"
 
@@ -1633,7 +1632,7 @@ msgstr "Battle Orders"
 msgid "Battle Ranking Reward"
 msgstr "Battle Ranking Reward"
 
-#: src/components/_layout/LayoutMenu.tsx:155
+#: src/components/_layout/LayoutMenu.tsx:154
 #: src/components/_military/battle/BattlesHeader.tsx:20
 #: src/components/_military/war/WarHeader.tsx:83
 #: src/pages/region/[regionId]/index.tsx:132
@@ -1733,7 +1732,7 @@ msgstr "Buff ended"
 msgid "Buff started"
 msgstr "Buff started"
 
-#: src/components/_user/user/SkillValue.tsx:169
+#: src/components/_user/user/SkillValue.tsx:168
 msgid "Buffs:"
 msgstr "Buffs:"
 
@@ -1943,7 +1942,7 @@ msgstr "Choose your country"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Citizen since <0><1/></0>"
 msgstr "Citizen since <0><1/></0>"
 
@@ -2061,7 +2060,7 @@ msgstr "Colonel"
 msgid "Color scheme"
 msgstr "Color scheme"
 
-#: src/components/_military/mu/MuMemberList.tsx:325
+#: src/components/_military/mu/MuMemberList.tsx:327
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:155
 msgid "Commander"
 msgstr "Commander"
@@ -2079,9 +2078,9 @@ msgstr "Commodore"
 msgid "Community"
 msgstr "Community"
 
-#: src/components/_layout/LayoutMenu.tsx:185
+#: src/components/_layout/LayoutMenu.tsx:184
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:196
+#: src/components/_user/user/UserHeader.tsx:197
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2294,12 +2293,13 @@ msgid "Contract rolled back"
 msgstr "Contract rolled back"
 
 #: src/components/_military/battle/BattlesHeader.tsx:36
+#: src/components/_military/battle/BattleSideContractsModal.tsx:36
 #: src/components/_political/country/CountryHeader.tsx:127
 #: src/pages/battle/[battleId]/contracts.tsx:45
 msgid "Contracts"
 msgstr "Contracts"
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:29
+#: src/components/_military/battle/BattleSideContractsModal.tsx:28
 msgid "Contracts & Proposals"
 msgstr "Contracts & Proposals"
 
@@ -2311,6 +2311,10 @@ msgstr "Cooked Fish"
 #: src/components/_political/partyMotion/PartyMotion.tsx:106
 msgid "Cool down"
 msgstr "Cool down"
+
+#: src/components/_user/badgeCollection/Badge.tsx:70
+msgid "Cooldown: {cooldownDays} days"
+msgstr "Cooldown: {cooldownDays} days"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:90
 msgid "Copied to clipboard"
@@ -2368,7 +2372,7 @@ msgstr "Country Contracts"
 msgid "Country development income bonus"
 msgstr "Country development income bonus"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:27
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:40
 msgid "Country Orders"
 msgstr "Country Orders"
 
@@ -2514,11 +2518,11 @@ msgstr "Damage ranking"
 msgid "Damages"
 msgstr "Damages"
 
-#: src/components/_military/mu/MuMemberList.tsx:343
+#: src/components/_military/mu/MuMemberList.tsx:345
 msgid "Damages for Mu"
 msgstr "Damages for Mu"
 
-#: src/components/_military/hit/HitButton.tsx:342
+#: src/components/_military/hit/HitButton.tsx:337
 msgid "Damages you did for this side in this round"
 msgstr "Damages you did for this side in this round"
 
@@ -2606,7 +2610,7 @@ msgstr "Deals some damages"
 msgid "Debuff ended"
 msgstr "Debuff ended"
 
-#: src/components/_user/user/SkillValue.tsx:201
+#: src/components/_user/user/SkillValue.tsx:200
 msgid "Debuffs:"
 msgstr "Debuffs:"
 
@@ -2635,7 +2639,7 @@ msgstr "Decrease"
 msgid "Decrease unrest"
 msgstr "Decrease unrest"
 
-#: src/components/_military/hit/HitButton.tsx:391
+#: src/components/_military/hit/HitButton.tsx:386
 msgid "Defend"
 msgstr "Defend"
 
@@ -2672,11 +2676,11 @@ msgstr "Delete contract"
 msgid "Delete your account"
 msgstr "Delete your account"
 
-#: src/components/_military/mu/MuMemberList.tsx:152
+#: src/components/_military/mu/MuMemberList.tsx:153
 msgid "Demote Commander"
 msgstr "Demote Commander"
 
-#: src/components/_military/mu/MuMemberList.tsx:438
+#: src/components/_military/mu/MuMemberList.tsx:440
 msgid "Demote from Commander"
 msgstr "Demote from Commander"
 
@@ -2922,7 +2926,7 @@ msgstr "Effective cost: <0/> for <1/>"
 msgid "Effective reward"
 msgstr "Effective reward"
 
-#: src/components/_user/user/SkillValue.tsx:231
+#: src/components/_user/user/SkillValue.tsx:230
 msgid "Effective:"
 msgstr "Effective:"
 
@@ -3026,7 +3030,7 @@ msgstr "Entrepreneurship"
 msgid "Equipment"
 msgstr "Equipment"
 
-#: src/components/_user/user/SkillValue.tsx:74
+#: src/components/_user/user/SkillValue.tsx:73
 msgid "Equipment:"
 msgstr "Equipment:"
 
@@ -3261,7 +3265,8 @@ msgstr "Find another job"
 msgid "Fire"
 msgstr "Fire"
 
-#: src/components/_political/government/Government.tsx:162
+#: src/components/_political/government/Government.tsx:199
+#: src/components/_political/government/Government.tsx:208
 msgid "Fire government member"
 msgstr "Fire government member"
 
@@ -3330,7 +3335,7 @@ msgstr "from round rankings"
 msgid "Fun fact: The house always wins"
 msgstr "Fun fact: The house always wins"
 
-#: src/components/_user/user/Level.tsx:88
+#: src/components/_user/user/Level.tsx:91
 msgid "Gain <0>Xp</0> by finishing your missions!"
 msgstr "Gain <0>Xp</0> by finishing your missions!"
 
@@ -3391,7 +3396,7 @@ msgstr "Gift this pack to someone"
 msgid "gifted"
 msgstr "gifted"
 
-#: src/components/_military/mu/MuMemberList.tsx:444
+#: src/components/_military/mu/MuMemberList.tsx:446
 msgid "Give Ownership"
 msgstr "Give Ownership"
 
@@ -3448,6 +3453,10 @@ msgstr "Gold"
 #: src/components/_political/country/CountryHeader.tsx:89
 msgid "Government"
 msgstr "Government"
+
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
+msgid "Government Member"
+msgstr "Government Member"
 
 #: src/pages/battles/contracts.tsx:32
 msgid "Government Proposals"
@@ -3511,7 +3520,7 @@ msgstr "Helmet"
 msgid "Help <0>{count}</0> MU members"
 msgstr "Help <0>{count}</0> MU members"
 
-#: src/components/_military/mu/MuMemberList.tsx:373
+#: src/components/_military/mu/MuMemberList.tsx:375
 msgid "Help for Mu"
 msgstr "Help for Mu"
 
@@ -3541,7 +3550,7 @@ msgstr "Hit <0>{count}</0> times in battles"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:58
-#: src/components/_user/user/UserHeader.tsx:150
+#: src/components/_user/user/UserHeader.tsx:151
 msgid "Home"
 msgstr "Home"
 
@@ -3569,6 +3578,10 @@ msgstr "I heard buying premium boost your chances :3"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:81
 msgid "I'm proud of you"
 msgstr "I'm proud of you"
+
+#: src/components/_political/government/NominateForm.tsx:58
+msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
+msgstr "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:51
 msgid "Imagine if you stop right before the Mythic"
@@ -3666,9 +3679,9 @@ msgstr "Industrialist"
 msgid "Initiate"
 msgstr "Initiate"
 
-#: src/components/_layout/LayoutMenu.tsx:126
+#: src/components/_layout/LayoutMenu.tsx:125
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:156
+#: src/components/_user/user/UserHeader.tsx:157
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
@@ -3778,11 +3791,11 @@ msgstr "Keep fighting!"
 msgid "Keep in current company"
 msgstr "Keep in current company"
 
-#: src/components/_military/mu/MuMemberList.tsx:426
+#: src/components/_military/mu/MuMemberList.tsx:428
 msgid "Kick"
 msgstr "Kick"
 
-#: src/components/_military/mu/MuMemberList.tsx:138
+#: src/components/_military/mu/MuMemberList.tsx:139
 msgid "Kick Member"
 msgstr "Kick Member"
 
@@ -3802,6 +3815,10 @@ msgstr "Land <0>{count}</0> critical hits"
 #: src/components/_user/auth/WelcomeModal.tsx:132
 msgid "Language"
 msgstr "Language"
+
+#: src/components/_user/badgeCollection/Badge.tsx:63
+msgid "Last earned: <0/>"
+msgstr "Last earned: <0/>"
 
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
@@ -3955,7 +3972,7 @@ msgstr "Limestone"
 msgid "Limit of food consumption"
 msgstr "Limit of food consumption"
 
-#: src/components/_user/user/SkillValue.tsx:89
+#: src/components/_user/user/SkillValue.tsx:88
 msgid "Limited:"
 msgstr "Limited:"
 
@@ -4079,7 +4096,7 @@ msgid "Map options"
 msgstr "Map options"
 
 #: src/components/_economy/market/MarketHeader.tsx:43
-#: src/components/_layout/LayoutMenu.tsx:166
+#: src/components/_layout/LayoutMenu.tsx:165
 msgid "Market"
 msgstr "Market"
 
@@ -4167,15 +4184,15 @@ msgstr "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgid "Member Applications"
 msgstr "Member Applications"
 
-#: src/components/_military/mu/MuMemberList.tsx:115
+#: src/components/_military/mu/MuMemberList.tsx:116
 msgid "Member demoted from commander"
 msgstr "Member demoted from commander"
 
-#: src/components/_military/mu/MuMemberList.tsx:107
+#: src/components/_military/mu/MuMemberList.tsx:108
 msgid "Member kicked successfully"
 msgstr "Member kicked successfully"
 
-#: src/components/_military/mu/MuMemberList.tsx:111
+#: src/components/_military/mu/MuMemberList.tsx:112
 msgid "Member promoted to commander"
 msgstr "Member promoted to commander"
 
@@ -4230,7 +4247,7 @@ msgstr "Military Rank"
 msgid "Military Rank Up!"
 msgstr "Military Rank Up!"
 
-#: src/components/_user/user/SkillValue.tsx:185
+#: src/components/_user/user/SkillValue.tsx:184
 msgid "Military rank:"
 msgstr "Military rank:"
 
@@ -4262,15 +4279,15 @@ msgstr "Min. active citizens"
 msgid "Minimum reputation to accept"
 msgstr "Minimum reputation to accept"
 
-#: src/components/_political/government/Government.tsx:68
+#: src/components/_political/government/Government.tsx:70
 msgid "Minister of Defense"
 msgstr "Minister of Defense"
 
-#: src/components/_political/government/Government.tsx:76
+#: src/components/_political/government/Government.tsx:78
 msgid "Minister of Economy"
 msgstr "Minister of Economy"
 
-#: src/components/_political/government/Government.tsx:84
+#: src/components/_political/government/Government.tsx:86
 msgid "Minister of Foreign Affairs"
 msgstr "Minister of Foreign Affairs"
 
@@ -4316,7 +4333,7 @@ msgstr "Money won"
 msgid "Money Won"
 msgstr "Money Won"
 
-#: src/components/_military/mu/MuMemberList.tsx:190
+#: src/components/_military/mu/MuMemberList.tsx:191
 msgid "Monthly"
 msgstr "Monthly"
 
@@ -4324,8 +4341,8 @@ msgstr "Monthly"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Monthly damages: <0>{monthlyDamages}</0>"
 
-#: src/components/_military/mu/MuMemberList.tsx:353
-#: src/components/_military/mu/MuMemberList.tsx:388
+#: src/components/_military/mu/MuMemberList.tsx:355
+#: src/components/_military/mu/MuMemberList.tsx:390
 msgid "Monthly:"
 msgstr "Monthly:"
 
@@ -4375,7 +4392,7 @@ msgstr "Move to top"
 msgid "Moved to a new company"
 msgstr "Moved to a new company"
 
-#: src/components/_layout/LayoutMenu.tsx:138
+#: src/components/_layout/LayoutMenu.tsx:137
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
 msgstr "MU"
@@ -4404,7 +4421,7 @@ msgstr "MU Level Up!"
 msgid "MU Monthly Levels"
 msgstr "MU Monthly Levels"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:46
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:59
 msgid "MU Orders"
 msgstr "MU Orders"
 
@@ -4681,15 +4698,11 @@ msgstr "No donations yet"
 msgid "No ground ranking yet."
 msgstr "No ground ranking yet."
 
-#: src/components/_user/user/UserEquippedSkins.tsx:192
-msgid "No items equipped"
-msgstr "No items equipped"
-
 #: src/components/_political/law/LawList.tsx:72
 msgid "No laws yet"
 msgstr "No laws yet"
 
-#: src/components/_military/mu/MuMemberList.tsx:179
+#: src/components/_military/mu/MuMemberList.tsx:180
 msgid "No members in this military unit."
 msgstr "No members in this military unit."
 
@@ -4722,10 +4735,10 @@ msgid "No offers found"
 msgstr "No offers found"
 
 #: src/components/_political/government/Government.tsx:177
-msgid "No one nominated yet."
-msgstr "No one nominated yet."
+msgid "No one nominated yet"
+msgstr "No one nominated yet"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:96
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:109
 msgid "No orders"
 msgstr "No orders"
 
@@ -4733,7 +4746,7 @@ msgstr "No orders"
 msgid "No parties found"
 msgstr "No parties found"
 
-#: src/components/_political/government/Government.tsx:55
+#: src/components/_political/government/Government.tsx:57
 msgid "No president"
 msgstr "No president"
 
@@ -4749,7 +4762,7 @@ msgstr "No referrals yet"
 msgid "No referrer yet"
 msgstr "No referrer yet"
 
-#: src/components/_user/user/UserEquippedSkins.tsx:113
+#: src/components/_user/user/UserEquippedSkins.tsx:139
 msgid "No skins equipped"
 msgstr "No skins equipped"
 
@@ -4773,12 +4786,12 @@ msgstr "No wars found"
 msgid "No work offers"
 msgstr "No work offers"
 
-#: src/components/_political/government/Government.tsx:185
-#: src/components/_political/government/NominateForm.tsx:59
+#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Nominate"
 
-#: src/components/_political/government/Government.tsx:196
+#: src/components/_political/government/Government.tsx:223
 msgid "Nominate a {title}"
 msgstr "Nominate a {title}"
 
@@ -4851,7 +4864,7 @@ msgstr "Only presidents can register their country"
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Only supporters can see their spending and income breakdown."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:516
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:528
 msgid "Open"
 msgstr "Open"
 
@@ -4860,7 +4873,7 @@ msgid "Open <0>{count}</0>"
 msgstr "Open <0>{count}</0>"
 
 #: src/components/_economy/inventory/case/OpenCaseModal.tsx:87
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:536
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:548
 msgid "Open case"
 msgstr "Open case"
 
@@ -4933,7 +4946,7 @@ msgstr "Other"
 msgid "Outcome"
 msgstr "Outcome"
 
-#: src/components/_user/user/SkillValue.tsx:153
+#: src/components/_user/user/SkillValue.tsx:152
 msgid "Overflow:"
 msgstr "Overflow:"
 
@@ -4950,7 +4963,7 @@ msgstr "Owned"
 msgid "Owned Military Units"
 msgstr "Owned Military Units"
 
-#: src/components/_military/mu/MuMemberList.tsx:319
+#: src/components/_military/mu/MuMemberList.tsx:321
 msgid "Owner"
 msgstr "Owner"
 
@@ -4958,7 +4971,7 @@ msgstr "Owner"
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "Ownership of <0/> has been transferred from <1/> to <2/>"
 
-#: src/components/_military/mu/MuMemberList.tsx:119
+#: src/components/_military/mu/MuMemberList.tsx:120
 msgid "Ownership transferred successfully"
 msgstr "Ownership transferred successfully"
 
@@ -5202,7 +5215,7 @@ msgstr "Premium gift sent"
 msgid "Premium has started working"
 msgstr "Premium has started working"
 
-#: src/components/_political/government/Government.tsx:51
+#: src/components/_political/government/Government.tsx:53
 msgid "President"
 msgstr "President"
 
@@ -5314,8 +5327,8 @@ msgstr "Production is full"
 msgid "Profile"
 msgstr "Profile"
 
-#: src/components/_military/mu/MuMemberList.tsx:145
-#: src/components/_military/mu/MuMemberList.tsx:432
+#: src/components/_military/mu/MuMemberList.tsx:146
+#: src/components/_military/mu/MuMemberList.tsx:434
 msgid "Promote to Commander"
 msgstr "Promote to Commander"
 
@@ -5323,7 +5336,7 @@ msgstr "Promote to Commander"
 msgid "Promoted to Commander"
 msgstr "Promoted to Commander"
 
-#: src/components/_military/battle/BattleSideContractsModal.tsx:48
+#: src/components/_military/battle/BattleSideContractsModal.tsx:45
 #: src/pages/battle/[battleId]/contracts.tsx:34
 msgid "Proposals"
 msgstr "Proposals"
@@ -5467,7 +5480,7 @@ msgid "Reach Military Rank 5"
 msgstr "Reach Military Rank 5"
 
 #. placeholder {0}: leveling.level + 1
-#: src/components/_user/user/Level.tsx:108
+#: src/components/_user/user/Level.tsx:111
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 
@@ -5524,7 +5537,7 @@ msgstr "Reduces health lost when fighting in battles"
 msgid "Referral link copied to clipboard"
 msgstr "Referral link copied to clipboard"
 
-#: src/components/_user/user/UserHeader.tsx:210
+#: src/components/_user/user/UserHeader.tsx:211
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:219
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -5696,9 +5709,21 @@ msgstr "Rename"
 msgid "Rename company"
 msgstr "Rename company"
 
+#: src/components/_political/government/Government.tsx:192
+msgid "Replace"
+msgstr "Replace"
+
+#: src/components/_political/government/Government.tsx:223
+msgid "Replace {title}"
+msgstr "Replace {title}"
+
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:80
 msgid "Replace all party ethics with a new configuration"
 msgstr "Replace all party ethics with a new configuration"
+
+#: src/components/_political/government/NominateForm.tsx:57
+msgid "Replacing a member"
+msgstr "Replacing a member"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:59
 msgid "Report"
@@ -5737,7 +5762,7 @@ msgstr "Required Reputation (optional)"
 msgid "Reroll Mission"
 msgstr "Reroll Mission"
 
-#: src/pages/user/[userId]/skills.tsx:161
+#: src/pages/user/[userId]/skills.tsx:166
 msgid "Reset"
 msgstr "Reset"
 
@@ -5761,7 +5786,7 @@ msgstr "Reset Username"
 msgid "Reshuffle in"
 msgstr "Reshuffle in"
 
-#: src/components/_military/hit/HitButton.tsx:386
+#: src/components/_military/hit/HitButton.tsx:381
 msgid "Resist"
 msgstr "Resist"
 
@@ -5814,11 +5839,15 @@ msgstr "Revolution started"
 msgid "Revolution started!"
 msgstr "Revolution started!"
 
+#: src/components/_user/badgeCollection/Badge.tsx:53
+msgid "Reward"
+msgstr "Reward"
+
 #: src/utils/translations.tsx:24
 msgid "Rifle"
 msgstr "Rifle"
 
-#: src/components/_political/government/Government.tsx:136
+#: src/components/_political/government/Government.tsx:140
 msgid "Rights"
 msgstr "Rights"
 
@@ -5898,7 +5927,7 @@ msgstr "Running low on health?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:69
 #: src/components/_user/auth/WelcomeModal.tsx:162
-#: src/pages/user/[userId]/skills.tsx:205
+#: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Save"
 
@@ -5934,7 +5963,7 @@ msgstr "Search countries..."
 msgid "Search recipient username..."
 msgstr "Search recipient username..."
 
-#: src/components/_political/government/NominateForm.tsx:47
+#: src/components/_political/government/NominateForm.tsx:53
 msgid "Search username to nominate..."
 msgstr "Search username to nominate..."
 
@@ -6134,7 +6163,7 @@ msgid "Set your username"
 msgstr "Set your username"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:216
+#: src/components/_user/user/UserHeader.tsx:217
 msgid "Settings"
 msgstr "Settings"
 
@@ -6155,15 +6184,15 @@ msgstr "Show more"
 msgid "Show only articles with positive score (score >= -5)"
 msgstr "Show only articles with positive score (score >= -5)"
 
-#: src/components/_military/mu/MuMemberList.tsx:198
+#: src/components/_military/mu/MuMemberList.tsx:199
 msgid "Showing monthly"
 msgstr "Showing monthly"
 
-#: src/components/_military/mu/MuMemberList.tsx:197
+#: src/components/_military/mu/MuMemberList.tsx:198
 msgid "Showing total"
 msgstr "Showing total"
 
-#: src/components/_military/mu/MuMemberList.tsx:199
+#: src/components/_military/mu/MuMemberList.tsx:200
 msgid "Showing weekly"
 msgstr "Showing weekly"
 
@@ -6171,12 +6200,12 @@ msgstr "Showing weekly"
 msgid "Skill issue?"
 msgstr "Skill issue?"
 
-#: src/components/_user/user/SkillValue.tsx:46
+#: src/components/_user/user/SkillValue.tsx:45
 msgid "Skill upgrade:"
 msgstr "Skill upgrade:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:171
+#: src/components/_user/user/UserHeader.tsx:172
 #: src/pages/user/[userId]/index.tsx:157
 msgid "Skills"
 msgstr "Skills"
@@ -6185,7 +6214,7 @@ msgstr "Skills"
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Skills make you stronger. Let's boost your abilities!"
 
-#: src/pages/user/[userId]/skills.tsx:53
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "Skills saved!"
 
@@ -6218,7 +6247,7 @@ msgstr "Skins"
 msgid "Skins in this pack"
 msgstr "Skins in this pack"
 
-#: src/components/_other/tour/TutorialStep.tsx:174
+#: src/components/_other/tour/TutorialStep.tsx:181
 msgid "Skip Tutorial"
 msgstr "Skip Tutorial"
 
@@ -6621,6 +6650,10 @@ msgstr "This law has an additional variable cost"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 
+#: src/components/_political/government/Government.tsx:209
+msgid "This member won't be able to be nominated again for {cooldownDays} days."
+msgstr "This member won't be able to be nominated again for {cooldownDays} days."
+
 #: src/pages/region/[regionId]/index.tsx:177
 msgid "This region is not linked to it's owner's capital."
 msgstr "This region is not linked to its owner's capital."
@@ -6785,14 +6818,14 @@ msgstr "total"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:153
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/work/WorkChart.tsx:198
-#: src/components/_military/mu/MuMemberList.tsx:189
+#: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
 #: src/pages/market/index.tsx:202
 msgid "Total"
 msgstr "Total"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:474
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:486
 msgid "Total cases opened"
 msgstr "Total cases opened"
 
@@ -6808,9 +6841,13 @@ msgstr "Total damages"
 msgid "Total Donated:"
 msgstr "Total Donated:"
 
-#: src/components/_military/mu/MuMemberList.tsx:359
-#: src/components/_military/mu/MuMemberList.tsx:399
-#: src/components/_user/user/SkillValue.tsx:216
+#: src/components/_user/badgeCollection/Badge.tsx:57
+msgid "Total reward"
+msgstr "Total reward"
+
+#: src/components/_military/mu/MuMemberList.tsx:361
+#: src/components/_military/mu/MuMemberList.tsx:401
+#: src/components/_user/user/SkillValue.tsx:215
 msgid "Total:"
 msgstr "Total:"
 
@@ -6832,7 +6869,7 @@ msgstr "Tournament Eliminated"
 msgid "Tournament Ended"
 msgstr "Tournament Ended"
 
-#: src/components/_user/user/SkillValue.tsx:117
+#: src/components/_user/user/SkillValue.tsx:116
 msgid "Tournament reward:"
 msgstr "Tournament reward:"
 
@@ -6861,7 +6898,7 @@ msgstr "Trading"
 msgid "Trainee"
 msgstr "Trainee"
 
-#: src/components/_user/user/UserHeader.tsx:190
+#: src/components/_user/user/UserHeader.tsx:191
 msgid "Transac."
 msgstr "Transac."
 
@@ -6875,7 +6912,7 @@ msgstr "Transactions"
 msgid "Transfer money"
 msgstr "Transfer money"
 
-#: src/components/_military/mu/MuMemberList.tsx:160
+#: src/components/_military/mu/MuMemberList.tsx:161
 msgid "Transfer Ownership"
 msgstr "Transfer Ownership"
 
@@ -6941,7 +6978,7 @@ msgstr "Unlock Produce all button"
 msgid "Unlocked pack"
 msgstr "Unlocked pack"
 
-#: src/components/_user/user/UserHeader.tsx:407
+#: src/components/_user/user/UserHeader.tsx:408
 msgid "Unmuted <0/>"
 msgstr "Unmuted <0/>"
 
@@ -7011,7 +7048,7 @@ msgstr "Upgrade to supporter"
 msgid "Upgrade your skills <0>{count}</0> times"
 msgstr "Upgrade your skills <0>{count}</0> times"
 
-#: src/pages/user/[userId]/skills.tsx:143
+#: src/pages/user/[userId]/skills.tsx:148
 msgid "Upgrade your skills!"
 msgstr "Upgrade your skills!"
 
@@ -7110,7 +7147,7 @@ msgstr "User removed from family group"
 msgid "User unblocked"
 msgstr "User unblocked"
 
-#: src/components/_political/government/NominateForm.tsx:44
+#: src/components/_political/government/NominateForm.tsx:50
 #: src/components/_user/auth/WelcomeModal.tsx:143
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
@@ -7219,7 +7256,7 @@ msgstr "Verifying CAPTCHA..."
 msgid "Vice Admiral"
 msgstr "Vice Admiral"
 
-#: src/components/_political/government/Government.tsx:60
+#: src/components/_political/government/Government.tsx:62
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Vice President"
@@ -7318,7 +7355,7 @@ msgstr "Wealth"
 msgid "Weapon"
 msgstr "Weapon"
 
-#: src/components/_user/user/SkillValue.tsx:59
+#: src/components/_user/user/SkillValue.tsx:58
 msgid "Weapon:"
 msgstr "Weapon:"
 
@@ -7326,7 +7363,7 @@ msgstr "Weapon:"
 msgid "Weapons"
 msgstr "Weapons"
 
-#: src/components/_military/mu/MuMemberList.tsx:191
+#: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:203
 msgid "Weekly"
 msgstr "Weekly"
@@ -7343,8 +7380,8 @@ msgstr "Weekly damages"
 msgid "Weekly Missions Reset"
 msgstr "Weekly Missions Reset"
 
-#: src/components/_military/mu/MuMemberList.tsx:347
-#: src/components/_military/mu/MuMemberList.tsx:377
+#: src/components/_military/mu/MuMemberList.tsx:349
+#: src/components/_military/mu/MuMemberList.tsx:379
 msgid "Weekly:"
 msgstr "Weekly:"
 
@@ -7398,7 +7435,7 @@ msgstr "Wizard Hat"
 msgid "Won by"
 msgstr "Won by"
 
-#: src/components/_economy/company/WorkButton.tsx:239
+#: src/components/_economy/company/WorkButton.tsx:238
 #: src/components/_user/mission/mission.frontConfig.tsx:76
 msgid "Work"
 msgstr "Work"
@@ -7531,7 +7568,7 @@ msgstr "You can dismantle items from your inventory by selecting an item."
 msgid "You can optionally link a campaign article to your candidacy."
 msgstr "You can optionally link a campaign article to your candidacy."
 
-#: src/components/_user/user/Level.tsx:82
+#: src/components/_user/user/Level.tsx:85
 msgid "You can upgrade your skills!"
 msgstr "You can upgrade your skills!"
 
@@ -7755,6 +7792,10 @@ msgstr "You were elected as president of your country"
 msgid "You were here at the beginning of War Era"
 msgstr "You were here at the beginning of War Era"
 
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:233
+msgid "You were nominated as a government member of a country"
+msgstr "You were nominated as a government member of a country"
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:67
 msgid "You were nominated as vice president of your country"
 msgstr "You were nominated as vice president of your country"
@@ -7816,7 +7857,7 @@ msgstr "You're peaking"
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "You've completed some missions! Let's collect your XP rewards."
 
-#: src/components/_user/user/Level.tsx:122
+#: src/components/_user/user/Level.tsx:125
 msgid "You've reached max level!"
 msgstr "You've reached max level!"
 
@@ -7886,7 +7927,7 @@ msgstr "Your daily missions have been reset! Complete them to earn rewards."
 msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 msgstr "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 
-#: src/components/_military/hit/HitButton.tsx:341
+#: src/components/_military/hit/HitButton.tsx:336
 msgid "Your damages"
 msgstr "Your damages"
 
