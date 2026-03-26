@@ -1489,7 +1489,7 @@ msgstr "Atac"
 msgid "Attacker"
 msgstr "Agresor"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:77
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:78
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:166
 msgid "Attackers"
 msgstr "Atacatori"
@@ -1615,7 +1615,7 @@ msgstr "Bătălia s-a încheiat"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:41
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:42
 msgid "Battle loots"
 msgstr ""
 
@@ -2659,7 +2659,7 @@ msgstr "Apără"
 msgid "Defender"
 msgstr "Apărător"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:62
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:63
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:158
 msgid "Defenders"
 msgstr "Apărători"
@@ -3078,8 +3078,8 @@ msgstr ""
 msgid "Events"
 msgstr "Noutăți"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:44
-msgid "Every <0/> damage dealt by a side adds a random item to its round loot pool. On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool. Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on."
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:45
+msgid "Every <0/> damage dealt by a side rolls a <1/> into its round loot pool. On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool. Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on."
 msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
@@ -4054,7 +4054,7 @@ msgstr "Cutii găsite"
 msgid "Looted money"
 msgstr "Bani găsiți"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:57
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:58
 msgid "Loots"
 msgstr ""
 
