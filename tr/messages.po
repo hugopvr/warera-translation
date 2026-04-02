@@ -43,14 +43,14 @@ msgid "{0} active citizens required"
 msgstr "{0} aktif vatandaş gerektirir"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
-#: src/components/_user/notification/notification.frontConfig.tsx:634
+#: src/components/_user/notification/notification.frontConfig.tsx:484
 msgid "{0} bought your item offer"
 msgstr "{0} eşyanı satın aldı"
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:1826
+#: src/components/_user/notification/notification.frontConfig.tsx:1601
 msgid "{0} created a mercenary contract proposal targeting <0/> in <1/>"
-msgstr ""
+msgstr "{0}, <1/> bölgesinde <0/> hedefleyen bir paralı asker sözleşme teklifi oluşturdu"
 
 #. placeholder {0}: Math.floor(cooldownHours / 24)
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:144
@@ -70,7 +70,7 @@ msgid "{0} hours"
 msgstr "{0} saat"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
-#: src/components/_user/notification/notification.frontConfig.tsx:657
+#: src/components/_user/notification/notification.frontConfig.tsx:507
 msgid "{0} proposed a law, check it out!"
 msgstr "{0} bir yasa sundu, göz at!"
 
@@ -148,14 +148,14 @@ msgstr "*Alev alabilir"
 
 #: src/components/_political/government/Government.tsx:197
 msgid "/day"
-msgstr ""
+msgstr "/gün"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1724
+#: src/components/_user/notification/notification.frontConfig.tsx:1499
 msgid "<0/> accepted a contract"
-msgstr ""
+msgstr "<0/> bir sözleşmeyi kabul etti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:420
-#: src/components/_user/notification/notification.frontConfig.tsx:1251
+#: src/components/_user/notification/notification.frontConfig.tsx:377
+#: src/components/_user/notification/notification.frontConfig.tsx:1068
 msgid "<0/> applied to join <1/>"
 msgstr "<0/>, <1/> için katılım başvurusunda bulundu."
 
@@ -170,19 +170,19 @@ msgstr "<0/>, <1>{0}</1> maaşla.{1}"
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/>, <2>{0}</2> karşılığında <1/> bölgeni satın alıyor"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1767
+#: src/components/_user/notification/notification.frontConfig.tsx:1542
 msgid "<0/> cancelled the contract"
-msgstr ""
+msgstr "<0/> sözleşmeyi iptal etti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:944
+#: src/components/_user/notification/notification.frontConfig.tsx:770
 msgid "<0/> commented on your article <1/>"
 msgstr "<0/>, <1/> makalene yorum yaptı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1745
+#: src/components/_user/notification/notification.frontConfig.tsx:1520
 msgid "<0/> completed a contract"
-msgstr ""
+msgstr "<0/> bir sözleşmeyi tamamladı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:850
+#: src/components/_user/notification/notification.frontConfig.tsx:663
 msgid "<0/> conquered the region in <1/>"
 msgstr "<0/>, <1/> bölgesini fethetti"
 
@@ -192,136 +192,130 @@ msgstr "<0/> sohbet başlattı"
 
 #: src/components/_political/event/event.frontConfig.tsx:174
 msgid "<0/> declared war on <1/>"
-msgstr ""
+msgstr "<0/>, <1/> üzerine savaş ilan etti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:845
+#: src/components/_user/notification/notification.frontConfig.tsx:658
 msgid "<0/> defended in <1/>"
 msgstr "<0/> <1/> bölgesini savundu"
 
 #. placeholder {0}: data.amount
-#: src/components/_user/notification/notification.frontConfig.tsx:434
-#: src/components/_user/notification/notification.frontConfig.tsx:1325
+#: src/components/_user/notification/notification.frontConfig.tsx:1142
 msgid "<0/> donated <1>{0}</1> to <2/>"
 msgstr "<0/> tarafından <2/> için <1>{0}</1> bağışlandı."
 
 #: src/components/_political/event/event.frontConfig.tsx:142
 msgid "<0/> financed a resistance war for <1/> in <2/>"
-msgstr ""
+msgstr "<0/>, <2/> bölgesinde <1/> için bir direniş savaşı finanse etti"
 
 #: src/components/_political/event/event.frontConfig.tsx:149
 msgid "<0/> financed a revolt in <1/>"
-msgstr ""
+msgstr "<0/>, <1/> bölgesinde bir isyan finanse etti"
 
 #: src/components/_political/event/event.frontConfig.tsx:445
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
-msgstr ""
-
-#. placeholder {0}: data.wage
-#: src/components/_user/notification/notification.frontConfig.tsx:574
-msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
-msgstr "<0/> sizi <2/> şirketindeki <1>{0}</1> maaşlı işinizden kovdu"
+msgstr "<0/>, <3/> karşısında <1/> bölgesinde <2/> için bir isyan finanse etti"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:48
 msgid "<0/> gifted a sub to <1/>"
 msgstr "<0/>, <1/> için premium abonelik hediye etti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1188
+#: src/components/_user/notification/notification.frontConfig.tsx:1005
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> sana premium abonelik hediye etti!"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1668
+#: src/components/_user/notification/notification.frontConfig.tsx:1443
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "<0/> sana \"{0}\" bannerını hediye etti!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1902
+#: src/components/_user/notification/notification.frontConfig.tsx:1677
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
 msgstr "<0/>, sana “{skinTitle}” kostümünü hediye etti!"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1965
+#: src/components/_user/notification/notification.frontConfig.tsx:1740
 msgid "<0/> gifted you the skin pack \"{0}\"!"
 msgstr "<0/>, sana \\“{0}\\” kostüm paketini hediye etti!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1498
+#: src/components/_user/notification/notification.frontConfig.tsx:1296
 msgid "<0/> has been created, it gonna start soon!"
 msgstr "<0/> oluşturuldu, yakında başlayacak!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:232
+#: src/components/_user/notification/notification.frontConfig.tsx:210
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/>, <1/> ülkesinin başkanı seçildi"
 
 #. placeholder {0}: data.amount
 #: src/components/_political/event/event.frontConfig.tsx:210
 msgid "<0/> has bought <1/> from <2/> for <3>{0}</3>"
-msgstr ""
+msgstr "<0/>, <3>{0}</3> karşılığında <2/> üzerinden <1/> satın aldı"
 
 #: src/components/_political/event/event.frontConfig.tsx:326
 msgid "<0/> has broken their alliance with <1/>"
-msgstr ""
+msgstr "<0/>, <1/> ile olan ittifakını bozdu"
 
 #: src/components/_political/event/event.frontConfig.tsx:97
 msgid "<0/> has conquered <1/> against <2/>"
-msgstr ""
+msgstr "<0/>, <2/> karşısında <1/> bölgesini fethetti"
 
 #: src/components/_political/event/event.frontConfig.tsx:116
 msgid "<0/> has defended <1/> against <2/>"
-msgstr ""
+msgstr "<0/>, <2/> karşısında <1/> bölgesini savundu"
 
 #: src/components/_political/event/event.frontConfig.tsx:452
 msgid "<0/> has financed a revolt in <1/> for <2/> against <3/>"
-msgstr ""
+msgstr "<0/>, <3/> karşısında <1/> bölgesinde <2/> için bir isyan finanse etti"
 
 #: src/components/_political/event/event.frontConfig.tsx:369
 msgid "<0/> has financed resistance in <1/>"
-msgstr ""
+msgstr "<0/>, <1/> bölgesindeki direnişi finanse etti"
 
 #: src/components/_political/event/event.frontConfig.tsx:311
 msgid "<0/> has formed an alliance with <1/>"
-msgstr ""
+msgstr "<0/>, <1/> ile ittifak kurdu"
 
 #: src/components/_political/event/event.frontConfig.tsx:226
 msgid "<0/> has liberated <1/> and returned it to <2/>"
-msgstr ""
+msgstr "<0/>, <1/> bölgesini özgürleştirdi ve <2/> ye iade etti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1105
+#: src/components/_user/notification/notification.frontConfig.tsx:931
 msgid "<0/> has started a revolution in <1/>"
 msgstr "<1/> ülkesinde <0/> tarafından bir ihtilâl mücadelesi başlatıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1511
+#: src/components/_user/notification/notification.frontConfig.tsx:1309
 msgid "<0/> has started! Let the battles begin!"
 msgstr "<0/> başladı! Savaşlar başlasın!"
 
 #: src/components/_political/event/event.frontConfig.tsx:383
 msgid "<0/> has suppressed resistance in <1/>"
-msgstr ""
+msgstr "<0/>, <1/> bölgesindeki direnişi bastırdı"
 
 #. placeholder {0}: data.money
 #: src/components/_political/event/event.frontConfig.tsx:253
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
-msgstr ""
+msgstr "<0/>, <2/> ye <1>{0}</1> transfer etti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1061
+#: src/components/_user/notification/notification.frontConfig.tsx:887
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "<0/>, <2/> bölgesinde <1/> ülkesine saldırı düzenlenliyor"
 
 #: src/components/_political/event/event.frontConfig.tsx:160
 msgid "<0/> is attacking in <1/>"
-msgstr ""
+msgstr "<0/>, <1/> bölgesine saldırıyor"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1047
+#: src/components/_user/notification/notification.frontConfig.tsx:873
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/>, <1/> bölgesinde ülkene saldırıyor"
 
 #: src/components/_political/event/event.frontConfig.tsx:298
 msgid "<0/> is in bankruptcy. Removing all alliances and disabling every region upgrades."
-msgstr ""
+msgstr "<0/> iflas etti. Tüm ittifaklar kaldırılıyor ve tüm bölge yükseltmeleri devre dışı bırakılıyor."
 
 #: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> is revolting in <1/>"
-msgstr ""
+msgstr "<0/>, <1/> bölgesinde isyan ediyor"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1076
+#: src/components/_user/notification/notification.frontConfig.tsx:902
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> <1/> bölgesinde ülkene karşı isyan ediyor"
 
@@ -329,12 +323,12 @@ msgstr "<0/> <1/> bölgesinde ülkene karşı isyan ediyor"
 msgid "<0/> joined the conversation"
 msgstr "<0/> sohbete katıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:714
+#: src/components/_user/notification/notification.frontConfig.tsx:546
 msgid "<0/> joined the game with your referral link!"
 msgstr "<0/>, davet bağlantını kullanarak oyuna katıldı!"
 
 #. placeholder {0}: data.wage
-#: src/components/_user/notification/notification.frontConfig.tsx:543
+#: src/components/_user/notification/notification.frontConfig.tsx:408
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> <2>{0}</2> maaşla <1/> şirketine katıldı"
 
@@ -343,7 +337,7 @@ msgid "<0/> kicked <1/> from the conversation"
 msgstr "<0/>, <1/> isimli oyuncuyu sohbetten çıkardı"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
-#: src/components/_user/notification/notification.frontConfig.tsx:559
+#: src/components/_user/notification/notification.frontConfig.tsx:424
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> {0} şirketindeki işinden ayrıldı"
 
@@ -351,19 +345,19 @@ msgstr "<0/> {0} şirketindeki işinden ayrıldı"
 msgid "<0/> left the conversation"
 msgstr "<0/> sohbeti terk etti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:929
+#: src/components/_user/notification/notification.frontConfig.tsx:755
 msgid "<0/> liked your article <1/>"
 msgstr "<0/> makaleni beğendi <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:992
+#: src/components/_user/notification/notification.frontConfig.tsx:818
 msgid "<0/> liked your message <1/>"
 msgstr "<0/> mesajını beğendi <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:241
 msgid "<0/> made peace with <1/>"
-msgstr ""
+msgstr "<0/>, <1/> ile barış yaptı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1367
+#: src/components/_user/notification/notification.frontConfig.tsx:1184
 msgid "<0/> mentioned you in a message <1/>"
 msgstr "<0/> senden mesajında bahsetti <1/>"
 
@@ -371,35 +365,35 @@ msgstr "<0/> senden mesajında bahsetti <1/>"
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> Öncelik hakkı <1/> saat sonra sona erecek"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:913
+#: src/components/_user/notification/notification.frontConfig.tsx:739
 msgid "<0/> published a new article"
 msgstr "<0/> yeni bir makale yayınladı"
 
 #. placeholder {0}: data.level
-#: src/components/_user/notification/notification.frontConfig.tsx:1352
+#: src/components/_user/notification/notification.frontConfig.tsx:1169
 msgid "<0/> reached level {0}!"
-msgstr ""
+msgstr "<0/>, {0}. seviyeye ulaştı!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:725
+#: src/components/_user/notification/notification.frontConfig.tsx:557
 msgid "<0/> referred you to the game."
 msgstr "<0/> seni oyuna davet etti."
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
-#: src/components/_user/notification/notification.frontConfig.tsx:1019
+#: src/components/_user/notification/notification.frontConfig.tsx:845
 msgid "<0/> responded to your message {0}"
 msgstr "<0/> mesajına yanıt verdi {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:978
+#: src/components/_user/notification/notification.frontConfig.tsx:804
 msgid "<0/> subscribed to you on your article <1/>"
 msgstr "<0/> <1/> makalende sana abone oldu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:959
+#: src/components/_user/notification/notification.frontConfig.tsx:785
 msgid "<0/> tipped your article <1/>"
 msgstr "<0/> <1/> makalene bahşiş verdi"
 
 #: src/components/_political/event/event.frontConfig.tsx:196
 msgid "<0/> took control of <1/>"
-msgstr ""
+msgstr "<0/>, <1/> bölgesinin kontrolünü ele geçirdi"
 
 #: src/components/_military/war/WarHeader.tsx:28
 msgid "<0/> vs <1/> war"
@@ -411,10 +405,10 @@ msgstr "<0/> ülkenle barış yapmak istiyor"
 
 #: src/components/_political/event/event.frontConfig.tsx:191
 msgid "<0/> was elected president of <1/>"
-msgstr ""
+msgstr "<0/>, <1/> cumhurbaşkanı seçildi"
 
 #. placeholder {0}: ts[data.governmentRole]
-#: src/components/_user/notification/notification.frontConfig.tsx:691
+#: src/components/_user/notification/notification.frontConfig.tsx:523
 msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> <1>{0}</1> olarak atandı"
 
@@ -429,17 +423,17 @@ msgstr "<0/> turu kazandı {0}"
 msgid "<0/> won the battle ({0}-{1})"
 msgstr "<0/> cepheden galip geldi ({0}-{1})"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:377
+#: src/components/_user/notification/notification.frontConfig.tsx:334
 msgid "<0/> won the primary election in <1/> and can now run for president!"
 msgstr "<1/> partisindeki ön seçimi <0/> kazandı ve artık başkanlık yarışına katılabilir!"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:809
+#: src/components/_user/notification/notification.frontConfig.tsx:622
 msgid "<0/> won the round <1>#{0}</1> in <2/>"
 msgstr "<0/>, <2/> savaşında <1>#{0}</1>. turu kazandı"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:815
+#: src/components/_user/notification/notification.frontConfig.tsx:628
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/>, <2/> savaşında <1>#{0}</1>. turu kazandı!"
 
@@ -462,7 +456,7 @@ msgstr "<0/> öncelik hakkı <1/> içinde sona erecek"
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
 msgid "<0>-{0}%</0> Resistance growth per hour"
-msgstr ""
+msgstr "<0>-{0}%</0> Saatlik direniş artışı"
 
 #. placeholder {0}: companiesIds?.length ?? 0
 #. placeholder {1}: companiesLimit ?? 99
@@ -495,7 +489,7 @@ msgstr "<1/> ülkesinin baş düşmanına karşı <0>{0}</0>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "<0>{0}</0> Attack bonus"
-msgstr ""
+msgstr "<0>{0}</0> Saldırı bonusu"
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:166
@@ -515,7 +509,7 @@ msgstr "<1/> <2/> bölgelerinden en az birini işgal ettiği için <0>{0}</0>"
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus"
-msgstr ""
+msgstr "<0>{0}</0> Savunma bonusu"
 
 #. placeholder {0}: sideBonus.regionAttackBonusPercent
 #. placeholder {0}: sideBonus.regionDefenseBonusPercent
@@ -592,7 +586,7 @@ msgstr "Bir tur kazanmak için <0>{0}</0> toprak gerekli, puanlar her tikte kaza
 #. placeholder {0}: levelConfig.stats.maxProduction
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
 msgid "<0>{0}</0> Storage capacity"
-msgstr ""
+msgstr "<0>{0}</0> Depolama kapasitesi"
 
 #. placeholder {0}: -lawConfig.maintenanceCost
 #: src/components/_political/law/Law.tsx:99
@@ -635,12 +629,12 @@ msgstr "Sohbette <0>emojiler</0>"
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:55
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr ""
+msgstr "<0>Bu turda her iki tarafça verilen her <1/> hasar, tur ganimet havuzuna bir <2>{0}</2> ekler.</0><3>Tur ganimetleri turun sonunda dağıtılır; en fazla hasar veren 1. sıradaki eşyayı alır ve bu böyle devam eder...</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:68
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr ""
+msgstr "<0>Her iki tarafça toplam verilen her <1/> hasar, savaş ganimet havuzuna bir <2>{0}</2> ekler.</0><3>Savaş ganimetleri savaşın sonunda dağıtılır; en fazla hasar veren 1. sıradaki eşyayı alır ve bu böyle devam eder...</3>"
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
@@ -661,11 +655,11 @@ msgstr "<0>Çalışan işçiler ve otomatik motordan <1>Üretim Puanları</1> il
 #. placeholder {5}: gameConfig?.unrest.contributionCooldownAfterRevolutionHours
 #: src/components/_political/unrest/UnrestBar.tsx:25
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can <3>increase</3> or <4>decrease</4> unrest by spending <5>{0}</5> or <6>{1}</6> to change the bar by <7>{2}</7>.<8/><9/>When the bar is full, any party can vote via motion to start a <10>Civil war</10> (cost: <11>development × 10</11>, cooldown: {3}h). The battle takes place in the capital region, and <12>only citizens</12> can fight.<13/><14/>If revolutionaries win:<15/>- Government is impeached<16/>- Borders are opened for {4} days<17/>- Presidential elections begin<18/><19/>After a revolution, contributions are disabled for {5}h."
-msgstr ""
+msgstr "<0>Huzursuzluk</0>, ülkedeki iç gerilimi temsil eder.<1/><2/>Vatandaşlar, çubuğu <7>{2}</7> oranında değiştirmek için <5>{0}</5> veya <6>{1}</6> harcayarak huzursuzluğu <3>artırabilir</3> veya <4>azaltabilir</4>.<8/><9/>Çubuk dolduğunda, herhangi bir parti <10>İç Savaş</10> başlatmak için önerge ile oy kullanabilir (maliyet: <11>geliştirme × 10</11>, bekleme süresi: {3}s). Savaş başkent bölgesinde gerçekleşir ve yalnızca <12>vatandaşlar</12> savaşabilir.<13/><14/>Devrimciler kazanırsa:<15/>- Hükümet görevden alınır<16/>- Sınırlar {4} gün boyunca açılır<17/>- Cumhurbaşkanlığı seçimleri başlar<18/><19/>Bir devrimden sonra katkılar {5} saat boyunca devre dışı kalır."
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:108
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
-msgstr ""
+msgstr "<0>Hesabınız ek doğrulama gerektiriyor. Hesabınızı normal şekilde kullanmaya devam etmek için lütfen telefon numaranızı en kısa sürede doğrulayın. Doğrulanmamış hesaplar 48 saat sonra kısıtlı erişime sahip olacak ve 5 gün sonra kalıcı olarak askıya alınabilecektir.</0><1>Telefon numaraları şifrelenir ve hiçbir yöneticiye görünmez.</1>"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
@@ -1033,7 +1027,7 @@ msgstr "Hava atabilmeni sağlayacak renkli bir kullanıcı adı"
 
 #: src/components/_political/event/event.frontConfig.tsx:398
 msgid "A civil war has started by <0/> in <1/>"
-msgstr ""
+msgstr "<0/> tarafından <1/> bölgesinde bir iç savaş başlatıldı"
 
 #: src/pages/region/[regionId]/index.tsx:57
 msgid "A deposit has been found in this region, it can be exploited by companies to produce raws."
@@ -1044,16 +1038,11 @@ msgstr "Bu bölgede bir yatak bulundu, hammadde üretmek için şirketler taraf�
 #. placeholder {2}: data.durationDays
 #: src/components/_political/event/event.frontConfig.tsx:266
 msgid "A deposit of <0>{0}</0> <1>{1}</1> has been found in <2/> for {2} days"
-msgstr ""
-
-#. placeholder {0}: data.prize
-#: src/components/_user/notification/notification.frontConfig.tsx:1616
-msgid "A new giveaway for {0} cases has started! Join now!"
-msgstr "{0} tane kasa için yeni bir çekiliş başladı! Hemen katıl!"
+msgstr "<2/> bölgesinde {2} günlüğüne <0>{0}</0> <1>{1}</1> yatağı bulundu"
 
 #: src/components/_political/event/event.frontConfig.tsx:137
 msgid "A revolution has started in <0/>"
-msgstr ""
+msgstr "<0/> bölgesinde bir devrim başladı"
 
 #: src/pages/region/[regionId]/index.tsx:94
 msgid "A strategic resource has been found in this region, it gives its owner a production and development bonus."
@@ -1061,7 +1050,7 @@ msgstr "Bu bölgede stratejik bir kaynak bulundu, sahibine üretim ve gelişim b
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:144
 msgid "A verification code has been sent to {phoneNumber}"
-msgstr ""
+msgstr "{phoneNumber} numarasına bir doğrulama kodu gönderildi"
 
 #: src/components/_political/law/Law.tsx:170
 #: src/components/_political/partyMotion/PartyMotion.tsx:169
@@ -1070,11 +1059,11 @@ msgstr "Çekimser"
 
 #: src/components/_military/mercenaryContract/AcceptMercenaryContractModal.tsx:70
 msgid "Abusing mercenary contracts to funnel money is against the rules and may lead to a ban."
-msgstr ""
+msgstr "Para aktarmak için paralı asker sözleşmelerini kötüye kullanmak kurallara aykırıdır ve yasaklanmaya yol açabilir."
 
 #: src/components/_user/userReports/ReportFormModal.tsx:84
 msgid "Abusing or spamming the report system may lead to sanctions."
-msgstr ""
+msgstr "Şikayet sistemini kötüye kullanmak veya spam yapmak yaptırımlara yol açabilir."
 
 #: src/pages/country/[countryId]/index.tsx:128
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
@@ -1099,7 +1088,7 @@ msgstr "<0/> ile ittifakı kabul et, onlar için veya onlar senin için savaşı
 #: src/components/_military/mercenaryContract/AcceptMercenaryContractModal.tsx:59
 #: src/components/_military/mercenaryContract/AcceptMercenaryContractModal.tsx:91
 msgid "Accept Mercenary Contract"
-msgstr ""
+msgstr "Paralı Asker Sözleşmesini Kabul Et"
 
 #: src/components/_political/law/law.frontConfig.tsx:289
 msgid "Accept or reject a region buy offer"
@@ -1119,7 +1108,7 @@ msgstr "Başka bir ülkeyle barış yapmayı kabul et"
 msgid "Accepted"
 msgstr "Kabul Edildi"
 
-#: src/components/_military/battle/BattleHeader.tsx:96
+#: src/components/_military/battle/BattleHeader.tsx:99
 msgid "Access war"
 msgstr "Savaşa eriş"
 
@@ -1158,9 +1147,9 @@ msgstr "Aktif Vatandaşlar"
 msgid "Active construction"
 msgstr "Aktif inşaat"
 
-#: src/pages/country/[countryId]/contracts.tsx:27
+#: src/pages/country/[countryId]/contracts.tsx:34
 msgid "Active Contracts"
-msgstr ""
+msgstr "Aktif Sözleşmeler"
 
 #: src/pages/war/[warId]/index.tsx:45
 msgid "Active War"
@@ -1172,7 +1161,7 @@ msgstr "Aktif savaşlar"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:213
 msgid "Activity"
-msgstr ""
+msgstr "Aktivite"
 
 #: src/components/_user/user/FamilyGroup.tsx:70
 msgid "Add User"
@@ -1190,7 +1179,7 @@ msgstr "Ek maliyet"
 msgid "Admin"
 msgstr "Admin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1126
+#: src/components/_user/notification/notification.frontConfig.tsx:1990
 msgid "Admin notification"
 msgstr "Admin bildirimi"
 
@@ -1254,6 +1243,10 @@ msgstr "Sınırlarınız içindeki tüm şirketler, mühimmat veya inşaat uzman
 msgid "All event types"
 msgstr "Tüm olay türleri"
 
+#: src/components/_user/notification/NotificationPrefsPanel.tsx:188
+msgid "All Ingame"
+msgstr ""
+
 #: src/components/_social/ArticleList.tsx:120
 msgid "All languages"
 msgstr "Tüm diller"
@@ -1263,13 +1256,17 @@ msgstr "Tüm diller"
 msgid "All law enactment costs are multiplied by {0}."
 msgstr "Tüm yasama maliyetleri {0} ile çarpılır."
 
+#: src/components/_user/notification/NotificationPrefsPanel.tsx:168
+msgid "All Mobile"
+msgstr ""
+
 #: src/pages/party/[partyId]/index.tsx:112
 msgid "All Parties"
 msgstr "Partilerin Hepsi"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:200
 msgid "All rounds"
-msgstr ""
+msgstr "Tüm turlar"
 
 #: src/components/_other/shop/SkinPackModal.tsx:285
 msgid "All skins owned"
@@ -1310,7 +1307,7 @@ msgstr "Neredeyse hazır..."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:115
 msgid "Alpha Tester"
-msgstr ""
+msgstr "Alfa Test Kullanıcısı"
 
 #: src/components/_user/UserEquipments.tsx:128
 #: src/utils/translations.tsx:35
@@ -1319,7 +1316,7 @@ msgstr "Mermi"
 
 #: src/components/_user/user/SkillValue.tsx:136
 msgid "Ammo:"
-msgstr ""
+msgstr "Mermi:"
 
 #: src/components/_political/law/LawFormModal.tsx:251
 #: src/components/_political/law/LawFormModal.tsx:252
@@ -1338,17 +1335,17 @@ msgstr "Yönetebileceğiniz <0>İşçi</0> sayısı. Ve günlük işe alım limi
 msgid "Amount of companies you can own"
 msgstr "Sahip olabileceğin şirket sayısı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1765
+#: src/components/_user/notification/notification.frontConfig.tsx:1540
 msgid "An admin cancelled the contract"
-msgstr ""
+msgstr "Bir yönetici sözleşmeyi iptal etti"
 
 #: src/components/_political/event/event.frontConfig.tsx:331
 msgid "An alliance has been broken"
-msgstr ""
+msgstr "Bir ittifak bozuldu"
 
 #: src/components/_political/event/event.frontConfig.tsx:316
 msgid "An alliance has been formed"
-msgstr ""
+msgstr "Bir ittifak kuruldu"
 
 #: src/components/_user/auth/LoginFormModal.tsx:94
 msgid "An email with the verification code has been sent to {email}"
@@ -1361,7 +1358,7 @@ msgstr "Animasyonlu avatar <0>GIF</0>"
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:200
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:114
 msgid "Any battle involving this country"
-msgstr ""
+msgstr "Bu ülkeyi içeren herhangi bir savaş"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:40
 msgid "API token created"
@@ -1375,7 +1372,7 @@ msgstr "API tokenı yeniden oluşturuldu"
 msgid "API token revoked"
 msgstr "API Token'ı iptal edildi"
 
-#: src/pages/user/[userId]/settings.tsx:77
+#: src/pages/user/[userId]/settings.tsx:85
 msgid "API Tokens"
 msgstr "API Token'ları"
 
@@ -1398,15 +1395,15 @@ msgstr "Başvur"
 
 #: src/utils/translations.tsx:261
 msgid "Approved"
-msgstr ""
+msgstr "Onaylandı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:179
 msgid "Arcane Boots"
-msgstr ""
+msgstr "Esrarengiz Çizmeler"
 
 #: src/components/_military/mu/MuMemberList.tsx:154
 msgid "Are you sure you want to demote this commander?"
-msgstr ""
+msgstr "Bu komutanı rütbe düşürmek istediğinizden emin misiniz?"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:102
 msgid "Are you sure you want to fire this worker?"
@@ -1414,7 +1411,7 @@ msgstr "Bu işçiyi kovmak istediğinizden emin misiniz?"
 
 #: src/components/_military/mu/MuMemberList.tsx:140
 msgid "Are you sure you want to kick this member?"
-msgstr ""
+msgstr "Bu üyeyi atmak istediğinizden emin misiniz?"
 
 #: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the congress?"
@@ -1426,7 +1423,7 @@ msgstr "Hükümetten ayrılmak istediğinizden emin misiniz?"
 
 #: src/components/_military/mu/MuMemberList.tsx:147
 msgid "Are you sure you want to promote this member to commander?"
-msgstr ""
+msgstr "Bu üyeyi komutana terfi ettirmek istediğinizden emin misiniz?"
 
 #: src/pages/market/index.tsx:170
 msgid "Are you sure you want to remove all buy orders?"
@@ -1451,7 +1448,7 @@ msgstr "Bu eğitimi atlamak istediğinizden emin misiniz?"
 
 #: src/components/_military/mu/MuMemberList.tsx:162
 msgid "Are you sure you want to transfer ownership to this member? This action cannot be undone."
-msgstr ""
+msgstr "Sahipliği bu üyeye devretmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
 
 #: src/components/_user/user/skills.frontConfig.tsx:71
 #: src/components/_user/user/skills.frontConfig.tsx:72
@@ -1462,7 +1459,7 @@ msgstr "Zırh"
 msgid "Article ID"
 msgstr "Makale ID"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:927
+#: src/components/_user/notification/notification.frontConfig.tsx:1851
 msgid "Article liked"
 msgstr "Makale beğenildi"
 
@@ -1470,7 +1467,8 @@ msgstr "Makale beğenildi"
 msgid "Article Tip"
 msgstr "Makale Bahşişi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:957
+#: src/components/_user/notification/notification.frontConfig.tsx:1853
+#: src/components/_user/notification/notification.frontConfig.tsx:1854
 msgid "Article tipped"
 msgstr "Makaleye bahşiş verildi"
 
@@ -1505,10 +1503,9 @@ msgstr "Saldıran"
 msgid "Attackers"
 msgstr "Saldıranlar"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:139
-#: src/components/_user/auth/ConnectFromModal.tsx:147
+#: src/components/_user/auth/ConnectFromModal.tsx:141
 msgid "Authentication failed. Please try again."
-msgstr ""
+msgstr "Kimlik doğrulama başarısız. Lütfen tekrar deneyin."
 
 #: src/pages/country/[countryId]/citizenship.tsx:47
 msgid "Auto approval"
@@ -1527,9 +1524,9 @@ msgstr "Otomatik makine"
 msgid "Automated Engine"
 msgstr "Otomatik Makine"
 
-#: src/pages/battles/contracts.tsx:44
+#: src/pages/battles/contracts.tsx:51
 msgid "Available Proposals"
-msgstr ""
+msgstr "Mevcut Teklifler"
 
 #: src/components/_user/user/UserDropdown.tsx:151
 msgid "Avatar removed"
@@ -1537,13 +1534,13 @@ msgstr "Avatar kaldırıldı"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:170
 msgid "Baby Boomer"
-msgstr ""
+msgstr "Baby Boomer"
 
 #: src/components/_user/referral/ReferralList.tsx:110
 msgid "Badge won"
 msgstr "Rozet kazanıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:113
+#: src/components/_user/notification/notification.frontConfig.tsx:1802
 msgid "Badge Won"
 msgstr "Rozet Kazanıldı"
 
@@ -1568,15 +1565,15 @@ msgstr "İflas"
 msgid "Banned"
 msgstr "Yasaklandı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1708
+#: src/components/_user/notification/notification.frontConfig.tsx:1818
 msgid "Banner Accepted!"
 msgstr "Banner'ın Kabul Edildi!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1665
+#: src/components/_user/notification/notification.frontConfig.tsx:1815
 msgid "Banner gift received"
 msgstr "Banner hediyesi alındı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1634
+#: src/components/_user/notification/notification.frontConfig.tsx:1813
 msgid "Banner gift sent"
 msgstr "Banner hediyesi gönderildi"
 
@@ -1618,21 +1615,21 @@ msgid "Battle"
 msgstr "Cephe"
 
 #: src/components/_political/event/EventList.tsx:65
-#: src/components/_user/notification/notification.frontConfig.tsx:842
+#: src/components/_user/notification/notification.frontConfig.tsx:1899
 msgid "Battle ended"
 msgstr "Cephe sona erdi"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:73
 msgid "Battle Hero"
-msgstr ""
+msgstr "Savaş Kahramanı"
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:53
 msgid "Battle loot"
-msgstr ""
+msgstr "Savaş ganimetleri"
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:83
 msgid "Battle loot pool"
-msgstr ""
+msgstr "Savaş ganimet havuzu"
 
 #: src/components/_political/event/EventList.tsx:64
 msgid "Battle opened"
@@ -1640,11 +1637,7 @@ msgstr "Cephe açıldı"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:99
 msgid "Battle Orders"
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:1413
-msgid "Battle Ranking Reward"
-msgstr "Cephe Sıralama Ödülü"
+msgstr "Savaş Emirleri"
 
 #: src/components/_layout/LayoutMenu.tsx:154
 #: src/components/_military/battle/BattlesHeader.tsx:20
@@ -1685,12 +1678,12 @@ msgstr "Engelle (yazdığı herşeyi gizle)"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:161
 msgid "Blue Staff"
-msgstr ""
+msgstr "Mavi Asa"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:116
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:71
 msgid "Bonus"
-msgstr ""
+msgstr "Bonus"
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:50
 #: src/components/_political/law/law.frontConfig.tsx:189
@@ -1699,7 +1692,7 @@ msgstr "Bonus hasar"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:166
 msgid "Bonus on completion"
-msgstr ""
+msgstr "Tamamlama bonusu"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "Boost your production!"
@@ -1712,11 +1705,11 @@ msgstr "Botlar"
 
 #: src/components/_military/battle/BattleSystem.tsx:699
 msgid "Bounty cooldown"
-msgstr ""
+msgstr "Ödül bekleme süresi"
 
 #: src/components/_military/battle/BattleSystem.tsx:700
 msgid "Bounty will be available at the end of the timer."
-msgstr ""
+msgstr "Ödül, zamanlayıcının sonunda kullanılabilir olacak."
 
 #: src/utils/translations.tsx:31
 msgid "Bread"
@@ -1732,7 +1725,7 @@ msgstr "Başka bir ülkeyle ittifakı boz"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:114
 msgid "Break room"
-msgstr ""
+msgstr "Dinlenme odası"
 
 #: src/components/_political/law/law.frontConfig.tsx:252
 msgid "Break the alliance with <0/>"
@@ -1746,21 +1739,25 @@ msgstr "Tuğgeneral"
 msgid "Browse Packs"
 msgstr "Paketlere Göz Atın"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:884
+#: src/components/_user/notification/notification.frontConfig.tsx:1979
 msgid "Buff ended"
 msgstr "Buff sona erdi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:865
+#: src/components/_user/notification/notification.frontConfig.tsx:1978
+msgid "Buff expiring soon"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1977
 msgid "Buff started"
 msgstr "Buff başladı"
 
 #: src/components/_user/user/SkillValue.tsx:168
 msgid "Buffs:"
-msgstr ""
+msgstr "Güçlendirmeler:"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:123
 msgid "Bug finder"
-msgstr ""
+msgstr "Hata Bulucu"
 
 #: src/components/_economy/company/CompanyList.tsx:152
 msgid "Build a company"
@@ -1776,7 +1773,7 @@ msgstr "Askeri birliği kur"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:31
 msgid "Bunker"
-msgstr ""
+msgstr "Sığınak"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:168
 msgid "Buy for <0>{count}</0> money on market"
@@ -1786,17 +1783,13 @@ msgstr "Pazarda <0>{count}</0> tutarında paraya satın al"
 msgid "Buy Items"
 msgstr "Eşya Satın Al"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:770
-msgid "Buy order match!"
-msgstr "Alım market emrin eşleşti!"
-
 #: src/pages/market/index.tsx:135
 msgid "Buy orders"
 msgstr "Alım market emirleri"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:355
+#: src/components/_user/auth/ConnectFromModal.tsx:359
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
-msgstr ""
+msgstr "Devam ederek <0>Hizmet Şartlarımızı</0> kabul etmiş olursunuz."
 
 #. placeholder {0}: worker.fidelity ?? 0
 #: src/components/_user/worker/WageReductionAlert.tsx:56
@@ -1805,7 +1798,7 @@ msgstr "Maaş indirimini reddederek şirketten ayrılacak ve +{0}% sadakat bonus
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:150
 msgid "By side"
-msgstr ""
+msgstr "Tarafa göre"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:26
 msgid "Cadet"
@@ -1827,25 +1820,25 @@ msgstr "İstediğin zaman iptal et"
 #: src/components/_military/mercenaryContract/AdminDeleteContractModal.tsx:43
 #: src/components/_military/mercenaryContract/AdminDeleteContractModal.tsx:64
 msgid "Cancel Contract"
-msgstr ""
+msgstr "Sözleşmeyi İptal Et"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:283
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:290
 msgid "Cancel Mercenary Contract"
-msgstr ""
+msgstr "Paralı Asker Sözleşmesini İptal Et"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:305
 #: src/utils/translations.tsx:253
 msgid "Cancelled"
-msgstr ""
+msgstr "İptal Edildi"
 
 #: src/utils/translations.tsx:254
 msgid "Cancelled by admin"
-msgstr ""
+msgstr "Yönetici tarafından iptal edildi"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:311
 msgid "Cancelled by Admin"
-msgstr ""
+msgstr "Yönetici Tarafından İptal Edildi"
 
 #: src/components/_political/election/CandidateFormModal.tsx:86
 msgid "Candidate"
@@ -1854,7 +1847,7 @@ msgstr "Aday"
 #. placeholder {0}: maxEffectiveRate.toFixed(2)
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:241
 msgid "Cannot exceed {0} money per 1k damage"
-msgstr ""
+msgstr "1k hasar başına {0} parayı aşamaz"
 
 #: src/components/_political/party/party.frontConfig.tsx:262
 msgid "Cannot have a vice president or ministers."
@@ -1876,15 +1869,15 @@ msgstr "Uzmanlaşacak emtia seçemez / uzmanlık işe yaramaz"
 msgid "Captain"
 msgstr "Yüzbaşı"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:262
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA süresi doldu. Lütfen tekrar deneyin."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:254
+#: src/components/_user/auth/ConnectFromModal.tsx:258
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA başarısız. Sıfırlanıyor..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:262
+#: src/components/_user/auth/ConnectFromModal.tsx:266
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA zaman aşımına uğradı. Sıfırlanıyor..."
 
@@ -1906,7 +1899,7 @@ msgstr "Katapult"
 
 #: src/components/_user/user/skills.frontConfig.tsx:152
 msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
-msgstr ""
+msgstr "Her vuruşta anlık ganimet kazanma şansı:<0/>Her <1>1%</1>, vuruş başına sandık ganimetleri için <2>1%</2> ve <3>0.01%</3> verir."
 
 #: src/components/_user/user/skills.frontConfig.tsx:138
 msgid "Chance to dodge all incoming damage when fighting in battles.<0/>Dodging also prevents equipment durability from being consumed."
@@ -2015,7 +2008,7 @@ msgstr "Vatandaşlar ek <0>{0}</0> savunma bonusu alır."
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:108
 msgid "Citizens of the hiring country are not counted in the damage and do not receive any contract money."
-msgstr ""
+msgstr "İşe alan ülkenin vatandaşları hasar hesabına dahil edilmez ve sözleşme parası almaz."
 
 #: src/components/_political/country/CountryHeader.tsx:108
 msgid "Citizenship"
@@ -2100,10 +2093,10 @@ msgstr "Renk şeması"
 msgid "Commander"
 msgstr "Komutan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1696
-#: src/components/_user/notification/notification.frontConfig.tsx:2004
+#: src/components/_user/notification/notification.frontConfig.tsx:1821
+#: src/components/_user/notification/notification.frontConfig.tsx:1834
 msgid "Commission earned"
-msgstr ""
+msgstr "Kazanılan komisyon"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:116
 msgid "Commodore"
@@ -2111,7 +2104,7 @@ msgstr "Komodor"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:141
 msgid "Community"
-msgstr ""
+msgstr "Topluluk"
 
 #: src/components/_layout/LayoutMenu.tsx:184
 #: src/components/_user/user/MyAvatar.tsx:48
@@ -2165,11 +2158,11 @@ msgstr "XP kazanmak ve daha hızlı seviye atlamak için günlük görevleri tam
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:307
 #: src/utils/translations.tsx:256
 msgid "Completed"
-msgstr ""
+msgstr "Tamamlandı"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:167
 msgid "Completion Bonus (optional)"
-msgstr ""
+msgstr "Tamamlama Bonusu (isteğe bağlı)"
 
 #: src/utils/translations.tsx:29
 msgid "Concrete"
@@ -2180,43 +2173,43 @@ msgid "Congrats"
 msgstr "Tebrikler"
 
 #. placeholder {0}: data.level
-#: src/components/_user/notification/notification.frontConfig.tsx:451
+#: src/components/_user/notification/notification.frontConfig.tsx:393
 msgid "Congratulations, you leveled up to level {0}!"
 msgstr "Tebrikler, {0}. seviyeye ulaştın!"
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:219
+#: src/components/_user/notification/notification.frontConfig.tsx:197
 msgid "Congratulations! You have been elected as the new congress member of {0}"
 msgstr "Tebrikler! {0}'ın yeni meclis üyesi olarak seçildin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:344
+#: src/components/_user/notification/notification.frontConfig.tsx:301
 msgid "Congratulations! You have been elected as the new leader of <0/>"
 msgstr "Tebrikler! <0/> partisinin yeni lideri olarak seçildiniz"
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:214
+#: src/components/_user/notification/notification.frontConfig.tsx:192
 msgid "Congratulations! You have been elected as the new president of {0}"
 msgstr "Tebrikler! {0}'ın yeni başkanı olarak seçildin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:349
+#: src/components/_user/notification/notification.frontConfig.tsx:306
 msgid "Congratulations! You have been elected to the council of <0/>"
 msgstr "Tebrikler! <0/> partisinin konseyine seçildiniz"
 
 #. placeholder {0}: militaryRankingConfig[data.rank].percentDamages
-#: src/components/_user/notification/notification.frontConfig.tsx:1392
+#: src/components/_user/notification/notification.frontConfig.tsx:1209
 msgid "Congratulations! You have been promoted to <0/> with an attack bonus of <1>{0}</1>"
 msgstr "Tebrikler! <1>{0}</1> saldırı bonusuyla <0/> rütbesine terfi ettin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1600
+#: src/components/_user/notification/notification.frontConfig.tsx:1398
 msgid "Congratulations! You won the giveaway and received cases!"
 msgstr "Tebrikler! Çekilişi kazandın, kasalar artık senin!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:393
-#: src/components/_user/notification/notification.frontConfig.tsx:1237
+#: src/components/_user/notification/notification.frontConfig.tsx:350
+#: src/components/_user/notification/notification.frontConfig.tsx:1054
 msgid "Congratulations! Your application to <0/> has been accepted"
 msgstr "Tebrikler! <0/> başvurun kabul edildi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1479
+#: src/components/_user/notification/notification.frontConfig.tsx:1277
 msgid "Congratulations! Your team <0/> won the tournament <1/>!"
 msgstr "Tebrikler! Takımın <0/> <1/> turnuvasını kazandı!"
 
@@ -2224,27 +2217,15 @@ msgstr "Tebrikler! Takımın <0/> <1/> turnuvasını kazandı!"
 msgid "Congress election"
 msgstr "Meclis seçimi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:149
+#: src/components/_user/notification/notification.frontConfig.tsx:137
 msgid "Congress election candidacy is now open in <0/>"
 msgstr "<0/>'da meclis seçimi adaylığı açıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:140
-msgid "Congress election candidate open"
-msgstr "Meclis seçimine aday olma başladı"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:190
-msgid "Congress election ended"
-msgstr "Meclis seçimi sona erdi"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:199
+#: src/components/_user/notification/notification.frontConfig.tsx:177
 msgid "Congress election has ended in <0/>. Check the results!"
 msgstr "<0/>'da meclis seçimi sona erdi. Sonuçları kontrol et!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:165
-msgid "Congress election vote open"
-msgstr "Meclis seçiminde oy kullanma başladı"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:174
+#: src/components/_user/notification/notification.frontConfig.tsx:157
 msgid "Congress election voting is now open in <0/>"
 msgstr "<0/>'da meclis seçimi oylaması açıldı"
 
@@ -2259,23 +2240,23 @@ msgstr "Kongre minimum <0>{0} seats</0> üyeye sahip"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:57
 msgid "Congress Member"
-msgstr ""
+msgstr "Kongre Üyesi"
 
 #: src/pages/country/[countryId]/government.tsx:64
 msgid "Congress members"
 msgstr "Meclis üyeleri"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:320
+#: src/components/_user/auth/ConnectFromModal.tsx:324
 msgid "Connect with Discord"
 msgstr "Discord ile bağlan"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:301
+#: src/components/_user/auth/ConnectFromModal.tsx:305
 msgid "Connect with email code"
-msgstr ""
+msgstr "E-posta kodu ile bağlan"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:339
+#: src/components/_user/auth/ConnectFromModal.tsx:343
 msgid "Connect with Google"
-msgstr ""
+msgstr "Google ile bağlan"
 
 #: src/pages/country/[countryId]/regions.tsx:43
 msgid "Conquered regions"
@@ -2283,15 +2264,11 @@ msgstr "Fethedilen bölgeler"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:91
 msgid "Conqueror"
-msgstr ""
+msgstr "Fatih"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:69
 msgid "Consider giving it to your local moderator"
 msgstr "Yerel moderatörüne vermeyi düşün."
-
-#: src/components/_user/notification/notification.frontConfig.tsx:671
-msgid "Construction started"
-msgstr "İnşaat başladı"
 
 #: src/components/_user/user/skills.frontConfig.tsx:78
 msgid "Consumed when fighting in battles"
@@ -2307,36 +2284,36 @@ msgstr "Tüketmek {0}s boyunca <0>Saldırı</0> gücünü artırır.<1/> Sonra {
 msgid "Contextual borders"
 msgstr "Değişken sınırlar"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1761
+#: src/components/_user/notification/notification.frontConfig.tsx:1966
 msgid "Contract cancelled"
-msgstr ""
+msgstr "Sözleşme iptal edildi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1742
+#: src/components/_user/notification/notification.frontConfig.tsx:1963
 msgid "Contract completed"
-msgstr ""
+msgstr "Sözleşme tamamlandı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1785
+#: src/components/_user/notification/notification.frontConfig.tsx:1969
 msgid "Contract expired"
-msgstr ""
+msgstr "Sözleşme süresi doldu"
 
-#: src/pages/country/[countryId]/contracts.tsx:20
+#: src/pages/country/[countryId]/contracts.tsx:27
 msgid "Contract Proposals"
-msgstr ""
+msgstr "Sözleşme Teklifleri"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1804
+#: src/components/_user/notification/notification.frontConfig.tsx:1972
 msgid "Contract rolled back"
-msgstr ""
+msgstr "Sözleşme geri alındı"
 
 #: src/components/_military/battle/BattlesHeader.tsx:36
 #: src/components/_military/battle/BattleSideContractsModal.tsx:36
 #: src/components/_political/country/CountryHeader.tsx:127
-#: src/pages/battle/[battleId]/contracts.tsx:45
+#: src/pages/battle/[battleId]/contracts.tsx:47
 msgid "Contracts"
-msgstr ""
+msgstr "Sözleşmeler"
 
 #: src/components/_military/battle/BattleSideContractsModal.tsx:28
 msgid "Contracts & Proposals"
-msgstr ""
+msgstr "Sözleşmeler ve Teklifler"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -2349,7 +2326,7 @@ msgstr "Bekleme süresi"
 
 #: src/components/_user/badgeCollection/Badge.tsx:70
 msgid "Cooldown: {cooldownDays} days"
-msgstr ""
+msgstr "Bekleme süresi: {cooldownDays} gün"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:90
 msgid "Copied to clipboard"
@@ -2377,7 +2354,7 @@ msgstr "Maliyet"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:220
 msgid "Council Member"
-msgstr ""
+msgstr "Konsey Üyesi"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
@@ -2393,15 +2370,15 @@ msgstr "Ülkeler"
 
 #: src/components/_layout/LayoutRightIcons.tsx:298
 #: src/components/_layout/MoreButtonNav.tsx:131
-#: src/components/_military/battle/BattleCountrySide.tsx:78
+#: src/components/_military/battle/BattleCountrySide.tsx:80
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:133
 #: src/components/_political/country/CountryHeader.tsx:51
 msgid "Country"
 msgstr "Ülke"
 
-#: src/pages/battles/contracts.tsx:62
+#: src/pages/battles/contracts.tsx:69
 msgid "Country Contracts"
-msgstr ""
+msgstr "Ülke Sözleşmeleri"
 
 #: src/pages/country/[countryId]/index.tsx:450
 msgid "Country development income bonus"
@@ -2409,11 +2386,11 @@ msgstr "Ülke kalkınma gelir bonusu"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:40
 msgid "Country Orders"
-msgstr ""
+msgstr "Ülke Emirleri"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:51
 msgid "Country President"
-msgstr ""
+msgstr "Ülke Cumhurbaşkanı"
 
 #: src/pages/country/[countryId]/index.tsx:401
 msgid "Country production bonus"
@@ -2421,7 +2398,7 @@ msgstr "Ülke üretim bonusu"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:178
 msgid "Country Tournament Winner"
-msgstr ""
+msgstr "Ülke Turnuvası Kazananı"
 
 #: src/pages/country/[countryId]/wars.tsx:29
 msgid "Country wars"
@@ -2461,14 +2438,14 @@ msgstr "Bir parti kur"
 msgid "Create API Token"
 msgstr "API Token'ı Oluştur"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:103
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:105
 msgid "Create contract"
-msgstr ""
+msgstr "Sözleşme oluştur"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:143
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:261
 msgid "Create Mercenary Proposal"
-msgstr ""
+msgstr "Paralı Asker Teklifi Oluştur"
 
 #: src/components/_political/party/PartyFormModal.tsx:130
 msgid "Create party"
@@ -2506,7 +2483,7 @@ msgstr "Şuanki Askeri Birlik"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:201
 msgid "Current round only"
-msgstr ""
+msgstr "Yalnızca mevcut tur"
 
 #: src/components/_military/battle/BattleSystem.tsx:509
 msgid "Current tick:"
@@ -2528,29 +2505,25 @@ msgstr "Günlük"
 msgid "Daily maintenance"
 msgstr "Günlük bakım ücreti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1842
+#: src/components/_user/notification/notification.frontConfig.tsx:1994
 msgid "Daily Missions Reset"
 msgstr "Günlük Görevler Sıfırlandı"
 
 #: src/components/_political/government/Government.tsx:174
 msgid "Daily wage paid from the country treasury."
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:464
-msgid "Daily XP available!"
-msgstr "Günlük XP mevcut!"
+msgstr "Günlük maaş ülke hazinesinden ödenir."
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:246
 msgid "Damage by user"
-msgstr ""
+msgstr "Kullanıcıya göre hasar"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:160
 msgid "Damage limit"
-msgstr ""
+msgstr "Hasar sınırı"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:161
 msgid "Damage Limit"
-msgstr ""
+msgstr "Hasar Sınırı"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:114
 msgid "Damage ranking"
@@ -2563,7 +2536,7 @@ msgstr "Hasar"
 
 #: src/components/_military/mu/MuMemberList.tsx:345
 msgid "Damages for Mu"
-msgstr ""
+msgstr "MU için hasarlar"
 
 #: src/components/_military/hit/HitButton.tsx:362
 msgid "Damages you did for this side in this round"
@@ -2577,7 +2550,7 @@ msgstr "Güzel duruyor ha"
 msgid "Damn you lucky"
 msgstr "Çok şanslısın"
 
-#: src/pages/user/[userId]/settings.tsx:83
+#: src/pages/user/[userId]/settings.tsx:91
 msgid "Danger zone"
 msgstr "Tehlikeli bölge"
 
@@ -2587,11 +2560,11 @@ msgstr "Koyu"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:25
 msgid "Dark Era"
-msgstr ""
+msgstr "Karanlık Çağ"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:24
 msgid "Dark Era Pack"
-msgstr ""
+msgstr "Karanlık Çağ Paketi"
 
 #: src/components/_layout/LayoutMapOptions.tsx:281
 msgid "Dark map"
@@ -2615,7 +2588,7 @@ msgstr "Askeri rütbenizi artırmak ve saldırı bonusları açmak için savaşl
 
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:118
 msgid "Deal damage in battles with your MU members to level up each month and earn rewards. Resets on the 1st of each month."
-msgstr ""
+msgstr "Her ay seviye atlamak ve ödüller kazanmak için MU üyelerinizle birlikte savaşlarda hasar verin. Her ayın 1'inde sıfırlanır."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:100
 msgid "Deal Damages"
@@ -2649,13 +2622,13 @@ msgstr "Daha fazla hasar verir"
 msgid "Deals some damages"
 msgstr "Birazcık hasar verir"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:898
+#: src/components/_user/notification/notification.frontConfig.tsx:1980
 msgid "Debuff ended"
 msgstr "Debuff sona erdi"
 
 #: src/components/_user/user/SkillValue.tsx:200
 msgid "Debuffs:"
-msgstr ""
+msgstr "Zayıflatmalar:"
 
 #: src/components/_political/law/law.frontConfig.tsx:93
 msgid "Declare war"
@@ -2676,11 +2649,11 @@ msgstr "Reddet Ve Ayrıl"
 #: src/components/_political/unrest/UnrestPanel.tsx:143
 #: src/components/_political/unrest/UnrestPanel.tsx:179
 msgid "Decrease"
-msgstr ""
+msgstr "Azalt"
 
 #: src/components/_political/unrest/UnrestPanel.tsx:110
 msgid "Decrease unrest"
-msgstr ""
+msgstr "Huzursuzluğu azalt"
 
 #: src/components/_military/hit/HitButton.tsx:411
 msgid "Defend"
@@ -2706,13 +2679,13 @@ msgstr "Karşısında ek bonus almak için bir ülkeyi baş düşman olarak beli
 msgid "Define a sworn enemy"
 msgstr "Baş düşmanı belirle"
 
-#: src/pages/user/[userId]/settings.tsx:86
+#: src/pages/user/[userId]/settings.tsx:94
 msgid "Delete account"
 msgstr "Hesabı sil"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:80
 msgid "Delete contract"
-msgstr ""
+msgstr "Sözleşmeyi sil"
 
 #: src/pages/index.tsx:146
 #: src/pages/rules.tsx:40
@@ -2721,13 +2694,13 @@ msgstr "Hesabını sil"
 
 #: src/components/_military/mu/MuMemberList.tsx:153
 msgid "Demote Commander"
-msgstr ""
+msgstr "Komutanı Rütbe Düşür"
 
 #: src/components/_military/mu/MuMemberList.tsx:440
 msgid "Demote from Commander"
-msgstr ""
+msgstr "Komutanlıktan Düşür"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1291
+#: src/components/_user/notification/notification.frontConfig.tsx:1951
 msgid "Demoted from Commander"
 msgstr "Komutanlıktan Düşürüldü"
 
@@ -2746,7 +2719,7 @@ msgstr "Yatak keşfedildi"
 #. placeholder {0}: ts[data.itemCode]
 #: src/components/_political/event/event.frontConfig.tsx:284
 msgid "Deposit of <0>{0}</0> has been depleted in <1/>"
-msgstr ""
+msgstr "<1/> bölgesindeki <0>{0}</0> yatağı tükendi"
 
 #: src/pages/region/[regionId]/index.tsx:56
 msgid "Deposit resource"
@@ -2793,11 +2766,11 @@ msgstr "Gelişim"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:290
 msgid "Diminish <0/> received damages with <1>Armor</1> in battles"
-msgstr ""
+msgstr "Savaşlarda <1>Zırh</1> ile <0/> alınan hasarı azalt"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:288
 msgid "Diminish Received Damages"
-msgstr ""
+msgstr "Alınan Hasarı Azalt"
 
 #: src/pages/country/[countryId]/index.tsx:200
 msgid "Diplomacy"
@@ -2839,7 +2812,7 @@ msgstr "Kapat"
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Distributed"
-msgstr ""
+msgstr "Dağıtıldı"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:10
 msgid "Do you even know what luck is?"
@@ -2896,24 +2869,11 @@ msgstr "Bağışlar"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
 msgid "Dormitories"
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:487
-msgid "Double XP Ended"
-msgstr "Çifte DP Etkinliği Sona Erdi"
-
-#. placeholder {0}: data.duration
-#: src/components/_user/notification/notification.frontConfig.tsx:480
-msgid "Double XP event has started for {0} hours!"
-msgstr "Çifte DP etkinliği {0} saatliğine başladı!"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:478
-msgid "Double XP Started"
-msgstr "Çifte XP Başladı"
+msgstr "Yatakhaneler"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:152
 msgid "Dragon"
-msgstr ""
+msgstr "Ejderha"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:130
 msgid "Eat"
@@ -2938,7 +2898,7 @@ msgstr "Biftek Ye"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:20
 msgid "Eco Mode"
-msgstr ""
+msgstr "Ekonomi Modu"
 
 #: src/components/_political/law/LawTypeSelect.tsx:108
 msgid "Economic laws"
@@ -2947,6 +2907,10 @@ msgstr "Ekonomik yasalar"
 #: src/components/_user/user/skills.frontConfig.tsx:216
 msgid "Economic skills"
 msgstr "Ekonomik beceriler"
+
+#: src/components/_user/notification/notificationPrefs.categories.ts:153
+msgid "Economy & Companies"
+msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:209
 msgid "Edit description"
@@ -2962,15 +2926,27 @@ msgstr "İşçiyi yönet"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:225
 msgid "Effective cost: <0/> for <1/>"
-msgstr ""
+msgstr "Efektif maliyet: <1/> için <0/>"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:157
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:99
 msgid "Effective reward"
-msgstr ""
+msgstr "Efektif ödül"
 
 #: src/components/_user/user/SkillValue.tsx:230
 msgid "Effective:"
+msgstr "Efektif:"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1858
+msgid "Election candidacy open"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1863
+msgid "Election ended"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1861
+msgid "Election vote open"
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:102
@@ -3025,7 +3001,7 @@ msgstr "Yürürlüğe koyma maliyeti"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:185
 msgid "Enchanted Trousers"
-msgstr ""
+msgstr "Büyülü Pantolon"
 
 #: src/components/_military/battle/BattleSystem.tsx:618
 msgid "Ended"
@@ -3055,8 +3031,8 @@ msgstr "Teğmen"
 msgid "Enter article ID"
 msgstr "Makale ID girin"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:159
-#: src/components/_user/auth/ConnectFromModal.tsx:164
+#: src/components/_user/auth/ConnectFromModal.tsx:163
+#: src/components/_user/auth/ConnectFromModal.tsx:168
 msgid "Enter the code we sent to your email."
 msgstr "E-postanıza gönderdiğimiz kodu girin."
 
@@ -3075,7 +3051,7 @@ msgstr "Ekipman"
 
 #: src/components/_user/user/SkillValue.tsx:73
 msgid "Equipment:"
-msgstr ""
+msgstr "Ekipman:"
 
 #: src/components/_economy/market/MarketHeader.tsx:26
 msgid "Equipments"
@@ -3118,12 +3094,12 @@ msgstr "Herkes otomatik olarak katılır"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:222
 msgid "Expected Damages:"
-msgstr ""
+msgstr "Beklenen Hasarlar:"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:309
 #: src/utils/translations.tsx:257
 msgid "Expired"
-msgstr ""
+msgstr "Süresi Doldu"
 
 #: src/pages/region/[regionId]/index.tsx:79
 msgid "Expires in"
@@ -3131,7 +3107,7 @@ msgstr "da süresi dolacak"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:214
 msgid "Exploit Finder"
-msgstr ""
+msgstr "Açık Bulucu"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:92
 msgid "Failed to copy"
@@ -3151,11 +3127,11 @@ msgstr "Discord girişi başlatılamadı. Lütfen CAPTCHA'yı tekrar deneyin."
 
 #: src/components/_user/auth/ConnectFromModal.tsx:126
 msgid "Failed to start Google login."
-msgstr ""
+msgstr "Google girişi başlatılamadı."
 
 #: src/components/_user/auth/ConnectFromModal.tsx:124
 msgid "Failed to start Google login. Please retry the CAPTCHA."
-msgstr ""
+msgstr "Google girişi başlatılamadı. Lütfen CAPTCHA'yı tekrar deneyin."
 
 #: src/components/_user/user/FamilyGroup.tsx:60
 msgid "Family Group"
@@ -3195,31 +3171,31 @@ msgstr "Fanatik Cumhuriyetçilik"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:21
 msgid "Farmer"
-msgstr ""
+msgstr "Çiftçi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:143
 msgid "Farmer Boots"
-msgstr ""
+msgstr "Çiftçi Çizmeleri"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:140
 msgid "Farmer Chest"
-msgstr ""
+msgstr "Çiftçi Zırhı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:149
 msgid "Farmer Gloves"
-msgstr ""
+msgstr "Çiftçi Eldivenleri"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:137
 msgid "Farmer Helmet"
-msgstr ""
+msgstr "Çiftçi Miğferi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:134
 msgid "Farmer Knife"
-msgstr ""
+msgstr "Çiftçi Bıçağı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:146
 msgid "Farmer Pants"
-msgstr ""
+msgstr "Çiftçi Pantolonu"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:87
 #: src/components/_military/battle/ActiveBattlesList.tsx:167
@@ -3317,11 +3293,7 @@ msgstr "Hükümet üyesini kov"
 msgid "Fire worker?"
 msgstr "İşçiyi kov?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:572
-msgid "Fired from company"
-msgstr "Şirketten kovuldu"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:701
+#: src/components/_user/notification/notification.frontConfig.tsx:1870
 msgid "Fired from government"
 msgstr "Hükümetten kovuldu"
 
@@ -3335,7 +3307,7 @@ msgstr "Bayraklar"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Flail"
-msgstr ""
+msgstr "Topuzlu Gürz"
 
 #: src/components/_layout/LayoutMapOptions.tsx:337
 msgid "Font"
@@ -3356,7 +3328,7 @@ msgstr "<1/>'de bulunan <0>{0}</0> üreten şirketler için."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:45
 msgid "Founding Father"
-msgstr ""
+msgstr "Kurucu Baba"
 
 #: src/pages/shop/index.tsx:129
 msgid "Free daily reward"
@@ -3372,7 +3344,7 @@ msgstr "Görevlerini tamamlayarak <0>XP</0> kazan!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:109
 msgid "Game supporter"
-msgstr ""
+msgstr "Oyun Destekçisi"
 
 #: src/pages/shop/index.tsx:139
 msgid "Gems"
@@ -3393,7 +3365,7 @@ msgstr "Görevler Oluştur"
 #. placeholder {0}: levelConfig.stats.dailyProd
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
 msgid "Generates <0>{0}</0>/day"
-msgstr ""
+msgstr "Günde <0>{0}</0> üretir"
 
 #: src/components/_other/shop/SkinCollectionModal.tsx:94
 msgid "Get multiple skins at once with a 30% discount!"
@@ -3429,32 +3401,24 @@ msgstr "hediye edildi"
 
 #: src/components/_military/mu/MuMemberList.tsx:446
 msgid "Give Ownership"
-msgstr ""
+msgstr "Sahipliği Devret"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:251
 msgid "Give your token a descriptive name so you can identify it later."
 msgstr "Tokenınıza daha sonra tanıyabilmeniz için açıklayıcı bir isim verin."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1626
-msgid "Giveaway Ended"
-msgstr "Çekiliş Sona Erdi"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:1614
-msgid "Giveaway Started"
-msgstr "Çekiliş Başladı"
-
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:190
 msgid "Giveaway Winner"
-msgstr ""
+msgstr "Çekiliş Kazananı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1598
+#: src/components/_user/notification/notification.frontConfig.tsx:1992
 msgid "Giveaway Won!"
 msgstr "Çekiliş Kazanıldı!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
 msgid "Gives <0>{0}</0>"
-msgstr ""
+msgstr "<0>{0}</0> verir"
 
 #: src/components/_layout/LayoutMapOptions.tsx:218
 msgid "Globe (experimental)"
@@ -3487,19 +3451,19 @@ msgstr "Hükümet"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
 msgid "Government Member"
-msgstr ""
+msgstr "Hükümet Üyesi"
 
 #: src/components/_military/battle/BattleSystem.tsx:680
 msgid "Government penalty"
-msgstr ""
+msgstr "Hükümet cezası"
 
-#: src/pages/battles/contracts.tsx:32
+#: src/pages/battles/contracts.tsx:39
 msgid "Government Proposals"
-msgstr ""
+msgstr "Hükümet Teklifleri"
 
 #: src/components/_political/government/Government.tsx:185
 msgid "Government wage"
-msgstr ""
+msgstr "Hükümet maaşı"
 
 #: src/utils/translations.tsx:28
 msgid "Grain"
@@ -3515,7 +3479,7 @@ msgstr "Harika iş! Tarafının savaşı kazanmasına yardım etmek için birka�
 
 #: src/components/_other/shop/skin.frontConfig.tsx:158
 msgid "Green Staff"
-msgstr ""
+msgstr "Yeşil Asa"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:33
 msgid "Ground"
@@ -3535,11 +3499,11 @@ msgstr "Tabanca"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:85
 msgid "Hard Worker"
-msgstr ""
+msgstr "Çok Çalışan"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:89
 msgid "Headquarters"
-msgstr ""
+msgstr "Karargah"
 
 #: src/components/_user/user/skills.frontConfig.tsx:79
 #: src/components/_user/user/skills.frontConfig.tsx:80
@@ -3561,7 +3525,7 @@ msgstr "<0>{count}</0> AB üyesine yardım et"
 
 #: src/components/_military/mu/MuMemberList.tsx:375
 msgid "Help for Mu"
-msgstr ""
+msgstr "MU için Yardım"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:250
 msgid "Help MU Members"
@@ -3590,7 +3554,7 @@ msgstr "Savaşlarda <0>{count}</0> kez vur"
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
 #: src/components/_military/battle/BattleSystem.tsx:682
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
-msgstr ""
+msgstr "Hükümetteyken kendi ülken için vurmak %{0} ödül verimliliği sağlar."
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:58
@@ -3621,7 +3585,7 @@ msgstr "Seninle gurur duyuyorum"
 
 #: src/components/_political/government/NominateForm.tsx:58
 msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
-msgstr ""
+msgstr "Yeni aday zaten hükümetteyse, pozisyonları değiştirilecektir. Aksi takdirde, mevcut üye görevden alınacak ve {cooldownDays} gün boyunca tekrar aday gösterilemeyecektir."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:51
 msgid "Imagine if you stop right before the Mythic"
@@ -3700,11 +3664,11 @@ msgstr "Gelir Vergisi"
 #: src/components/_political/unrest/UnrestPanel.tsx:143
 #: src/components/_political/unrest/UnrestPanel.tsx:179
 msgid "Increase"
-msgstr ""
+msgstr "Artır"
 
 #: src/components/_political/unrest/UnrestPanel.tsx:109
 msgid "Increase unrest"
-msgstr ""
+msgstr "Huzursuzluğu artır"
 
 #: src/components/_political/party/party.frontConfig.tsx:316
 msgid "Industrialism vs Agrarianism"
@@ -3717,7 +3681,7 @@ msgstr "Sanayici"
 
 #: src/components/_political/government/Government.tsx:181
 msgid "Initial development"
-msgstr ""
+msgstr "Başlangıç geliştirmesi"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
@@ -3757,7 +3721,7 @@ msgstr "Sadece daha iyi olur… belki"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Herhangi bir üretim kazanmayacak ve işçileri çalışamayacak."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:632
+#: src/components/_user/notification/notification.frontConfig.tsx:1843
 msgid "Item bought"
 msgstr "Eşya satın alındı"
 
@@ -3767,7 +3731,7 @@ msgstr "Eşya Pazarı"
 
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
-msgstr ""
+msgstr "Eşyalar"
 
 #: src/pages/companies.tsx:32
 #: src/pages/user/[userId]/companies.tsx:56
@@ -3837,11 +3801,11 @@ msgstr "Mevcut şirkette tut"
 
 #: src/components/_military/mu/MuMemberList.tsx:428
 msgid "Kick"
-msgstr ""
+msgstr "At"
 
 #: src/components/_military/mu/MuMemberList.tsx:139
 msgid "Kick Member"
-msgstr ""
+msgstr "Üyeyi At"
 
 #: src/utils/translations.tsx:22
 msgid "Knife"
@@ -3862,17 +3826,17 @@ msgstr "Dil"
 
 #: src/components/_user/badgeCollection/Badge.tsx:63
 msgid "Last earned: <0/>"
-msgstr ""
+msgstr "Son kazanılan: <0/>"
 
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
 msgstr "Verilen son hediyeler"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:304
-#: src/components/_user/auth/ConnectFromModal.tsx:323
-#: src/components/_user/auth/ConnectFromModal.tsx:342
+#: src/components/_user/auth/ConnectFromModal.tsx:308
+#: src/components/_user/auth/ConnectFromModal.tsx:327
+#: src/components/_user/auth/ConnectFromModal.tsx:346
 msgid "Last used"
-msgstr ""
+msgstr "Son kullanım"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:192
 msgid "Last used:"
@@ -3903,7 +3867,7 @@ msgid "Law failed"
 msgstr "Yasa arızalandı"
 
 #: src/components/_political/law/LawFormModal.tsx:76
-#: src/components/_user/notification/notification.frontConfig.tsx:655
+#: src/components/_user/notification/notification.frontConfig.tsx:1856
 msgid "Law proposed"
 msgstr "Yasa önerildi"
 
@@ -3962,13 +3926,13 @@ msgstr "Efsanevi Pantolon"
 #: src/components/_military/mu/MuLevel.tsx:64
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:89
 msgid "Level {level}"
-msgstr ""
+msgstr "Seviye {level}"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Level up your skills!"
 msgstr "Becerilerini geliştir!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:448
+#: src/components/_user/notification/notification.frontConfig.tsx:1803
 msgid "Level up!"
 msgstr "Seviye Atladın!"
 
@@ -4018,7 +3982,7 @@ msgstr "Yiyecek tüketim limiti"
 
 #: src/components/_user/user/SkillValue.tsx:88
 msgid "Limited:"
-msgstr ""
+msgstr "Sınırlı:"
 
 #: src/components/_layout/LayoutMapOptions.tsx:324
 msgid "Line"
@@ -4077,25 +4041,13 @@ msgstr "Ganimetleri Topla"
 msgid "Loot chance"
 msgstr "Ganimet şansı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1431
+#: src/components/_user/notification/notification.frontConfig.tsx:1919
 msgid "Loot reward"
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:519
-msgid "Looted case"
-msgstr "Yağmalanmış kasa"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:517
-msgid "Looted cases"
-msgstr "Yağmalanmış kasalar"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:754
-msgid "Looted money"
-msgstr "Yağmalanan para"
+msgstr "Ganimet ödülü"
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:110
 msgid "Loots"
-msgstr ""
+msgstr "Ganimetler"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:20
 msgid "Love Paper Jet"
@@ -4115,7 +4067,7 @@ msgstr "Şans sonunda maaş bordrosunda"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:188
 msgid "Mage Robe"
-msgstr ""
+msgstr "Büyücü Cübbesi"
 
 #: src/components/_political/law/Law.tsx:96
 msgid "Maintenance cost"
@@ -4162,18 +4114,18 @@ msgstr "Mareşal"
 
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
-msgstr ""
+msgstr "Maksimum seviyeye ulaşıldı!"
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
 msgid "Maximum of <0>{0}</0> members."
-msgstr ""
+msgstr "Maksimum <0>{0}</0> üye."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
 msgid "Maximum of <0>{0}</0> workers.{1}"
-msgstr ""
+msgstr "Maksimum <0>{0}</0> işçi.{1}"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
@@ -4237,15 +4189,15 @@ msgstr "Üyelik Başvuruları"
 
 #: src/components/_military/mu/MuMemberList.tsx:116
 msgid "Member demoted from commander"
-msgstr ""
+msgstr "Üye komutanlıktan düşürüldü"
 
 #: src/components/_military/mu/MuMemberList.tsx:108
 msgid "Member kicked successfully"
-msgstr ""
+msgstr "Üye başarıyla atıldı"
 
 #: src/components/_military/mu/MuMemberList.tsx:112
 msgid "Member promoted to commander"
-msgstr ""
+msgstr "Üye komutana terfi ettirildi"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:150
 #: src/pages/party/[partyId]/index.tsx:75
@@ -4253,23 +4205,27 @@ msgstr ""
 msgid "Members"
 msgstr "Üyeler"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1365
+#: src/components/_user/notification/notification.frontConfig.tsx:1987
 msgid "Mentioned in message"
 msgstr "Mesajda bahsedildi"
 
-#: src/pages/mu/[muId]/contracts.tsx:17
+#: src/pages/mu/[muId]/contracts.tsx:24
 msgid "Mercenary Contracts"
+msgstr "Paralı Asker Sözleşmeleri"
+
+#: src/components/_military/mercenaryContract/MercenaryContractsDisabled.tsx:11
+msgid "Mercenary contracts are currently disabled."
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:14
 msgid "Mercenary Reputation"
-msgstr ""
+msgstr "Paralı Asker İtibarı"
 
 #: src/components/_other/shop/SkinPackModal.tsx:237
 msgid "Message (Optional)"
 msgstr "Mesaj (İsteğe Bağlı)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:990
+#: src/components/_user/notification/notification.frontConfig.tsx:1985
 msgid "Message liked"
 msgstr "Mesaj beğenildi"
 
@@ -4282,9 +4238,13 @@ msgstr "Militarizm vs Pasifizm"
 msgid "Militarist"
 msgstr "Militarist"
 
+#: src/components/_user/notification/notificationPrefs.categories.ts:157
+msgid "Military & Battles"
+msgstr ""
+
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:43
 msgid "Military base"
-msgstr ""
+msgstr "Askeri üs"
 
 #: src/components/_political/law/LawTypeSelect.tsx:73
 msgid "Military laws"
@@ -4294,19 +4254,20 @@ msgstr "Askeri yasalar"
 msgid "Military Rank"
 msgstr "Askeri Rütbe"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1390
+#: src/components/_user/notification/notification.frontConfig.tsx:1898
 msgid "Military Rank Up!"
 msgstr "Askeri Rütbe Yükseldi!"
 
 #: src/components/_user/user/SkillValue.tsx:184
 msgid "Military rank:"
-msgstr ""
+msgstr "Askeri rütbe:"
 
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:82
 msgid "Military Ranks"
 msgstr "Askeri Rütbeler"
 
 #: src/components/_layout/MoreButtonNav.tsx:150
+#: src/components/_user/notification/notificationPrefs.categories.ts:158
 msgid "Military Unit"
 msgstr "Askeri Birlik"
 
@@ -4318,9 +4279,9 @@ msgstr "Askeri birlik oluşturuldu"
 msgid "Military units"
 msgstr "Askeri birlikler"
 
-#: src/components/_military/battle/BattleCountrySide.tsx:98
+#: src/components/_military/battle/BattleCountrySide.tsx:100
 msgid "Military Units"
-msgstr ""
+msgstr "Askeri Birlikler"
 
 #: src/components/_political/law/Law.tsx:118
 msgid "Min. active citizens"
@@ -4328,7 +4289,7 @@ msgstr "Min. aktif vatandaş"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:181
 msgid "Minimum reputation to accept"
-msgstr ""
+msgstr "Kabul için minimum itibar"
 
 #: src/components/_political/government/Government.tsx:82
 msgid "Minister of Defense"
@@ -4350,11 +4311,11 @@ msgstr "Görevler"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:123
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Cep telefonu numarası"
 
 #: src/components/_user/user/WealthPanel.tsx:35
 msgid "Money"
-msgstr ""
+msgstr "Para"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:135
 msgid "Money earned from mercenary contracts."
@@ -4362,11 +4323,11 @@ msgstr "Paralı asker sözleşmelerinden kazanılan para."
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:153
 msgid "Money per 1000 damages"
-msgstr ""
+msgstr "1000 hasar başına para"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:154
 msgid "Money per 1k Damages"
-msgstr ""
+msgstr "1k Hasar Başına Para"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:134
 msgid "Money ranking"
@@ -4386,16 +4347,16 @@ msgstr "Para Kazanıldı"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
 msgid "Monthly"
-msgstr ""
+msgstr "Aylık"
 
 #: src/components/_military/mu/MuLevel.tsx:107
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
-msgstr ""
+msgstr "Aylık hasarlar: <0>{monthlyDamages}</0>"
 
 #: src/components/_military/mu/MuMemberList.tsx:355
 #: src/components/_military/mu/MuMemberList.tsx:390
 msgid "Monthly:"
-msgstr ""
+msgstr "Aylık:"
 
 #: src/components/_layout/MoreButtonNav.tsx:194
 msgid "More"
@@ -4439,7 +4400,7 @@ msgstr "Şirketi taşı"
 msgid "Move to top"
 msgstr "En üste taşı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:587
+#: src/components/_user/notification/notification.frontConfig.tsx:1839
 msgid "Moved to a new company"
 msgstr "Yeni bir şirkete transfer edildin"
 
@@ -4448,58 +4409,58 @@ msgstr "Yeni bir şirkete transfer edildin"
 msgid "MU"
 msgstr "AB"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1235
+#: src/components/_user/notification/notification.frontConfig.tsx:1938
 msgid "MU Application Accepted"
 msgstr "AB Başvurusu Kabul Edildi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1222
+#: src/components/_user/notification/notification.frontConfig.tsx:1935
 msgid "MU Application Rejected"
 msgstr "AB Başvurusu Reddedildi"
 
-#: src/pages/battles/contracts.tsx:53
+#: src/pages/battles/contracts.tsx:60
 msgid "MU Contracts"
-msgstr ""
+msgstr "MU Sözleşmeleri"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1323
+#: src/components/_user/notification/notification.frontConfig.tsx:1957
 msgid "MU Donation Received"
 msgstr "AB Bağışı Alındı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1350
+#: src/components/_user/notification/notification.frontConfig.tsx:1943
 msgid "MU Level Up!"
-msgstr ""
+msgstr "MU Seviye Atladı!"
 
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:112
 msgid "MU Monthly Levels"
-msgstr ""
+msgstr "MU Aylık Seviyeleri"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:59
 msgid "MU Orders"
-msgstr ""
+msgstr "MU Emirleri"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1305
+#: src/components/_user/notification/notification.frontConfig.tsx:1954
 msgid "MU Ownership Transferred"
 msgstr "AB Sahipliği Devredildi"
 
 #. placeholder {0}: data.level
 #: src/components/_political/message/systemMessage.frontConfig.tsx:98
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
-msgstr ""
+msgstr "MU {0}. seviyeye ulaştı! Ödül: {rewardDisplay}"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:184
 msgid "MU Tournament Winner"
-msgstr ""
+msgstr "MU Turnuvası Kazananı"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:149
 msgid "MU treasury"
-msgstr ""
+msgstr "MU hazinesi"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:233
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
-msgstr ""
+msgstr "1k hasar başına en az {MIN_EFFECTIVE_RATE} para olmalıdır"
 
 #: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "My battle loot"
-msgstr ""
+msgstr "Benim savaş ganimetlerim"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:247
 msgid "My Bot, Script, etc."
@@ -4542,9 +4503,9 @@ msgstr "Mistik mi?! Hesabın kutsanmış"
 msgid "Name"
 msgstr "İsim"
 
-#: src/components/_military/battle/BattleSystem.tsx:669
+#: src/components/_military/battle/BattleSystem.tsx:668
 msgid "National bounty"
-msgstr ""
+msgstr "Ulusal ödül"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
@@ -4572,21 +4533,17 @@ msgstr "Yeni"
 msgid "New API Token Created"
 msgstr "Yeni API Tokenı Oluşturuldu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:910
+#: src/components/_user/notification/notification.frontConfig.tsx:1850
 msgid "New article"
 msgstr "Yeni makale"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:942
+#: src/components/_user/notification/notification.frontConfig.tsx:1852
 msgid "New comment"
 msgstr "Yeni yorum"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1721
+#: src/components/_user/notification/notification.frontConfig.tsx:1960
 msgid "New contract accepted"
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:503
-msgid "New equipment"
-msgstr "Yeni ekipman"
+msgstr "Yeni sözleşme kabul edildi"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
@@ -4607,15 +4564,19 @@ msgid "New location"
 msgstr "Yeni konum"
 
 #: src/components/_military/mercenaryContract/MercenaryProposalList.tsx:88
-#: src/components/_user/notification/notification.frontConfig.tsx:1824
+#: src/components/_user/notification/notification.frontConfig.tsx:1975
 msgid "New Mercenary Proposal"
+msgstr "Yeni Paralı Asker Teklifi"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1981
+msgid "New message"
 msgstr ""
 
 #: src/components/_military/mu/MuFormModal.tsx:92
 msgid "New military unit"
 msgstr "Yeni askeri birlik"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1249
+#: src/components/_user/notification/notification.frontConfig.tsx:1941
 msgid "New MU Application"
 msgstr "Yeni AB Başvurusu"
 
@@ -4623,28 +4584,28 @@ msgstr "Yeni AB Başvurusu"
 msgid "New name"
 msgstr "Yeni isim"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:418
+#: src/components/_user/notification/notification.frontConfig.tsx:1893
 msgid "New Party Application"
 msgstr "Yeni Parti Başvurusu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:361
+#: src/components/_user/notification/notification.frontConfig.tsx:1882
 msgid "New Party Leader"
 msgstr "Yeni Parti Lideri"
 
 #: src/components/_political/event/EventList.tsx:66
-#: src/components/_user/notification/notification.frontConfig.tsx:230
+#: src/components/_user/notification/notification.frontConfig.tsx:1865
 msgid "New president"
 msgstr "Yeni cunhurbaşkanı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:712
+#: src/components/_user/notification/notification.frontConfig.tsx:1896
 msgid "New referred user"
 msgstr "Yeni davet edilen kullanıcı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:723
+#: src/components/_user/notification/notification.frontConfig.tsx:1897
 msgid "New referrer"
 msgstr "Yeni davetçi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:976
+#: src/components/_user/notification/notification.frontConfig.tsx:1855
 msgid "New subscriber"
 msgstr "Yeni abone"
 
@@ -4652,11 +4613,7 @@ msgstr "Yeni abone"
 msgid "New supporters"
 msgstr "Yeni destekçiler"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:495
-msgid "New weapon"
-msgstr "Yeni silah"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:541
+#: src/components/_user/notification/notification.frontConfig.tsx:1836
 msgid "New worker"
 msgstr "Yeni işçi"
 
@@ -4679,7 +4636,7 @@ msgstr "Sonraki tank olacak"
 
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
-msgstr ""
+msgstr "Sonraki ödül"
 
 #: src/components/_military/battle/BattleSystem.tsx:485
 msgid "Next tick"
@@ -4711,7 +4668,7 @@ msgstr "Aktif iş teklifi yok"
 
 #: src/components/_military/mercenaryContract/MercenaryProposalList.tsx:96
 msgid "No active mercenary proposals"
-msgstr ""
+msgstr "Aktif paralı asker teklifi yok"
 
 #: src/pages/country/[countryId]/index.tsx:293
 msgid "No active wars"
@@ -4725,9 +4682,9 @@ msgstr "Müttefik yok"
 msgid "No API tokens yet. Create one to get started."
 msgstr "Henüz API jetonu yok. Başlamak için bir tane oluşturun."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:138
+#: src/components/_user/auth/ConnectFromModal.tsx:140
 msgid "No authorization code provided."
-msgstr ""
+msgstr "Yetkilendirme kodu sağlanmadı."
 
 #: src/components/_military/battle/EndedBattlesList.tsx:115
 msgid "No battles yet"
@@ -4763,11 +4720,11 @@ msgstr "Henüz yasa yok"
 
 #: src/components/_military/mu/MuMemberList.tsx:180
 msgid "No members in this military unit."
-msgstr ""
+msgstr "Bu askeri birimde üye yok."
 
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:46
 msgid "No mercenary contracts"
-msgstr ""
+msgstr "Paralı asker sözleşmesi yok"
 
 #: src/components/_military/mu/MuList.tsx:93
 msgid "No military units found"
@@ -4783,7 +4740,7 @@ msgstr "Henüz para sıralaması yok."
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:286
 msgid "No money will be refunded."
-msgstr ""
+msgstr "Para iadesi yapılmayacaktır."
 
 #: src/components/_political/partyMotion/PartyMotionList.tsx:62
 msgid "No motions yet"
@@ -4795,11 +4752,11 @@ msgstr "Teklif bulunamadı"
 
 #: src/components/_political/government/Government.tsx:205
 msgid "No one nominated yet"
-msgstr ""
+msgstr "Henüz kimse aday gösterilmedi"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:109
 msgid "No orders"
-msgstr ""
+msgstr "Emir yok"
 
 #: src/components/_political/party/PartyList.tsx:95
 msgid "No parties found"
@@ -4850,7 +4807,7 @@ msgstr "Aday Göster"
 msgid "Nominate a {title}"
 msgstr "Bir {title} aday göster"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:689
+#: src/components/_user/notification/notification.frontConfig.tsx:1867
 msgid "Nominated at government"
 msgstr "Hükümete aday gösterildi"
 
@@ -4864,11 +4821,20 @@ msgstr "Fena değil!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:105
 msgid "Not eligible for contract rewards"
-msgstr ""
+msgstr "Sözleşme ödülleri için uygun değil"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:36
 msgid "Not impressive, but not shameful"
 msgstr "Ne övgülük ne utançlık"
+
+#: src/pages/notifications.tsx:38
+#: src/pages/user/[userId]/settings.tsx:79
+msgid "Notification preferences"
+msgstr ""
+
+#: src/pages/notifications.tsx:30
+msgid "Notifications"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:61
 msgid "Now we're talking!"
@@ -4876,7 +4842,7 @@ msgstr "Daha yeni başlıyoruz"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:174
 msgid "Number of contracts"
-msgstr ""
+msgstr "Sözleşme sayısı"
 
 #: src/components/_economy/donation/DonationList.tsx:71
 msgid "Number of Donors:"
@@ -4888,7 +4854,7 @@ msgstr "İşgal edilmiş bölge"
 
 #: src/components/_political/government/Government.tsx:179
 msgid "of"
-msgstr ""
+msgstr "/"
 
 #: src/utils/translations.tsx:87
 msgid "Oil"
@@ -4992,15 +4958,16 @@ msgstr "Emir"
 msgid "Orders"
 msgstr "Emirler"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:135
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:137
 msgid "Orders & actions"
-msgstr ""
+msgstr "Emirler ve eylemler"
 
 #: src/pages/market/index.tsx:122
 msgid "Orders cancelled"
 msgstr "Emirler iptal edildi"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:117
+#: src/components/_user/notification/notificationPrefs.categories.ts:159
 msgid "Other"
 msgstr "Diğer"
 
@@ -5011,11 +4978,11 @@ msgstr "Sonuç"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:157
 msgid "Overall"
-msgstr ""
+msgstr "Genel"
 
 #: src/components/_user/user/SkillValue.tsx:152
 msgid "Overflow:"
-msgstr ""
+msgstr "Taşma:"
 
 #: src/components/_military/war/WarHeader.tsx:77
 msgid "Overview"
@@ -5032,19 +4999,19 @@ msgstr "Sahip Olunan Askeri Birlikler"
 
 #: src/components/_military/mu/MuMemberList.tsx:321
 msgid "Owner"
-msgstr ""
+msgstr "Sahip"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1307
+#: src/components/_user/notification/notification.frontConfig.tsx:1124
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "<0/>'ın sahipliği <1/>'dan <2/>'a devredildi"
 
 #: src/components/_military/mu/MuMemberList.tsx:120
 msgid "Ownership transferred successfully"
-msgstr ""
+msgstr "Sahiplik başarıyla devredildi"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:55
 msgid "Pacification Center"
-msgstr ""
+msgstr "Barışlaştırma Merkezi"
 
 #: src/components/_political/party/party.frontConfig.tsx:64
 #: src/components/_political/party/party.frontConfig.tsx:77
@@ -5074,15 +5041,16 @@ msgstr "Partiler"
 
 #: src/components/_layout/LayoutRightIcons.tsx:306
 #: src/components/_layout/MoreButtonNav.tsx:140
+#: src/components/_user/notification/notificationPrefs.categories.ts:156
 #: src/pages/user/[userId]/index.tsx:176
 msgid "Party"
 msgstr "Parti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:391
+#: src/components/_user/notification/notification.frontConfig.tsx:1887
 msgid "Party Application Accepted"
 msgstr "Parti başvurusu kabul edildi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:405
+#: src/components/_user/notification/notification.frontConfig.tsx:1890
 msgid "Party Application Rejected"
 msgstr "Parti başvurusu reddedildi"
 
@@ -5090,27 +5058,15 @@ msgstr "Parti başvurusu reddedildi"
 msgid "Party Council election"
 msgstr "Parti Konseyi seçimi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:265
+#: src/components/_user/notification/notification.frontConfig.tsx:236
 msgid "Party Council election candidacy is now open in <0/>"
 msgstr "<0/> partisinde Parti Konseyi seçimi adaylıkları açıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:251
-msgid "Party Council election candidate open"
-msgstr "Parti Konseyi seçimi adaylıkları açık"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:315
-msgid "Party Council election ended"
-msgstr "Parti Konseyi seçimi sona erdi"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:329
+#: src/components/_user/notification/notification.frontConfig.tsx:286
 msgid "Party Council election has ended in <0/>. Check the results!"
 msgstr "<0/> partisinde Parti Konseyi seçimi sona erdi. Sonuçları kontrol edin!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:283
-msgid "Party Council election vote open"
-msgstr "Parti Konseyi seçimi oylaması açık"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:297
+#: src/components/_user/notification/notification.frontConfig.tsx:261
 msgid "Party Council election voting is now open in <0/>"
 msgstr "<0/> partisinde Parti Konseyi seçimi oylaması açıldı"
 
@@ -5118,61 +5074,45 @@ msgstr "<0/> partisinde Parti Konseyi seçimi oylaması açıldı"
 msgid "Party created"
 msgstr "Parti oluşturuldu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:432
-msgid "Party Donation Received"
-msgstr "Partiye Bağış Geldi"
+#: src/components/_user/notification/notification.frontConfig.tsx:1873
+msgid "Party election candidacy open"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1879
+msgid "Party election ended"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1876
+msgid "Party election vote open"
+msgstr ""
 
 #: src/components/_political/election/election.frontConfig.tsx:33
 msgid "Party Leader election"
 msgstr "Parti Lideri seçimi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:255
+#: src/components/_user/notification/notification.frontConfig.tsx:226
 msgid "Party Leader election candidacy is now open in <0/>"
 msgstr "<0/> partisinde Parti Lideri seçimi adaylıkları açıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:247
-msgid "Party Leader election candidate open"
-msgstr "Parti Lideri seçimi adaylıkları açık"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:311
-msgid "Party Leader election ended"
-msgstr "Parti Lideri seçimi sona erdi"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:319
+#: src/components/_user/notification/notification.frontConfig.tsx:276
 msgid "Party Leader election has ended in <0/>. Check the results!"
 msgstr "<0/> partisinde Parti Lideri seçimi sona erdi. Sonuçları kontrol edin!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:279
-msgid "Party Leader election vote open"
-msgstr "Parti Lideri seçimi oylaması açık"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:287
+#: src/components/_user/notification/notification.frontConfig.tsx:251
 msgid "Party Leader election voting is now open in <0/>"
 msgstr "<0/> partisinde Parti Lideri seçimi oylaması açıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:260
+#: src/components/_user/notification/notification.frontConfig.tsx:231
 msgid "Party Primary election candidacy is now open in <0/>"
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:249
-msgid "Party Primary election candidate open"
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:313
-msgid "Party Primary election ended"
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:324
-msgid "Party Primary election has ended in <0/>. Check the results!"
-msgstr ""
+msgstr "<0/> bölgesinde Parti Ön Seçimi adaylığı başladı"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:281
-msgid "Party Primary election vote open"
-msgstr ""
+msgid "Party Primary election has ended in <0/>. Check the results!"
+msgstr "<0/> bölgesindeki Parti Ön Seçimi sona erdi. Sonuçları kontrol edin!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:292
+#: src/components/_user/notification/notification.frontConfig.tsx:256
 msgid "Party Primary election voting is now open in <0/>"
-msgstr ""
+msgstr "<0/> bölgesinde Parti Ön Seçimi oylaması başladı"
 
 #: src/components/_political/election/CandidateFormModal.tsx:71
 msgid "Paste a link to your campaign article, or leave empty."
@@ -5180,15 +5120,15 @@ msgstr "Kampanya makalenize bir link yapıştırın veya boş bırakın."
 
 #: src/components/_military/mercenaryContract/AcceptMercenaryContractModal.tsx:82
 msgid "Pay members directly"
-msgstr ""
+msgstr "Üyelere doğrudan öde"
 
 #: src/components/_military/mercenaryContract/AcceptMercenaryContractModal.tsx:83
 msgid "Pay to MU treasury"
-msgstr ""
+msgstr "MU hazinesine öde"
 
 #: src/components/_military/mercenaryContract/AcceptMercenaryContractModal.tsx:78
 msgid "Payment mode"
-msgstr ""
+msgstr "Ödeme modu"
 
 #: src/pages/shop/index.tsx:43
 msgid "Payment successful! Thanks for supporting the game <3"
@@ -5200,7 +5140,7 @@ msgstr "Barış yapıldı"
 
 #: src/utils/translations.tsx:259
 msgid "Pending"
-msgstr ""
+msgstr "Beklemede"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
@@ -5208,7 +5148,7 @@ msgstr "Bekleyen maaş indirimi"
 
 #: src/components/_political/event/event.frontConfig.tsx:342
 msgid "People are angry, an auto revolt has started in <0/>"
-msgstr ""
+msgstr "İnsanlar öfkeli, <0/> bölgesinde otomatik bir isyan başladı"
 
 #: src/utils/translations.tsx:86
 msgid "Petroleum"
@@ -5220,19 +5160,19 @@ msgstr "Astsubay"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:60
 msgid "Phone number verified!"
-msgstr ""
+msgstr "Telefon numarası doğrulandı!"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:99
 msgid "Phone Verification"
-msgstr ""
+msgstr "Telefon Doğrulama"
 
 #: src/components/_user/user/UserDropdown.tsx:187
 msgid "Phone verification requested"
-msgstr ""
+msgstr "Telefon doğrulama talep edildi"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:105
 msgid "Phone verification required"
-msgstr ""
+msgstr "Telefon doğrulama gerekli"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Pick a fight!"
@@ -5248,7 +5188,7 @@ msgstr "Veri merkezine incir ağacı dik"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:93
 #: src/components/_user/auth/ConnectFromModal.tsx:113
-#: src/components/_user/auth/ConnectFromModal.tsx:186
+#: src/components/_user/auth/ConnectFromModal.tsx:190
 msgid "Please complete the CAPTCHA."
 msgstr "Lütfen CAPTCHA'yı tamamlayın."
 
@@ -5269,9 +5209,13 @@ msgstr "Politik yasalar"
 msgid "Political motions"
 msgstr "Siyasal önergeler"
 
+#: src/components/_user/notification/notificationPrefs.categories.ts:155
+msgid "Politics & Government"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:196
 msgid "Popular Article"
-msgstr ""
+msgstr "Popüler Makale"
 
 #: src/components/_user/user/skills.frontConfig.tsx:130
 #: src/components/_user/user/skills.frontConfig.tsx:131
@@ -5282,23 +5226,27 @@ msgstr "Hassasiyet"
 msgid "Premium"
 msgstr "Premium"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1154
+#: src/components/_user/notification/notificationPrefs.categories.ts:152
+msgid "Premium & Gifts"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1804
 msgid "Premium activated"
 msgstr "Premium aktif edildi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1164
+#: src/components/_user/notification/notification.frontConfig.tsx:1805
 msgid "Premium expired"
 msgstr "Premium süresi doldu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1207
+#: src/components/_user/notification/notification.frontConfig.tsx:1811
 msgid "Premium gift expired"
 msgstr "Premium hediyesi süresi doldu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1185
+#: src/components/_user/notification/notification.frontConfig.tsx:1808
 msgid "Premium gift received"
 msgstr "Premium hediyesi alındı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1172
+#: src/components/_user/notification/notification.frontConfig.tsx:1806
 msgid "Premium gift sent"
 msgstr "Premium hediyesi gönderildi"
 
@@ -5314,27 +5262,15 @@ msgstr "Başkan"
 msgid "Presidential election"
 msgstr "Cumhurbaşkanlık Seçimleri"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:144
+#: src/components/_user/notification/notification.frontConfig.tsx:132
 msgid "Presidential election candidacy is now open in <0/>"
 msgstr "<0/>'da başkanlık seçimi adaylığı açıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:138
-msgid "Presidential election candidate open"
-msgstr "Başkanlık seçimi adayı açık"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:188
-msgid "Presidential election ended"
-msgstr "Başkanlık seçimi sona erdi"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:194
+#: src/components/_user/notification/notification.frontConfig.tsx:172
 msgid "Presidential election has ended in <0/>. Check the results!"
 msgstr "<0/>'da başkanlık seçimi sona erdi. Sonuçları kontrol et!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:163
-msgid "Presidential election vote open"
-msgstr "Başkanlık seçimi oylaması açık"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:169
+#: src/components/_user/notification/notification.frontConfig.tsx:152
 msgid "Presidential election voting is now open in <0/>"
 msgstr "<0/>'da başkanlık seçimi oylaması açıldı"
 
@@ -5346,7 +5282,7 @@ msgstr "Başkanlık seçimleri"
 msgid "Primary election"
 msgstr "Adaylık seçimi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:375
+#: src/components/_user/notification/notification.frontConfig.tsx:1884
 msgid "Primary Election Ended"
 msgstr "Adaylık Seçimleri Bitti"
 
@@ -5406,11 +5342,11 @@ msgstr "Üretim bonusu"
 msgid "Production bonus:"
 msgstr "Ürün Bonusu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:742
+#: src/components/_user/notification/notification.frontConfig.tsx:574
 msgid "Production in<0/> is full, you should start production!"
 msgstr "<0/>'daki üretim dolu, üretime başlamalısın!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:740
+#: src/components/_user/notification/notification.frontConfig.tsx:1845
 msgid "Production is full"
 msgstr "Üretim haznesi dolu"
 
@@ -5421,16 +5357,16 @@ msgstr "Profil"
 #: src/components/_military/mu/MuMemberList.tsx:146
 #: src/components/_military/mu/MuMemberList.tsx:434
 msgid "Promote to Commander"
-msgstr ""
+msgstr "Komutana Terfi Et"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1277
+#: src/components/_user/notification/notification.frontConfig.tsx:1948
 msgid "Promoted to Commander"
 msgstr "Komutanlığa Terfi Etti"
 
 #: src/components/_military/battle/BattleSideContractsModal.tsx:45
-#: src/pages/battle/[battleId]/contracts.tsx:34
+#: src/pages/battle/[battleId]/contracts.tsx:36
 msgid "Proposals"
-msgstr ""
+msgstr "Teklifler"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
@@ -5489,7 +5425,7 @@ msgstr "Maaş indirimi öner"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:301
 msgid "Proposed"
-msgstr ""
+msgstr "Teklif Edildi"
 
 #: src/components/_other/shop/ShopHeader.tsx:43
 msgid "Propositions"
@@ -5497,7 +5433,7 @@ msgstr "Teklifler"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:164
 msgid "Purple Staff"
-msgstr ""
+msgstr "Mor Asa"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:35
 msgid "Put yourself to work!"
@@ -5505,7 +5441,7 @@ msgstr "İşe başla!"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:175
 msgid "Quantity"
-msgstr ""
+msgstr "Miktar"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:197
 #: src/components/_economy/inventory/DismantleModal.tsx:287
@@ -5516,9 +5452,9 @@ msgstr "Hızlı parçala"
 msgid "Quickly dismantle items"
 msgstr "Eşyaları hızlıca parçala"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1557
-msgid "Ranking Reward"
-msgstr "Sıralama Ödülü"
+#: src/components/_user/notification/notification.frontConfig.tsx:1895
+msgid "Ranking reward"
+msgstr ""
 
 #: src/components/_layout/MoreButtonNav.tsx:120
 #: src/pages/country/[countryId]/index.tsx:167
@@ -5614,7 +5550,7 @@ msgstr "Asker Adayı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:167
 msgid "Red Staff"
-msgstr ""
+msgstr "Kırmızı Asa"
 
 #: src/components/_user/user/skills.frontConfig.tsx:70
 msgid "Reduces health lost when fighting in battles"
@@ -5651,7 +5587,7 @@ msgstr "Her saat yenile"
 #. placeholder {0}: cancelRefund.toLocaleString()
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:285
 msgid "Refund: {0} money will be returned to the country treasury."
-msgstr ""
+msgstr "İade: {0} para ülke hazinesine iade edilecek."
 
 #: src/components/_layout/LayoutUserMenu.tsx:187
 msgid "Regen in..."
@@ -5664,7 +5600,7 @@ msgstr "Yenilenme..."
 #: src/utils/translations.tsx:61
 #: src/utils/translations.tsx:74
 msgid "Regens <0>{0}</0> when consumed"
-msgstr ""
+msgstr "Kullanıldığında <0>{0}</0> yeniler"
 
 #: src/components/_political/party/PartyFormModal.tsx:109
 msgid "Region"
@@ -5674,7 +5610,7 @@ msgstr "Bölge"
 msgid "Region buy offer"
 msgstr "Bölge satın alma teklifi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1074
+#: src/components/_user/notification/notification.frontConfig.tsx:1911
 msgid "Region is revolting!"
 msgstr "Bölgede isyan çıktı!"
 
@@ -5762,9 +5698,9 @@ msgstr "Aktif olmayan bir meclis üyesini görevinden al"
 msgid "Remove Avatar"
 msgstr "Avatarı Kaldır"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:113
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:115
 msgid "Remove bounty"
-msgstr ""
+msgstr "Ödülü kaldır"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:31
 msgid "Remove council member"
@@ -5783,7 +5719,7 @@ msgstr "Düşmanı kaldır"
 msgid "Remove the current party leader from their position"
 msgstr "Mevcut parti liderini görevinden uzaklaştırın"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1263
+#: src/components/_user/notification/notification.frontConfig.tsx:1945
 msgid "Removed from Military Unit"
 msgstr "Askeri Birlikten Çıkarıldı"
 
@@ -5798,11 +5734,11 @@ msgstr "Şirketi yeniden adlandır"
 
 #: src/components/_political/government/Government.tsx:219
 msgid "Replace"
-msgstr ""
+msgstr "Değiştir"
 
 #: src/components/_political/government/Government.tsx:257
 msgid "Replace {title}"
-msgstr ""
+msgstr "{title} değiştir"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:80
 msgid "Replace all party ethics with a new configuration"
@@ -5810,11 +5746,11 @@ msgstr "Tüm parti ilkelerini yeni bir yapılandırmayla değiştirin."
 
 #: src/components/_political/government/NominateForm.tsx:57
 msgid "Replacing a member"
-msgstr ""
+msgstr "Üye değiştiriliyor"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:69
 msgid "Report"
-msgstr ""
+msgstr "Rapor Et"
 
 #: src/components/_user/user/UserDropdown.tsx:268
 msgid "Report user"
@@ -5827,15 +5763,15 @@ msgstr "Cumhuriyetçi"
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:19
 msgid "Reputation earned by the military unit for fulfilling mercenary contracts. For every <0/> dealt, the MU earns <1/>. For every <2/> not dealt before a contract expires, the MU loses <3/>."
-msgstr ""
+msgstr "Paralı asker sözleşmelerini yerine getirerek askeri birliğin kazandığı itibar. Verilen her <0/> için MU <1/> kazanır. Bir sözleşme dolmadan önce verilmeyen her <2/> için MU <3/> kaybeder."
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:38
 msgid "Reputation naturally decays by 10% every week."
-msgstr ""
+msgstr "İtibar her hafta doğal olarak %10 azalır."
 
 #: src/components/_user/user/UserDropdown.tsx:335
 msgid "Request Phone Verification"
-msgstr ""
+msgstr "Telefon Doğrulaması İste"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:197
 msgid "Requests:"
@@ -5843,7 +5779,7 @@ msgstr "İstekler:"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:182
 msgid "Required Reputation (optional)"
-msgstr ""
+msgstr "Gerekli İtibar (isteğe bağlı)"
 
 #: src/components/_user/mission/MissionItem.tsx:114
 msgid "Reroll Mission"
@@ -5853,15 +5789,15 @@ msgstr "Görevi Yenile"
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:286
+#: src/components/_user/auth/ConnectFromModal.tsx:290
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA'yı Sıfırla"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:129
 msgid "Reset Survivor"
-msgstr ""
+msgstr "Sıfırlama Hayatta Kalanı"
 
-#: src/pages/user/[userId]/settings.tsx:72
+#: src/pages/user/[userId]/settings.tsx:74
 msgid "Reset tutorials"
 msgstr "Eğitimleri sıfırla"
 
@@ -5894,7 +5830,7 @@ msgstr "Kaynaklar"
 msgid "Resources reshuffled"
 msgstr "Kaynaklar yeniden dağıtıldı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1017
+#: src/components/_user/notification/notification.frontConfig.tsx:1983
 msgid "Response to message"
 msgstr "Mesaja yanıt"
 
@@ -5910,7 +5846,7 @@ msgstr "Bölgeyi orijinal ülkesine geri ver"
 msgid "Revoke API token?"
 msgstr "API tokenı iptal edilsin mi?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1088
+#: src/components/_user/notification/notification.frontConfig.tsx:1914
 msgid "Revolt started!"
 msgstr "İsyan başladı!"
 
@@ -5922,13 +5858,13 @@ msgstr "İhtilâl mücadelesi bitti"
 msgid "Revolution started"
 msgstr "İhtilâl mücadelesi başladı!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1103
+#: src/components/_user/notification/notification.frontConfig.tsx:1917
 msgid "Revolution started!"
 msgstr "İhtilâl mücadelesi başladı!"
 
 #: src/components/_user/badgeCollection/Badge.tsx:53
 msgid "Reward"
-msgstr ""
+msgstr "Ödül"
 
 #: src/utils/translations.tsx:24
 msgid "Rifle"
@@ -5940,19 +5876,19 @@ msgstr "Haklar"
 
 #: src/components/_military/mercenaryContract/AdminDeleteContractModal.tsx:51
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
-msgstr ""
+msgstr "Parayı geri al (MU/kullanıcılardan tüm ödemeleri geri al ve tam havuzu ülkeye iade et)"
 
 #: src/utils/translations.tsx:255
 msgid "Rolled back by admin"
-msgstr ""
+msgstr "Yönetici tarafından geri alındı"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:313
 msgid "Rolled back by Admin"
-msgstr ""
+msgstr "Yönetici Tarafından Geri Alındı"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:196
 msgid "Round"
-msgstr ""
+msgstr "Tur"
 
 #. placeholder {0}: contract.roundNumber
 #. placeholder {0}: proposal.roundNumber
@@ -5960,11 +5896,11 @@ msgstr ""
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:205
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:91
 msgid "Round {0}"
-msgstr ""
+msgstr "Tur {0}"
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:83
 msgid "Round {roundNumber} loot pool"
-msgstr ""
+msgstr "Tur {roundNumber} ganimet havuzu"
 
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
@@ -5974,25 +5910,25 @@ msgid "Round #{0}"
 msgstr "Tur #{0}"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:830
+#: src/components/_user/notification/notification.frontConfig.tsx:643
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
 msgstr "<1/> savaşında <0>#{0}</0>. tur bitmek üzere!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:828
+#: src/components/_user/notification/notification.frontConfig.tsx:1902
 msgid "Round about to end"
 msgstr "Tur bitmek üzere"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:807
+#: src/components/_user/notification/notification.frontConfig.tsx:1900
 msgid "Round ended"
 msgstr "Tur sona erdi"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
-msgstr ""
+msgstr "Tur Kahramanı"
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:53
 msgid "Round loot"
-msgstr ""
+msgstr "Tur ganimetleri"
 
 #: src/components/_military/battle/BattleTimeline.tsx:57
 msgid "Rounds timeline"
@@ -6131,10 +6067,6 @@ msgstr "Sat şunu, açmak için daha fazla kasa lazım!"
 msgid "Sell Items"
 msgstr "Eşya Sat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:772
-msgid "Sell order match!"
-msgstr "Satış emri eşleşti!"
-
 #: src/pages/market/index.tsx:183
 msgid "Sell orders"
 msgstr "Satış emirleri"
@@ -6166,7 +6098,7 @@ msgstr "Eğitimi tamamlamak için bir mesaj gönder. Topluluğa hoş geldin!"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:135
 msgid "Send Code"
-msgstr ""
+msgstr "Kodu Gönder"
 
 #: src/components/_other/shop/SkinPackModal.tsx:300
 msgid "Send Gift"
@@ -6200,9 +6132,9 @@ msgstr "Ülken için bir karşılama makalesi ayarla"
 msgid "Set a welcome article for your country<0/>"
 msgstr "Ülken için bir karşılama makalesi ayarla<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:122
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:124
 msgid "Set bounty"
-msgstr ""
+msgstr "Ödül belirle"
 
 #: src/components/_political/law/law.frontConfig.tsx:355
 msgid "Set country color"
@@ -6212,9 +6144,9 @@ msgstr "Ülke rengini ayarla"
 msgid "Set new party ethics configuration:"
 msgstr "Yeni parti ilke yapılandırmasını ayarlayın:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:94
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:96
 msgid "Set order"
-msgstr ""
+msgstr "Emir ver"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:79
 msgid "Set party ethics"
@@ -6271,21 +6203,26 @@ msgstr "Mağaza"
 msgid "Show more"
 msgstr "Daha fazla göster"
 
+#. placeholder {0}: items.length - modalLimit
+#: src/components/_economy/inventory/MultiItems.tsx:88
+msgid "Show more ({0} remaining)"
+msgstr ""
+
 #: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
 msgstr "Yalnızca olumlu puana sahip makaleleri göster (puan ≥ -5) "
 
 #: src/components/_military/mu/MuMemberList.tsx:199
 msgid "Showing monthly"
-msgstr ""
+msgstr "Aylık gösteriliyor"
 
 #: src/components/_military/mu/MuMemberList.tsx:198
 msgid "Showing total"
-msgstr ""
+msgstr "Toplam gösteriliyor"
 
 #: src/components/_military/mu/MuMemberList.tsx:200
 msgid "Showing weekly"
-msgstr ""
+msgstr "Haftalık gösteriliyor"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
@@ -6293,7 +6230,7 @@ msgstr "Yetenek meselesi"
 
 #: src/components/_user/user/SkillValue.tsx:45
 msgid "Skill upgrade:"
-msgstr ""
+msgstr "Beceri yükseltmesi:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
 #: src/components/_user/user/UserHeader.tsx:172
@@ -6309,15 +6246,15 @@ msgstr "Beceriler seni güçlendirir. Yeteneklerini artıralım!"
 msgid "Skills saved!"
 msgstr "Beceriler kaydedildi!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1899
+#: src/components/_user/notification/notification.frontConfig.tsx:1825
 msgid "Skin gift received"
 msgstr "Görünüm hediyesi alındı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1867
+#: src/components/_user/notification/notification.frontConfig.tsx:1823
 msgid "Skin gift sent"
 msgstr "Görünüm hediye edildi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1931
+#: src/components/_user/notification/notification.frontConfig.tsx:1828
 msgid "Skin pack gift sent"
 msgstr "Görünüm paketi hediye edildi"
 
@@ -6346,6 +6283,10 @@ msgstr "Eğitimi Atla"
 msgid "Sniper"
 msgstr "Keskin Nişancı"
 
+#: src/components/_user/notification/notificationPrefs.categories.ts:154
+msgid "Social & Messages"
+msgstr ""
+
 #: src/components/_economy/company/CompanyList.tsx:79
 msgid "Some of your companies are disabled."
 msgstr "Bazı şirketlerin devre dışı."
@@ -6372,7 +6313,7 @@ msgstr "Uzmanlık eşyası"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:191
 msgid "Spellcaster Gloves"
-msgstr ""
+msgstr "Büyü Eldivenleri"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:74
 msgid "Spend your <0>Energy</0> working here to earn <1>Money</1>. Keep clicking to work more!"
@@ -6384,7 +6325,7 @@ msgstr "Harcamalar"
 
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:166
 msgid "Spent"
-msgstr ""
+msgstr "Harcandı"
 
 #: src/components/_political/law/law.frontConfig.tsx:132
 #: src/components/_political/law/law.frontConfig.tsx:134
@@ -6428,7 +6369,7 @@ msgstr "Başkanlık seçimi başlat"
 msgid "Start revolution"
 msgstr "Bir devrim başlat"
 
-#: src/components/_military/battle/BattleHeader.tsx:172
+#: src/components/_military/battle/BattleHeader.tsx:175
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -6494,7 +6435,7 @@ msgstr "Stratejik kaynaklar"
 
 #: src/components/_political/event/event.frontConfig.tsx:356
 msgid "Strategic resources have been reshuffled across the whole map."
-msgstr ""
+msgstr "Stratejik kaynaklar tüm haritaya yeniden dağıtıldı."
 
 #: src/components/_social/ArticleList.tsx:189
 msgid "Subscribed"
@@ -6502,19 +6443,19 @@ msgstr "Abone Olundu"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
 msgid "Subscribed and supported the game <3"
-msgstr ""
+msgstr "Oyuna abone olup destek verdi <3"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:56
 msgid "Subscribers"
 msgstr "Aboneler"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:143
+#: src/components/_user/auth/ConnectFromModal.tsx:147
 msgid "Successfully logged in!"
-msgstr ""
+msgstr "Başarıyla giriş yapıldı!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:159
 msgid "Sugar Daddy"
-msgstr ""
+msgstr "Hayırsever"
 
 #: src/components/_user/premium/PremiumActions.tsx:57
 msgid "Support the game"
@@ -6543,7 +6484,7 @@ msgstr "Destekçi özelliği"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:151
 msgid "Supporter Gift"
-msgstr ""
+msgstr "Destekçi Hediyesi"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:68
 msgid "Supporter gifts"
@@ -6597,11 +6538,11 @@ msgstr "Hedef ülke"
 
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:121
 msgid "Target MU"
-msgstr ""
+msgstr "Hedef MU"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:205
 msgid "Target MU (optional)"
-msgstr ""
+msgstr "Hedef MU (isteğe bağlı)"
 
 #: src/components/_political/law/LawFormModal.tsx:206
 msgid "Target region"
@@ -6624,9 +6565,9 @@ msgstr "Vergiler"
 msgid "Terms"
 msgstr "Şartlar"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:382
+#: src/components/_user/auth/ConnectFromModal.tsx:386
 msgid "Terms of Service"
-msgstr ""
+msgstr "Hizmet Şartları"
 
 #: src/components/_layout/LayoutMapOptions.tsx:333
 msgid "Texture"
@@ -6650,19 +6591,19 @@ msgstr "<0>Hasar</0> hesaplaması için temel değer."
 
 #: src/components/_political/event/event.frontConfig.tsx:430
 msgid "The civil war started by <0/> in <1/> has been suppressed"
-msgstr ""
+msgstr "<0/> tarafından <1/> bölgesinde başlatılan iç savaş bastırıldı"
 
 #: src/components/_political/event/event.frontConfig.tsx:414
 msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the government has been overthrown."
-msgstr ""
+msgstr "<0/> tarafından <1/> bölgesinde başlatılan iç savaş <2/> tarafından kazanıldı ve hükümet devrildi."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1788
+#: src/components/_user/notification/notification.frontConfig.tsx:1563
 msgid "The contract for <0/> has expired"
-msgstr ""
+msgstr "<0/> için sözleşmenin süresi doldu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1807
+#: src/components/_user/notification/notification.frontConfig.tsx:1582
 msgid "The contract has been rolled back. All money sent back to <0/>"
-msgstr ""
+msgstr "Sözleşme geri alındı. Tüm para <0/> ya iade edildi"
 
 #: src/components/_user/user/skills.frontConfig.tsx:59
 msgid "The damage factor increase of critical hits over normal hits"
@@ -6676,31 +6617,23 @@ msgstr "Yatak aşağıdaki yüzdelik üretim bonusu verir."
 msgid "The deposit will expire in the following amount of time."
 msgstr "Yatak aşağıdaki sürede sona erecek."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:488
-msgid "The double XP event has ended."
-msgstr "Çift DP etkinliği sona erdi."
-
-#: src/components/_user/notification/notification.frontConfig.tsx:886
+#: src/components/_user/notification/notification.frontConfig.tsx:712
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Tükettiğin buffların etkisi sona erdi. Debuff aşaması başladı ve <0>{debuffDuration}s</0> sürecek."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1627
-msgid "The giveaway has ended. Check if you won!"
-msgstr "Çekiliş sona erdi. Kazanıp kazanmadığını kontrol et!"
-
 #: src/components/_political/event/event.frontConfig.tsx:82
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
-msgstr ""
+msgstr "<0/> bölgesindeki devrim bastırıldı. Hükümet iktidarda kalmaya devam ediyor."
 
 #: src/components/_political/event/event.frontConfig.tsx:68
 msgid "The revolution in <0/> has succeeded! The government has been overthrown."
-msgstr ""
+msgstr "<0/> bölgesindeki devrim başarılı oldu! Hükümet devrildi."
 
 #: src/pages/region/[regionId]/index.tsx:110
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "Stratejik kaynak aşağıdaki sürede yeniden dağıtılacak."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1524
+#: src/components/_user/notification/notification.frontConfig.tsx:1322
 msgid "The tournament has ended for your team <0/>. Check the results!"
 msgstr "Takımın <0/> için turnuva sona erdi. Sonuçları kontrol et!"
 
@@ -6708,9 +6641,9 @@ msgstr "Takımın <0/> için turnuva sona erdi. Sonuçları kontrol et!"
 msgid "The universe owes you something big"
 msgstr "Evren sana büyük bir şey borçlu"
 
-#: src/components/_military/battle/BattleSystem.tsx:670
+#: src/components/_military/battle/BattleSystem.tsx:669
 msgid "This bounty is reserved for nationals only."
-msgstr ""
+msgstr "Bu ödül yalnızca vatandaşlara ayrılmıştır."
 
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
@@ -6730,7 +6663,7 @@ msgstr "İyi hissettiriyor, değil mi?"
 
 #: src/components/_military/battle/LootSummaryCard.tsx:43
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
-msgstr ""
+msgstr "Bu, bu savaştan elde ettiğiniz ganimetlerin özetidir. Aldığınız tüm sandıkları ve paylaşılan ganimet havuzundaki en değerli eşyaları içerir."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
@@ -6751,7 +6684,7 @@ msgstr "Bu yasa, ülkede en az {minActiveCitizen} aktif vatandaş (level 10+) bu
 
 #: src/components/_political/government/Government.tsx:241
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
-msgstr ""
+msgstr "Bu üye {cooldownDays} gün boyunca tekrar aday gösterilemeyecek."
 
 #: src/pages/region/[regionId]/index.tsx:177
 msgid "This region is not linked to it's owner's capital."
@@ -6763,7 +6696,7 @@ msgstr "Bu kullanıcı herhangi bir aile grubunun parçası değil"
 
 #: src/components/_user/user/UserDropdown.tsx:336
 msgid "This will require the user to verify their mobile phone number."
-msgstr ""
+msgstr "Bu, kullanıcının cep telefonu numarasını doğrulamasını gerektirecektir."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:132
 msgid "Time to fight for your country! Let's join the action."
@@ -6775,63 +6708,63 @@ msgstr "Üretme zamanı!"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:17
 msgid "Tiny Pixel"
-msgstr ""
+msgstr "Tiny Pixel"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:95
 msgid "Tiny Pixel Ammo"
-msgstr ""
+msgstr "Tiny Pixel Mermisi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:107
 msgid "Tiny Pixel Boots"
-msgstr ""
+msgstr "Tiny Pixel Çizmeleri"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:104
 msgid "Tiny Pixel Chest"
-msgstr ""
+msgstr "Tiny Pixel Zırhı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:113
 msgid "Tiny Pixel Gloves"
-msgstr ""
+msgstr "Tiny Pixel Eldivenleri"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:116
 msgid "Tiny Pixel Gun"
-msgstr ""
+msgstr "Tiny Pixel Silahı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:98
 msgid "Tiny Pixel Heavy Ammo"
-msgstr ""
+msgstr "Tiny Pixel Ağır Mermisi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:101
 msgid "Tiny Pixel Helmet"
-msgstr ""
+msgstr "Tiny Pixel Miğferi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:128
 msgid "Tiny Pixel Jet"
-msgstr ""
+msgstr "Tiny Pixel Jeti"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:131
 msgid "Tiny Pixel Light Ammo"
-msgstr ""
+msgstr "Tiny Pixel Hafif Mermisi"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:16
 msgid "Tiny Pixel Pack"
-msgstr ""
+msgstr "Tiny Pixel Paketi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:110
 msgid "Tiny Pixel Pants"
-msgstr ""
+msgstr "Tiny Pixel Pantolonu"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:119
 msgid "Tiny Pixel Rifle"
-msgstr ""
+msgstr "Tiny Pixel Tüfeği"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:122
 msgid "Tiny Pixel Sniper"
-msgstr ""
+msgstr "Tiny Pixel Keskin Nişancısı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:125
 msgid "Tiny Pixel Tank"
-msgstr ""
+msgstr "Tiny Pixel Tankı"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:301
 msgid "Tip <0>{count}</0> articles"
@@ -6847,15 +6780,15 @@ msgstr "Token Adı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:176
 msgid "Tome of Flames"
-msgstr ""
+msgstr "Alev Kitabı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:173
 msgid "Tome of Storms"
-msgstr ""
+msgstr "Fırtına Kitabı"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:170
 msgid "Tome of Tides"
-msgstr ""
+msgstr "Gelgit Kitabı"
 
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
@@ -6871,19 +6804,19 @@ msgstr "En İyi (1h)"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:74
 msgid "Top 1 damage in a battle"
-msgstr ""
+msgstr "Savaşta 1. hasar"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:80
 msgid "Top 1 damage in a round"
-msgstr ""
+msgstr "Turda 1. hasar"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:92
 msgid "Top 1 ground points in a battle"
-msgstr ""
+msgstr "Savaşta 1. kara puanı"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:98
 msgid "Top 1 ground points in a round"
-msgstr ""
+msgstr "Turda 1. kara puanı"
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:84
 msgid "Top 3 offers"
@@ -6907,7 +6840,7 @@ msgstr "Ayın en iyi hediye verenleri"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:97
 msgid "Top of the hill"
-msgstr ""
+msgstr "Zirveye Çıktın"
 
 #: src/components/_military/battle/BattleSystem.tsx:539
 msgid "total"
@@ -6926,11 +6859,11 @@ msgstr "Toplam"
 
 #: src/components/_economy/inventory/case/OpenCaseModal.tsx:470
 msgid "Total cases opened"
-msgstr ""
+msgstr "Toplam açılan sandık"
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:212
 msgid "Total cost:"
-msgstr ""
+msgstr "Toplam maliyet:"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:27
 msgid "Total damages"
@@ -6942,13 +6875,13 @@ msgstr "Toplam bağış:"
 
 #: src/components/_user/badgeCollection/Badge.tsx:57
 msgid "Total reward"
-msgstr ""
+msgstr "Toplam ödül"
 
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:215
 msgid "Total:"
-msgstr ""
+msgstr "Toplam:"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:75
 #: src/components/_military/battle/ActiveBattlesList.tsx:139
@@ -6956,31 +6889,31 @@ msgstr ""
 msgid "Tournament"
 msgstr "Turnuva"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1496
+#: src/components/_user/notification/notification.frontConfig.tsx:1925
 msgid "Tournament Created"
 msgstr "Turnuva Oluşturuldu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1536
+#: src/components/_user/notification/notification.frontConfig.tsx:1932
 msgid "Tournament Eliminated"
 msgstr "Turnuvadan Elendi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1522
+#: src/components/_user/notification/notification.frontConfig.tsx:1930
 msgid "Tournament Ended"
 msgstr "Turnuva Sona Erdi"
 
 #: src/components/_user/user/SkillValue.tsx:116
 msgid "Tournament reward:"
+msgstr "Turnuva ödülü:"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1921
+msgid "Tournament round won!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1447
-msgid "Tournament Round Won"
-msgstr "Turnuva Turu Kazanıldı"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:1509
+#: src/components/_user/notification/notification.frontConfig.tsx:1928
 msgid "Tournament Started"
 msgstr "Turnuva Başladı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1477
+#: src/components/_user/notification/notification.frontConfig.tsx:1923
 msgid "Tournament Won!"
 msgstr "Turnuva Kazanıldı!"
 
@@ -6992,6 +6925,10 @@ msgstr "Ticaret"
 #: src/pages/market/index.tsx:56
 msgid "Trading"
 msgstr "Alım Satım"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1848
+msgid "Trading transaction"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:16
 msgid "Trainee"
@@ -7013,7 +6950,7 @@ msgstr "Para transfer et"
 
 #: src/components/_military/mu/MuMemberList.tsx:161
 msgid "Transfer Ownership"
-msgstr ""
+msgstr "Sahipliği Devret"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:187
 msgid "Transfer to company (optional)"
@@ -7021,7 +6958,7 @@ msgstr "Şirkete transfer et (isteğe bağlı)"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:206
 msgid "Translator"
-msgstr ""
+msgstr "Çevirmen"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Trebuchet"
@@ -7031,11 +6968,11 @@ msgstr "Mancınık"
 msgid "Trooper"
 msgstr "Asker"
 
-#: src/pages/user/[userId]/settings.tsx:65
+#: src/pages/user/[userId]/settings.tsx:67
 msgid "Tutorials"
 msgstr "Eğitimler"
 
-#: src/pages/user/[userId]/settings.tsx:31
+#: src/pages/user/[userId]/settings.tsx:33
 msgid "Tutorials reseted"
 msgstr "Eğitimler sıfırlandı"
 
@@ -7073,7 +7010,7 @@ msgstr "Hepsine Yardım Et butonunu aç"
 msgid "Unlock Produce all button"
 msgstr "Hepsini Üret butonunu aç"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1962
+#: src/components/_user/notification/notification.frontConfig.tsx:1831
 msgid "Unlocked pack"
 msgstr "Kilidi açılmış paket"
 
@@ -7119,7 +7056,7 @@ msgstr "Yaklaşan Turnuva"
 msgid "Update"
 msgstr "Güncelle"
 
-#: src/pages/user/[userId]/settings.tsx:57
+#: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
 msgstr "Bilgileri güncelle"
 
@@ -7225,6 +7162,10 @@ msgstr "Şirketleri, AB'leri ve tahkimatları yükseltmek için kullanılır"
 #: src/components/_layout/LoadingScreenContent.tsx:22
 msgid "user"
 msgstr "kullanıcı"
+
+#: src/components/_user/notification/notificationPrefs.categories.ts:151
+msgid "User & Progression"
+msgstr ""
 
 #: src/components/_other/shop/SkinPackModal.tsx:283
 msgid "User already owns all skins"
@@ -7340,14 +7281,14 @@ msgstr "Doğrulama kodu"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:50
 msgid "Verification code sent!"
-msgstr ""
+msgstr "Doğrulama kodu gönderildi!"
 
 #: src/components/_user/auth/LoginFormModal.tsx:149
 #: src/components/_user/modals/PhoneVerificationModal.tsx:181
 msgid "Verify"
 msgstr "Doğrula"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:274
+#: src/components/_user/auth/ConnectFromModal.tsx:278
 msgid "Verifying CAPTCHA..."
 msgstr "CAPTCHA doğrulanıyor..."
 
@@ -7362,15 +7303,15 @@ msgstr "Başkan Yardımcısı"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:63
 msgid "View details"
-msgstr ""
+msgstr "Ayrıntıları görüntüle"
 
-#: src/components/_military/battle/BattleHeader.tsx:103
+#: src/components/_military/battle/BattleHeader.tsx:106
 msgid "View on map"
 msgstr "Haritada göster"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:103
 msgid "Voter"
-msgstr ""
+msgstr "Seçmen"
 
 #: src/components/_military/war/WarComparison.tsx:45
 msgid "VS"
@@ -7381,7 +7322,7 @@ msgstr "VS"
 msgid "Wage"
 msgstr "Maaş"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:602
+#: src/components/_user/notification/notification.frontConfig.tsx:1841
 msgid "Wage changed"
 msgstr "Maaş değişti"
 
@@ -7397,7 +7338,7 @@ msgstr "Üretim başına maaş"
 msgid "Wage reduction accepted."
 msgstr "Maaş indirimi kabul edildi."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:617
+#: src/components/_user/notification/notification.frontConfig.tsx:1842
 #: src/components/_user/worker/WageReductionAlert.tsx:66
 msgid "Wage reduction proposed"
 msgstr "Maaş indirimi önerildi"
@@ -7434,7 +7375,7 @@ msgstr "War Era %100 ücretsiz oynanabilir ve <0>reklam</0> veya <1>öde-kazan</
 #: src/components/_military/mercenaryContract/AcceptMercenaryContractModal.tsx:69
 #: src/components/_user/userReports/ReportFormModal.tsx:83
 msgid "Warning"
-msgstr ""
+msgstr "Uyarı"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:76
 msgid "Warrant Officer"
@@ -7456,11 +7397,11 @@ msgstr "Silah"
 
 #: src/components/_user/user/SkillValue.tsx:58
 msgid "Weapon:"
-msgstr ""
+msgstr "Silah:"
 
 #: src/components/_user/user/WealthPanel.tsx:63
 msgid "Weapons"
-msgstr ""
+msgstr "Silahlar"
 
 #: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:203
@@ -7475,25 +7416,20 @@ msgstr "Haftalık bakiye"
 msgid "Weekly damages"
 msgstr "Haftalık hasar"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1854
+#: src/components/_user/notification/notification.frontConfig.tsx:1997
 msgid "Weekly Missions Reset"
 msgstr "Haftalık Görevler Sıfırlandı"
 
 #: src/components/_military/mu/MuMemberList.tsx:349
 #: src/components/_military/mu/MuMemberList.tsx:379
 msgid "Weekly:"
-msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:1117
-msgid "Welcome"
-msgstr "Hoş Geldin"
+msgstr "Haftalık:"
 
 #: src/components/_user/auth/LoginFormModal.tsx:59
 msgid "Welcome back {username}!"
 msgstr "Tekrar hoş geldin {username}!"
 
 #: src/components/_user/auth/WelcomeModal.tsx:114
-#: src/components/_user/notification/notification.frontConfig.tsx:1118
 msgid "Welcome to War Era!"
 msgstr "War Era'ya Hoş Geldin!"
 
@@ -7524,11 +7460,11 @@ msgstr "sadakat ve bonusla"
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
 msgid "With bounty"
-msgstr ""
+msgstr "Ödülle"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:182
 msgid "Wizard Hat"
-msgstr ""
+msgstr "Büyücü Şapkası"
 
 #: src/pages/events/index.tsx:139
 msgid "Won by"
@@ -7551,7 +7487,7 @@ msgstr "Çalış ve kazan!"
 msgid "Worker fired!"
 msgstr "İşçi kovuldu!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:557
+#: src/components/_user/notification/notification.frontConfig.tsx:1837
 msgid "Worker left"
 msgstr "İşçi ayrıldı"
 
@@ -7637,17 +7573,17 @@ msgstr "Çok yeteneklisin!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:222
 msgid "You are/were a council member, sharing ideas and feedback to improve the game <3"
-msgstr ""
+msgstr "Oyunu geliştirmek için fikirler ve geri bildirimler paylaşan bir konsey üyesisin/üyesiydin <3"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:143
 msgid "You are/were a part of the staff and helped the game to grow <3"
-msgstr ""
+msgstr "Ekibin bir parçasısın/parçasıydın ve oyunun büyümesine yardım ettin <3"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:110
 msgid "You bought a coffee for the dev <3"
-msgstr ""
+msgstr "Geliştirici için bir kahve ısmarladın <3"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:777
+#: src/components/_user/notification/notification.frontConfig.tsx:590
 msgid "You bought items."
 msgstr "Eşya satın aldın."
 
@@ -7657,7 +7593,7 @@ msgstr "RNG'yi kırdın"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:172
 msgid "You brought 10 babies to the world (>= lvl 10)"
-msgstr ""
+msgstr "Dünyaya 10 çaylak getirdin (>= 10. seviye)"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:210
 msgid "You can dismantle items from your inventory by selecting an item."
@@ -7679,25 +7615,25 @@ msgstr "Hükümet/meclis rolün varsa vatandaşlık başvurusu yapamazsın"
 msgid "You don't have permission to view applications."
 msgstr "Başvuruları görüntüleme izniniz yok."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1697
+#: src/components/_user/notification/notification.frontConfig.tsx:1472
 msgid "You earned gems from a banner sale!"
-msgstr ""
+msgstr "Bir banner satışından taş kazandın!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2006
+#: src/components/_user/notification/notification.frontConfig.tsx:1781
 msgid "You earned gems from a sale of \"{skinTitle}\"!"
-msgstr ""
+msgstr "\"{skinTitle}\" satışından taş kazandın!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2008
+#: src/components/_user/notification/notification.frontConfig.tsx:1783
 msgid "You earned gems from a skin pack sale!"
-msgstr ""
+msgstr "Bir kostüm paketi satışından taş kazandın!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:900
+#: src/components/_user/notification/notification.frontConfig.tsx:726
 msgid "You feel healthy, the debuff effect no longer affects you."
 msgstr "Sağlıklı hissediyorsun, debuff etkisi artık seni etkilemiyor."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:153
 msgid "You gifted a supporter plan subscription to someone <3"
-msgstr ""
+msgstr "Birine destekçi planı aboneliği hediye ettin <3"
 
 #: src/pages/country/[countryId]/citizenship.tsx:48
 msgid "You gonna be automatically approved because the country population is below"
@@ -7707,33 +7643,28 @@ msgstr "Ülke nüfusu düşük olduğu için otomatik onaylanacaksın"
 msgid "You have a case!"
 msgstr "Bir kasan var!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1293
+#: src/components/_user/notification/notification.frontConfig.tsx:1110
 msgid "You have been demoted from commander in <0/> by <1/>"
 msgstr "<1/> tarafından <0/>'da komutanlıktan düşürüldün"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:363
+#: src/components/_user/notification/notification.frontConfig.tsx:320
 msgid "You have been elected as the new leader of <0/>"
 msgstr "<0/> partisinin yeni lideri olarak seçildiniz."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1279
+#: src/components/_user/notification/notification.frontConfig.tsx:1096
 msgid "You have been promoted to commander in <0/> by <1/>"
 msgstr "<1/> tarafından <0/>'da komutanlığa terfi ettin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1265
+#: src/components/_user/notification/notification.frontConfig.tsx:1082
 msgid "You have been removed from <0/> by <1/>"
 msgstr "<1/> tarafından <0/>'dan çıkarıldın"
 
-#. placeholder {0}: data.money
-#: src/components/_user/notification/notification.frontConfig.tsx:1415
-msgid "You have been rewarded <0>{0}</0> for your contribution to the battle in <1/>"
-msgstr "<1/>'daki savaşa katkın için <0>{0}</0> ödüllendirildin"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:589
+#: src/components/_user/notification/notification.frontConfig.tsx:439
 msgid "You have been transferred from <0/> to <1/>"
 msgstr "<0/>'dan <1/>'a transfer oldunuz"
 
 #. placeholder {0}: 1
-#: src/components/_user/notification/notification.frontConfig.tsx:867
+#: src/components/_user/notification/notification.frontConfig.tsx:680
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "<0>{0}</0> tükettin, etkisi şimdi başlıyor ve <1>{buffDuration}s</1> sonra bitiyor."
 
@@ -7757,21 +7688,21 @@ msgstr "Bir ülkenin kontrolünü tekrar ele almadan önce {0} gün beklemelisin
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:124
 msgid "You helped the dev find a bug, ty <3"
-msgstr ""
+msgstr "Geliştiricinin bir hata bulmasına yardım ettin, teşekkürler <3"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:215
 msgid "You helped the dev find an exploit, ty <3"
-msgstr ""
+msgstr "Geliştiricinin bir açık bulmasına yardım ettin, teşekkürler <3"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:208
 msgid "You helped translate the game into another language"
-msgstr ""
+msgstr "Oyunu başka bir dile çevirmeye yardım ettin"
 
 #. placeholder {0}: staticGameConfig.referral.levelNeededForBadge
 #. placeholder {1}: staticGameConfig.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:34
 msgid "You invited a friend or spammed forum posts. After they reach level {0}, you will get the badge + {1}% of all your referrals' badge rewards"
-msgstr ""
+msgstr "Bir arkadaş davet ettin veya forum paylaşımı yaptın. {0}. seviyeye ulaştıklarında, rozeti + tüm davetlerinin rozet ödüllerinin %{1}'ini alacaksın"
 
 #: src/components/_user/worker/WageReductionAlert.tsx:44
 msgid "You left the company."
@@ -7780,24 +7711,6 @@ msgstr "Şirketten ayrıldınız."
 #: src/components/_economy/company/CompanyDropdown.tsx:56
 msgid "You left your job!"
 msgstr "İşinden ayrıldın!"
-
-#. placeholder {0}: data.quantity
-#. placeholder {1}: data.lootChance
-#: src/components/_user/notification/notification.frontConfig.tsx:522
-msgid "You looted <0>{0}</0> with a loot chance of <1>{1}</1> in <2/>"
-msgstr "<2/>'da <1>{1}</1> yağma şansıyla <0>{0}</0> yağmaladın"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:504
-msgid "You looted a new equipment!"
-msgstr "Yeni bir ekipman yağmaladın!"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:496
-msgid "You looted a new weapon!"
-msgstr "Yeni bir silah yağmaladın!"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:755
-msgid "You looted money on the battlefield."
-msgstr "Savaş alanında para yağmaladın."
 
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
@@ -7820,48 +7733,48 @@ msgstr "Önce bir silah kuşanmalısın"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:161
 msgid "You paid the dev's bills <3 (top 3 in monthly supporter gifts ranking)"
-msgstr ""
+msgstr "Geliştiricinin faturalarını ödediler <3 (aylık destekçi hediyeleri sıralamasında ilk 3)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1209
+#: src/components/_user/notification/notification.frontConfig.tsx:1026
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
 msgstr "<0/>'dan premium hediyen sona erdi! Abone olup oyunu desteklemeyi düşünür müsün? 👉👈"
 
 #. placeholder {0}: data.rank
-#: src/components/_user/notification/notification.frontConfig.tsx:1433
+#: src/components/_user/notification/notification.frontConfig.tsx:1231
 msgid "You received a loot item for rank <0>#{0}</0> in <1/>"
-msgstr ""
+msgstr "<1/> bölgesinde <0>#{0}</0> sıralaması için bir ganimet eşyası aldın"
 
 #. placeholder {0}: data.muId ? ( <MuName muId={data.muId} /> ) : data.countryId ? ( <CountryName countryId={data.countryId} /> ) : ( 'your' )
 #. placeholder {1}: data.rank && ( <> position{' '} <Typo fw='bold' color='text1'> #{data.rank} </Typo> </> )
-#: src/components/_user/notification/notification.frontConfig.tsx:1559
+#: src/components/_user/notification/notification.frontConfig.tsx:1357
 msgid "You received a reward for {0} {1} in<0/> tier in the ranking <1/>"
 msgstr "<1/> sıralamasında <0/> kademesinde {0} {1} için ödül aldın"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:779
+#: src/components/_user/notification/notification.frontConfig.tsx:592
 msgid "You sold items."
 msgstr "Eşya sattın."
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1637
+#: src/components/_user/notification/notification.frontConfig.tsx:1412
 msgid "You successfully gifted \"{0}\" to <0/>!"
 msgstr "\"{0}\" yı <0/>'a başarıyla hediye ettiniz!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1870
+#: src/components/_user/notification/notification.frontConfig.tsx:1645
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "\"{skinTitle}\" i <0/>'a başarıyla hediye ettiniz!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1174
+#: src/components/_user/notification/notification.frontConfig.tsx:991
 msgid "You successfully gifted a premium subscription to <0/>!"
 msgstr "<0/>'a başarıyla premium abonelik hediye ettin!"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1934
+#: src/components/_user/notification/notification.frontConfig.tsx:1709
 msgid "You successfully gifted the skin pack \"{0}\" to <0/>!"
 msgstr "\"{0}\" adlı kostüm paketini <0/>'ya başarıyla hediye ettiniz!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:130
 msgid "You survived the big reset"
-msgstr ""
+msgstr "Büyük sıfırlamadan kurtuldun"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:20
 msgid "You very lucky"
@@ -7869,40 +7782,40 @@ msgstr "Çok şanslısın"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:104
 msgid "You voted in a major election"
-msgstr ""
+msgstr "Önemli bir seçimde oy kullandın"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:703
+#: src/components/_user/notification/notification.frontConfig.tsx:535
 msgid "You was fired from the government by <0/>"
 msgstr "<0/> tarafından hükümetten kovuldun"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:117
 msgid "You were an alpha tester (user before 20 march 2025)"
-msgstr ""
+msgstr "Alfa test kullanıcısıydın (20 Mart 2025 öncesi kullanıcı)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:211
-#: src/components/_user/notification/notification.frontConfig.tsx:341
+#: src/components/_user/notification/notification.frontConfig.tsx:1864
+#: src/components/_user/notification/notification.frontConfig.tsx:1881
 msgid "You were elected"
 msgstr "Seçildin"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:59
 msgid "You were elected as a congress member of your country"
-msgstr ""
+msgstr "Ülkenin kongre üyesi seçildin"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:52
 msgid "You were elected as president of your country"
-msgstr ""
+msgstr "Ülkenin cumhurbaşkanı seçildin"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:46
 msgid "You were here at the beginning of War Era"
-msgstr ""
+msgstr "Savaş Çağının başında buradaydın"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:233
 msgid "You were nominated as a government member of a country"
-msgstr ""
+msgstr "Bir ülkenin hükümet üyesi olarak aday gösterildin"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:67
 msgid "You were nominated as vice president of your country"
-msgstr ""
+msgstr "Ülkenin cumhurbaşkanı yardımcısı olarak aday gösterildin"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:21
 msgid "You were so close"
@@ -7915,19 +7828,19 @@ msgstr "Rozet için para kazanırsın + tüm davet ettiklerinin rozet gelirinin 
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:179
 msgid "You won a country tournament"
-msgstr ""
+msgstr "Bir ülke turnuvası kazandın"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:191
 msgid "You won a giveaway"
-msgstr ""
+msgstr "Bir çekiliş kazandın"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:185
 msgid "You won a MU tournament"
-msgstr ""
+msgstr "Bir MU turnuvası kazandın"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:86
 msgid "You worked 100 times"
-msgstr ""
+msgstr "100 kez çalıştın"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:220
 msgid "You're all set!"
@@ -7977,19 +7890,23 @@ msgstr "Hesabın hile şüphesiyle rapor edildi"
 msgid "Your ancestors are proud"
 msgstr "Ataların gurur duyuyor olmalı"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:407
-#: src/components/_user/notification/notification.frontConfig.tsx:1224
+#: src/components/_user/notification/notification.frontConfig.tsx:364
+#: src/components/_user/notification/notification.frontConfig.tsx:1041
 msgid "Your application to <0/> has been rejected"
 msgstr "<0/> başvurun reddedildi"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:198
 msgid "Your article reached 2% of the active population in score (min 10)"
-msgstr ""
+msgstr "Makalenin aktif nüfusun %2'sine ulaştı (en az 10)"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1710
+#: src/components/_user/notification/notification.frontConfig.tsx:1485
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr "\"{0}\" adlı bannerınız onaylandı ve artık mağazada mevcut! Sizin için otomatik olarak açıldı."
+
+#: src/components/_user/notification/notification.frontConfig.tsx:695
+msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
+msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
@@ -7999,21 +7916,17 @@ msgstr "Vatandaşlığın değişecek"
 msgid "Your country"
 msgstr "Ülken"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1045
+#: src/components/_user/notification/notification.frontConfig.tsx:1905
 msgid "Your country is under attack!"
 msgstr "Ülken saldırı altında!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1059
+#: src/components/_user/notification/notification.frontConfig.tsx:1908
 msgid "Your country launched an attack!"
 msgstr "Ülken taarruz başlattı!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1090
+#: src/components/_user/notification/notification.frontConfig.tsx:916
 msgid "Your country started a revolt in <0/> against <1/>"
 msgstr "Ülken <1/>'a karşı <0/>'da isyan başlattı"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:673
-msgid "Your country started the construction of <0/> in <1/>"
-msgstr "Ülken <1/>'da <0/> inşaatını başlattı"
 
 #: src/components/_economy/workOffer/WorkOfferList.tsx:106
 msgid "Your current job"
@@ -8023,19 +7936,15 @@ msgstr "Şuanki işin"
 msgid "Your current order"
 msgstr "Mevcut market emrin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1844
+#: src/components/_user/notification/notification.frontConfig.tsx:1619
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Günlük görevleriniz sıfırlandı! Ödüllerinizi almak için tamamlayın."
-
-#: src/components/_user/notification/notification.frontConfig.tsx:466
-msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
-msgstr "Günlük XP limitin sıfırlandı, artık XP kazanabilir ve günlük ödülünü alabilirsin!"
 
 #: src/components/_military/hit/HitButton.tsx:361
 msgid "Your damages"
 msgstr "Verdiğin hasar"
 
-#: src/pages/user/[userId]/settings.tsx:47
+#: src/pages/user/[userId]/settings.tsx:49
 msgid "Your email"
 msgstr "E-postan"
 
@@ -8047,7 +7956,7 @@ msgstr "İşvereniniz maaşınızı <0>{0}</0>'dan <1>{1}</1>'e düşürmek isti
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
-#: src/components/_user/notification/notification.frontConfig.tsx:619
+#: src/components/_user/notification/notification.frontConfig.tsx:469
 msgid "Your employer wants to reduce your wage in <0/> from <1>{0}</1> to <2>{1}</2>. Accept or reject this change."
 msgstr "İşvereniniz <0/>'daki maaşınızı <1>{0}</1>'dan <2>{1}</2>'e düşürmek istiyor. Bu değişikliği kabul veya reddedin."
 
@@ -8066,7 +7975,7 @@ msgstr "Envanterin tüm eşyalarını içerir. Nelerin var bakalım!"
 #: src/components/_military/battle/LootSummaryCard.tsx:42
 #: src/components/_military/battle/LootSummaryCard.tsx:46
 msgid "Your loot"
-msgstr ""
+msgstr "Ganimetlerin"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:48
 msgid "Your luck is just warming up, don't quit"
@@ -8088,11 +7997,11 @@ msgstr "Tekliflerin"
 msgid "Your party name"
 msgstr "Siyasal parti ismin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1156
+#: src/components/_user/notification/notification.frontConfig.tsx:973
 msgid "Your premium subscription has been activated!"
 msgstr "Premium aboneliğin aktif edildi!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1165
+#: src/components/_user/notification/notification.frontConfig.tsx:982
 msgid "Your premium subscription has expired!"
 msgstr "Premium aboneliğin süresi doldu!"
 
@@ -8104,11 +8013,11 @@ msgstr "Sıralaman"
 msgid "Your referral link"
 msgstr "Davet linkin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1538
+#: src/components/_user/notification/notification.frontConfig.tsx:1336
 msgid "Your team <0/> has been eliminated from the <1/>"
 msgstr "Takımın <0/> <1/> turnuvasından elendi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1449
+#: src/components/_user/notification/notification.frontConfig.tsx:1247
 msgid "Your team <0/> won a round in <1/>!"
 msgstr "Takımın <0/> <1/>'da bir tur kazandı!"
 
@@ -8118,15 +8027,15 @@ msgstr "Takımın:"
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
-#: src/components/_user/notification/notification.frontConfig.tsx:604
+#: src/components/_user/notification/notification.frontConfig.tsx:454
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgstr "<0/> şirketindeki maaşın <1>{0}</1> tutarından <2>{1}</2> tutarına değişti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1856
+#: src/components/_user/notification/notification.frontConfig.tsx:1631
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Haftalık görevleriniz sıfırlandı! Ödüller almak için onları tamamlayın."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:223
+#: src/components/_user/auth/ConnectFromModal.tsx:227
 msgid "your@email.com"
 msgstr "senin@email.com"
 
