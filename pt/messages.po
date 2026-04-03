@@ -1181,7 +1181,7 @@ msgstr "Admin"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1990
 msgid "Admin notification"
-msgstr "Notificões da administração"
+msgstr "Notifição da administração"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:136
 msgid "Admiral"
@@ -1538,11 +1538,11 @@ msgstr "Baby Boomer"
 
 #: src/components/_user/referral/ReferralList.tsx:110
 msgid "Badge won"
-msgstr "Insígnia conquistada"
+msgstr "Insígnia obtida"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1802
 msgid "Badge Won"
-msgstr "Insígnia Conquistada"
+msgstr "Insígnia obtida"
 
 #: src/pages/country/[countryId]/index.tsx:173
 #: src/pages/user/[userId]/index.tsx:135
@@ -1567,7 +1567,7 @@ msgstr "Banido"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1818
 msgid "Banner Accepted!"
-msgstr "Banner Aceite!"
+msgstr "Banner aceite!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1815
 msgid "Banner gift received"
@@ -2150,7 +2150,7 @@ msgstr "Armazenamento de produção da empresa"
 
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:44
 msgid "Company renamed!"
-msgstr "Empresa renomeada!"
+msgstr "Nome da Empresa alterado!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:194
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
@@ -2695,11 +2695,11 @@ msgstr "Excluir sua conta"
 
 #: src/components/_military/mu/MuMemberList.tsx:153
 msgid "Demote Commander"
-msgstr "Rebaixar Comandante"
+msgstr "Despromover Comandante"
 
 #: src/components/_military/mu/MuMemberList.tsx:440
 msgid "Demote from Commander"
-msgstr "Rebaixar de Comandante"
+msgstr "Despromover de Comandante"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1951
 msgid "Demoted from Commander"
@@ -2940,15 +2940,15 @@ msgstr "Efetivo:"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1858
 msgid "Election candidacy open"
-msgstr "Inscrições abertas para a candidatura às eleições"
+msgstr "Abertura do período de candidaturas às eleições"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1863
 msgid "Election ended"
-msgstr "As eleições acabaram"
+msgstr "Fim das eleições"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1861
 msgid "Election vote open"
-msgstr "As eleições estão abertas para voto"
+msgstr "Início do período de votação"
 
 #: src/components/_political/country/CountryHeader.tsx:102
 #: src/pages/country/[countryId]/elections.tsx:28
@@ -3296,7 +3296,7 @@ msgstr "Demitir trabalhador?"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1870
 msgid "Fired from government"
-msgstr "Demitido do governo"
+msgstr "Demissão do governo"
 
 #: src/utils/translations.tsx:36
 msgid "Fish"
@@ -3931,11 +3931,11 @@ msgstr "Nível {level}"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Level up your skills!"
-msgstr "Evolua suas habilidades!"
+msgstr "Evolua as suas habilidades!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1803
 msgid "Level up!"
-msgstr "Subiu de nível!"
+msgstr "Subida de nível!"
 
 #: src/components/_political/law/law.frontConfig.tsx:329
 msgid "Liberate <0/> and return it to its original country"
@@ -4257,7 +4257,7 @@ msgstr "Patente militar"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1898
 msgid "Military Rank Up!"
-msgstr "Promoção militar!"
+msgstr "Nova patente militar!"
 
 #: src/components/_user/user/SkillValue.tsx:184
 msgid "Military rank:"
@@ -4403,7 +4403,7 @@ msgstr "Mover para o topo"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1839
 msgid "Moved to a new company"
-msgstr "Transferido para uma nova empresa"
+msgstr "Transferência para uma nova empresa"
 
 #: src/components/_layout/LayoutMenu.tsx:137
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
@@ -4428,7 +4428,7 @@ msgstr "Doação à UM recebida"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1943
 msgid "MU Level Up!"
-msgstr "UM subiu de Nível!"
+msgstr "Subida de Nível da UM!"
 
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:112
 msgid "MU Monthly Levels"
@@ -4440,7 +4440,7 @@ msgstr "Ordens do UM"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1954
 msgid "MU Ownership Transferred"
-msgstr "Propriedade da UM transferida"
+msgstr "Transferência de propriedade da UM"
 
 #. placeholder {0}: data.level
 #: src/components/_political/message/systemMessage.frontConfig.tsx:98
@@ -4544,7 +4544,7 @@ msgstr "Novo comentário"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1960
 msgid "New contract accepted"
-msgstr "Novo contrato aceito"
+msgstr "Novo contrato aceite"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
@@ -4567,7 +4567,7 @@ msgstr "Nova localização"
 #: src/components/_military/mercenaryContract/MercenaryProposalList.tsx:88
 #: src/components/_user/notification/notification.frontConfig.tsx:1975
 msgid "New Mercenary Proposal"
-msgstr "Nova Proposta Mercenária"
+msgstr "Nova proposta mercenária"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1981
 msgid "New message"
@@ -4579,7 +4579,7 @@ msgstr "Nova unidade militar"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1941
 msgid "New MU Application"
-msgstr "Nova candidatura UM"
+msgstr "Nova candidatura à UM"
 
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:71
 msgid "New name"
@@ -4587,7 +4587,7 @@ msgstr "Novo nome"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1893
 msgid "New Party Application"
-msgstr "Nova solicitação de partido"
+msgstr "Nova candidatura ao partido"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1882
 msgid "New Party Leader"
@@ -4810,7 +4810,7 @@ msgstr "Nomear um {title}"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1867
 msgid "Nominated at government"
-msgstr "Nomeado no governo"
+msgstr "Nomeação para o governo"
 
 #: src/components/_political/law/LawFormModal.tsx:271
 msgid "Normal"
@@ -5077,11 +5077,11 @@ msgstr "Partido criado"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1873
 msgid "Party election candidacy open"
-msgstr "Abertura da janela partidaria "
+msgstr "Abertura das candidaturas para as eleições do partido"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1879
 msgid "Party election ended"
-msgstr "Fim da janela partidaria"
+msgstr "Fim das eleições do partido"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1876
 msgid "Party election vote open"
@@ -5285,7 +5285,7 @@ msgstr "Eleição primária"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1884
 msgid "Primary Election Ended"
-msgstr "Eleição primária acabou"
+msgstr "Fim da eleição primária"
 
 #. placeholder {0}: ethicsBonuses.militarism[2].warPriorityHours
 #: src/components/_political/party/party.frontConfig.tsx:107
@@ -5345,11 +5345,11 @@ msgstr "Bônus de Produção:"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:574
 msgid "Production in<0/> is full, you should start production!"
-msgstr "O armazenamento de<0/> está cheia, você deveria iniciar a produção!"
+msgstr "O armazenamento de<0/> está cheio, você deveria iniciar a produção!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1845
 msgid "Production is full"
-msgstr "O armazenamento está cheio"
+msgstr "Armazenamento cheio"
 
 #: src/components/_user/user/MyAvatar.tsx:29
 msgid "Profile"
@@ -7342,7 +7342,7 @@ msgstr "Redução salarial aceite."
 #: src/components/_user/notification/notification.frontConfig.tsx:1842
 #: src/components/_user/worker/WageReductionAlert.tsx:66
 msgid "Wage reduction proposed"
-msgstr "Redução salarial proposta"
+msgstr "Proposta de redução salarial"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:75
 msgid "Wage reduction proposed! Waiting for worker to accept or reject."
@@ -7490,7 +7490,7 @@ msgstr "Trabalhador demitido!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1837
 msgid "Worker left"
-msgstr "Trabalhador saiu"
+msgstr "Demissão de trabalhador"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:63
 msgid "Worker updated!"
