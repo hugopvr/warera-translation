@@ -1023,7 +1023,7 @@ msgstr "Uma <0>insígnia de apoiante</0>"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:64
 msgid "A beautiful colored username that will make you very popular"
-msgstr "Um nome de utilizador bonito e colorido que te vai deixar muito popular"
+msgstr "Um nome de utilizador colorido e diferenciado que te vai deixar muito popular"
 
 #: src/components/_political/event/event.frontConfig.tsx:398
 msgid "A civil war has started by <0/> in <1/>"
@@ -2051,7 +2051,7 @@ msgstr "Clique em uma batalha para ver o que está acontecendo e participar."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:213
 msgid "Click on your country's conversation to chat with fellow citizens."
-msgstr "Clique na conversa do seu país para conversar com outros cidadãos."
+msgstr "Clique no chat do seu país para conversar com outros cidadãos."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:67
 msgid "Click to apply and start earning money right away."
@@ -3598,7 +3598,7 @@ msgstr "Ajudar membros da UM"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:41
 msgid "Help the game to grow"
-msgstr "Ajudar o jogo a crescer"
+msgstr "Ajude o jogo a crescer"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:157
 msgid "High Commander"
@@ -4997,7 +4997,7 @@ msgstr "Abra para obter um item aleatório"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:47
 msgid "Open multiple <0>Cases</0> at same time"
-msgstr "Abrir várias <0>Caixas</0> ao mesmo tempo"
+msgstr "Abra várias <0>Caixas</0> ao mesmo tempo"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "Open the chat"
@@ -5249,7 +5249,7 @@ msgstr "Pílula"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:140
 msgid "Plant a tree in the data center"
-msgstr "Plantar uma árvore no data center"
+msgstr "Plante uma árvore no data center"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:93
 #: src/components/_user/auth/ConnectFromModal.tsx:113
@@ -5515,7 +5515,7 @@ msgstr "Desmontar rápido"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:56
 msgid "Quickly dismantle items"
-msgstr "Desmontar itens rapidamente"
+msgstr "Desmonte itens rapidamente"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1895
 msgid "Ranking reward"
@@ -6065,11 +6065,11 @@ msgstr "Procurar username para nomear..."
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:44
 msgid "See all your workers and companies stats"
-msgstr "Ver todas as estatísticas de seus trabalhadores e empresas"
+msgstr "Veja todas as estatísticas de seus trabalhadores e empresas"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:116
 msgid "See your spending and income breakdown"
-msgstr "Ver o detalhamento de seus gastos e receitas"
+msgstr "Veja os detalhes das suas despesas e rendimentos"
 
 #: src/components/_military/mu/MuFormModal.tsx:117
 msgid "Select a location"
@@ -6183,7 +6183,7 @@ msgstr "Sargento"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:131
 msgid "Set a <0>description</0>"
-msgstr "Definir uma <0>descrição</0>"
+msgstr "Adicione uma <0>descrição</0>"
 
 #: src/pages/user/[userId]/referrals.tsx:153
 msgid "Set a referrer"
@@ -6901,7 +6901,7 @@ msgstr "Melhor oferta elegível:"
 
 #: src/pages/shop/index.tsx:85
 msgid "Top gift givers of the month"
-msgstr "Top de ofertas do mês"
+msgstr "Top ofertas do mês"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:97
 msgid "Top of the hill"
@@ -7069,11 +7069,11 @@ msgstr "Desbloquear {0} skin{1}"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:89
 msgid "Unlock Help all button"
-msgstr "Desbloquear botão Ajudar todos"
+msgstr "Desbloqueie o botão Ajudar todos"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:86
 msgid "Unlock Produce all button"
-msgstr "Desbloquear botão Produzir tudo"
+msgstr "Desbloqueie o botão Produzir tudo"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1831
 msgid "Unlocked pack"
@@ -7917,7 +7917,7 @@ msgstr "Você está pronto!"
 
 #: src/components/_user/premium/PremiumCard.tsx:55
 msgid "You're already a supporter <0/>"
-msgstr "Você já é um apoiador <0/>"
+msgstr "Você já é apoiante <0/>"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:38
 msgid "You're climbing, don't stop now"
