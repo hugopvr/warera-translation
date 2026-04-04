@@ -3484,7 +3484,7 @@ msgstr "Cajado Verde"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:29
 msgid "Grimdark"
-msgstr "Grimdark"
+msgstr "Conjunto Sombrio"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:215
 msgid "Grimdark Ammo"
