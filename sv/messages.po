@@ -43,7 +43,7 @@ msgid "{0} active citizens required"
 msgstr "{0} aktiva medborgare krävs"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
-#: src/components/_user/notification/notification.frontConfig.tsx:484
+#: src/components/_user/notification/notification.frontConfig.tsx:485
 msgid "{0} bought your item offer"
 msgstr "{0} accepterade ditt erbjudande"
 
@@ -66,14 +66,14 @@ msgstr "{0} timmar"
 
 #. placeholder {0}: data.outbidByMuName
 #. placeholder {1}: data.newPerK
-#: src/components/_user/notification/notification.frontConfig.tsx:1621
+#: src/components/_user/notification/notification.frontConfig.tsx:1622
 msgid "{0} outbid you at ${1}/K"
 msgstr "{0} bjöd över dig med ${1}/K"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
-#: src/components/_user/notification/notification.frontConfig.tsx:507
-msgid "{0} proposed a law, check it out!"
-msgstr "{0} har föreslagit en lag, granska förslaget."
+#: src/components/_user/notification/notification.frontConfig.tsx:508
+msgid "{0} proposed a new law <0/>"
+msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:55
@@ -151,8 +151,8 @@ msgstr "*Kan brinna upp"
 msgid "/day"
 msgstr "/dag"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:377
-#: src/components/_user/notification/notification.frontConfig.tsx:1068
+#: src/components/_user/notification/notification.frontConfig.tsx:378
+#: src/components/_user/notification/notification.frontConfig.tsx:1069
 msgid "<0/> applied to join <1/>"
 msgstr "<0/> ansökte om att gå med i <1/>"
 
@@ -163,27 +163,32 @@ msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/> med <1>{0}</1> i lön.{1}"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:294
+#: src/components/_political/law/law.frontConfig.tsx:380
+msgid "<0/> buys <1/> for <2>{0}</2>"
+msgstr ""
+
+#. placeholder {0}: law.data.amount ?? 0
+#: src/components/_political/law/law.frontConfig.tsx:391
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> köper din region <1/> för <2>{0}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1541
+#: src/components/_user/notification/notification.frontConfig.tsx:1542
 msgid "<0/> cancelled the contract."
 msgstr "<0/> avbröt kontraktet."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:770
+#: src/components/_user/notification/notification.frontConfig.tsx:771
 msgid "<0/> commented on your article <1/>"
 msgstr "<0/> kommenterade din artikel <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1516
+#: src/components/_user/notification/notification.frontConfig.tsx:1517
 msgid "<0/> completed a contract, you earned <1/>"
 msgstr "<0/> slutförde ett kontrakt, du tjänade <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:663
+#: src/components/_user/notification/notification.frontConfig.tsx:664
 msgid "<0/> conquered the region in <1/>"
 msgstr "<0/> erövrade regionen i <1/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:79
+#: src/components/_political/message/systemMessage.frontConfig.tsx:80
 msgid "<0/> created the conversation"
 msgstr "<0/> påbörjade konversationen"
 
@@ -191,17 +196,17 @@ msgstr "<0/> påbörjade konversationen"
 msgid "<0/> declared war on <1/>"
 msgstr "<0/> förklarade krig mot <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:658
+#: src/components/_user/notification/notification.frontConfig.tsx:659
 msgid "<0/> defended in <1/>"
 msgstr "<0/> försvarade i <1/>"
 
 #. placeholder {0}: data.amount
-#: src/components/_user/notification/notification.frontConfig.tsx:1142
+#: src/components/_user/notification/notification.frontConfig.tsx:1143
 msgid "<0/> donated <1>{0}</1> to <2/>"
 msgstr "<0/> donerade <1>{0}</1> till <2/>"
 
 #. placeholder {0}: ts[data.caseCode]
-#: src/components/_political/message/systemMessage.frontConfig.tsx:109
+#: src/components/_political/message/systemMessage.frontConfig.tsx:110
 msgid "<0/> dropped <1/> from <2>{0}</2>"
 msgstr ""
 
@@ -217,25 +222,25 @@ msgstr "<0/> finansierade en revolt i <1/>"
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
 msgstr "<0/> finansierade en revolt i <1/> för <2/> mot <3/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:50
+#: src/components/_political/message/systemMessage.frontConfig.tsx:51
 msgid "<0/> gifted a sub to <1/>"
 msgstr "<0/> skänkte en prenumeration till <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1005
+#: src/components/_user/notification/notification.frontConfig.tsx:1006
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> skänkte dig en premium-prenumeration!"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1443
+#: src/components/_user/notification/notification.frontConfig.tsx:1444
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "<0/> skänkte dig baneret \"{0}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1692
+#: src/components/_user/notification/notification.frontConfig.tsx:1693
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
 msgstr "<0/> skänkte dig utseendet \"{skinTitle}\"!"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1755
+#: src/components/_user/notification/notification.frontConfig.tsx:1756
 msgid "<0/> gifted you the skin pack \"{0}\"!"
 msgstr "<0/> skänkte dig utseendepaketet \"{0}\"!"
 
@@ -243,11 +248,11 @@ msgstr "<0/> skänkte dig utseendepaketet \"{0}\"!"
 msgid "<0/> got fee back"
 msgstr "<0/> fick tillbaka avgiften"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1296
+#: src/components/_user/notification/notification.frontConfig.tsx:1297
 msgid "<0/> has been created, it gonna start soon!"
 msgstr "<0/> har skapats och startar inom kort."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:210
+#: src/components/_user/notification/notification.frontConfig.tsx:211
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/> har valts till president i <1/>"
 
@@ -284,11 +289,11 @@ msgstr "<0/> har ingått en allians med <1/>"
 msgid "<0/> has liberated <1/> and returned it to <2/>"
 msgstr "<0/> har befriat <1/> och återlämnat regionen till <2/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:931
+#: src/components/_user/notification/notification.frontConfig.tsx:932
 msgid "<0/> has started a revolution in <1/>"
 msgstr "<0/> har startat en revolution i <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1309
+#: src/components/_user/notification/notification.frontConfig.tsx:1310
 msgid "<0/> has started! Let the battles begin!"
 msgstr "<0/> har startat. Låt striderna börja!"
 
@@ -301,7 +306,7 @@ msgstr "<0/> har slagit ner motståndet i <1/>"
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
 msgstr "<0/> har överfört <1>{0}</1> till <2/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:887
+#: src/components/_user/notification/notification.frontConfig.tsx:888
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "<0/> anfaller <1/> i <2/>"
 
@@ -309,7 +314,7 @@ msgstr "<0/> anfaller <1/> i <2/>"
 msgid "<0/> is attacking in <1/>"
 msgstr "<0/> genomför anfall i <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:873
+#: src/components/_user/notification/notification.frontConfig.tsx:874
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> anfaller ditt land i <1/>"
 
@@ -321,41 +326,41 @@ msgstr "<0/> är i konkurs. Samtliga allianser bryts och alla regionsuppgraderin
 msgid "<0/> is revolting in <1/>"
 msgstr "<0/> gör revolt i <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:902
+#: src/components/_user/notification/notification.frontConfig.tsx:903
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> gör revolt i <1/> mot ditt land"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:21
+#: src/components/_political/message/systemMessage.frontConfig.tsx:22
 msgid "<0/> joined the conversation"
 msgstr "<0/> anslöt till konversationen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:546
+#: src/components/_user/notification/notification.frontConfig.tsx:547
 msgid "<0/> joined the game with your referral link!"
 msgstr "<0/> gick med i spelet via din värvningslänk."
 
 #. placeholder {0}: data.wage
-#: src/components/_user/notification/notification.frontConfig.tsx:408
+#: src/components/_user/notification/notification.frontConfig.tsx:409
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> anställdes vid ditt företag <1/> med lön <2>{0}</2>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:39
+#: src/components/_political/message/systemMessage.frontConfig.tsx:40
 msgid "<0/> kicked <1/> from the conversation"
 msgstr "<0/> avlägsnade <1/> från konversationen"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
-#: src/components/_user/notification/notification.frontConfig.tsx:424
+#: src/components/_user/notification/notification.frontConfig.tsx:425
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> lämnade sin tjänst vid ditt företag {0}"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:30
+#: src/components/_political/message/systemMessage.frontConfig.tsx:31
 msgid "<0/> left the conversation"
 msgstr "<0/> lämnade konversationen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:755
+#: src/components/_user/notification/notification.frontConfig.tsx:756
 msgid "<0/> liked your article <1/>"
 msgstr "<0/> gillade din artikel <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:818
+#: src/components/_user/notification/notification.frontConfig.tsx:819
 msgid "<0/> liked your message <1/>"
 msgstr "<0/> gillade ditt meddelande <1/>"
 
@@ -363,7 +368,7 @@ msgstr "<0/> gillade ditt meddelande <1/>"
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> slöt fred med <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1184
+#: src/components/_user/notification/notification.frontConfig.tsx:1185
 msgid "<0/> mentioned you in a message <1/>"
 msgstr "<0/> nämnde dig i ett meddelande <1/>"
 
@@ -375,29 +380,33 @@ msgstr "<0/> betalade avgift"
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> Prioritet upphör om <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:739
+#: src/components/_political/message/systemMessage.frontConfig.tsx:122
+msgid "<0/> proposed a new law: <1/>"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:740
 msgid "<0/> published a new article"
 msgstr "<0/> publicerade en ny artikel"
 
 #. placeholder {0}: data.level
-#: src/components/_user/notification/notification.frontConfig.tsx:1169
+#: src/components/_user/notification/notification.frontConfig.tsx:1170
 msgid "<0/> reached level {0}!"
 msgstr "<0/> nådde nivå {0}!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:557
+#: src/components/_user/notification/notification.frontConfig.tsx:558
 msgid "<0/> referred you to the game."
 msgstr "<0/> värvade dig till spelet."
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
-#: src/components/_user/notification/notification.frontConfig.tsx:845
+#: src/components/_user/notification/notification.frontConfig.tsx:846
 msgid "<0/> responded to your message {0}"
 msgstr "<0/> svarade på ditt meddelande {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:804
+#: src/components/_user/notification/notification.frontConfig.tsx:805
 msgid "<0/> subscribed to you on your article <1/>"
 msgstr "<0/> började prenumerera på dig via din artikel <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:785
+#: src/components/_user/notification/notification.frontConfig.tsx:786
 msgid "<0/> tipped your article <1/>"
 msgstr "<0/> gav dricks för din artikel <1/>"
 
@@ -409,7 +418,11 @@ msgstr "<0/> tog kontroll över <1/>"
 msgid "<0/> vs <1/> war"
 msgstr "Krig: <0/> mot <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:83
+#: src/components/_political/law/law.frontConfig.tsx:91
+msgid "<0/> wants peace"
+msgstr ""
+
+#: src/components/_political/law/law.frontConfig.tsx:101
 msgid "<0/> wants to make peace with your country"
 msgstr "<0/> vill sluta fred med ditt land"
 
@@ -418,36 +431,36 @@ msgid "<0/> was elected president of <1/>"
 msgstr "<0/> valdes till president i <1/>"
 
 #. placeholder {0}: ts[data.governmentRole]
-#: src/components/_user/notification/notification.frontConfig.tsx:523
+#: src/components/_user/notification/notification.frontConfig.tsx:524
 msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> nominerades till <1>{0}</1>"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_political/message/systemMessage.frontConfig.tsx:60
+#: src/components/_political/message/systemMessage.frontConfig.tsx:61
 msgid "<0/> won round {0}"
 msgstr "<0/> vann rond {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1499
+#: src/components/_user/notification/notification.frontConfig.tsx:1500
 msgid "<0/> won the auction on a contract with <1/>"
 msgstr "<0/> vann auktionen för ett kontrakt med <1/>"
 
 #. placeholder {0}: data.attackerWonRoundsCount
 #. placeholder {1}: data.defenderWonRoundsCount
-#: src/components/_political/message/systemMessage.frontConfig.tsx:69
+#: src/components/_political/message/systemMessage.frontConfig.tsx:70
 msgid "<0/> won the battle ({0}-{1})"
 msgstr "<0/> vann striden ({0}-{1})"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:334
+#: src/components/_user/notification/notification.frontConfig.tsx:335
 msgid "<0/> won the primary election in <1/> and can now run for president!"
 msgstr "<0/> vann primärvalet i <1/> och kan nu kandidera till president."
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:622
+#: src/components/_user/notification/notification.frontConfig.tsx:623
 msgid "<0/> won the round <1>#{0}</1> in <2/>"
 msgstr "<0/> vann rond <1>#{0}</1> i <2/>"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:628
+#: src/components/_user/notification/notification.frontConfig.tsx:629
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> vann rond <1>#{0}</1> i <2/>."
 
@@ -526,7 +539,7 @@ msgid "<0>{0}</0> Defense bonus"
 msgstr "<0>{0}</0> Försvarsbonus"
 
 #. placeholder {0}: data.acceptanceFeeReturned
-#: src/components/_user/notification/notification.frontConfig.tsx:1562
+#: src/components/_user/notification/notification.frontConfig.tsx:1563
 msgid "<0>{0}</0> fee returned to MU."
 msgstr "<0>{0}</0> avgift återbetalad till Förbandet."
 
@@ -603,7 +616,7 @@ msgid "<0>{0}</0> ground are required to win a round, points are gained every ti
 msgstr "<0>{0}</0> terrängpoäng krävs för att vinna en rond; poäng erhålls för varje tidsenhet"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1554
+#: src/components/_user/notification/notification.frontConfig.tsx:1555
 msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> återbetalad till <1/>."
 
@@ -1105,24 +1118,30 @@ msgstr "Missbruk av denna makt för att gynna ett annat land leder till <0>avst�
 msgid "Accept"
 msgstr "Acceptera"
 
-#: src/components/_political/law/law.frontConfig.tsx:224
+#: src/components/_political/law/law.frontConfig.tsx:284
+#: src/components/_political/law/lawNames.tsx:26
 msgid "Accept alliance"
 msgstr "Acceptera allians"
 
+#: src/components/_political/law/law.frontConfig.tsx:289
+msgid "Accept alliance with <0/>"
+msgstr ""
+
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:231
+#: src/components/_political/law/law.frontConfig.tsx:300
 msgid "Accept an alliance with <0/> increasing your citizens damages by <1>{0}</1> when fighting for them by and reciprocally"
 msgstr "Acceptera allians med <0/>, vilket ökar dina medborgares skada med <1>{0}</1> när de strider för dem, och vice versa"
 
-#: src/components/_political/law/law.frontConfig.tsx:289
+#: src/components/_political/law/law.frontConfig.tsx:376
 msgid "Accept or reject a region buy offer"
 msgstr "Acceptera eller avslå ett köperbjudande för regionen"
 
-#: src/components/_political/law/law.frontConfig.tsx:76
+#: src/components/_political/law/law.frontConfig.tsx:86
+#: src/components/_political/law/lawNames.tsx:13
 msgid "Accept peace"
 msgstr "Slut fred"
 
-#: src/components/_political/law/law.frontConfig.tsx:77
+#: src/components/_political/law/law.frontConfig.tsx:87
 msgid "Accept to make peace with the other country"
 msgstr "Godkänn fredsfördrag med det andra landet"
 
@@ -1200,7 +1219,7 @@ msgstr "Tilläggskostnad"
 msgid "Admin"
 msgstr "Administratör"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2037
+#: src/components/_user/notification/notification.frontConfig.tsx:2038
 msgid "Admin notification"
 msgstr "Administrativt meddelande"
 
@@ -1358,7 +1377,7 @@ msgid "Amount of companies you can own"
 msgstr "Antal företag du kan äga"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1534
+#: src/components/_user/notification/notification.frontConfig.tsx:1535
 msgid "An admin cancelled the contract. <0>{0}</0> returned to <1/>."
 msgstr "En administratör avbröt kontraktet. <0>{0}</0> återbetalad till <1/>."
 
@@ -1481,7 +1500,7 @@ msgstr "Kroppsskydd"
 msgid "Article ID"
 msgstr "Artikel-ID"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1898
+#: src/components/_user/notification/notification.frontConfig.tsx:1899
 msgid "Article liked"
 msgstr "Artikel gillad"
 
@@ -1489,8 +1508,8 @@ msgstr "Artikel gillad"
 msgid "Article Tip"
 msgstr "Artikeldricks"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1900
 #: src/components/_user/notification/notification.frontConfig.tsx:1901
+#: src/components/_user/notification/notification.frontConfig.tsx:1902
 msgid "Article tipped"
 msgstr "Artikel fick dricks"
 
@@ -1530,7 +1549,7 @@ msgstr "Anfallare"
 msgid "Auction Duration (minutes)"
 msgstr "Auktionens varaktighet (minuter)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2021
+#: src/components/_user/notification/notification.frontConfig.tsx:2022
 msgid "Auction Outbid"
 msgstr "Överbjuden i auktion"
 
@@ -1577,7 +1596,7 @@ msgstr "Baby Boomer"
 msgid "Badge won"
 msgstr "Emblem erhållet"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1849
+#: src/components/_user/notification/notification.frontConfig.tsx:1850
 msgid "Badge Won"
 msgstr "Emblem erhållet"
 
@@ -1602,15 +1621,15 @@ msgstr "Konkurs"
 msgid "Banned"
 msgstr "Avstängd"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1865
+#: src/components/_user/notification/notification.frontConfig.tsx:1866
 msgid "Banner Accepted!"
 msgstr "Baner godkänt!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1862
+#: src/components/_user/notification/notification.frontConfig.tsx:1863
 msgid "Banner gift received"
 msgstr "Banergåva mottagen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1860
+#: src/components/_user/notification/notification.frontConfig.tsx:1861
 msgid "Banner gift sent"
 msgstr "Banergåva skickad"
 
@@ -1650,7 +1669,7 @@ msgid "Battle"
 msgstr "Strid"
 
 #: src/components/_political/event/EventList.tsx:65
-#: src/components/_user/notification/notification.frontConfig.tsx:1946
+#: src/components/_user/notification/notification.frontConfig.tsx:1947
 msgid "Battle ended"
 msgstr "Strid avslutad"
 
@@ -1720,7 +1739,7 @@ msgid "Blue Staff"
 msgstr "Blå stav"
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:47
-#: src/components/_political/law/law.frontConfig.tsx:189
+#: src/components/_political/law/law.frontConfig.tsx:241
 msgid "Bonus damages"
 msgstr "Bonusskada"
 
@@ -1746,11 +1765,16 @@ msgstr "Prissumma tillgänglig om"
 msgid "Bread"
 msgstr "Bröd"
 
-#: src/components/_political/law/law.frontConfig.tsx:246
+#: src/components/_political/law/law.frontConfig.tsx:315
+#: src/components/_political/law/lawNames.tsx:27
 msgid "Break alliance"
 msgstr "Bryt allians"
 
-#: src/components/_political/law/law.frontConfig.tsx:247
+#: src/components/_political/law/law.frontConfig.tsx:320
+msgid "Break alliance with <0/>"
+msgstr ""
+
+#: src/components/_political/law/law.frontConfig.tsx:316
 msgid "Break an alliance with another country"
 msgstr "Bryt allians med ett annat land"
 
@@ -1758,7 +1782,7 @@ msgstr "Bryt allians med ett annat land"
 msgid "Break room"
 msgstr "Vilorum"
 
-#: src/components/_political/law/law.frontConfig.tsx:252
+#: src/components/_political/law/law.frontConfig.tsx:329
 msgid "Break the alliance with <0/>"
 msgstr "Bryt alliansen med <0/>"
 
@@ -1774,15 +1798,15 @@ msgstr "Bläddra i utseendepaketen"
 msgid "Budget"
 msgstr "Budget"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2026
+#: src/components/_user/notification/notification.frontConfig.tsx:2027
 msgid "Buff ended"
 msgstr "Förstärkning upphörde"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2024
+#: src/components/_user/notification/notification.frontConfig.tsx:2025
 msgid "Buff expiring soon"
 msgstr "Förstärkning upphör snart"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2022
+#: src/components/_user/notification/notification.frontConfig.tsx:2023
 msgid "Buff started"
 msgstr "Förstärkning startad"
 
@@ -1809,6 +1833,11 @@ msgstr "Upprätta förbandet"
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:31
 msgid "Bunker"
 msgstr "Bunker"
+
+#. placeholder {0}: law.data.amount ?? 0
+#: src/components/_political/law/law.frontConfig.tsx:408
+msgid "Buy <0/> from <1/> for <2>{0}</2>"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:168
 msgid "Buy for <0>{count}</0> money on market"
@@ -1944,7 +1973,12 @@ msgstr "Chans att undvika all inkommande skada i strid. <0/>Lyckat undvikande f�
 msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
 msgstr "Chans att träffa målet. <0/>Missar kan inte bli kritiska och ger halv skada."
 
-#: src/components/_political/law/law.frontConfig.tsx:57
+#. placeholder {0}: law.data.taxType
+#: src/components/_political/law/law.frontConfig.tsx:62
+msgid "Change {0} tax to <0/>"
+msgstr ""
+
+#: src/components/_political/law/law.frontConfig.tsx:58
 msgid "Change a country tax"
 msgstr "Ändra statlig skatt"
 
@@ -1957,22 +1991,23 @@ msgstr "Ändra tillverkad produkt"
 msgid "Change production"
 msgstr "Ändra produktion"
 
-#: src/components/_political/law/law.frontConfig.tsx:56
+#: src/components/_political/law/law.frontConfig.tsx:57
+#: src/components/_political/law/lawNames.tsx:12
 msgid "Change tax"
 msgstr "Ändra skatt"
 
-#: src/components/_political/law/law.frontConfig.tsx:356
+#: src/components/_political/law/law.frontConfig.tsx:482
 msgid "Change the country color scheme"
 msgstr "Ändra nationell färgprofil"
 
 #. placeholder {0}: law.data.scheme
 #. placeholder {1}: law.data.mapAccent
-#: src/components/_political/law/law.frontConfig.tsx:362
+#: src/components/_political/law/law.frontConfig.tsx:488
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr ""
 
 #. placeholder {0}: law.data.taxType
-#: src/components/_political/law/law.frontConfig.tsx:63
+#: src/components/_political/law/law.frontConfig.tsx:73
 msgid "Change the tax of {0} to"
 msgstr "Ändra skatten för {0} till"
 
@@ -2120,8 +2155,8 @@ msgstr "Färgprofil"
 msgid "Commander"
 msgstr "Befälhavare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1868
-#: src/components/_user/notification/notification.frontConfig.tsx:1881
+#: src/components/_user/notification/notification.frontConfig.tsx:1869
+#: src/components/_user/notification/notification.frontConfig.tsx:1882
 msgid "Commission earned"
 msgstr "Provision intjänad"
 
@@ -2196,43 +2231,43 @@ msgid "Congrats"
 msgstr "Gratulerar"
 
 #. placeholder {0}: data.level
-#: src/components/_user/notification/notification.frontConfig.tsx:393
+#: src/components/_user/notification/notification.frontConfig.tsx:394
 msgid "Congratulations, you leveled up to level {0}!"
 msgstr "Gratulerar, du har stigit till nivå {0}."
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:197
+#: src/components/_user/notification/notification.frontConfig.tsx:198
 msgid "Congratulations! You have been elected as the new congress member of {0}"
 msgstr "Gratulerar! Du har valts till ny Riksdagsledamot i {0}."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:301
+#: src/components/_user/notification/notification.frontConfig.tsx:302
 msgid "Congratulations! You have been elected as the new leader of <0/>"
 msgstr "Gratulerar! Du har valts till ny ledare för <0/>."
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:192
+#: src/components/_user/notification/notification.frontConfig.tsx:193
 msgid "Congratulations! You have been elected as the new president of {0}"
 msgstr "Gratulerar! Du har valts till ny president i {0}."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:306
+#: src/components/_user/notification/notification.frontConfig.tsx:307
 msgid "Congratulations! You have been elected to the council of <0/>"
 msgstr "Gratulerar! Du har valts in i rådet för <0/>."
 
 #. placeholder {0}: militaryRankingConfig[data.rank].percentDamages
-#: src/components/_user/notification/notification.frontConfig.tsx:1209
+#: src/components/_user/notification/notification.frontConfig.tsx:1210
 msgid "Congratulations! You have been promoted to <0/> with an attack bonus of <1>{0}</1>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1398
+#: src/components/_user/notification/notification.frontConfig.tsx:1399
 msgid "Congratulations! You won the giveaway and received cases!"
 msgstr "Gratulerar! Du vann utlottningen och har erhållit lådor."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:350
-#: src/components/_user/notification/notification.frontConfig.tsx:1054
+#: src/components/_user/notification/notification.frontConfig.tsx:351
+#: src/components/_user/notification/notification.frontConfig.tsx:1055
 msgid "Congratulations! Your application to <0/> has been accepted"
 msgstr "Gratulerar! Din ansökan till <0/> har beviljats."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1277
+#: src/components/_user/notification/notification.frontConfig.tsx:1278
 msgid "Congratulations! Your team <0/> won the tournament <1/>!"
 msgstr "Gratulerar! Ditt lag <0/> vann turneringen <1/>."
 
@@ -2240,15 +2275,15 @@ msgstr "Gratulerar! Ditt lag <0/> vann turneringen <1/>."
 msgid "Congress election"
 msgstr "Riksdagsval"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:137
+#: src/components/_user/notification/notification.frontConfig.tsx:138
 msgid "Congress election candidacy is now open in <0/>"
 msgstr "Kandidatur till Riksdagsvalet är nu öppen i <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:177
+#: src/components/_user/notification/notification.frontConfig.tsx:178
 msgid "Congress election has ended in <0/>. Check the results!"
 msgstr "Riksdagsvalet i <0/> har avslutats. Se resultatet."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:157
+#: src/components/_user/notification/notification.frontConfig.tsx:158
 msgid "Congress election voting is now open in <0/>"
 msgstr "Röstning i Riksdagsvalet är nu öppen i <0/>"
 
@@ -2307,19 +2342,19 @@ msgstr "Konsumtion ökar din <0>anfallsförmåga</0> i {0}h.<1/> Därefter minsk
 msgid "Contextual borders"
 msgstr "Kontextuella gränser"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2013
+#: src/components/_user/notification/notification.frontConfig.tsx:2014
 msgid "Contract cancelled"
 msgstr "Kontrakt hävt"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2010
+#: src/components/_user/notification/notification.frontConfig.tsx:2011
 msgid "Contract completed"
 msgstr "Kontrakt slutfört"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2016
+#: src/components/_user/notification/notification.frontConfig.tsx:2017
 msgid "Contract expired"
 msgstr "Kontrakt har löpt ut"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2019
+#: src/components/_user/notification/notification.frontConfig.tsx:2020
 msgid "Contract rolled back"
 msgstr "Kontrakt återställt"
 
@@ -2367,7 +2402,7 @@ msgstr "Hjärtland"
 msgid "Corporal"
 msgstr "Korpral"
 
-#: src/components/_political/law/law.frontConfig.tsx:180
+#: src/components/_political/law/law.frontConfig.tsx:232
 msgid "Cost"
 msgstr "Kostnad"
 
@@ -2404,7 +2439,7 @@ msgid "Country Orders"
 msgstr "Nationella ordrar"
 
 #. placeholder {0}: data.partialPayout
-#: src/components/_user/notification/notification.frontConfig.tsx:1548
+#: src/components/_user/notification/notification.frontConfig.tsx:1549
 msgid "Country paid <0>{0}</0> for damages done."
 msgstr "Landet betalade <0>{0}</0> för åsamkad skada."
 
@@ -2524,7 +2559,7 @@ msgstr "Dagliga"
 msgid "Daily maintenance"
 msgstr "Dagligt underhåll"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2041
+#: src/components/_user/notification/notification.frontConfig.tsx:2042
 msgid "Daily Missions Reset"
 msgstr "Daglig återställning av uppdrag"
 
@@ -2630,7 +2665,7 @@ msgstr "Orsakar mer skada"
 msgid "Deals some damages"
 msgstr "Orsakar en del skada"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2027
+#: src/components/_user/notification/notification.frontConfig.tsx:2028
 msgid "Debuff ended"
 msgstr "Försvagning upphörde"
 
@@ -2638,15 +2673,17 @@ msgstr "Försvagning upphörde"
 msgid "Debuffs:"
 msgstr "Försvagningar:"
 
-#: src/components/_political/law/law.frontConfig.tsx:93
+#: src/components/_political/law/law.frontConfig.tsx:111
+#: src/components/_political/law/lawNames.tsx:14
 msgid "Declare war"
 msgstr "Förklara krig"
 
-#: src/components/_political/law/law.frontConfig.tsx:99
+#: src/components/_political/law/law.frontConfig.tsx:116
+#: src/components/_political/law/law.frontConfig.tsx:125
 msgid "Declare war to <0/>"
 msgstr "Förklara krig mot <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:94
+#: src/components/_political/law/law.frontConfig.tsx:112
 msgid "Declare war to another country"
 msgstr "Förklara krig mot ett annat land"
 
@@ -2676,15 +2713,20 @@ msgstr "Försvarare"
 msgid "Defenders"
 msgstr "Försvarare"
 
-#: src/components/_political/law/law.frontConfig.tsx:173
+#: src/components/_political/law/law.frontConfig.tsx:225
 msgid "Define <0/> as an enemy, increasing damages when fighting against them"
 msgstr "Ange <0/> som fiende, vilket ökar skadan vid strid mot dem"
 
-#: src/components/_political/law/law.frontConfig.tsx:167
+#: src/components/_political/law/law.frontConfig.tsx:215
+msgid "Define <0/> as enemy"
+msgstr ""
+
+#: src/components/_political/law/law.frontConfig.tsx:211
 msgid "Define a country as an enemy to get bonus against"
 msgstr "Ange ett land som fiende för att få bonus mot dem"
 
-#: src/components/_political/law/law.frontConfig.tsx:166
+#: src/components/_political/law/law.frontConfig.tsx:210
+#: src/components/_political/law/lawNames.tsx:24
 msgid "Define a sworn enemy"
 msgstr "Ange en svuren fiende"
 
@@ -2709,7 +2751,7 @@ msgstr "Degradera Befälhavare"
 msgid "Demote from Commander"
 msgstr "Degradera från Befälhavare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1998
+#: src/components/_user/notification/notification.frontConfig.tsx:1999
 msgid "Demoted from Commander"
 msgstr "Degraderad från Befälhavare"
 
@@ -2937,15 +2979,15 @@ msgstr "Redigera anställd"
 msgid "Effective:"
 msgstr "Effektiv:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1905
+#: src/components/_user/notification/notification.frontConfig.tsx:1906
 msgid "Election candidacy open"
 msgstr "Kandidatur till val öppen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1910
+#: src/components/_user/notification/notification.frontConfig.tsx:1911
 msgid "Election ended"
 msgstr "Valet avslutat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1908
+#: src/components/_user/notification/notification.frontConfig.tsx:1909
 msgid "Election vote open"
 msgstr "Röstning öppen"
 
@@ -3270,21 +3312,26 @@ msgstr "Finansiera en motståndsstrid i <0/>"
 msgid "Finance a resistance battle in an occupied region of your country"
 msgstr "Finansiera en motståndsstrid i en ockuperad region i ditt land"
 
-#: src/components/_political/law/law.frontConfig.tsx:425
+#: src/components/_political/law/law.frontConfig.tsx:551
 msgid "Finance a resistance to liberate an occupied region"
 msgstr "Finansiera ett motstånd för att befria en ockuperad region"
 
-#: src/components/_political/law/law.frontConfig.tsx:430
+#: src/components/_political/law/law.frontConfig.tsx:564
 msgid "Finance a revolt to liberate <0/>"
 msgstr "Finansiera en revolt för att befria <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:424
+#: src/components/_political/law/law.frontConfig.tsx:550
+#: src/components/_political/law/lawNames.tsx:38
 msgid "Finance foreign resistance"
 msgstr "Finansiera utländskt motstånd"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:121
 msgid "Finance local resistance"
 msgstr "Finansiera lokalt motstånd"
+
+#: src/components/_political/law/law.frontConfig.tsx:555
+msgid "Finance resistance in <0/>"
+msgstr ""
 
 #: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
@@ -3320,7 +3367,7 @@ msgstr "Avskeda regeringsledamot"
 msgid "Fire worker?"
 msgstr "Avskeda anställd?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1917
+#: src/components/_user/notification/notification.frontConfig.tsx:1918
 msgid "Fired from government"
 msgstr "Avskedad från regeringen"
 
@@ -3442,7 +3489,7 @@ msgstr "Ge din token ett beskrivande namn så att du kan identifiera den senare.
 msgid "Giveaway Winner"
 msgstr "Utlottningsvinnare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2039
+#: src/components/_user/notification/notification.frontConfig.tsx:2040
 msgid "Giveaway Won!"
 msgstr "Utlottning vunnen!"
 
@@ -3588,6 +3635,10 @@ msgstr "Terrängpoäng"
 msgid "Gun"
 msgstr "Pistol 88"
 
+#: src/components/_other/shop/skin.frontConfig.tsx:236
+msgid "Hamster Tank"
+msgstr "Hamsterbur"
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:85
 msgid "Hard Worker"
 msgstr "Slitvarg"
@@ -3690,7 +3741,12 @@ msgstr "Tänk om du slutar precis innan den mytomspunna kommer"
 msgid "Imagine wasting your click on this"
 msgstr "Tänk att du slösade ett klick på den här"
 
-#: src/components/_political/law/law.frontConfig.tsx:147
+#: src/components/_political/law/law.frontConfig.tsx:187
+msgid "Impeach <0/>"
+msgstr ""
+
+#: src/components/_political/law/law.frontConfig.tsx:181
+#: src/components/_political/law/lawNames.tsx:22
 msgid "Impeach congress member"
 msgstr "Avsätt riksdagsledamot"
 
@@ -3698,12 +3754,13 @@ msgstr "Avsätt riksdagsledamot"
 msgid "Impeach party leader"
 msgstr "Avsätt partiledare"
 
-#: src/components/_political/law/law.frontConfig.tsx:139
+#: src/components/_political/law/law.frontConfig.tsx:173
+#: src/components/_political/law/lawNames.tsx:20
 msgid "Impeach president"
 msgstr "Avsätt presidenten"
 
-#: src/components/_political/law/law.frontConfig.tsx:140
-#: src/components/_political/law/law.frontConfig.tsx:142
+#: src/components/_political/law/law.frontConfig.tsx:174
+#: src/components/_political/law/law.frontConfig.tsx:176
 msgid "Impeach the current president"
 msgstr "Avsätt den nuvarande presidenten"
 
@@ -3816,7 +3873,7 @@ msgstr "Det kan bara bli bättre... kanske"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Det kommer inte att producera något och dess anställda kommer inte att kunna arbeta."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1890
+#: src/components/_user/notification/notification.frontConfig.tsx:1891
 msgid "Item bought"
 msgstr "Föremål köpt"
 
@@ -3966,7 +4023,7 @@ msgid "Law failed"
 msgstr "Lagförslaget röstades ner"
 
 #: src/components/_political/law/LawFormModal.tsx:76
-#: src/components/_user/notification/notification.frontConfig.tsx:1903
+#: src/components/_user/notification/notification.frontConfig.tsx:1904
 msgid "Law proposed"
 msgstr "Lagförslag framlagt"
 
@@ -4031,15 +4088,20 @@ msgstr "Nivå {level}"
 msgid "Level up your skills!"
 msgstr "Uppgradera dina färdigheter!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1850
+#: src/components/_user/notification/notification.frontConfig.tsx:1851
 msgid "Level up!"
 msgstr "Ny nivå!"
 
-#: src/components/_political/law/law.frontConfig.tsx:329
+#: src/components/_political/law/law.frontConfig.tsx:435
+msgid "Liberate <0/>"
+msgstr ""
+
+#: src/components/_political/law/law.frontConfig.tsx:444
 msgid "Liberate <0/> and return it to its original country"
 msgstr "Befria <0/> och återlämna regionen till sitt ursprungliga land"
 
-#: src/components/_political/law/law.frontConfig.tsx:323
+#: src/components/_political/law/law.frontConfig.tsx:430
+#: src/components/_political/law/lawNames.tsx:32
 msgid "Liberate a region"
 msgstr "Befria en region"
 
@@ -4140,7 +4202,7 @@ msgstr "Erhåll lådor"
 msgid "Loot chance"
 msgstr "Chans till byte"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1966
+#: src/components/_user/notification/notification.frontConfig.tsx:1967
 msgid "Loot reward"
 msgstr "Bytesbelöning"
 
@@ -4306,7 +4368,7 @@ msgstr "Medlem befordrad till befälhavare"
 msgid "Members"
 msgstr "Medlemmar"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2034
+#: src/components/_user/notification/notification.frontConfig.tsx:2035
 msgid "Mentioned in message"
 msgstr "Nämns i meddelande"
 
@@ -4333,7 +4395,7 @@ msgstr "Rykte som legoknekt"
 msgid "Message (Optional)"
 msgstr "Meddelande (valfritt)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2032
+#: src/components/_user/notification/notification.frontConfig.tsx:2033
 msgid "Message liked"
 msgstr "Meddelande gillat"
 
@@ -4362,7 +4424,7 @@ msgstr "Militära lagar"
 msgid "Military Rank"
 msgstr "Militär grad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1945
+#: src/components/_user/notification/notification.frontConfig.tsx:1946
 msgid "Military Rank Up!"
 msgstr "Befordrad!"
 
@@ -4500,7 +4562,7 @@ msgstr "Flytta företaget"
 msgid "Move to top"
 msgstr "Flytta högst upp"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1886
+#: src/components/_user/notification/notification.frontConfig.tsx:1887
 msgid "Moved to a new company"
 msgstr "Flyttad till ett nytt företag"
 
@@ -4509,19 +4571,19 @@ msgstr "Flyttad till ett nytt företag"
 msgid "MU"
 msgstr "Förband"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1985
+#: src/components/_user/notification/notification.frontConfig.tsx:1986
 msgid "MU Application Accepted"
 msgstr "Ansökan till förbandet beviljad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1982
+#: src/components/_user/notification/notification.frontConfig.tsx:1983
 msgid "MU Application Rejected"
 msgstr "Ansökan till förbandet nekad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2004
+#: src/components/_user/notification/notification.frontConfig.tsx:2005
 msgid "MU Donation Received"
 msgstr "Donation till förbandet mottagen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1990
+#: src/components/_user/notification/notification.frontConfig.tsx:1991
 msgid "MU Level Up!"
 msgstr "Förbandet har stigit i nivå!"
 
@@ -4533,12 +4595,12 @@ msgstr "Förbandets månadsnivåer"
 msgid "MU Orders"
 msgstr "Förbandsorder"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2001
+#: src/components/_user/notification/notification.frontConfig.tsx:2002
 msgid "MU Ownership Transferred"
 msgstr "Ägarskap för förbandet överfört"
 
 #. placeholder {0}: data.level
-#: src/components/_political/message/systemMessage.frontConfig.tsx:100
+#: src/components/_political/message/systemMessage.frontConfig.tsx:101
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "Förbandet nådde nivå {0}! Belöning: {rewardDisplay}"
 
@@ -4621,15 +4683,15 @@ msgstr "Ny"
 msgid "New API Token Created"
 msgstr "Ny API-token skapad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1897
+#: src/components/_user/notification/notification.frontConfig.tsx:1898
 msgid "New article"
 msgstr "Ny artikel"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1899
+#: src/components/_user/notification/notification.frontConfig.tsx:1900
 msgid "New comment"
 msgstr "Ny kommentar"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2007
+#: src/components/_user/notification/notification.frontConfig.tsx:2008
 msgid "New contract accepted"
 msgstr "Nytt kontrakt accepterat"
 
@@ -4655,7 +4717,7 @@ msgstr "Ny plats"
 msgid "New Mercenary Auction"
 msgstr "Ny legoknektsauktion"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2028
+#: src/components/_user/notification/notification.frontConfig.tsx:2029
 msgid "New message"
 msgstr "Nytt meddelande"
 
@@ -4663,7 +4725,7 @@ msgstr "Nytt meddelande"
 msgid "New military unit"
 msgstr "Nytt militärt förband"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1988
+#: src/components/_user/notification/notification.frontConfig.tsx:1989
 msgid "New MU Application"
 msgstr "Ny ansökan till förbandet"
 
@@ -4671,28 +4733,28 @@ msgstr "Ny ansökan till förbandet"
 msgid "New name"
 msgstr "Nytt namn"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1940
+#: src/components/_user/notification/notification.frontConfig.tsx:1941
 msgid "New Party Application"
 msgstr "Ny partiansökan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1929
+#: src/components/_user/notification/notification.frontConfig.tsx:1930
 msgid "New Party Leader"
 msgstr "Ny partiledare"
 
 #: src/components/_political/event/EventList.tsx:66
-#: src/components/_user/notification/notification.frontConfig.tsx:1912
+#: src/components/_user/notification/notification.frontConfig.tsx:1913
 msgid "New president"
 msgstr "Ny president"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1943
+#: src/components/_user/notification/notification.frontConfig.tsx:1944
 msgid "New referred user"
 msgstr "Ny värvad användare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1944
+#: src/components/_user/notification/notification.frontConfig.tsx:1945
 msgid "New referrer"
 msgstr "Ny värvare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1902
+#: src/components/_user/notification/notification.frontConfig.tsx:1903
 msgid "New subscriber"
 msgstr "Ny prenumerant"
 
@@ -4700,7 +4762,7 @@ msgstr "Ny prenumerant"
 msgid "New supporters"
 msgstr "Nya supporters"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1883
+#: src/components/_user/notification/notification.frontConfig.tsx:1884
 msgid "New worker"
 msgstr "Ny anställd"
 
@@ -4801,7 +4863,7 @@ msgstr "Inga donationer ännu"
 msgid "No ground ranking yet."
 msgstr "Ingen terrängranking ännu."
 
-#: src/components/_political/law/LawList.tsx:72
+#: src/components/_political/law/LawList.tsx:65
 msgid "No laws yet"
 msgstr "Inga lagar ännu"
 
@@ -4895,7 +4957,7 @@ msgstr "Nominera"
 msgid "Nominate a {title}"
 msgstr "Nominera en {title}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1914
+#: src/components/_user/notification/notification.frontConfig.tsx:1915
 msgid "Nominated at government"
 msgstr "Nominerad till regeringen"
 
@@ -5093,7 +5155,7 @@ msgstr "Ägda militära förband"
 msgid "Owner"
 msgstr "Ägare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1124
+#: src/components/_user/notification/notification.frontConfig.tsx:1125
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "Ägarskapet för <0/> har överförts från <1/> till <2/>"
 
@@ -5138,11 +5200,11 @@ msgstr "Partier"
 msgid "Party"
 msgstr "Parti"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1934
+#: src/components/_user/notification/notification.frontConfig.tsx:1935
 msgid "Party Application Accepted"
 msgstr "Partiansökan beviljad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1937
+#: src/components/_user/notification/notification.frontConfig.tsx:1938
 msgid "Party Application Rejected"
 msgstr "Partiansökan nekad"
 
@@ -5150,15 +5212,15 @@ msgstr "Partiansökan nekad"
 msgid "Party Council election"
 msgstr "Val till partirådet"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:236
+#: src/components/_user/notification/notification.frontConfig.tsx:237
 msgid "Party Council election candidacy is now open in <0/>"
 msgstr "Kandidatur till partirådet är nu öppen i <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:286
+#: src/components/_user/notification/notification.frontConfig.tsx:287
 msgid "Party Council election has ended in <0/>. Check the results!"
 msgstr "Valet till partirådet i <0/> har avslutats. Se resultatet."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:261
+#: src/components/_user/notification/notification.frontConfig.tsx:262
 msgid "Party Council election voting is now open in <0/>"
 msgstr "Röstning till partirådet är nu öppen i <0/>"
 
@@ -5166,15 +5228,15 @@ msgstr "Röstning till partirådet är nu öppen i <0/>"
 msgid "Party created"
 msgstr "Partiet har bildats"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1920
+#: src/components/_user/notification/notification.frontConfig.tsx:1921
 msgid "Party election candidacy open"
 msgstr "Kandidatur till partival öppen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1926
+#: src/components/_user/notification/notification.frontConfig.tsx:1927
 msgid "Party election ended"
 msgstr "Partivalet avslutat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1923
+#: src/components/_user/notification/notification.frontConfig.tsx:1924
 msgid "Party election vote open"
 msgstr "Röstning i partival öppen"
 
@@ -5182,27 +5244,27 @@ msgstr "Röstning i partival öppen"
 msgid "Party Leader election"
 msgstr "Val av partiledare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:226
+#: src/components/_user/notification/notification.frontConfig.tsx:227
 msgid "Party Leader election candidacy is now open in <0/>"
 msgstr "Kandidatur till partiledare är nu öppen i <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:276
+#: src/components/_user/notification/notification.frontConfig.tsx:277
 msgid "Party Leader election has ended in <0/>. Check the results!"
 msgstr "Partiledarvalet i <0/> har avslutats. Se resultatet."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:251
+#: src/components/_user/notification/notification.frontConfig.tsx:252
 msgid "Party Leader election voting is now open in <0/>"
 msgstr "Röstning av partiledare är nu öppen i <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:231
+#: src/components/_user/notification/notification.frontConfig.tsx:232
 msgid "Party Primary election candidacy is now open in <0/>"
 msgstr "Kandidatur till partiets primärval är nu öppen i <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:281
+#: src/components/_user/notification/notification.frontConfig.tsx:282
 msgid "Party Primary election has ended in <0/>. Check the results!"
 msgstr "Partiets primärval i <0/> har avslutats. Se resultatet."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:256
+#: src/components/_user/notification/notification.frontConfig.tsx:257
 msgid "Party Primary election voting is now open in <0/>"
 msgstr "Röstning i partiets primärval är nu öppen i <0/>"
 
@@ -5314,23 +5376,23 @@ msgstr "Premium"
 msgid "Premium & Gifts"
 msgstr "Premium och gåvor"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1851
+#: src/components/_user/notification/notification.frontConfig.tsx:1852
 msgid "Premium activated"
 msgstr "Premium aktiverat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1852
+#: src/components/_user/notification/notification.frontConfig.tsx:1853
 msgid "Premium expired"
 msgstr "Premium har löpt ut"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1858
+#: src/components/_user/notification/notification.frontConfig.tsx:1859
 msgid "Premium gift expired"
 msgstr "Premiumgåvan har löpt ut"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1855
+#: src/components/_user/notification/notification.frontConfig.tsx:1856
 msgid "Premium gift received"
 msgstr "Premiumgåva mottagen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1853
+#: src/components/_user/notification/notification.frontConfig.tsx:1854
 msgid "Premium gift sent"
 msgstr "Premiumgåva skickad"
 
@@ -5346,15 +5408,15 @@ msgstr "President"
 msgid "Presidential election"
 msgstr "Presidentval"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:132
+#: src/components/_user/notification/notification.frontConfig.tsx:133
 msgid "Presidential election candidacy is now open in <0/>"
 msgstr "Kandidatur till presidentvalet är nu öppen i <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:172
+#: src/components/_user/notification/notification.frontConfig.tsx:173
 msgid "Presidential election has ended in <0/>. Check the results!"
 msgstr "Presidentvalet i <0/> har avslutats. Se resultatet."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:152
+#: src/components/_user/notification/notification.frontConfig.tsx:153
 msgid "Presidential election voting is now open in <0/>"
 msgstr "Röstning i presidentvalet är nu öppen i <0/>"
 
@@ -5366,7 +5428,7 @@ msgstr "Presidentval"
 msgid "Primary election"
 msgstr "Primärval"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1931
+#: src/components/_user/notification/notification.frontConfig.tsx:1932
 msgid "Primary Election Ended"
 msgstr "Primärvalet avslutat"
 
@@ -5395,15 +5457,15 @@ msgstr "Sannolikhet för en fullträff"
 #: src/components/_economy/company/ProduceButton.tsx:139
 #: src/components/_user/mission/mission.frontConfig.tsx:435
 msgid "Produce"
-msgstr "Tillverka"
+msgstr "Producera"
 
 #: src/components/_economy/company/ProduceAllButton.tsx:125
 msgid "Produce All"
-msgstr "Tillverka Allt"
+msgstr "Producera Allt"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:437
 msgid "Produce items <0>{count}</0> times"
-msgstr "Tillverka föremål <0>{count}</0> gånger"
+msgstr "Producera produkter <0>{count}</0> gånger"
 
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:71
 msgid "Produced item"
@@ -5430,11 +5492,11 @@ msgstr "Produktionsbonus"
 msgid "Production bonus:"
 msgstr "Produktionsbonus:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:574
+#: src/components/_user/notification/notification.frontConfig.tsx:575
 msgid "Production in<0/> is full, you should start production!"
 msgstr "Produktionslagret i <0/> är fullt, du bör påbörja tillverkning."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1892
+#: src/components/_user/notification/notification.frontConfig.tsx:1893
 msgid "Production is full"
 msgstr "Produktionslagret är fullt"
 
@@ -5455,7 +5517,7 @@ msgstr "Profil"
 msgid "Promote to Commander"
 msgstr "Befordra till Befälhavare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1995
+#: src/components/_user/notification/notification.frontConfig.tsx:1996
 msgid "Promoted to Commander"
 msgstr "Befordrad till Befälhavare"
 
@@ -5464,16 +5526,21 @@ msgstr "Befordrad till Befälhavare"
 msgid "Propose a motion"
 msgstr "Lägg fram ett förslag"
 
-#: src/components/_political/law/law.frontConfig.tsx:203
+#: src/components/_political/law/law.frontConfig.tsx:255
+#: src/components/_political/law/lawNames.tsx:25
 msgid "Propose alliance"
 msgstr "Föreslå allians"
 
+#: src/components/_political/law/law.frontConfig.tsx:260
+msgid "Propose alliance to <0/>"
+msgstr ""
+
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:209
+#: src/components/_political/law/law.frontConfig.tsx:269
 msgid "Propose an alliance to <0/>, increasing your citizens damages when fighting for them by <1>{0}</1> and reciprocally"
 msgstr "Föreslå allians med <0/>, vilket ökar dina medborgares skada med <1>{0}</1> när de strider för dem, och vice versa"
 
-#: src/components/_political/law/law.frontConfig.tsx:204
+#: src/components/_political/law/law.frontConfig.tsx:256
 msgid "Propose an alliance to another country"
 msgstr "Föreslå allians med ett annat land"
 
@@ -5485,28 +5552,31 @@ msgstr "Föreslå lag"
 msgid "Propose motion"
 msgstr "Lägg fram förslag"
 
-#: src/components/_political/law/law.frontConfig.tsx:108
+#: src/components/_political/law/law.frontConfig.tsx:134
+#: src/components/_political/law/lawNames.tsx:15
 msgid "Propose peace"
 msgstr "Föreslå fred"
 
-#: src/components/_political/law/law.frontConfig.tsx:114
+#: src/components/_political/law/law.frontConfig.tsx:139
+#: src/components/_political/law/law.frontConfig.tsx:148
 msgid "Propose peace to <0/>"
 msgstr "Föreslå fred med <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:109
+#: src/components/_political/law/law.frontConfig.tsx:135
 msgid "Propose peace to another country"
 msgstr "Föreslå fred med ett annat land"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:312
+#: src/components/_political/law/law.frontConfig.tsx:419
 msgid "Propose to buy <0/> from <1/> for <2>{0}</2>"
 msgstr "Erbjud att köpa <0/> från <1/> för <2>{0}</2>"
 
-#: src/components/_political/law/law.frontConfig.tsx:306
+#: src/components/_political/law/law.frontConfig.tsx:403
+#: src/components/_political/law/lawNames.tsx:31
 msgid "Propose to buy a region"
 msgstr "Föreslå köp av en region"
 
-#: src/components/_political/law/law.frontConfig.tsx:307
+#: src/components/_political/law/law.frontConfig.tsx:404
 msgid "Propose to buy a region from another country"
 msgstr "Erbjud att köpa en region från ett annat land"
 
@@ -5529,7 +5599,7 @@ msgstr "Sätt igång och jobba!"
 #: src/components/_economy/inventory/DismantleModal.tsx:195
 #: src/components/_economy/inventory/DismantleModal.tsx:285
 msgid "Quick dismantle"
-msgstr "Snabb nedmontering"
+msgstr "Snabbskrotning"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:72
 msgid "Quickly dismantle items"
@@ -5539,7 +5609,7 @@ msgstr "Skrota föremål snabbt"
 msgid "Ranking"
 msgstr "Rankning"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1942
+#: src/components/_user/notification/notification.frontConfig.tsx:1943
 msgid "Ranking reward"
 msgstr "Rankningbelöning"
 
@@ -5696,11 +5766,12 @@ msgstr "Återställer <0>{0}</0> vid konsumtion"
 msgid "Region"
 msgstr "Region"
 
-#: src/components/_political/law/law.frontConfig.tsx:288
+#: src/components/_political/law/law.frontConfig.tsx:375
+#: src/components/_political/law/lawNames.tsx:30
 msgid "Region buy offer"
 msgstr "Köperbjudande för region"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1958
+#: src/components/_user/notification/notification.frontConfig.tsx:1959
 msgid "Region is revolting!"
 msgstr "Regionen gör revolt!"
 
@@ -5763,7 +5834,7 @@ msgstr "Återstående tid för förstärkning"
 msgid "Remaining debuff duration"
 msgstr "Återstående tid för försvagning"
 
-#: src/components/_political/law/law.frontConfig.tsx:154
+#: src/components/_political/law/law.frontConfig.tsx:198
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "Avlägsna <0/> från riksdagen p.g.a. inaktivitet"
 
@@ -5780,7 +5851,7 @@ msgstr "Avlägsna en medlem från partirådet"
 msgid "Remove all"
 msgstr "Rensa alla"
 
-#: src/components/_political/law/law.frontConfig.tsx:148
+#: src/components/_political/law/law.frontConfig.tsx:182
 msgid "Remove an inactive congress member from its position"
 msgstr "Avlägsna en inaktiv riksdagsledamot från sin post"
 
@@ -5800,7 +5871,8 @@ msgstr "Avlägsna rådsmedlem"
 msgid "Remove Description"
 msgstr "Ta bort beskrivning"
 
-#: src/components/_political/law/law.frontConfig.tsx:278
+#: src/components/_political/law/law.frontConfig.tsx:365
+#: src/components/_political/law/lawNames.tsx:29
 msgid "Remove enemy"
 msgstr "Ta bort fiende"
 
@@ -5809,7 +5881,7 @@ msgstr "Ta bort fiende"
 msgid "Remove the current party leader from their position"
 msgstr "Avsätt den nuvarande partiledaren från sin post"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1992
+#: src/components/_user/notification/notification.frontConfig.tsx:1993
 msgid "Removed from Military Unit"
 msgstr "Avlägsnad från det militära förbandet"
 
@@ -5912,7 +5984,7 @@ msgstr "Resurser"
 msgid "Resources reshuffled"
 msgstr "Resurser omfördelade"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2030
+#: src/components/_user/notification/notification.frontConfig.tsx:2031
 msgid "Response to message"
 msgstr "Svar på meddelande"
 
@@ -5920,7 +5992,7 @@ msgstr "Svar på meddelande"
 msgid "Restore your health!"
 msgstr "Återställ din hälsa!"
 
-#: src/components/_political/law/law.frontConfig.tsx:324
+#: src/components/_political/law/law.frontConfig.tsx:431
 msgid "Return a region to its original country"
 msgstr "Återlämna en region till dess ursprungliga land"
 
@@ -5928,7 +6000,7 @@ msgstr "Återlämna en region till dess ursprungliga land"
 msgid "Revoke API token?"
 msgstr "Återkalla API-token?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1961
+#: src/components/_user/notification/notification.frontConfig.tsx:1962
 msgid "Revolt started!"
 msgstr "Revolt startad!"
 
@@ -5940,7 +6012,7 @@ msgstr "Revolutionen avslutad"
 msgid "Revolution started"
 msgstr "Revolutionen startad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1964
+#: src/components/_user/notification/notification.frontConfig.tsx:1965
 msgid "Revolution started!"
 msgstr "Revolution startad!"
 
@@ -5989,15 +6061,15 @@ msgid "Round #{0}"
 msgstr "Rond #{0}"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:643
+#: src/components/_user/notification/notification.frontConfig.tsx:644
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
 msgstr "Rond <0>#{0}</0> i <1/> håller på att avslutas."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1949
+#: src/components/_user/notification/notification.frontConfig.tsx:1950
 msgid "Round about to end"
 msgstr "Ronden avslutas snart"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1947
+#: src/components/_user/notification/notification.frontConfig.tsx:1948
 msgid "Round ended"
 msgstr "Rond avslutad"
 
@@ -6165,7 +6237,7 @@ msgid "sells"
 msgstr "säljer"
 
 #. placeholder {0}: law.data.amount
-#: src/components/_political/law/law.frontConfig.tsx:268
+#: src/components/_political/law/law.frontConfig.tsx:355
 msgid "Send <0>{0}</0> to <1/>"
 msgstr "Skicka <0>{0}</0> till <1/>"
 
@@ -6193,7 +6265,7 @@ msgstr "Skicka gåva"
 msgid "Send Message"
 msgstr "Skicka meddelande"
 
-#: src/components/_political/law/law.frontConfig.tsx:263
+#: src/components/_political/law/law.frontConfig.tsx:340
 msgid "Send money to another country"
 msgstr "Skicka pengar till ett annat land"
 
@@ -6209,11 +6281,11 @@ msgstr "Ange en <0>beskrivning</0>"
 msgid "Set a referrer"
 msgstr "Ange en referent"
 
-#: src/components/_political/law/law.frontConfig.tsx:340
+#: src/components/_political/law/law.frontConfig.tsx:455
 msgid "Set a welcome article for your country"
 msgstr "Ange en välkomstartikel för ditt land"
 
-#: src/components/_political/law/law.frontConfig.tsx:345
+#: src/components/_political/law/law.frontConfig.tsx:460
 msgid "Set a welcome article for your country<0/>"
 msgstr "Ange en välkomstartikel för ditt land<0/>"
 
@@ -6221,9 +6293,15 @@ msgstr "Ange en välkomstartikel för ditt land<0/>"
 msgid "Set bounty"
 msgstr "Sätt belöning"
 
-#: src/components/_political/law/law.frontConfig.tsx:355
+#: src/components/_political/law/law.frontConfig.tsx:481
+#: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
 msgstr "Välj landsfärg"
+
+#. placeholder {0}: law.data.scheme
+#: src/components/_political/law/law.frontConfig.tsx:473
+msgid "Set country color to <0>{0}</0> "
+msgstr ""
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:88
 msgid "Set new party ethics configuration:"
@@ -6241,24 +6319,26 @@ msgstr "Välj partiideologi"
 msgid "Set Profile Picture"
 msgstr "Välj profilbild"
 
-#: src/components/_political/law/law.frontConfig.tsx:401
+#: src/components/_political/law/law.frontConfig.tsx:527
+#: src/components/_political/law/lawNames.tsx:36
 msgid "Set specialization item"
-msgstr "Välj specialiseringsföremål"
+msgstr "Välj specialiseringsprodukt"
 
 #. placeholder {0}: ts[law.data.itemCode]
-#: src/components/_political/law/law.frontConfig.tsx:407
+#: src/components/_political/law/law.frontConfig.tsx:533
 msgid "Set the country's specialized item to <0>{0}</0>.<1/>The country strategic resources <2>Production Bonus</2> will be available for local companies producing this item."
-msgstr "Sätt landets specialiserade föremål till <0>{0}</0>.<1/>Landets strategiska resursers <2>Produktionsbonus</2> kommer att vara tillgänglig för lokala företag som producerar detta föremål."
+msgstr "Sätt landets specialiserade produkt till <0>{0}</0>.<1/>Landets strategiska resursers <2>Produktionsbonus</2> kommer att vara tillgänglig för lokala företag som producerar denna produkt."
 
-#: src/components/_political/law/law.frontConfig.tsx:402
+#: src/components/_political/law/law.frontConfig.tsx:528
 msgid "Set the country's specialized production item"
-msgstr "Ställ in landets specialiserade produktionsföremål"
+msgstr "Ställ in landets specialiserade produktionsfokus"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:407
 msgid "Set Username"
 msgstr "Välj användarnamn"
 
-#: src/components/_political/law/law.frontConfig.tsx:339
+#: src/components/_political/law/law.frontConfig.tsx:454
+#: src/components/_political/law/lawNames.tsx:33
 msgid "Set welcome article"
 msgstr "Välj välkomstartikel"
 
@@ -6341,15 +6421,15 @@ msgstr "Färdigheter gör dig starkare. Låt oss boosta dina förmågor!"
 msgid "Skills saved!"
 msgstr "Färdigheter sparade!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1872
+#: src/components/_user/notification/notification.frontConfig.tsx:1873
 msgid "Skin gift received"
 msgstr "Utseendegåva mottagen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1870
+#: src/components/_user/notification/notification.frontConfig.tsx:1871
 msgid "Skin gift sent"
 msgstr "Utseendegåva skickad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1875
+#: src/components/_user/notification/notification.frontConfig.tsx:1876
 msgid "Skin pack gift sent"
 msgstr "Utseendepaketgåva skickad"
 
@@ -6361,7 +6441,7 @@ msgstr "Utseendepaket upplåst! Alla Utseenden har utrustats!"
 msgid "Skin Packs"
 msgstr "Utseendepaket"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2046
+#: src/components/_user/notification/notification.frontConfig.tsx:2047
 msgid "Skin Reward"
 msgstr "Utseendebelöning"
 
@@ -6422,8 +6502,8 @@ msgstr "Använd din <0>energi</0> för att arbeta här och tjäna <1>valuta</1>.
 msgid "Spendings"
 msgstr "Utgifter"
 
-#: src/components/_political/law/law.frontConfig.tsx:132
-#: src/components/_political/law/law.frontConfig.tsx:134
+#: src/components/_political/law/law.frontConfig.tsx:166
+#: src/components/_political/law/law.frontConfig.tsx:168
 msgid "Start a congress election, now"
 msgstr "Starta riksdagsval omedelbart"
 
@@ -6442,8 +6522,8 @@ msgstr "Starta partiledarval omedelbart"
 msgid "Start a party primary election immediately"
 msgstr "Starta partiets primärval omedelbart"
 
-#: src/components/_political/law/law.frontConfig.tsx:124
-#: src/components/_political/law/law.frontConfig.tsx:126
+#: src/components/_political/law/law.frontConfig.tsx:158
+#: src/components/_political/law/law.frontConfig.tsx:160
 msgid "Start a presidential election, now"
 msgstr "Starta presidentval omedelbart"
 
@@ -6452,11 +6532,13 @@ msgstr "Starta presidentval omedelbart"
 msgid "Start a revolution to overthrow the government"
 msgstr "Starta en revolution för att störta regeringen"
 
-#: src/components/_political/law/law.frontConfig.tsx:131
+#: src/components/_political/law/law.frontConfig.tsx:165
+#: src/components/_political/law/lawNames.tsx:19
 msgid "Start congress election"
 msgstr "Starta riksdagsval"
 
-#: src/components/_political/law/law.frontConfig.tsx:123
+#: src/components/_political/law/law.frontConfig.tsx:157
+#: src/components/_political/law/lawNames.tsx:17
 msgid "Start presidential election"
 msgstr "Starta presidentval"
 
@@ -6693,12 +6775,12 @@ msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the gover
 msgstr "Inbördeskriget som startades av <0/> i <1/> har lyckats för <2/> och regeringen har störtats."
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1586
+#: src/components/_user/notification/notification.frontConfig.tsx:1587
 msgid "The contract for <0/> has expired. <1>{0}</1> returned to <2/>."
 msgstr "Kontraktet för <0/> har löpt ut. <1>{0}</1> har återförts till <2/>."
 
 #. placeholder {0}: data.moneyRolledBack
-#: src/components/_user/notification/notification.frontConfig.tsx:1604
+#: src/components/_user/notification/notification.frontConfig.tsx:1605
 msgid "The contract has been rolled back. <0>{0}</0> sent back to <1/>."
 msgstr "Kontraktet har rullats tillbaka. <0>{0}</0> har skickats tillbaka till <1/>."
 
@@ -6714,7 +6796,7 @@ msgstr "Fyndigheten ger en produktionsbonus med följande procentsats."
 msgid "The deposit will expire in the following amount of time."
 msgstr "Fyndigheten löper ut om följande tid."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:712
+#: src/components/_user/notification/notification.frontConfig.tsx:713
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Effekten av din förstärkning har upphört. Försvagningsfasen har börjat och varar i <0>{debuffDuration}h</0>."
 
@@ -6736,7 +6818,7 @@ msgstr "Revolutionen i <0/> har lyckats! Regeringen har störtats."
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "Den strategiska resursen kommer att omfördelas om följande tid."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1322
+#: src/components/_user/notification/notification.frontConfig.tsx:1323
 msgid "The tournament has ended for your team <0/>. Check the results!"
 msgstr "Turneringen har avslutats för ditt lag <0/>. Se resultatet."
 
@@ -6774,7 +6856,7 @@ msgstr "Detta är en sammanfattning av det byte du erhållit från striden. Det 
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
-msgstr "Detta är din företagshub. Här kan du tillverka föremål och bygga ditt imperium."
+msgstr "Detta är din företagshub. Här kan du skapa produktion och bygga ditt imperium."
 
 #: src/components/_political/law/LawTypeSelect.tsx:182
 msgid "This law can be abusive and requires 5+ possible voters in the country."
@@ -6999,15 +7081,15 @@ msgstr "Totalt:"
 msgid "Tournament"
 msgstr "Turnering"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1972
+#: src/components/_user/notification/notification.frontConfig.tsx:1973
 msgid "Tournament Created"
 msgstr "Turnering skapad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1979
+#: src/components/_user/notification/notification.frontConfig.tsx:1980
 msgid "Tournament Eliminated"
 msgstr "Utslagen ur turneringen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1977
+#: src/components/_user/notification/notification.frontConfig.tsx:1978
 msgid "Tournament Ended"
 msgstr "Turneringen avslutad"
 
@@ -7015,15 +7097,15 @@ msgstr "Turneringen avslutad"
 msgid "Tournament reward:"
 msgstr "Turneringsbelöning:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1968
+#: src/components/_user/notification/notification.frontConfig.tsx:1969
 msgid "Tournament round won!"
 msgstr "Turneringsrond vunnen!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1975
+#: src/components/_user/notification/notification.frontConfig.tsx:1976
 msgid "Tournament Started"
 msgstr "Turneringen startad"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1970
+#: src/components/_user/notification/notification.frontConfig.tsx:1971
 msgid "Tournament Won!"
 msgstr "Turneringen vunnen!"
 
@@ -7036,7 +7118,7 @@ msgstr "Handel"
 msgid "Trading"
 msgstr "Handel"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1895
+#: src/components/_user/notification/notification.frontConfig.tsx:1896
 msgid "Trading transaction"
 msgstr "Handelstransaktion"
 
@@ -7054,7 +7136,8 @@ msgstr "Transakt."
 msgid "Transactions"
 msgstr "Transaktioner"
 
-#: src/components/_political/law/law.frontConfig.tsx:262
+#: src/components/_political/law/law.frontConfig.tsx:339
+#: src/components/_political/law/lawNames.tsx:28
 msgid "Transfer money"
 msgstr "Överför valuta"
 
@@ -7065,6 +7148,10 @@ msgstr "Överför ägarskap"
 #: src/components/_user/worker/WorkerEditFormModal.tsx:199
 msgid "Transfer to company (optional)"
 msgstr "Flytta till företag (valfritt)"
+
+#: src/components/_political/law/law.frontConfig.tsx:344
+msgid "Transfer<0/> to <1/>"
+msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:209
 msgid "Translator"
@@ -7120,7 +7207,7 @@ msgstr "Lås upp knappen \"Hjälp alla\""
 msgid "Unlock Produce all button"
 msgstr "Lås upp knappen \"Tillverka alla\""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1878
+#: src/components/_user/notification/notification.frontConfig.tsx:1879
 msgid "Unlocked pack"
 msgstr "Paket upplåst"
 
@@ -7148,8 +7235,8 @@ msgstr "Bidragsgivare till oroligheter"
 msgid "Unselect all"
 msgstr "Avmarkera alla"
 
-#: src/components/_political/law/law.frontConfig.tsx:279
-#: src/components/_political/law/law.frontConfig.tsx:281
+#: src/components/_political/law/law.frontConfig.tsx:366
+#: src/components/_political/law/law.frontConfig.tsx:368
 msgid "Unset the sworn enemy country"
 msgstr "Ta bort svuren fiende-status för landet"
 
@@ -7436,7 +7523,7 @@ msgstr "mot"
 msgid "Wage"
 msgstr "Lön"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1888
+#: src/components/_user/notification/notification.frontConfig.tsx:1889
 msgid "Wage changed"
 msgstr "Lönen ändrad"
 
@@ -7452,7 +7539,7 @@ msgstr "Lön per produktion"
 msgid "Wage reduction accepted."
 msgstr "Lönesänkning accepterad."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1889
+#: src/components/_user/notification/notification.frontConfig.tsx:1890
 #: src/components/_user/worker/WageReductionAlert.tsx:66
 msgid "Wage reduction proposed"
 msgstr "Lönesänkning föreslagen"
@@ -7529,7 +7616,7 @@ msgstr "Veckans resultat"
 msgid "Weekly damages"
 msgstr "Veckoskada"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2044
+#: src/components/_user/notification/notification.frontConfig.tsx:2045
 msgid "Weekly Missions Reset"
 msgstr "Veckovis återställning av uppdrag"
 
@@ -7600,7 +7687,7 @@ msgstr "Arbeta och tjäna!"
 msgid "Worker fired!"
 msgstr "Anställd avskedad!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1884
+#: src/components/_user/notification/notification.frontConfig.tsx:1885
 msgid "Worker left"
 msgstr "Anställd slutade"
 
@@ -7622,7 +7709,7 @@ msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "Wow, grattis! Har du förresten övervägt att köpa premium?"
 
 #: src/components/_political/law/LawFormModal.tsx:168
-#: src/components/_political/law/LawList.tsx:58
+#: src/components/_political/law/LawList.tsx:51
 msgid "Write a law"
 msgstr "Skriv en lag"
 
@@ -7668,10 +7755,6 @@ msgstr "Du är redan vicepresident i ett annat land. Avgå först."
 msgid "You are jobless"
 msgstr "Du är arbetslös"
 
-#: src/components/_political/law/LawList.tsx:48
-msgid "You are not a congress member of this country"
-msgstr "Du är inte riksdagsledamot i detta land"
-
 #: src/components/_political/partyMotion/PartyMotionList.tsx:44
 msgid "You are not a council member of this party"
 msgstr "Du är inte rådsmedlem i detta parti"
@@ -7696,7 +7779,7 @@ msgstr "Du är eller var en del av staben och hjälpte spelet att växa <3"
 msgid "You bought a coffee for the dev <3"
 msgstr "Du köpte en kaffe till utvecklaren <3"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:590
+#: src/components/_user/notification/notification.frontConfig.tsx:591
 msgid "You bought items."
 msgstr "Du köpte föremål."
 
@@ -7729,19 +7812,19 @@ msgstr "Du kan inte ansöka om medborgarskap om du har en roll i regering eller 
 msgid "You don't have permission to view applications."
 msgstr "Du har inte tillåtelse att se ansökningar."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1472
+#: src/components/_user/notification/notification.frontConfig.tsx:1473
 msgid "You earned gems from a banner sale!"
 msgstr "Du tjänade kristaller på en försäljning av baner!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1796
+#: src/components/_user/notification/notification.frontConfig.tsx:1797
 msgid "You earned gems from a sale of \"{skinTitle}\"!"
 msgstr "Du tjänade kristaller på en försäljning av \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1798
+#: src/components/_user/notification/notification.frontConfig.tsx:1799
 msgid "You earned gems from a skin pack sale!"
 msgstr "Du tjänade kristaller på en försäljning av ett utseendepaket!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:726
+#: src/components/_user/notification/notification.frontConfig.tsx:727
 msgid "You feel healthy, the debuff effect no longer affects you."
 msgstr "Du känner dig frisk, försvagningen påverkar dig inte längre."
 
@@ -7757,28 +7840,28 @@ msgstr "Du kommer att bli automatiskt godkänd eftersom landets befolkning är u
 msgid "You have a case!"
 msgstr "Du har en låda!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1110
+#: src/components/_user/notification/notification.frontConfig.tsx:1111
 msgid "You have been demoted from commander in <0/> by <1/>"
 msgstr "Du har degraderats från Befälhavare i <0/> av <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:320
+#: src/components/_user/notification/notification.frontConfig.tsx:321
 msgid "You have been elected as the new leader of <0/>"
 msgstr "Du har valts till ny ledare för <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1096
+#: src/components/_user/notification/notification.frontConfig.tsx:1097
 msgid "You have been promoted to commander in <0/> by <1/>"
 msgstr "Du har befordrats till Befälhavare i <0/> av <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1082
+#: src/components/_user/notification/notification.frontConfig.tsx:1083
 msgid "You have been removed from <0/> by <1/>"
 msgstr "Du har avlägsnats från <0/> av <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:439
+#: src/components/_user/notification/notification.frontConfig.tsx:440
 msgid "You have been transferred from <0/> to <1/>"
 msgstr "Du har flyttats från <0/> till <1/>"
 
 #. placeholder {0}: 1
-#: src/components/_user/notification/notification.frontConfig.tsx:680
+#: src/components/_user/notification/notification.frontConfig.tsx:681
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Du har konsumerat <0>{0}</0>, dess effekt börjar nu och upphör om <1>{buffDuration}h</1>."
 
@@ -7849,44 +7932,44 @@ msgstr "Du måste utrusta ett vapen först"
 msgid "You paid the dev's bills <3 (top 3 in monthly supporter gifts ranking)"
 msgstr "Du betalade utvecklarens räkningar <3 (topp 3 i månatlig ranking för supportergåvor)."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1026
+#: src/components/_user/notification/notification.frontConfig.tsx:1027
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
 msgstr "Din premiumgåva från <0/> har löpt ut. Vill du överväga att prenumerera och stödja spelet?"
 
 #. placeholder {0}: data.rank
-#: src/components/_user/notification/notification.frontConfig.tsx:1231
+#: src/components/_user/notification/notification.frontConfig.tsx:1232
 msgid "You received a loot item for rank <0>#{0}</0> in <1/>"
 msgstr "Du fick ett bytesföremål för ranking <0>#{0}</0> i <1/>"
 
 #. placeholder {0}: data.muId ? ( <MuName muId={data.muId} /> ) : data.countryId ? ( <CountryName countryId={data.countryId} /> ) : ( 'your' )
 #. placeholder {1}: data.rank && ( <> position{' '} <Typo fw='bold' color='text1'> #{data.rank} </Typo> </> )
-#: src/components/_user/notification/notification.frontConfig.tsx:1357
+#: src/components/_user/notification/notification.frontConfig.tsx:1358
 msgid "You received a reward for {0} {1} in<0/> tier in the ranking <1/>"
 msgstr "Du fick en belöning för {0} {1} på <0/>-nivå i rankingen <1/>."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1816
+#: src/components/_user/notification/notification.frontConfig.tsx:1817
 msgid "You received the skin \"{skinTitle}\"!"
 msgstr "Du fick utseendet \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:592
+#: src/components/_user/notification/notification.frontConfig.tsx:593
 msgid "You sold items."
 msgstr "Du sålde föremål."
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1412
+#: src/components/_user/notification/notification.frontConfig.tsx:1413
 msgid "You successfully gifted \"{0}\" to <0/>!"
 msgstr "Du skänkte \"{0}\" till <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1660
+#: src/components/_user/notification/notification.frontConfig.tsx:1661
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "Du skänkte \"{skinTitle}\" till <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:991
+#: src/components/_user/notification/notification.frontConfig.tsx:992
 msgid "You successfully gifted a premium subscription to <0/>!"
 msgstr "Du skänkte en premiumprenumeration till <0/>!"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1724
+#: src/components/_user/notification/notification.frontConfig.tsx:1725
 msgid "You successfully gifted the skin pack \"{0}\" to <0/>!"
 msgstr "Du skänkte utseendepaketet \"{0}\" till <0/>!"
 
@@ -7902,7 +7985,7 @@ msgstr "Du har mycket tur"
 msgid "You voted in a major election"
 msgstr "Du röstade i ett betydande val"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:535
+#: src/components/_user/notification/notification.frontConfig.tsx:536
 msgid "You was fired from the government by <0/>"
 msgstr "Du avskedades från regeringen av <0/>"
 
@@ -7910,8 +7993,8 @@ msgstr "Du avskedades från regeringen av <0/>"
 msgid "You were an alpha tester (user before 20 march 2025)"
 msgstr "Du var en alfatestare (användare före 20 mars 2025)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1911
-#: src/components/_user/notification/notification.frontConfig.tsx:1928
+#: src/components/_user/notification/notification.frontConfig.tsx:1912
+#: src/components/_user/notification/notification.frontConfig.tsx:1929
 msgid "You were elected"
 msgstr "Du blev vald"
 
@@ -7998,7 +8081,7 @@ msgstr "Du har nått maxnivån!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:47
 msgid "Your <0>Production</0> bar is full! Click to produce items and add them to your inventory."
-msgstr "Din <0>produktionsmätare</0> är full! Klicka för att tillverka föremål och lägga till dem i ditt förråd."
+msgstr "Din <0>produktionsmätare</0> är full! Klicka för att producera en produkt och lägga till dem i ditt förråd."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:96
 msgid "Your account has been automatically reported for cheating"
@@ -8008,8 +8091,8 @@ msgstr "Ditt konto har automatiskt rapporterats för fusk"
 msgid "Your ancestors are proud"
 msgstr "Dina förfäder är stolta"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:364
-#: src/components/_user/notification/notification.frontConfig.tsx:1041
+#: src/components/_user/notification/notification.frontConfig.tsx:365
+#: src/components/_user/notification/notification.frontConfig.tsx:1042
 msgid "Your application to <0/> has been rejected"
 msgstr "Din ansökan till <0/> har avslagits"
 
@@ -8018,11 +8101,11 @@ msgid "Your article reached 2% of the active population in score (min 10)"
 msgstr "Din artikel nådde 2 % av den aktiva befolkningen i poäng (minst 10)."
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1485
+#: src/components/_user/notification/notification.frontConfig.tsx:1486
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr "Ditt baner \"{0}\" har godkänts och finns nu i butiken. Det har automatiskt låsts upp för dig."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:695
+#: src/components/_user/notification/notification.frontConfig.tsx:696
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Dina förstärkningar går ut om mindre än 1 timme. Försvagningsfasen börjar snart."
 
@@ -8034,15 +8117,15 @@ msgstr "Ditt medborgarskap kommer att ändras"
 msgid "Your country"
 msgstr "Ditt land"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1952
+#: src/components/_user/notification/notification.frontConfig.tsx:1953
 msgid "Your country is under attack!"
 msgstr "Ditt land är under attack!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1955
+#: src/components/_user/notification/notification.frontConfig.tsx:1956
 msgid "Your country launched an attack!"
 msgstr "Ditt land inledde ett anfall!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:916
+#: src/components/_user/notification/notification.frontConfig.tsx:917
 msgid "Your country started a revolt in <0/> against <1/>"
 msgstr "Ditt land startade en revolt i <0/> mot <1/>"
 
@@ -8054,7 +8137,7 @@ msgstr "Ditt nuvarande jobb"
 msgid "Your current order"
 msgstr "Din nuvarande order"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1634
+#: src/components/_user/notification/notification.frontConfig.tsx:1635
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Dina dagliga uppdrag har återställts! Slutför dem för att tjäna belöningar."
 
@@ -8070,7 +8153,7 @@ msgstr "Din arbetsgivare vill sänka din lön från <0>{0}</0> till <1>{1}</1>."
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
-#: src/components/_user/notification/notification.frontConfig.tsx:469
+#: src/components/_user/notification/notification.frontConfig.tsx:470
 msgid "Your employer wants to reduce your wage in <0/> from <1>{0}</1> to <2>{1}</2>. Accept or reject this change."
 msgstr "Din arbetsgivare i <0/> vill sänka din lön från <1>{0}</1> till <2>{1}</2>. Acceptera eller neka ändringen."
 
@@ -8115,11 +8198,11 @@ msgstr "Dina erbjudanden"
 msgid "Your party name"
 msgstr "Ditt partinamn"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:973
+#: src/components/_user/notification/notification.frontConfig.tsx:974
 msgid "Your premium subscription has been activated!"
 msgstr "Din premiumprenumeration har aktiverats!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:982
+#: src/components/_user/notification/notification.frontConfig.tsx:983
 msgid "Your premium subscription has expired!"
 msgstr "Din premiumprenumeration har löpt ut!"
 
@@ -8131,11 +8214,11 @@ msgstr "Din ranking"
 msgid "Your referral link"
 msgstr "Din värvningslänk"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1336
+#: src/components/_user/notification/notification.frontConfig.tsx:1337
 msgid "Your team <0/> has been eliminated from the <1/>"
 msgstr "Ditt lag <0/> har slagits ut från <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1247
+#: src/components/_user/notification/notification.frontConfig.tsx:1248
 msgid "Your team <0/> won a round in <1/>!"
 msgstr "Ditt lag <0/> vann en rond i <1/>!"
 
@@ -8145,11 +8228,11 @@ msgstr "Ditt lag:"
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
-#: src/components/_user/notification/notification.frontConfig.tsx:454
+#: src/components/_user/notification/notification.frontConfig.tsx:455
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgstr "Din lön i <0/> ändrades från <1>{0}</1> till <2>{1}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1646
+#: src/components/_user/notification/notification.frontConfig.tsx:1647
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Dina veckouppdrag har återställts! Slutför dem för att tjäna belöningar."
 
