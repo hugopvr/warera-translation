@@ -1158,7 +1158,8 @@ msgstr "Погледај рат"
 #: src/components/_user/user/UserHeader.tsx:165
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:340
-#: src/pages/user/[userId]/account.tsx:32 src/pages/user/[userId]/index.tsx:150
+#: src/pages/user/[userId]/account.tsx:32
+#: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
 msgstr "Налог"
 
@@ -1169,7 +1170,8 @@ msgstr "Акције"
 #: src/components/_military/battle/BattlesHeader.tsx:25
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:132
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:83
-#: src/pages/events/index.tsx:94 src/utils/translations.tsx:258
+#: src/pages/events/index.tsx:94
+#: src/utils/translations.tsx:258
 msgid "Active"
 msgstr "Активно"
 
@@ -1348,7 +1350,8 @@ msgstr "Учитавам..."
 msgid "Alpha Tester"
 msgstr "Алфа тестер"
 
-#: src/components/_user/UserEquipments.tsx:128 src/utils/translations.tsx:35
+#: src/components/_user/UserEquipments.tsx:128
+#: src/utils/translations.tsx:35
 msgid "Ammo"
 msgstr "Муниција"
 
@@ -1693,7 +1696,8 @@ msgstr "Наређења"
 #: src/components/_layout/LayoutMenu.tsx:154
 #: src/components/_military/battle/BattlesHeader.tsx:21
 #: src/components/_military/war/WarHeader.tsx:83
-#: src/pages/region/[regionId]/index.tsx:132 src/pages/war/[warId]/index.tsx:75
+#: src/pages/region/[regionId]/index.tsx:132
+#: src/pages/war/[warId]/index.tsx:75
 msgid "Battles"
 msgstr "Битке"
 
@@ -1743,7 +1747,8 @@ msgstr "Бонус штета"
 msgid "Boost your production!"
 msgstr "Појачај своју производњу!"
 
-#: src/components/_user/UserEquipments.tsx:198 src/utils/translations.tsx:192
+#: src/components/_user/UserEquipments.tsx:198
+#: src/utils/translations.tsx:192
 msgid "Boots"
 msgstr "Чизме"
 
@@ -2010,7 +2015,8 @@ msgstr "Промени порез за {0} на"
 msgid "Check your loot!"
 msgstr "Провери свој плен!"
 
-#: src/components/_user/UserEquipments.tsx:164 src/utils/translations.tsx:183
+#: src/components/_user/UserEquipments.tsx:164
+#: src/utils/translations.tsx:183
 msgid "Chest"
 msgstr "Панцир"
 
@@ -2165,7 +2171,8 @@ msgstr "Заједница"
 #: src/components/_layout/LayoutMenu.tsx:184
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:197
-#: src/components/_user/user/WealthPanel.tsx:42 src/pages/companies.tsx:96
+#: src/components/_user/user/WealthPanel.tsx:42
+#: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Компаније"
 
@@ -2731,7 +2738,8 @@ msgstr "Обриши налог"
 msgid "Delete contract"
 msgstr "Обриши уговор"
 
-#: src/pages/index.tsx:146 src/pages/rules.tsx:40
+#: src/pages/index.tsx:146
+#: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Обриши свој налог"
 
@@ -3076,7 +3084,8 @@ msgid "Entrepreneurship"
 msgstr "Предузетништво"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:66
-#: src/components/_user/user/WealthPanel.tsx:56 src/pages/market/index.tsx:71
+#: src/components/_user/user/WealthPanel.tsx:56
+#: src/pages/market/index.tsx:71
 #: src/pages/user/[userId]/index.tsx:92
 #: src/pages/user/[userId]/inventory.tsx:58
 msgid "Equipment"
@@ -3324,7 +3333,8 @@ msgstr "Финансирај локални отпор"
 msgid "Finance resistance in <0/>"
 msgstr "Финансирај отпор у <0/>"
 
-#: src/pages/companies.tsx:59 src/pages/user/[userId]/companies.tsx:73
+#: src/pages/companies.tsx:59
+#: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Пронађи посао"
 
@@ -3492,7 +3502,8 @@ msgstr "Даје <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Глобус (експериментално)"
 
-#: src/components/_user/UserEquipments.tsx:215 src/utils/translations.tsx:201
+#: src/components/_user/UserEquipments.tsx:215
+#: src/utils/translations.tsx:201
 msgid "Gloves"
 msgstr "Рукавице"
 
@@ -3645,7 +3656,8 @@ msgstr "Здравље"
 msgid "Heavy Ammo"
 msgstr "Тешка муниција"
 
-#: src/components/_user/UserEquipments.tsx:149 src/utils/translations.tsx:174
+#: src/components/_user/UserEquipments.tsx:149
+#: src/utils/translations.tsx:174
 msgid "Helmet"
 msgstr "Кацига"
 
@@ -3829,8 +3841,10 @@ msgstr "Новајлија"
 
 #: src/components/_layout/LayoutMenu.tsx:125
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:157 src/pages/companies.tsx:83
-#: src/pages/country/[countryId]/account.tsx:25 src/pages/market/index.tsx:49
+#: src/components/_user/user/UserHeader.tsx:157
+#: src/pages/companies.tsx:83
+#: src/pages/country/[countryId]/account.tsx:25
+#: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:20
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:201
@@ -3871,7 +3885,8 @@ msgstr "Тржиште предмета"
 msgid "Items"
 msgstr "Предмети"
 
-#: src/pages/companies.tsx:32 src/pages/user/[userId]/companies.tsx:56
+#: src/pages/companies.tsx:32
+#: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "Посао"
 
@@ -4958,7 +4973,8 @@ msgstr "Није лоше!"
 msgid "Not impressive, but not shameful"
 msgstr "Није импресивно, али није ни срамотно"
 
-#: src/pages/notifications.tsx:38 src/pages/user/[userId]/settings.tsx:79
+#: src/pages/notifications.tsx:38
+#: src/pages/user/[userId]/settings.tsx:79
 msgid "Notification preferences"
 msgstr "Поставке обавештења"
 
@@ -5160,7 +5176,8 @@ msgstr "Пацифизам"
 msgid "Packs"
 msgstr "Пакети"
 
-#: src/components/_user/UserEquipments.tsx:181 src/utils/translations.tsx:210
+#: src/components/_user/UserEquipments.tsx:181
+#: src/utils/translations.tsx:210
 msgid "Pants"
 msgstr "Панталоне"
 
@@ -5420,7 +5437,8 @@ msgstr "Прелиминарни избори завршени"
 msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> instead of 24."
 msgstr "Приоритет од објављивања ратова или добијања битака је <0>{0} сати</0> уместо 24."
 
-#: src/pages/index.tsx:142 src/pages/rules.tsx:36
+#: src/pages/index.tsx:142
+#: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Приватност"
 
@@ -5738,7 +5756,8 @@ msgstr "Регенерација за..."
 #. placeholder {0}: staticGameConfig.items.bread.flatStats?.healthRegenPercent
 #. placeholder {0}: staticGameConfig.items.cookedFish.flatStats?.healthRegenPercent
 #. placeholder {0}: staticGameConfig.items.steak.flatStats?.healthRegenPercent
-#: src/utils/translations.tsx:45 src/utils/translations.tsx:61
+#: src/utils/translations.tsx:45
+#: src/utils/translations.tsx:61
 #: src/utils/translations.tsx:74
 msgid "Regens <0>{0}</0> when consumed"
 msgstr "Регенерише <0>{0}</0> при конзумирању"
@@ -5827,7 +5846,8 @@ msgstr "Уклони <0/> као члана савета"
 msgid "Remove a member from the party council"
 msgstr "Уклони члана савета из странке"
 
-#: src/pages/market/index.tsx:174 src/pages/market/index.tsx:234
+#: src/pages/market/index.tsx:174
+#: src/pages/market/index.tsx:234
 msgid "Remove all"
 msgstr "Уклони све"
 
@@ -6717,7 +6737,8 @@ msgstr "Порези"
 msgid "Terminated"
 msgstr "Прекинуто"
 
-#: src/pages/index.tsx:138 src/pages/rules.tsx:32
+#: src/pages/index.tsx:138
+#: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Услови"
 
@@ -7026,7 +7047,8 @@ msgstr "укупно"
 #: src/components/_economy/itemTrading/TradingOrders.tsx:93
 #: src/components/_economy/work/WorkChart.tsx:198
 #: src/components/_military/mu/MuMemberList.tsx:190
-#: src/components/_user/user/WealthPanel.tsx:28 src/pages/market/index.tsx:153
+#: src/components/_user/user/WealthPanel.tsx:28
+#: src/pages/market/index.tsx:153
 #: src/pages/market/index.tsx:202
 msgid "Total"
 msgstr "Укупно"
@@ -7109,7 +7131,8 @@ msgid "Transac."
 msgstr "Трансак."
 
 #: src/components/_political/country/CountryHeader.tsx:80
-#: src/pages/market/index.tsx:83 src/pages/user/[userId]/index.tsx:230
+#: src/pages/market/index.tsx:83
+#: src/pages/user/[userId]/index.tsx:230
 msgid "Transactions"
 msgstr "Трансакције"
 
@@ -7275,7 +7298,8 @@ msgstr "Користи своје <0>предузетништво</0> да ра�
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Користи своју <0>глад</0> да поједеш храну и допуниш своје <1>здравље</1>. Затим се врати у борбу!"
 
-#: src/utils/translations.tsx:90 src/utils/translations.tsx:96
+#: src/utils/translations.tsx:90
+#: src/utils/translations.tsx:96
 #: src/utils/translations.tsx:101
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
 msgstr "Користи се за пуцање из оружја. Повећава твој <0>напад</0>"
@@ -7726,7 +7750,8 @@ msgstr "Већ си председник друге државе. Прво по�
 msgid "You are already vice president of another country. Resign first."
 msgstr "Већ си потпредседник друге државе. Прво поднеси оставку."
 
-#: src/pages/companies.tsx:45 src/pages/user/[userId]/companies.tsx:64
+#: src/pages/companies.tsx:45
+#: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "Незапослен си"
 
