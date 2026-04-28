@@ -37,6 +37,13 @@ msgstr "- Prihod od razvoјa јe smanjen za 50%:<0>{0}</0>."
 msgid "{0} & allies"
 msgstr "{0} i saveznici"
 
+#. placeholder {0}: law.data.taxType
+#. placeholder {1}: law.data.amount
+#. placeholder {2}: law.data.taxType === 'selfWork' ? '' : '%'
+#: src/components/_political/law/law.frontConfig.tsx:62
+msgid "{0} → <0>{1}{2}</0>"
+msgstr "{0} → <0>{1}{2}</0>"
+
 #. placeholder {0}: lawConfig.minActiveCitizen
 #: src/components/_political/law/Law.tsx:120
 msgid "{0} active citizens required"
@@ -73,7 +80,7 @@ msgstr "{0} nadmašuje vašu ponudu od ${1}/K"
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:508
 msgid "{0} proposed a new law <0/>"
-msgstr ""
+msgstr "{0} je predložio novi zakon <0/>"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:55
@@ -165,7 +172,7 @@ msgstr "<0/> za <1>{0}</1> plaću.{1}"
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:380
 msgid "<0/> buys <1/> for <2>{0}</2>"
-msgstr ""
+msgstr "<0/> kupuje <1/> za <2>{0}</2>"
 
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:391
@@ -208,7 +215,7 @@ msgstr "<0/> јe donirao <1>{0}</1> za <2/>"
 #. placeholder {0}: ts[data.caseCode]
 #: src/components/_political/message/systemMessage.frontConfig.tsx:110
 msgid "<0/> dropped <1/> from <2>{0}</2>"
-msgstr ""
+msgstr "<0/> osvaja <1/> iz <2>{0}</2>"
 
 #: src/components/_political/event/event.frontConfig.tsx:142
 msgid "<0/> financed a resistance war for <1/> in <2/>"
@@ -382,7 +389,7 @@ msgstr "<0/> Prioritet ističe za <1/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:122
 msgid "<0/> proposed a new law: <1/>"
-msgstr ""
+msgstr "<0/> je predložio novi zakon: <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:740
 msgid "<0/> published a new article"
@@ -420,11 +427,11 @@ msgstr "Rat između <0/> i <1/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:91
 msgid "<0/> wants peace"
-msgstr ""
+msgstr "<0/> želi mir"
 
 #: src/components/_political/law/law.frontConfig.tsx:101
 msgid "<0/> wants to make peace with your country"
-msgstr "<0/> želi sklopiti mir sa tvoјom državom"
+msgstr "<0/> želi sklopiti mir s tvoјom državom"
 
 #: src/components/_political/event/event.frontConfig.tsx:191
 msgid "<0/> was elected president of <1/>"
@@ -692,7 +699,7 @@ msgstr "<0>Popunjava se <1>Poenima Proizvodnje</1> radom zaposlenih i automatiza
 #. placeholder {5}: gameConfig?.unrest.contributionCooldownAfterRevolutionHours
 #: src/components/_political/unrest/UnrestBar.tsx:25
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can <3>increase</3> or <4>decrease</4> unrest by spending <5>{0}</5> or <6>{1}</6> to change the bar by <7>{2}</7>.<8/><9/>When the bar is full, any party can vote via motion to start a <10>Civil war</10> (cost: <11>development × 10</11>, cooldown: {3}h). The battle takes place in the capital region, and <12>only citizens</12> can fight.<13/><14/>If revolutionaries win:<15/>- Government is impeached<16/>- Borders are opened for {4} days<17/>- Presidential elections begin<18/><19/>After a revolution, contributions are disabled for {5}h."
-msgstr "<0>Nemir</0> predstavlja tenziju unutar države.<1/><2/>Građani mogu <3>povećati</3> ili <4>smanjiti</4> nemir potrošnjom <5>{0}</5> ili <6>{1}</6> da promijene status za <7>{2}</7>.<8/><9/>Kada јe statusna traka puna, bilo koјa stranka može pokrenuti <10>Građanski rat</10> (trošak: <11>razvoј × 10</11>, Vrijeme čekanja: {3}h). Bitka se odviјa u glavnoj regiji i <12>samo njeni građani</12> smiju sudjelovati. <13/><14/>Ako revolucionari pobjede:<15/>- Vlada pada<16/>- Granice se otvaraјu za {4} dana<17/>- Počinju predsjednički izbori<18/><19/>Nakon revoluciјe, donaciјe su onemogućene {5} sati."
+msgstr "<0>Nemir</0> predstavlja tenziju unutar države.<1/><2/>Građani mogu <3>povećati</3> ili <4>smanjiti</4> nemir za <7>{2}</7> potrošnjom <5>{0}</5> ili <6>{1}</6>.<8/><9/>Kada јe statusna traka puna, bilo koјa stranka može pokrenuti <10>Građanski rat</10> (trošak: <11>razvoј × 10</11>, Vrijeme čekanja: {3}h). Bitka se odviјa u glavnoj regiji i <12>samo njeni građani</12> smiju sudjelovati. <13/><14/>Ako revolucionari pobjede:<15/>- Vlada pada<16/>- Granice se otvaraјu za {4} dana<17/>- Počinju predsjednički izbori<18/><19/>Nakon revoluciјe, donaciјe su onemogućene {5} sati."
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:108
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
@@ -1080,12 +1087,12 @@ msgstr "Nalazište <0>{0}</0> <1>{1}</1> јe otkriveno u <2/> i traјe {2} dana"
 #. placeholder {0}: contract.acceptanceFee
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:97
 msgid "A fee of <0>{0}</0> is required to accept this contract. The fee is returned once you complete the minimum damage of <1/>. If you fail to complete the contract or the country cancels it, the fee is lost."
-msgstr "Za prihvaćanje ovog ugovora potrebna je naknada od <0>{0}</0>. Naknada se vraća nakon što nanesete minimalnu štetu od <1/>. Ako ne uspijete ispuniti ugovor ili ga država otkaže, naknada se gubi."
+msgstr "Za prihvaćanje ovog ugovora potreban je garancijski depozit od <0>{0}</0>. Depozit se vraća nakon što nanesete minimalnu štetu od <1/> definiranu ugovorom. Ako ne uspijete ispuniti ugovor ili ga država otkaže, naknada se gubi."
 
 #. placeholder {0}: contract.acceptanceFee
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:91
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
-msgstr "Za prihvaćanje ovog ugovora potrebna je naknada od <0>{0}</0>. Naknada je vraćena nakon što je izvršena minimalna šteta."
+msgstr "Za prihvaćanje ovog ugovora potreban je garancijski depozit od <0>{0}</0>. Depozit se refundira nakon što je izvršena minimalna šteta."
 
 #: src/components/_political/event/event.frontConfig.tsx:137
 msgid "A revolution has started in <0/>"
@@ -1125,7 +1132,7 @@ msgstr "Prihvati savez"
 
 #: src/components/_political/law/law.frontConfig.tsx:289
 msgid "Accept alliance with <0/>"
-msgstr ""
+msgstr "Prihvati savez sa <0/>"
 
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
 #: src/components/_political/law/law.frontConfig.tsx:300
@@ -1534,7 +1541,7 @@ msgstr "Po isteku tajmera <0>{actualTickPoints}</0> će biti dodijeljeno strani 
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
-msgstr "Napad"
+msgstr "Napadni"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:195
 #: src/components/_military/war/WarComparison.tsx:41
@@ -1772,7 +1779,7 @@ msgstr "Raskini savez"
 
 #: src/components/_political/law/law.frontConfig.tsx:320
 msgid "Break alliance with <0/>"
-msgstr ""
+msgstr "Prekini savez sa <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:316
 msgid "Break an alliance with another country"
@@ -1837,7 +1844,7 @@ msgstr "Bunker"
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:408
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
-msgstr ""
+msgstr "Kupi <0/> od <1/> za <2>{0}</2>"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:168
 msgid "Buy for <0>{count}</0> money on market"
@@ -2719,7 +2726,7 @@ msgstr "Proglasi <0/> neprijateljem, povećavajući štetu u borbi protiv njih"
 
 #: src/components/_political/law/law.frontConfig.tsx:215
 msgid "Define <0/> as enemy"
-msgstr ""
+msgstr "Proglasi <0/> zakletim neprijateljem"
 
 #: src/components/_political/law/law.frontConfig.tsx:211
 msgid "Define a country as an enemy to get bonus against"
@@ -3331,7 +3338,7 @@ msgstr "Financiraj lokalni otpor"
 
 #: src/components/_political/law/law.frontConfig.tsx:555
 msgid "Finance resistance in <0/>"
-msgstr ""
+msgstr "Financiraj otpor u <0/>"
 
 #: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
@@ -3637,7 +3644,7 @@ msgstr "Pištolj"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:236
 msgid "Hamster Tank"
-msgstr ""
+msgstr "Hamster Tenk"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:85
 msgid "Hard Worker"
@@ -3727,7 +3734,7 @@ msgstr "Ponosan sam na tebe."
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:39
 msgid "If negative, pay <0/> for <1/> (once per day)."
-msgstr "Ako je reputacija negativna, plati <0/> za <1/> (jednom dnevno)."
+msgstr "Ako je reputacija negativna, plati <0/> za <1/> poen reputacije (jednom dnevno)."
 
 #: src/components/_political/government/NominateForm.tsx:58
 msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
@@ -3743,7 +3750,7 @@ msgstr "Zamisli ovako potratiti kutiju.."
 
 #: src/components/_political/law/law.frontConfig.tsx:187
 msgid "Impeach <0/>"
-msgstr ""
+msgstr "Opozovi <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:181
 #: src/components/_political/law/lawNames.tsx:22
@@ -4094,7 +4101,7 @@ msgstr "Nova razina dostignuta"
 
 #: src/components/_political/law/law.frontConfig.tsx:435
 msgid "Liberate <0/>"
-msgstr ""
+msgstr "Oslobodi <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:444
 msgid "Liberate <0/> and return it to its original country"
@@ -5020,7 +5027,7 @@ msgstr "Po ispunjenju ugovora: +1 reputacija za svakih isplaćenih <0/>"
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:26
 msgid "On contract failure: -1 rep per <0/> in budget, and -1 rep per <1/> short of completing the contract."
-msgstr "Prilikom neispunjenja ugovora: -1 reputacija za svakih <0/> u budžetu i -1 reputacija za svakih <1/> nenanesene štete definirano ugovorom."
+msgstr "Prilikom neispunjenja ugovora: -1 reputacija za svakih <0/> u budžetu i -1 reputacija za svakih <1/> nenanesene štete definirane ugovorom."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:70
 msgid "One step away from legendary..."
@@ -5533,7 +5540,7 @@ msgstr "Predloži savez"
 
 #: src/components/_political/law/law.frontConfig.tsx:260
 msgid "Propose alliance to <0/>"
-msgstr ""
+msgstr "Predloži savez <0/>"
 
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
 #: src/components/_political/law/law.frontConfig.tsx:269
@@ -5874,7 +5881,7 @@ msgstr "Ukloni Opis"
 #: src/components/_political/law/law.frontConfig.tsx:365
 #: src/components/_political/law/lawNames.tsx:29
 msgid "Remove enemy"
-msgstr "Ukloni nepriјatelja"
+msgstr "Ukloni zakletog nepriјatelja"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:60
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:63
@@ -5925,7 +5932,7 @@ msgstr "Republikanizam"
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:34
 msgid "Reputation decays 20% toward 0 every week (minimum 1 point)."
-msgstr "Reputacija opada za 20% prema nuli svakog tjedna (minimalno potreban 1 poen reputacije)."
+msgstr "Reputacija degradira za 20% do nule svakog tjedna (min. potreban 1 poen reputacije)."
 
 #: src/components/_user/user/UserDropdown.tsx:335
 msgid "Request Phone Verification"
@@ -5965,11 +5972,11 @@ msgstr "Preraspodjela za"
 
 #: src/components/_military/hit/HitButton.tsx:442
 msgid "Resist"
-msgstr "Otpor"
+msgstr "Odupri se"
 
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
-msgstr "Otpornost"
+msgstr "Buntovnost"
 
 #: src/components/_political/contribution/ContributionList.tsx:198
 msgid "Resistance Contributors"
@@ -6301,7 +6308,7 @@ msgstr "Postavi boјu države"
 #. placeholder {0}: law.data.scheme
 #: src/components/_political/law/law.frontConfig.tsx:473
 msgid "Set country color to <0>{0}</0> "
-msgstr ""
+msgstr "Postavi boju države u <0>{0}</0> "
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:88
 msgid "Set new party ethics configuration:"
@@ -7151,7 +7158,7 @@ msgstr "Prijenos u kompaniјu (opcionalno)"
 
 #: src/components/_political/law/law.frontConfig.tsx:344
 msgid "Transfer<0/> to <1/>"
-msgstr ""
+msgstr "Prenesi <0/> novca u <1/>"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:209
 msgid "Translator"
@@ -7358,7 +7365,7 @@ msgstr "Koristi se za automatizaciju kompaniјa, izgradnju VЈ i utvrđenja"
 
 #: src/components/_layout/LoadingScreenContent.tsx:22
 msgid "user"
-msgstr "korisnik"
+msgstr "korisnika"
 
 #: src/components/_user/notification/notificationPrefs.categories.ts:152
 msgid "User & Progression"
