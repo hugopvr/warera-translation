@@ -2246,7 +2246,7 @@ msgstr "Cidadãos recebem bónus ao lutar por países aliados ou contra um país
 #: src/components/_political/party/party.frontConfig.tsx:86
 #: src/components/_political/party/party.frontConfig.tsx:100
 msgid "Citizens get an additional <0>{0}</0> attacking battle bonus."
-msgstr "Cidadãos ganham um bónus adicional  <0>{0}</0> de batalha de ataque."
+msgstr "Cidadãos recebem um bónus adicional de <0>{0}</0> no ataque."
 
 #. placeholder {0}: formatPercent(ethicsBonuses.isolationism['-1'].enemyBattleBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.isolationism['-2'].enemyBattleBonus)
@@ -2260,14 +2260,14 @@ msgstr "Cidadãos recebem um bónus de combate adicional de <0>{0}</0> contra pa
 #: src/components/_political/party/party.frontConfig.tsx:160
 #: src/components/_political/party/party.frontConfig.tsx:174
 msgid "Citizens get an additional <0>{0}</0> battle bonus fighting for allies."
-msgstr "Cidadãos ganham um bónus adicional <0>{0}</0> de batalha lutando por aliados."
+msgstr "Cidadãos ganham um bónus adicional <0>{0}</0> ao lutar por países aliados."
 
 #. placeholder {0}: formatPercent(ethicsBonuses.militarism['-1'].defenseBattleBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.militarism['-2'].defenseBattleBonus)
 #: src/components/_political/party/party.frontConfig.tsx:51
 #: src/components/_political/party/party.frontConfig.tsx:68
 msgid "Citizens get an additional <0>{0}</0> defensive battle bonus."
-msgstr "Cidadãos ganham um bónus adicional <0>{0}</0> de batalha defensiva."
+msgstr "Cidadãos ganham um bónus adicional <0>{0}</0> na defesa."
 
 #: src/components/_political/country/CountryHeader.tsx:113
 msgid "Citizenship"
