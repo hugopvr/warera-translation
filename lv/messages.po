@@ -465,7 +465,7 @@ msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:221
 msgid "<0/> paid fee"
-msgstr "<0/> samaksāja iemaksu"
+msgstr "<0/> iemaksāja"
 
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
@@ -619,7 +619,7 @@ msgstr "<0>{0}</0> no <1/> rīkojuma"
 #. placeholder {0}: sideBonus.swornEnemyBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:111
 msgid "<0>{0}</0> against enemy of <1/>"
-msgstr "<0>{0}</0> pret <1/> zvērētu ienaidnieku"
+msgstr "<0>{0}</0> pret <1/> zvērēto ienaidnieku"
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
@@ -1246,7 +1246,7 @@ msgstr "Šajā reģionā tika atrasta resursu atradne. Uzņēmumi to var izmanto
 #. placeholder {2}: data.durationDays
 #: src/components/_political/event/event.frontConfig.tsx:272
 msgid "A deposit of <0>{0}</0> <1>{1}</1> has been found in <2/> for {2} days"
-msgstr "<0>{0}</0> <1>{1}</1> atradne tika atklāta <2/> uz {2} dienām"
+msgstr "<0>{0}</0> <1>{1}</1> atradne tika atrasta <2/> uz {2} dienām"
 
 #. placeholder {0}: contract.acceptanceFee
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:97
@@ -2285,7 +2285,7 @@ msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:67
 msgid "Cannot have sworn enemies."
-msgstr "Valstij nevar būt zvērētu ienaidnieku."
+msgstr "Valstij nevar būt zvērēto ienaidnieku."
 
 #: src/components/_political/party/party.frontConfig.tsx:349
 msgid "Cannot pick a specialization good / no benefit from specialization."
@@ -2439,7 +2439,7 @@ msgstr "Pilsoņi"
 
 #: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
-msgstr "Pilsoņi gūst bonusu cīnoties par sabiedrotajiem, var arī pret zvērētu ienaidnieku"
+msgstr "Pilsoņi gūst bonusu cīnoties par sabiedrotajiem, var arī pret zvērēto ienaidnieku"
 
 #: src/components/_political/country/CountryHeader.tsx:114
 msgid "Citizenship"
@@ -2749,7 +2749,7 @@ msgstr "Līgumi & Izsoles"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
-msgstr "Cepta Zivs"
+msgstr "Ceptas Zivis"
 
 #: src/components/_political/law/Law.tsx:127
 #: src/components/_political/partyMotion/PartyMotion.tsx:110
@@ -3069,15 +3069,15 @@ msgstr "Veic bojājumus kaujās ar saviem MV biedriem, lai uzlabotu līmeni katr
 
 #: src/components/_user/mission/mission.frontConfig.tsx:100
 msgid "Deal Damages"
-msgstr "Nodari bojājumus"
+msgstr "Nodarīt bojājumus"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:120
 msgid "Deal Damages for Allies or Country"
-msgstr "Nodari bojājumus valsts vai sabiedroto labā"
+msgstr "Nodarīt bojājumus valsts vai sabiedroto labā"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:110
 msgid "Deal Damages on Orders"
-msgstr "Nodari bojājumus rīkojumos"
+msgstr "Nodarīt bojājumus rīkojumos"
 
 #: src/utils/translations.tsx:59
 msgid "Deals a fucking big lot of damages"
@@ -3173,7 +3173,7 @@ msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:228
 msgid "Define <0/> as an enemy, increasing damages when fighting them"
-msgstr ""
+msgstr "Pasludināt <0/> par zvērēto ienaidnieku, lai nodarītu tiem spēcīgākus bojājumus"
 
 #: src/components/_political/law/law.frontConfig.tsx:218
 msgid "Define <0/> as enemy"
@@ -3181,7 +3181,7 @@ msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:214
 msgid "Define a country as an enemy to get bonus against"
-msgstr "Pasludināt valsti kā zvērētu ienaidnieku, lai gūtu pret tiem bojājumu bonusu"
+msgstr "Pasludināt valsti kā zvērēto ienaidnieku, lai gūtu pret tiem bojājumu bonusu"
 
 #: src/components/_political/law/law.frontConfig.tsx:213
 #: src/components/_political/law/lawNames.tsx:24
@@ -3906,7 +3906,7 @@ msgstr "Atlaists no valdības"
 
 #: src/utils/translations.tsx:36
 msgid "Fish"
-msgstr "Zivs"
+msgstr "Zivis"
 
 #: src/components/_layout/LayoutOptions.tsx:135
 msgid "Flags"
@@ -4040,7 +4040,7 @@ msgstr "uzdāvināja"
 
 #: src/components/_military/mu/MuMemberList.tsx:446
 msgid "Give Ownership"
-msgstr "Dot Īpašumtiesības"
+msgstr "Nodot Īpašumtiesības"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:251
 msgid "Give your token a descriptive name so you can identify it later."
@@ -4667,7 +4667,7 @@ msgstr "Pēdējais"
 
 #: src/components/_user/badgeCollection/Badge.tsx:63
 msgid "Last earned: <0/>"
-msgstr "Pēdējais saņemtais: <0/>"
+msgstr "Pēdējoreiz saņemts: <0/>"
 
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
@@ -5714,7 +5714,7 @@ msgstr "Nav nomainītu veidolu"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:321
 msgid "No sworn enemy"
-msgstr "Nav zvērēta ienaidnieka"
+msgstr "Nav zvērētā ienaidnieka"
 
 #: src/components/_economy/itemTrading/TradingOrders.tsx:44
 #: src/pages/market/index.tsx:127
@@ -6111,7 +6111,7 @@ msgstr "Izmaksa"
 
 #: src/components/_political/event/EventList.tsx:63
 msgid "Peace made"
-msgstr "Pamiers pasludināts"
+msgstr "Pasludināts pamiers"
 
 #: src/utils/translations.tsx:270
 msgid "Pending"
@@ -6988,7 +6988,7 @@ msgstr "Raunds #{0}"
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:645
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
-msgstr "Drīz beigsies <0>{0}.</0> raunds <1/>!"
+msgstr "Drīz beigsies <0>{0}.</0> raunds <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2020
 msgid "Round about to end"
@@ -7013,7 +7013,7 @@ msgstr "Raunda laupījums"
 
 #: src/components/_military/battle/BattleTimeline.tsx:78
 msgid "Rounds timeline"
-msgstr "Raunda laika skala"
+msgstr "Raundu vēsture"
 
 #: src/components/_military/war/WarItem.tsx:56
 #: src/components/_military/war/WarItem.tsx:90
@@ -7708,7 +7708,7 @@ msgstr "Nodokļi"
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:91
 msgid "Terminated"
-msgstr "Atcelts"
+msgstr "Izbeigti"
 
 #: src/pages/index.tsx:138
 #: src/pages/rules.tsx:32
@@ -7775,7 +7775,7 @@ msgstr "Atradne tiks izsmelta pēc šī laika perioda."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
-msgstr "Tablešu darbība ir beigusies. Tagad tev ir paģiras, kas ilgs <0>{debuffDuration}h</0>."
+msgstr "Tabletes darbība ir beigusies. Tagad tev ir paģiras, kas ilgs <0>{debuffDuration}h</0>."
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:53
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
@@ -8606,7 +8606,7 @@ msgstr "pērk"
 
 #: src/components/_political/event/EventList.tsx:62
 msgid "War declared"
-msgstr "Karš pieteikts"
+msgstr "Pieteikts karš"
 
 #: src/pages/war/[warId]/index.tsx:49
 msgid "War Ended"
