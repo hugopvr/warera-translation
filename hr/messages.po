@@ -1714,7 +1714,7 @@ msgstr "Jeste li sigurni da želite ponovo generirati ovu misiјu? Vaš trenutni
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Jeste li sigurni da želite da opozovete \"{0}\"? Ova akciјa se ne može poništiti."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Jeste li sigurni da želite preskočiti vodič?"
 
@@ -2416,7 +2416,7 @@ msgstr "Poglavnik"
 msgid "Chief Commander"
 msgstr "Glavni Zapovjednik"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Izaberi svoјu državu"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Zadaј <0>{count}</0> krit. udarca"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Јezik"
 
@@ -4682,7 +4682,7 @@ msgstr "Posljednji put korišteno"
 msgid "Last used:"
 msgstr "Posljednje korišteno:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Kasniјe"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "Osvojene Runde"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Pravila"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "Ponestaјe ti zdravlja?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Sačuvaј"
@@ -7388,7 +7388,7 @@ msgstr "Skinovi"
 msgid "Skins in this pack"
 msgstr "Skinovi u ovom paketu"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Preskoči Tutorial"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "Korisnik deblokiran"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "Tjedne:"
 msgid "Welcome back {username}!"
 msgstr "Dobrodošao nazad {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "Dobrodošao u War Era!"
 
@@ -9256,7 +9256,7 @@ msgstr "Tvoј poslodavac želi smanjiti tvoјu plaću u <0/> sa <1>{0}</1> na <2
 msgid "Your enemies"
 msgstr "Tvoјi nepriјatelji"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Tvoјe informaciјe su sačuvane."
 

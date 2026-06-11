@@ -1714,7 +1714,7 @@ msgstr "Czy na pewno chcesz zmienić tę misję? Twój obecny postęp zostanie u
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Czy na pewno chcesz unieważnić \"{0}\"? Tej akcji nie można cofnąć."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Czy na pewno chcesz pominąć ten samouczek?"
 
@@ -2416,7 +2416,7 @@ msgstr "Szef"
 msgid "Chief Commander"
 msgstr "Naczelny Dowódca"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Wybierz swój kraj"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Zadaj <0>{count}</0> trafień krytycznych"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Język"
 
@@ -4682,7 +4682,7 @@ msgstr ""
 msgid "Last used:"
 msgstr "Ostatnio użyty:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Później"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "Wygrane Rundy"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Zasady"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "Mało zdrowia?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Zapisz"
@@ -7388,7 +7388,7 @@ msgstr ""
 msgid "Skins in this pack"
 msgstr ""
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Pomiń samouczek"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "Użytkownik odblokowany"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr ""
 msgid "Welcome back {username}!"
 msgstr "Witaj ponownie {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "Witaj w War Era!"
 
@@ -9256,7 +9256,7 @@ msgstr "Twój pracodawca chce obniżyć Twoje wynagrodzenie w <0/> z <1>{0}</1> 
 msgid "Your enemies"
 msgstr "Twoi wrogowie"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Twoje informacje zostały zapisane."
 

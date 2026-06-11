@@ -1712,7 +1712,7 @@ msgstr "Sigur vrei să schimbi misiunea?"
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Ești sigur că vrei să revoci \"{0}\"? Această acțiune nu poate fi anulată."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Ești sigur că vrei să sari peste acest tutorial?"
 
@@ -2414,7 +2414,7 @@ msgstr "Șef"
 msgid "Chief Commander"
 msgstr "Comandant-șef"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Alege-ți țara"
 
@@ -4654,7 +4654,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Dă <0>{count}</0> lovituri critice"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Limbă"
 
@@ -4680,7 +4680,7 @@ msgstr "Ultima utilizare"
 msgid "Last used:"
 msgstr "Ultima utilizare:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Mai târziu"
 
@@ -7020,7 +7020,7 @@ msgid "Rounds Won"
 msgstr "Runde câștigate"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Reguli"
 
@@ -7033,7 +7033,7 @@ msgid "Running low on health?"
 msgstr "Nu mai ai viață?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Salvează"
@@ -7386,7 +7386,7 @@ msgstr "Skinuri"
 msgid "Skins in this pack"
 msgstr "Skinuri în pachet"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Sari peste tutorial"
 
@@ -8417,7 +8417,7 @@ msgid "User unblocked"
 msgstr "Utilizator deblocat"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8666,7 +8666,7 @@ msgstr "Săptămânal:"
 msgid "Welcome back {username}!"
 msgstr "Bine ai revenit {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "Bun venit pe War Era!"
 
@@ -9254,7 +9254,7 @@ msgstr "Angajatorul tău dorește să îți reducă salariul în <0/> de la <1>{
 msgid "Your enemies"
 msgstr "Inamicii tăi"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Informațiile au fost salvate."
 

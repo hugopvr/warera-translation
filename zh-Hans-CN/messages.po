@@ -1714,7 +1714,7 @@ msgstr "你确定要重骰这个任务吗？你将会失去现在的进度。"
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "你确定要废除 \"{0}\" 吗？此行为不可回溯。"
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "你确定要跳过本次教学吗？"
 
@@ -2416,7 +2416,7 @@ msgstr "军士长"
 msgid "Chief Commander"
 msgstr "总司令"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "选择你的国家"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "造成 <0>{count}</0> 次暴击伤害"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "语言"
 
@@ -4682,7 +4682,7 @@ msgstr "最近使用"
 msgid "Last used:"
 msgstr "最近使用："
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "晚点"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "回合获胜"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "规则"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "生命值要用完了吗？"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "保存"
@@ -7388,7 +7388,7 @@ msgstr "皮肤"
 msgid "Skins in this pack"
 msgstr "在这皮肤包中的皮肤"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "跳过教学"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "已解除用户屏蔽"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "每周："
 msgid "Welcome back {username}!"
 msgstr "欢迎回来，{username}！"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "欢迎来到 War Era！"
 
@@ -9256,7 +9256,7 @@ msgstr "你的雇主想要将你在 <0/> 的薪资从 <1>{0}</1> 减少至 <2>{1
 msgid "Your enemies"
 msgstr "你的敌人"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "你的资料已保存"
 

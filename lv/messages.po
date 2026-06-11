@@ -1714,7 +1714,7 @@ msgstr "Vai esi pārliecināts, ka gribi atkārtoti izlozēt šo misiju? Tavs pa
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Vai esi pārliecināts, ka gribi atsaukt \"{0}\"? Šo darbību nevar atcelt."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Vai esi pārliecināts, ka gribi izlaist pamācību?"
 
@@ -2416,7 +2416,7 @@ msgstr "Virsnieks"
 msgid "Chief Commander"
 msgstr "Galvenais Komandieris"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Izvēlies savu valsti"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Iebliez <0>{count}</0> kritiskos triecienus"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Valoda"
 
@@ -4682,7 +4682,7 @@ msgstr "Pēdējais izmantotais"
 msgid "Last used:"
 msgstr "Pēdējo reizi izmantots:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Vēlāk"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "Raundi uzvarēti"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Noteikumi"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "Maz dzīvību?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Saglabāt"
@@ -7388,7 +7388,7 @@ msgstr "Veidoli"
 msgid "Skins in this pack"
 msgstr "Veidoli šajā komplektā"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Izlaist Pamācību"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "Lietotājs atbloķēts"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "Nedēļas:"
 msgid "Welcome back {username}!"
 msgstr "Ar atgriešanos, {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "Laipni lūgts Kara Laikmetā!"
 
@@ -9256,7 +9256,7 @@ msgstr "Tavs darba devējs vēlās samazināt tavu algu <0/> no <1>{0}</1> uz <2
 msgid "Your enemies"
 msgstr "Tavi ienaidnieki"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Tava informācija tika saglabāta."
 

@@ -300,7 +300,7 @@ msgstr "أهداك <0/> المظهر \"{skinTitle}\"!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1816
 msgid "<0/> gifted you the skin pack \"{skinPackTitle}\"!"
-msgstr "<0/> أهداك حزمة المظهر "{skinPackTitle}"!"
+msgstr "<0/> أهداك حزمة المظهر \"{skinPackTitle}\"!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:227
 msgid "<0/> got fee back"
@@ -1714,7 +1714,7 @@ msgstr "هل أنت متأكد أنك تريد إعادة تدوير هذه ال
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "هل أنت متأكد أنك تريد إلغاء \"{0}\"؟ لا يمكن التراجع عن هذا الإجراء."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "هل أنت متأكد أنك تريد تخطي هذا البرنامج التعليمي؟"
 
@@ -2416,7 +2416,7 @@ msgstr "رئيس"
 msgid "Chief Commander"
 msgstr "القائد العام"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "اختر دولتك"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "حقق <0>{count}</0> ضربات حرجة"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "اللغة"
 
@@ -4682,7 +4682,7 @@ msgstr "آخر استخدام"
 msgid "Last used:"
 msgstr "آخر استخدام:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "لاحقاً"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "الجولات المربوحة"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "القواعد"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "هل تنفد صحتك؟"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "حفظ"
@@ -7388,7 +7388,7 @@ msgstr "المظاهر"
 msgid "Skins in this pack"
 msgstr "المظاهر في هذه الحزمة"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "تخطّي البرنامج التعليمي"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "تم إلغاء حظر المستخدم"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "اسبوعي:"
 msgid "Welcome back {username}!"
 msgstr "أهلاً بعودتك {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "أهلاً بك في War Era!"
 
@@ -9062,7 +9062,7 @@ msgstr "لقد أهديت اشتراكاً مميزاً بنجاح إلى <0/>!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1781
 msgid "You successfully gifted the skin pack \"{skinPackTitle}\" to <0/>!"
-msgstr "لقد قمت بإهداء حزمة المظهر "{skinPackTitle}" بنجاح إلى <0/>!"
+msgstr "لقد قمت بإهداء حزمة المظهر \"{skinPackTitle}\" بنجاح إلى <0/>!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:130
 msgid "You survived the big reset"
@@ -9256,7 +9256,7 @@ msgstr "يريد صاحب العمل تخفيض أجرك في <0/> من <1>{0}</
 msgid "Your enemies"
 msgstr "أعداؤك"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "تم حفظ معلوماتك."
 

@@ -1715,7 +1715,7 @@ msgstr "Oletko varma, että haluat suorittaa tämän tehtävän uudelleen? Nykyi
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Haluatko varmasti peruuttaa \"{0}\"? Tätä toimintoa ei voi kumota."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Haluatko varmasti ohittaa tämän opetusohjelman?"
 
@@ -2417,7 +2417,7 @@ msgstr "Päällikkö"
 msgid "Chief Commander"
 msgstr "Päällikkö"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Valitse maasi"
 
@@ -4657,7 +4657,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Laske <0>{count}</0> kriittisiä osumia"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Kieli"
 
@@ -4683,7 +4683,7 @@ msgstr "Viimeksi käytetty"
 msgid "Last used:"
 msgstr "Viimeksi käytetty:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Myöhemmin"
 
@@ -7023,7 +7023,7 @@ msgid "Rounds Won"
 msgstr "Voitetut kierrokset"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "säännöt"
 
@@ -7036,7 +7036,7 @@ msgid "Running low on health?"
 msgstr "Onko terveys loppumassa?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Tallenna"
@@ -7389,7 +7389,7 @@ msgstr "Skinit"
 msgid "Skins in this pack"
 msgstr "Skinit tässä pakkauksessa"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Ohita opetusohjelma"
 
@@ -8420,7 +8420,7 @@ msgid "User unblocked"
 msgstr "Käyttäjän esto kumottu"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8669,7 +8669,7 @@ msgstr "Viikoittain:"
 msgid "Welcome back {username}!"
 msgstr "Tervetuloa takaisin {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "Tervetuloa sota-aikaan!"
 
@@ -9257,7 +9257,7 @@ msgstr "Työnantajasi haluaa alentaa palkkaasi yrityksessä <0/> arvosta <1>{0}<
 msgid "Your enemies"
 msgstr "Sinun vihollisesi"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Tietosi on tallennettu."
 

@@ -1714,7 +1714,7 @@ msgstr "Biztosan újradobod ezt a küldetést? A jelenlegi előrehaladásod el f
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Biztosan vissza akarod vonni a(z) \"{0}\"-t? Ez a művelet nem visszavonható."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Biztosan át akarod ugrani ezt az oktatóanyagot?"
 
@@ -2416,7 +2416,7 @@ msgstr "Főnök"
 msgid "Chief Commander"
 msgstr "Főparancsnok"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Válaszd ki az országod"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Mérj <0>{count}</0> kritikus találatot"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Nyelv"
 
@@ -4682,7 +4682,7 @@ msgstr "Utoljára használt"
 msgid "Last used:"
 msgstr "Utoljára használva:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Később"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "Megnyert körök"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Szabályok"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "Kevés az életerőd?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Mentés"
@@ -7388,7 +7388,7 @@ msgstr "Skinek"
 msgid "Skins in this pack"
 msgstr "Skinek ebben a csomagban"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Bemutató kihagyása"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "Felhasználó feloldva"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "Heti:"
 msgid "Welcome back {username}!"
 msgstr "Üdvözlünk vissza {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "Üdvözlünk a War Era-ban!"
 
@@ -9256,7 +9256,7 @@ msgstr "A munkáltatód csökkenteni szeretné a béredet a(z) <0/> vállalatban
 msgid "Your enemies"
 msgstr "Ellenségeid"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Adataid elmentve!"
 

@@ -1714,7 +1714,7 @@ msgstr "Tem certeza que quer trocar esta missão? Seu progresso atual será perd
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Tem certeza que deseja revogar \"{0}\"? Esta ação não pode ser desfeita."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Tem certeza de que deseja pular este tutorial?"
 
@@ -2416,7 +2416,7 @@ msgstr "Chefe"
 msgid "Chief Commander"
 msgstr "Comandante-chefe"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Escolha seu país"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Acertar <0>{count}</0> golpes críticos"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Idioma"
 
@@ -4682,7 +4682,7 @@ msgstr "Usado pela última vez"
 msgid "Last used:"
 msgstr "Usado pela última vez:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Depois"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "Rondas ganhas"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Regras"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "Com pouca saúde?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Guardar"
@@ -7388,7 +7388,7 @@ msgstr "Skins"
 msgid "Skins in this pack"
 msgstr "Skins neste conjunto"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Pular tutorial"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "Utilizador desbloqueado"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "Semanal:"
 msgid "Welcome back {username}!"
 msgstr "Bem-vindo de volta {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "Bem-vindo ao War Era!"
 
@@ -9256,7 +9256,7 @@ msgstr "Seu empregador quer reduzir seu salário em <0/> de <1>{0}</1> para <2>{
 msgid "Your enemies"
 msgstr "Seus inimigos"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Os seus dados foram guardados."
 

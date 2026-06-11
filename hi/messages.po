@@ -1714,7 +1714,7 @@ msgstr "क्या आप वाकई इस मिशन को पुनः
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "क्या आप वाकई \"{0}\" को निरस्त करना चाहते हैं? यह कार्रवाई वापस नहीं की जा सकती।"
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "क्या आप वाकई इस ट्यूटोरियल को छोड़ना चाहते हैं?"
 
@@ -2416,7 +2416,7 @@ msgstr "चीफ"
 msgid "Chief Commander"
 msgstr "मुख्य कमांडर"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "अपना देश चुनें"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "<0>{count}</0> क्रिटिकल हिट करें"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "भाषा"
 
@@ -4682,7 +4682,7 @@ msgstr "अंतिम उपयोग"
 msgid "Last used:"
 msgstr "अंतिम उपयोग:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "बाद में"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "जीते गए राउंड"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "नियम"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "स्वास्थ्य कम हो रहा है?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "सहेजें"
@@ -7388,7 +7388,7 @@ msgstr "स्किन्स"
 msgid "Skins in this pack"
 msgstr "इस पैक की स्किन्स"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "ट्यूटोरियल छोड़ें"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "उपयोगकर्ता का अवरोध हटाया गया"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "साप्ताहिक:"
 msgid "Welcome back {username}!"
 msgstr "वापसी पर स्वागत है, {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "War Era में आपका स्वागत है!"
 
@@ -9256,7 +9256,7 @@ msgstr "आपका नियोक्ता <0/> में आपका वे
 msgid "Your enemies"
 msgstr "आपके शत्रु"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "आपकी जानकारी सहेज ली गई है।"
 

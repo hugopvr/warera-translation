@@ -1714,7 +1714,7 @@ msgstr ""
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr ""
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr ""
 
@@ -2416,7 +2416,7 @@ msgstr "امیر"
 msgid "Chief Commander"
 msgstr ""
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "اپنا ملک چنیں"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr ""
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "زبان"
 
@@ -4682,7 +4682,7 @@ msgstr ""
 msgid "Last used:"
 msgstr ""
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "بعد میں"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr ""
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr ""
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr ""
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr ""
@@ -7388,7 +7388,7 @@ msgstr ""
 msgid "Skins in this pack"
 msgstr ""
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr ""
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr ""
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "ہفتہ وار:"
 msgid "Welcome back {username}!"
 msgstr "دوبارہ خوش آمدید {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr " War Era میں خوش آمدید!"
 
@@ -9256,7 +9256,7 @@ msgstr "آپ کا آجر <0/> میں آپ کی اجرت کو <1>{0}</1> سے ک�
 msgid "Your enemies"
 msgstr "آپ کے دشمن"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "آپ کی معلومات محفوظ ہو گئی ہے۔"
 

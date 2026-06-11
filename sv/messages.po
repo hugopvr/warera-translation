@@ -1714,7 +1714,7 @@ msgstr "Är du säker på att du vill generera ett nytt uppdrag? Dina avklarade 
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "Är du säker på att du vill återkalla \"{0}\"? Denna åtgärd kan inte ångras."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Är du säker på att du vill hoppa över introduktionen?"
 
@@ -2416,7 +2416,7 @@ msgstr "Översergeant"
 msgid "Chief Commander"
 msgstr "Chefsbefälhavare"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Välj ditt land"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Få <0>{count}</0> fullträffar"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Språk"
 
@@ -4682,7 +4682,7 @@ msgstr "Senast använd"
 msgid "Last used:"
 msgstr "Senast använd:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Senare"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "Vunna ronder"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Regler"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "Börjar hälsan ta slut?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Spara"
@@ -7388,7 +7388,7 @@ msgstr "Utseenden"
 msgid "Skins in this pack"
 msgstr "Utseenden i detta paket"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Hoppa över guiden"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "Användaren avblockerad"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "Veckovis:"
 msgid "Welcome back {username}!"
 msgstr "Välkommen tillbaka {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "Välkommen till War Era!"
 
@@ -9256,7 +9256,7 @@ msgstr "Din arbetsgivare i <0/> vill sänka din lön från <1>{0}</1> till <2>{1
 msgid "Your enemies"
 msgstr "Dina fiender"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Dina uppgifter har sparats."
 

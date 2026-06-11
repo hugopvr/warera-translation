@@ -1714,7 +1714,7 @@ msgstr "Bu görevi yenilemek istediğinizden emin misiniz? Mevcut ilerlemeniz ka
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "\"{0}\" tokenını iptal etmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
 
-#: src/components/_other/tour/TutorialStep.tsx:182
+#: src/components/_other/tour/TutorialStep.tsx:186
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "Bu eğitimi atlamak istediğinizden emin misiniz?"
 
@@ -2416,7 +2416,7 @@ msgstr "Üst"
 msgid "Chief Commander"
 msgstr "Baş Komutan"
 
-#: src/components/_user/auth/WelcomeModal.tsx:137
+#: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
 msgstr "Ülkeni seç"
 
@@ -4656,7 +4656,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "<0>{count}</0> kritik vuruş yap"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:144
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Dil"
 
@@ -4682,7 +4682,7 @@ msgstr "Son kullanım"
 msgid "Last used:"
 msgstr "Son kullanım:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:171
+#: src/components/_user/auth/WelcomeModal.tsx:179
 msgid "Later"
 msgstr "Daha Sonra"
 
@@ -7022,7 +7022,7 @@ msgid "Rounds Won"
 msgstr "Kazanılan Turlar"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:162
+#: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Kurallar"
 
@@ -7035,7 +7035,7 @@ msgid "Running low on health?"
 msgstr "Sağlık mı azalıyor?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:174
+#: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Kaydet"
@@ -7388,7 +7388,7 @@ msgstr "Görünümler"
 msgid "Skins in this pack"
 msgstr "Bu paketteki görünümler"
 
-#: src/components/_other/tour/TutorialStep.tsx:181
+#: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Eğitimi Atla"
 
@@ -8419,7 +8419,7 @@ msgid "User unblocked"
 msgstr "Kullanıcının engeli kaldırıldı"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:155
+#: src/components/_user/auth/WelcomeModal.tsx:163
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8668,7 +8668,7 @@ msgstr "Haftalık:"
 msgid "Welcome back {username}!"
 msgstr "Tekrar hoş geldin {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:126
+#: src/components/_user/auth/WelcomeModal.tsx:134
 msgid "Welcome to War Era!"
 msgstr "War Era'ya Hoş Geldin!"
 
@@ -9256,7 +9256,7 @@ msgstr "İşvereniniz <0/>'daki maaşınızı <1>{0}</1>'dan <2>{1}</2>'e düş�
 msgid "Your enemies"
 msgstr "Düşmanların"
 
-#: src/components/_user/auth/WelcomeModal.tsx:72
+#: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
 msgstr "Bilgilerin kaydedildi."
 
