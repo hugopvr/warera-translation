@@ -2601,7 +2601,7 @@ msgstr "تم إعادة تسمية الشركة!"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:143
 msgid "Company upgraded!"
-msgstr ""
+msgstr "تم تطوير الشركة"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:194
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
@@ -5019,7 +5019,7 @@ msgstr "تم الوصول إلى المستوى الأقصى!"
 #: src/components/_economy/company/CompanyDropdown.tsx:214
 #: src/components/_economy/company/CompanyDropdown.tsx:232
 msgid "Maxed!"
-msgstr ""
+msgstr "اقصى شيء"
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
@@ -5672,7 +5672,7 @@ msgstr "لا يوجد تصنيف بري بعد."
 
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
-msgstr ""
+msgstr "لا معدات محفوظة للان - اضف  واحدة الان لتستعمل العتاد بالكمال"
 
 #: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
@@ -7672,7 +7672,7 @@ msgstr "خطة الدعم"
 
 #: src/components/_user/kits/KitsPopover.tsx:209
 msgid "Supporter Plan: up to {premiumMax} kits"
-msgstr ""
+msgstr "خطة الداعم : ما يصلى الى {premiumMax} معتاد"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:161
 msgid "Supreme Commander"
@@ -8329,7 +8329,7 @@ msgstr "ترقية شركة"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:200
 msgid "Upgrade automated engine"
-msgstr ""
+msgstr "تطوير المحرك التلقائي"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:393
 msgid "Upgrade Company"
@@ -8341,7 +8341,7 @@ msgstr "ترقية المهارات"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:218
 msgid "Upgrade storage"
-msgstr ""
+msgstr "تطوير المخزن"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:205
 msgid "Upgrade to supporter"
