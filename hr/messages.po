@@ -9331,7 +9331,7 @@ msgstr "Ime tvoјe voјne јedinice"
 
 #: src/components/_military/mu/MuSettings.tsx:53
 msgid "Your military unit nationality is the country it represents. Changing it is free and can only be done once every {cooldownDays} days."
-msgstr ""
+msgstr "Nacionalnost definira državu koju vojna jedinica predstavlja. Promjena je moguća jednom, svakih {cooldownDays} dana."
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:50
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
