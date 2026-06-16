@@ -7833,7 +7833,7 @@ msgstr "A UM receberá de volta a caução, um pagamento parcial pelo dano dado,
 
 #: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
-msgstr "A revolução em <0/> foi reprimida. O governo mantém-se no poder."
+msgstr "A revolução em <0/> fracassou. O governo mantém-se no poder."
 
 #: src/components/_political/event/event.frontConfig.tsx:74
 msgid "The revolution in <0/> has succeeded! The government has been overthrown."
