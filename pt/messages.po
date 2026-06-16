@@ -792,11 +792,11 @@ msgstr "<0>Cada <1/> de dano total infligido por ambas as equipas adiciona uma <
 #. placeholder {2}: 10
 #: src/components/_user/worker/WorkerItem.tsx:122
 msgid "<0>Everyday passed working for same employer, the fidelity bonus increases by <1>{0}</1>.</0><2>It increase by <3>{1}</3> the production bonus until <4>{2}</4>.</2><5>This bonus is applied after work. So it is not counted in wage.</5>"
-msgstr "<0>Cada dia trabalhando para o mesmo empregador, o bónus de fidelidade aumenta <1>{0}</1>.</0><2>Ele aumenta o bónus de produção <3>{1}</3> até <4>{2}</4>.</2><5>Este bónus é aplicado após o trabalho, portanto não é contado no salário.</5>"
+msgstr "<0>Por cada dia de trabalho para o mesmo empregador, o bónus de fidelidade aumenta em <1>{0}</1>.</0><2>Aumenta o bónus de produção em <3>{1}</3> até um máximo de <4>{2}</4>.</2><5>Este bónus é aplicado após o trabalho, pelo que não é contabilizado no salário."
 
 #: src/components/_economy/company/CompanyProduce.tsx:81
 msgid "<0>Filled with <1>Production Points</1> by employees working and from the automated engine.</0><2>Only the company owner can spend it to produce items.</2>"
-msgstr "<0>Preenchido com <1>Pontos de Produção</1> pelos funcionários trabalhando e pelo motor automatizado.</0><2>Apenas o dono da empresa pode gastá-los para produzir itens.</2>"
+msgstr "<0>Preenchido com <1>Pontos de Produção</1> gerados pelo trabalho dos funcionários e pelo sistema de produção automática.</0><2>Apenas o proprietário da empresa pode gastá-los para produzir itens.</2>"
 
 #. placeholder {0}: gameConfig?.unrest.contributionCost
 #. placeholder {1}: gameConfig?.unrest.contributionCost
@@ -810,7 +810,7 @@ msgstr "<0>Instabilidade</0> representa a tensão interna no país.<1/><2/>Os ci
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
-msgstr "<0>Sua conta requer verificação adicional. Por favor, verifique seu número de telefone o quanto antes para continuar usando sua conta normalmente. Contas não verificadas terão acesso restrito após 48 horas e podem ser suspensas permanentemente após 5 dias.</0><1>Os números de telefone são criptografados e não ficam visíveis para nenhum administrador.</1>"
+msgstr "<0>A sua conta requer verificação adicional. Por favor, verifique o seu número de telemóvel o mais rapidamente possível para continuar a usar a conta normalmente. As contas não verificadas terão acesso limitado após 48 horas e poderão ser suspensas permanentemente após 5 dias.</0><1>Os números de telemóvel são encriptados e não são visíveis para qualquer administrador.</1>"
 
 #: src/components/_layout/LayoutOptions.tsx:97
 msgid "= consumes more power"
@@ -1871,12 +1871,12 @@ msgstr "Comprar automaticamente quando o inventário ficar vazio"
 
 #: src/components/_economy/company/CompanyTags.tsx:87
 msgid "Automated engine"
-msgstr "Motor automatizado"
+msgstr "Sistema de Produção Automática"
 
 #: src/components/_economy/work/WorkChart.tsx:235
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:74
 msgid "Automated Engine"
-msgstr "Motor Automatizado"
+msgstr "Sistema de Produção Automática"
 
 #: src/components/_user/user/UserDropdown.tsx:151
 msgid "Avatar removed"
@@ -1918,7 +1918,7 @@ msgstr "Equilibrado - Sem modificadores"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:359
 msgid "Ball"
-msgstr ""
+msgstr "Bola Copa do Mundo"
 
 #: src/components/_political/event/EventList.tsx:73
 msgid "Bankruptcy"
@@ -2362,7 +2362,7 @@ msgstr "Alterar cor para <0>{0}</0>"
 
 #: src/components/_military/mu/MuSettings.tsx:87
 msgid "Change nationality"
-msgstr ""
+msgstr "Alterar nacionalidade"
 
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:67
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:82
@@ -2603,7 +2603,7 @@ msgstr "Nome da Empresa alterado!"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:148
 msgid "Company upgraded!"
-msgstr ""
+msgstr "Empresa melhorada!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:194
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
@@ -2983,7 +2983,7 @@ msgstr "Unidade Militar Atual"
 
 #: src/components/_military/mu/MuSettings.tsx:61
 msgid "Current nationality"
-msgstr ""
+msgstr "Nacionalidade atual"
 
 #: src/components/_military/battle/BattleSystem.tsx:634
 msgid "Current tick:"
@@ -4997,7 +4997,7 @@ msgstr "Acento do mapa"
 
 #: src/components/_layout/LayoutOptions.tsx:142
 msgid "Map icons"
-msgstr ""
+msgstr "Ícones no mapa"
 
 #: src/components/_economy/market/MarketHeader.tsx:37
 #: src/components/_layout/LayoutMenu.tsx:189
@@ -5023,7 +5023,7 @@ msgstr "Nível máximo atingido!"
 #: src/components/_economy/company/CompanyDropdown.tsx:221
 #: src/components/_economy/company/CompanyDropdown.tsx:239
 msgid "Maxed!"
-msgstr ""
+msgstr "Nível máximo!"
 
 #. placeholder {0}: levelConfig.stats.members
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
@@ -5438,7 +5438,7 @@ msgstr "Recompensa nacional"
 
 #: src/components/_military/mu/MuSettings.tsx:30
 msgid "Nationality updated"
-msgstr ""
+msgstr "Nacionalidade atualizada"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
@@ -5530,7 +5530,7 @@ msgstr "Novo nome"
 
 #: src/components/_military/mu/MuSettings.tsx:74
 msgid "New nationality"
-msgstr ""
+msgstr "Nova nacionalidade"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2020
 msgid "New Party Application"
@@ -5676,7 +5676,7 @@ msgstr "Nenhum ranking de terreno ainda."
 
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
-msgstr ""
+msgstr "Ainda não tem kits — adicione um para equipar um conjunto completo de equipamento de uma só vez."
 
 #: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
@@ -5820,7 +5820,7 @@ msgstr "Não pertence a nenhuma aliança"
 
 #: src/components/_military/mu/MuSettings.tsx:67
 msgid "Not set"
-msgstr ""
+msgstr "Por definir"
 
 #: src/pages/notifications.tsx:38
 #: src/pages/user/[userId]/settings.tsx:79
@@ -5894,7 +5894,7 @@ msgstr "Apenas apoiantes podem ver os detalhes dos rendimentos e das despesas."
 
 #: src/components/_military/mu/MuSettings.tsx:97
 msgid "Only the owner and commanders can change the nationality."
-msgstr ""
+msgstr "Apenas o proprietário e comandantes podem alterar a nacionalidade."
 
 #: src/components/_political/party/party.frontConfig.tsx:264
 msgid "Only your core regions generate development income."
@@ -6322,7 +6322,7 @@ msgstr "Eleições presidenciais"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
 msgid "Price auto-matches existing orders"
-msgstr ""
+msgstr "Sincronizar com o preço de mercado"
 
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
@@ -7132,11 +7132,11 @@ msgstr "Veja os detalhes das suas despesas e rendimentos"
 
 #: src/components/_military/mu/MuSettings.tsx:77
 msgid "Select a country"
-msgstr ""
+msgstr "Selecione um país"
 
 #: src/components/_military/mu/MuFormModal.tsx:114
 msgid "Select a location"
-msgstr "Selecione uma localização"
+msgstr "Selecione um local"
 
 #: src/components/_political/party/PartyFormModal.tsx:110
 msgid "Select a region"
@@ -7678,7 +7678,7 @@ msgstr "Plano de Apoiante"
 
 #: src/components/_user/kits/KitsPopover.tsx:209
 msgid "Supporter Plan: up to {premiumMax} kits"
-msgstr ""
+msgstr "Plano de Apoiante: até {premiumMax} kits"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:161
 msgid "Supreme Commander"
@@ -8110,7 +8110,7 @@ msgstr "Total doado:"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
 msgid "Total of <0/>"
-msgstr ""
+msgstr "Montante total <0/>"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:399
 msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
@@ -8339,7 +8339,7 @@ msgstr "Melhorar uma empresa"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:207
 msgid "Upgrade automated engine"
-msgstr ""
+msgstr "Melhorar produção automática"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:393
 msgid "Upgrade Company"
@@ -8351,7 +8351,7 @@ msgstr "Melhorar habilidades"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:225
 msgid "Upgrade storage"
-msgstr ""
+msgstr "Melhorar armazenamento"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:205
 msgid "Upgrade to supporter"
@@ -8660,7 +8660,7 @@ msgstr "Guerra terminada"
 
 #: src/components/_user/modals/PremiumModal.tsx:39
 msgid "War Era is 100% free to play and has no <0>ads</0> or <1>pay-to-win</1>, If you enjoy the game, you can support its development by subscribing to the Supporter Plan <3"
-msgstr "O War Era é 100% grátis e não tem quaisquer <0>publicidade</0> nem <1>pay-to-win</1>. Se gostares do jogo, podes apoiar o seu desenvolvimento subscrevendo o Plano de Apoiante <3"
+msgstr "O War Era é 100% grátis e não tem <0>anúncios</0> nem elementos <1>pay-to-win</1>. Se gostares do jogo, podes apoiar o seu desenvolvimento ao subscrever o Plano de Apoiante <3"
 
 #: src/components/_user/userReports/ReportFormModal.tsx:83
 msgid "Warning"
@@ -9329,7 +9329,7 @@ msgstr "Nome da sua unidade militar"
 
 #: src/components/_military/mu/MuSettings.tsx:53
 msgid "Your military unit nationality is the country it represents. Changing it is free and can only be done once every {cooldownDays} days."
-msgstr ""
+msgstr "A nacionalidade unidade militar é o país que ela representa. Alterá-la é gratuito e só pode ser feito uma vez a cada {cooldownDays} dias."
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:50
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
